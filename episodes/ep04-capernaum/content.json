@@ -1,0 +1,450 @@
+{
+  "shared": {
+    "kids": {
+      "en": {
+        "whatHappened": [
+          "On the Sabbath Jesus teaches in the synagogue at Capernaum, and people are amazed: He speaks with real authority. A man with an evil spirit shouts, and Jesus orders the spirit out. It obeys!",
+          "Then at Peter's house Jesus heals Peter's mother-in-law, and in the evening the whole town comes to the door with their sick.",
+          "Early the next morning, while it is still dark, Jesus goes alone to pray. Even the busiest Person in town takes time to talk with His Father."
+        ],
+        "background": [
+          {
+            "term": "Synagogue",
+            "text": "A meeting house where Jews read and explained Scripture every Sabbath. Its ruins in Capernaum can be visited today."
+          },
+          {
+            "term": "Sabbath",
+            "text": "The seventh day, Saturday, the day of rest. It ended at sunset, so people waited till evening to carry the sick."
+          }
+        ]
+      },
+      "ru": {
+        "whatHappened": [
+          "В субботу Иисус учит в синагоге Капернаума, и люди удивляются: Он говорит со властью. Человек с нечистым духом кричит, и Иисус велит духу выйти. Он слушается!",
+          "Потом в доме Петра Иисус исцеляет тёщу Петра, а вечером весь город приходит к дверям со своими больными.",
+          "Рано утром, ещё в темноте, Иисус уходит один молиться. Даже Самый занятой Человек в городе находит время говорить с Отцом."
+        ],
+        "background": [
+          {
+            "term": "Синагога",
+            "text": "Дом собраний, где каждую субботу читали и объясняли Писание. Развалины синагоги в Капернауме можно увидеть и сегодня."
+          },
+          {
+            "term": "Суббота",
+            "text": "Седьмой день, день покоя. Он кончался на закате, поэтому больных несли только вечером."
+          }
+        ]
+      }
+    },
+    "adults": {
+      "en": {
+        "whatHappened": [
+          "Mark packs one long day into these verses: teaching, exorcism, healing, the crowds, and then prayer before dawn. It is a sample of the whole ministry.",
+          "The scribes taught by quoting authorities; Jesus speaks on His own authority. The unclean spirit recognises Him as \"the Holy One of God\", but Jesus silences it: He will not be proclaimed by demons, and the crowd must learn who He is through His cross, not through sensational titles.",
+          "He raises Simon's mother-in-law by the hand (the same verb used later for resurrection), and she \"serves\" (diakonei), the first deacon in Mark.",
+          "When everyone wants Him, He leaves to pray and then moves on. Popularity does not set His agenda; the Father's mission does."
+        ],
+        "background": [
+          {
+            "term": "Authority",
+            "text": "Greek exousia: the right and power to act. It runs through Mark: over spirits, sickness, sin, the Sabbath, the Temple."
+          },
+          {
+            "term": "Capernaum",
+            "text": "Fishing town on the north shore, Jesus' base in Galilee; Peter's house was there."
+          }
+        ]
+      },
+      "ru": {
+        "whatHappened": [
+          "Марк вмещает в эти стихи один длинный день: учение, изгнание беса, исцеление, толпы, а затем молитва до рассвета. Это образец всего служения.",
+          "Книжники учили, ссылаясь на авторитеты; Иисус говорит Своей властью. Нечистый дух узнаёт в Нём «Святого Божия», но Иисус заставляет его замолчать: Он не принимает свидетельства от бесов, а люди должны узнать, Кто Он, через крест, а не через громкие титулы.",
+          "Тёщу Симона Он поднимает за руку (тем же глаголом позже говорится о воскресении), и она начинает «служить» (diakonei) — первая «диакониса» у Марка.",
+          "Когда все Его ищут, Он уходит молиться, а потом идёт дальше. Популярность не определяет Его путь; определяет миссия от Отца."
+        ],
+        "background": [
+          {
+            "term": "Власть",
+            "text": "Греч. exousia: право и сила действовать. Проходит через всё Евангелие: над духами, болезнями, грехом, субботой, храмом."
+          },
+          {
+            "term": "Капернаум",
+            "text": "Рыбацкий город на северном берегу, «база» Иисуса в Галилее; там был дом Петра."
+          }
+        ]
+      }
+    }
+  },
+  "orthodox": {
+    "kids": {
+      "en": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "On Mark 1:21–34",
+            "text": "St. Theophylact said: the healed woman got up and served. When God helps us, we use our strength to serve others."
+          }
+        ],
+        "bigIdea": {
+          "title": "Jesus is stronger than evil",
+          "text": "Evil spirits obey Jesus. And Jesus shows us how to start the day: with prayer."
+        },
+        "apply": [
+          {
+            "title": "Morning prayer",
+            "text": "Before breakfast, stand before the icons and say a short morning prayer every day this week."
+          },
+          {
+            "title": "Help like she did",
+            "text": "Peter's mother-in-law got up and served. Help serve dinner at home this week."
+          }
+        ],
+        "questions": [
+          "What did the bad spirit do when Jesus spoke?",
+          "What did Peter's mother-in-law do after she was healed?",
+          "When did Jesus pray?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 1:35",
+          "text": "Early in the morning, while it was still dark, Jesus got up and slipped out to a solitary place to pray."
+        },
+        "prayer": "Lord Jesus Christ, bless my day. Protect me from all evil. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Толкование на Мк 1:21–34",
+            "text": "Блаженный Феофилакт говорит: исцелённая встала и начала служить. Когда Бог помогает нам, мы используем силы, чтобы служить другим."
+          }
+        ],
+        "bigIdea": {
+          "title": "Иисус сильнее зла",
+          "text": "Злые духи слушаются Иисуса. А ещё Иисус показывает, как начинать день: с молитвы."
+        },
+        "apply": [
+          {
+            "title": "Утренняя молитва",
+            "text": "Каждое утро этой недели до завтрака встань перед иконами и прочитай короткую утреннюю молитву."
+          },
+          {
+            "title": "Помогай, как она",
+            "text": "Тёща Петра встала и стала служить. На этой неделе помоги накрыть на стол."
+          }
+        ],
+        "questions": [
+          "Что сделал злой дух, когда Иисус заговорил?",
+          "Что сделала тёща Петра после исцеления?",
+          "Когда Иисус молился?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 1:35",
+          "text": "А утром, встав весьма рано, вышел и удалился в пустынное место, и там молился."
+        },
+        "prayer": "Господи Иисусе Христе, благослови мой день. Сохрани меня от всякого зла. Аминь."
+      }
+    },
+    "adults": {
+      "en": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "On Mark 1:21–34",
+            "text": "Christ forbids the demons to speak because He does not accept testimony from impure lips, and because it was not yet time to reveal Himself fully. The healed woman immediately serves: health given by God is to be spent in His service."
+          },
+          {
+            "source": "theophan",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Thoughts for Each Day of the Year",
+            "text": "The Lord prayed alone in the early morning to teach us: begin the day with God before the cares of the day crowd in. Without this, the heart is carried away by business and forgets its source."
+          }
+        ],
+        "bigIdea": {
+          "title": "Christ's authority, and the rule of prayer",
+          "text": "Christ commands evil with a word; in Baptism we renounce Satan and are joined to Christ, and the Church's prayers of exorcism stand on this authority. The Lord's dawn prayer is the pattern for the Orthodox prayer rule: a fixed time, every day, before the world's demands begin.",
+          "refs": [
+            {
+              "ref": "Psalm 5:3",
+              "text": "In the morning, O LORD, You hear my voice; at daybreak I lay my plea before You."
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Keep a rule",
+            "text": "Choose a realistic morning and evening prayer rule with your priest's blessing (even 10 minutes) and keep it all week."
+          },
+          {
+            "title": "Phone after prayer",
+            "text": "Do not touch your phone in the morning until you have prayed."
+          },
+          {
+            "title": "Serve with your health",
+            "text": "Use one evening this week to serve: visit someone sick or help at your parish."
+          }
+        ],
+        "questions": [
+          "What made Jesus' teaching different from the scribes'?",
+          "Why did Jesus silence the demons who spoke the truth about Him?",
+          "Why did Jesus leave when everyone was looking for Him?",
+          "What 'crowd' pulls you away from prayer?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 1:35",
+          "text": "Early in the morning, while it was still dark, Jesus got up and slipped out to a solitary place to pray."
+        },
+        "prayer": "Glory to You who has shown us the light. Lord, guide my day and keep me from the evil one. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Толкование на Мк 1:21–34",
+            "text": "Христос запрещает бесам говорить, потому что не принимает свидетельства от нечистых уст и потому что ещё не пришло время открыть Себя полностью. Исцелённая сразу служит: здоровье, данное Богом, нужно тратить на служение Ему."
+          },
+          {
+            "source": "theophan",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Мысли на каждый день года",
+            "text": "Господь молился наедине рано утром, чтобы научить нас: начинай день с Богом прежде, чем нахлынут заботы. Без этого сердце уносится делами и забывает свой источник."
+          }
+        ],
+        "bigIdea": {
+          "title": "Власть Христа и молитвенное правило",
+          "text": "Христос повелевает злу одним словом; в Крещении мы отрекаемся от сатаны и сочетаемся Христу, и на этой власти стоят молитвы Церкви. Утренняя молитва Господа — образец православного молитвенного правила: определённое время, каждый день, прежде чем мир предъявит свои требования.",
+          "refs": [
+            {
+              "ref": "Псалом 5:4",
+              "text": "Господи! рано услышь голос мой, — рано предстану пред Тобою."
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Держи правило",
+            "text": "Выбери с благословения священника посильное утреннее и вечернее правило (хоть 10 минут) и держи его всю неделю."
+          },
+          {
+            "title": "Телефон после молитвы",
+            "text": "Утром не бери телефон, пока не помолишься."
+          },
+          {
+            "title": "Служи своим здоровьем",
+            "text": "Посвяти один вечер этой недели служению: навести больного или помоги в приходе."
+          }
+        ],
+        "questions": [
+          "Чем учение Иисуса отличалось от учения книжников?",
+          "Почему Иисус заставил молчать бесов, говоривших о Нём правду?",
+          "Почему Иисус ушёл, когда все Его искали?",
+          "Какая «толпа» отвлекает тебя от молитвы?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 1:35",
+          "text": "А утром, встав весьма рано, вышел и удалился в пустынное место, и там молился."
+        },
+        "prayer": "Слава Тебе, показавшему нам свет. Господи, направь мой день и избави меня от лукавого. Аминь."
+      }
+    }
+  },
+  "protestant": {
+    "kids": {
+      "en": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Expository Thoughts on Mark, 1:29–39",
+            "text": "Bishop Ryle said: if Jesus needed to pray, how much more do we!"
+          }
+        ],
+        "bigIdea": {
+          "title": "Jesus has power over evil",
+          "text": "Jesus is stronger than anything bad. And He loved to pray to His Father. We can too!"
+        },
+        "apply": [
+          {
+            "title": "Quiet time",
+            "text": "Find a quiet spot each morning this week. Read one verse and say one prayer."
+          },
+          {
+            "title": "Serve after help",
+            "text": "When someone helps you, help someone else in return the same day."
+          }
+        ],
+        "questions": [
+          "Why were people amazed at Jesus?",
+          "What did Jesus do for Peter's mother-in-law?",
+          "Why do you think Jesus got up early to pray?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 1:35",
+          "text": "Early in the morning, while it was still dark, Jesus got up and slipped out to a solitary place to pray."
+        },
+        "prayer": "Jesus, You are stronger than everything bad. Help me talk to You every day. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "«Толковые размышления на Евангелие от Марка», 1:29–39",
+            "text": "Епископ Райл говорил: если Иисусу нужно было молиться, то нам — тем более!"
+          }
+        ],
+        "bigIdea": {
+          "title": "У Иисуса власть над злом",
+          "text": "Иисус сильнее всего плохого. И Он любил молиться Отцу. Мы тоже можем!"
+        },
+        "apply": [
+          {
+            "title": "Тихое время",
+            "text": "Каждое утро этой недели найди тихое место. Прочитай один стих и скажи одну молитву."
+          },
+          {
+            "title": "Помоги в ответ",
+            "text": "Когда тебе кто-то поможет, в тот же день помоги кому-нибудь другому."
+          }
+        ],
+        "questions": [
+          "Почему люди удивлялись Иисусу?",
+          "Что Иисус сделал для тёщи Петра?",
+          "Как ты думаешь, зачем Иисус вставал рано молиться?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 1:35",
+          "text": "А утром, встав весьма рано, вышел и удалился в пустынное место, и там молился."
+        },
+        "prayer": "Иисус, Ты сильнее всего плохого. Помоги мне говорить с Тобой каждый день. Аминь."
+      }
+    },
+    "adults": {
+      "en": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Expository Thoughts on Mark, 1:29–39",
+            "text": "Our Lord rose up a great while before day to pray. If He, who had no sin, prayed so much, how much more ought we to pray, who are weak and sinful. Private prayer is the pulse of the Christian life."
+          },
+          {
+            "source": "henry",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Commentary on Mark 1:21–28",
+            "text": "The devil knew Christ and confessed Him, yet remained a devil: a bare knowledge of who Jesus is will not save; there must be faith and love. Christ would not take praise from such a witness."
+          }
+        ],
+        "bigIdea": {
+          "title": "The authority of His word and the priority of prayer",
+          "text": "Jesus' word does what it says: it frees, heals and commands. The same word comes to us in Scripture. Yet even the Son of God, at the height of popularity, withdrew to pray. Busy fruitful ministry without hidden prayer is not the way of Jesus.",
+          "refs": [
+            {
+              "ref": "Hebrews 4:12",
+              "text": "For the word of God is living and active."
+            },
+            {
+              "ref": "James 2:19",
+              "text": "Even the demons believe that—and shudder."
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Before the screen",
+            "text": "Spend the first 10 minutes of each day this week with Scripture and prayer before checking your phone."
+          },
+          {
+            "title": "Say no to the crowd",
+            "text": "Decline one 'urgent' demand this week to keep an appointment with God or family."
+          },
+          {
+            "title": "Saved to serve",
+            "text": "Like Simon's mother-in-law, find one practical way to serve your church this month."
+          }
+        ],
+        "questions": [
+          "What does it mean that Jesus taught 'with authority'?",
+          "Why is knowing facts about Jesus not the same as faith?",
+          "Why did Jesus walk away from the crowd that wanted Him?",
+          "What would change if prayer came first in your day?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 1:35",
+          "text": "Early in the morning, while it was still dark, Jesus got up and slipped out to a solitary place to pray."
+        },
+        "prayer": "Lord Jesus, speak with authority into my life. Teach me to pray as You prayed. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "«Толковые размышления на Евангелие от Марка», 1:29–39",
+            "text": "Наш Господь встал задолго до рассвета, чтобы молиться. Если Он, безгрешный, так много молился, насколько больше должны молиться мы, слабые и грешные. Уединённая молитва — пульс христианской жизни."
+          },
+          {
+            "source": "henry",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Комментарий на Мк 1:21–28",
+            "text": "Дьявол знал Христа и исповедал Его, но остался дьяволом: одно знание о том, Кто Иисус, не спасает; нужна вера и любовь. Христос не принимал хвалы от такого свидетеля."
+          }
+        ],
+        "bigIdea": {
+          "title": "Власть Его слова и первенство молитвы",
+          "text": "Слово Иисуса делает то, что говорит: освобождает, исцеляет, повелевает. Это же слово приходит к нам в Писании. И всё же даже Сын Божий на пике популярности уходил молиться. Насыщенное плодотворное служение без сокровенной молитвы — не путь Иисуса.",
+          "refs": [
+            {
+              "ref": "Евреям 4:12",
+              "text": "Ибо слово Божие живо и действенно."
+            },
+            {
+              "ref": "Иакова 2:19",
+              "text": "И бесы веруют, и трепещут."
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Раньше экрана",
+            "text": "Первые 10 минут каждого дня этой недели проводи с Писанием и молитвой, прежде чем заглянуть в телефон."
+          },
+          {
+            "title": "Скажи «нет» толпе",
+            "text": "На этой неделе откажись от одного «срочного» требования, чтобы сохранить время с Богом или с семьёй."
+          },
+          {
+            "title": "Спасён(а), чтобы служить",
+            "text": "Как тёща Симона, найди в этом месяце один практический способ послужить церкви."
+          }
+        ],
+        "questions": [
+          "Что значит, что Иисус учил «со властью»?",
+          "Почему знание фактов об Иисусе — ещё не вера?",
+          "Почему Иисус ушёл от толпы, которая Его искала?",
+          "Что изменится, если молитва будет первой в твоём дне?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 1:35",
+          "text": "А утром, встав весьма рано, вышел и удалился в пустынное место, и там молился."
+        },
+        "prayer": "Господи Иисусе, говори со властью в мою жизнь. Научи меня молиться, как молился Ты. Аминь."
+      }
+    }
+  }
+}

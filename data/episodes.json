@@ -1,0 +1,629 @@
+{
+  "_about": "Full map of the series: 6 seasons, 40 episodes covering all 16 chapters of Mark. status: planned | pilot | draft | review | published.",
+  "seasons": [
+    {
+      "n": 1,
+      "title": {
+        "en": "The King Arrives",
+        "ru": "Пришёл Царь"
+      },
+      "range": "1:1–3:6"
+    },
+    {
+      "n": 2,
+      "title": {
+        "en": "Who Is He?",
+        "ru": "Кто Он?"
+      },
+      "range": "3:7–6:6"
+    },
+    {
+      "n": 3,
+      "title": {
+        "en": "Bread and Blindness",
+        "ru": "Хлеб и слепота"
+      },
+      "range": "6:7–8:26"
+    },
+    {
+      "n": 4,
+      "title": {
+        "en": "The Way of the Cross",
+        "ru": "Путь креста"
+      },
+      "range": "8:27–10:52"
+    },
+    {
+      "n": 5,
+      "title": {
+        "en": "The King in Jerusalem",
+        "ru": "Царь в Иерусалиме"
+      },
+      "range": "11:1–13:37"
+    },
+    {
+      "n": 6,
+      "title": {
+        "en": "Passion and Resurrection",
+        "ru": "Страсти и Воскресение"
+      },
+      "range": "14:1–16:20"
+    }
+  ],
+  "episodes": [
+    {
+      "n": 1,
+      "s": 1,
+      "ref": "1:1-8",
+      "title": {
+        "en": "A Voice in the Wilderness",
+        "ru": "Глас в пустыне"
+      },
+      "idea": {
+        "en": "God keeps His promises: He sends a messenger to prepare the way.",
+        "ru": "Бог исполняет обещания: Он посылает вестника приготовить путь."
+      },
+      "status": "comic"
+    },
+    {
+      "n": 2,
+      "s": 1,
+      "ref": "1:9-13",
+      "title": {
+        "en": "The Baptism and the Desert",
+        "ru": "Крещение и пустыня"
+      },
+      "idea": {
+        "en": "Father, Son and Spirit together; Jesus faces temptation for us.",
+        "ru": "Отец, Сын и Дух вместе; Иисус встречает искушение ради нас."
+      },
+      "status": "comic"
+    },
+    {
+      "n": 3,
+      "s": 1,
+      "ref": "1:14-20",
+      "title": {
+        "en": "Fishers of People",
+        "ru": "Ловцы людей"
+      },
+      "idea": {
+        "en": "Jesus calls ordinary people, and they follow at once.",
+        "ru": "Иисус зовёт обычных людей, и они сразу идут за Ним."
+      },
+      "status": "comic"
+    },
+    {
+      "n": 4,
+      "s": 1,
+      "ref": "1:21-39",
+      "title": {
+        "en": "A Day in Capernaum",
+        "ru": "День в Капернауме"
+      },
+      "idea": {
+        "en": "His word has authority over evil and sickness; He begins the day in prayer.",
+        "ru": "Его слово имеет власть над злом и болезнью; Он начинает день с молитвы."
+      },
+      "status": "comic"
+    },
+    {
+      "n": 5,
+      "s": 1,
+      "ref": "1:40-45",
+      "title": {
+        "en": "The Touch",
+        "ru": "Прикосновение"
+      },
+      "idea": {
+        "en": "Jesus touches the untouchable.",
+        "ru": "Иисус прикасается к тем, кого все сторонятся."
+      },
+      "status": "comic"
+    },
+    {
+      "n": 6,
+      "s": 1,
+      "ref": "2:1-12",
+      "title": {
+        "en": "Through the Roof",
+        "ru": "Через крышу"
+      },
+      "idea": {
+        "en": "Forgiveness is the deepest healing; friends carry friends to Jesus.",
+        "ru": "Прощение — самое глубокое исцеление; друзья несут друзей к Иисусу."
+      },
+      "status": "comic"
+    },
+    {
+      "n": 7,
+      "s": 1,
+      "ref": "2:13-22",
+      "title": {
+        "en": "Dinner with Sinners",
+        "ru": "Обед с грешниками"
+      },
+      "idea": {
+        "en": "The Doctor came for the sick.",
+        "ru": "Врач пришёл к больным."
+      },
+      "status": "comic"
+    },
+    {
+      "n": 8,
+      "s": 1,
+      "ref": "2:23-3:6",
+      "title": {
+        "en": "Lord of the Sabbath",
+        "ru": "Господин субботы"
+      },
+      "idea": {
+        "en": "God's rest is for people's good.",
+        "ru": "Божий покой — для блага человека."
+      },
+      "status": "comic"
+    },
+    {
+      "n": 9,
+      "s": 2,
+      "ref": "3:7-35",
+      "title": {
+        "en": "The Twelve and the True Family",
+        "ru": "Двенадцать и настоящая семья"
+      },
+      "idea": {
+        "en": "Whoever does God's will is His family.",
+        "ru": "Кто исполняет волю Божию, тот Его семья."
+      },
+      "status": "planned"
+    },
+    {
+      "n": 10,
+      "s": 2,
+      "ref": "4:1-20",
+      "title": {
+        "en": "The Sower",
+        "ru": "Сеятель"
+      },
+      "idea": {
+        "en": "What kind of soil is my heart?",
+        "ru": "Какая почва — моё сердце?"
+      },
+      "status": "planned"
+    },
+    {
+      "n": 11,
+      "s": 2,
+      "ref": "4:21-34",
+      "title": {
+        "en": "Lamp and Mustard Seed",
+        "ru": "Светильник и горчичное зерно"
+      },
+      "idea": {
+        "en": "God's Kingdom starts small and grows unstoppably.",
+        "ru": "Царство Божие начинается с малого и растёт неудержимо."
+      },
+      "status": "planned"
+    },
+    {
+      "n": 12,
+      "s": 2,
+      "ref": "4:35-41",
+      "title": {
+        "en": "The Storm on the Lake",
+        "ru": "Буря на озере"
+      },
+      "idea": {
+        "en": "Jesus is true God and true Man, stronger than every storm.",
+        "ru": "Иисус — истинный Бог и истинный Человек, сильнее любой бури."
+      },
+      "status": "pilot"
+    },
+    {
+      "n": 13,
+      "s": 2,
+      "ref": "5:1-20",
+      "title": {
+        "en": "Legion",
+        "ru": "Легион"
+      },
+      "idea": {
+        "en": "No one is too far gone for Jesus.",
+        "ru": "Нет человека, слишком далёкого для Иисуса."
+      },
+      "status": "planned"
+    },
+    {
+      "n": 14,
+      "s": 2,
+      "ref": "5:21-43",
+      "title": {
+        "en": "Two Daughters",
+        "ru": "Две дочери"
+      },
+      "idea": {
+        "en": "Faith reaches out; Jesus is never too late.",
+        "ru": "Вера протягивает руку; Иисус никогда не опаздывает."
+      },
+      "status": "planned"
+    },
+    {
+      "n": 15,
+      "s": 2,
+      "ref": "6:1-6",
+      "title": {
+        "en": "Rejected at Home",
+        "ru": "Отвергнутый дома"
+      },
+      "idea": {
+        "en": "Familiarity can blind us to God.",
+        "ru": "Привычка может ослепить нас к Богу."
+      },
+      "status": "planned"
+    },
+    {
+      "n": 16,
+      "s": 3,
+      "ref": "6:7-29",
+      "title": {
+        "en": "Sent Out / The Death of John",
+        "ru": "Посланные / Смерть Иоанна"
+      },
+      "idea": {
+        "en": "Faithfulness can cost everything — and is worth it.",
+        "ru": "Верность может стоить всего — и она того стоит."
+      },
+      "status": "planned"
+    },
+    {
+      "n": 17,
+      "s": 3,
+      "ref": "6:30-44",
+      "title": {
+        "en": "Five Loaves",
+        "ru": "Пять хлебов"
+      },
+      "idea": {
+        "en": "The Shepherd feeds His flock; small gifts in His hands are enough.",
+        "ru": "Пастырь кормит стадо; малое в Его руках — достаточно."
+      },
+      "status": "planned"
+    },
+    {
+      "n": 18,
+      "s": 3,
+      "ref": "6:45-56",
+      "title": {
+        "en": "Walking on the Water",
+        "ru": "Хождение по водам"
+      },
+      "idea": {
+        "en": "\"Take courage! It is I.\"",
+        "ru": "«Ободритесь; это Я, не бойтесь»."
+      },
+      "status": "planned"
+    },
+    {
+      "n": 19,
+      "s": 3,
+      "ref": "7:1-23",
+      "title": {
+        "en": "Clean Hands, Clean Heart",
+        "ru": "Чистые руки, чистое сердце"
+      },
+      "idea": {
+        "en": "Evil comes from the heart; God wants a new heart.",
+        "ru": "Зло исходит из сердца; Бог хочет обновить сердце."
+      },
+      "status": "planned"
+    },
+    {
+      "n": 20,
+      "s": 3,
+      "ref": "7:24-37",
+      "title": {
+        "en": "Crumbs and an Opened Ear",
+        "ru": "Крошки и отверзшийся слух"
+      },
+      "idea": {
+        "en": "Jesus is for every nation.",
+        "ru": "Иисус — для всех народов."
+      },
+      "status": "planned"
+    },
+    {
+      "n": 21,
+      "s": 3,
+      "ref": "8:1-26",
+      "title": {
+        "en": "Do You Still Not See?",
+        "ru": "Неужели ещё не понимаете?"
+      },
+      "idea": {
+        "en": "Spiritual sight often comes step by step.",
+        "ru": "Духовное зрение часто приходит постепенно."
+      },
+      "status": "planned"
+    },
+    {
+      "n": 22,
+      "s": 4,
+      "ref": "8:27-9:1",
+      "title": {
+        "en": "Who Do You Say I Am?",
+        "ru": "А вы за кого почитаете Меня?"
+      },
+      "idea": {
+        "en": "The Messiah must suffer; following Him means taking up the cross.",
+        "ru": "Мессия должен пострадать; идти за Ним — значит взять крест."
+      },
+      "status": "planned"
+    },
+    {
+      "n": 23,
+      "s": 4,
+      "ref": "9:2-13",
+      "title": {
+        "en": "The Transfiguration",
+        "ru": "Преображение"
+      },
+      "idea": {
+        "en": "A glimpse of His glory: \"Listen to Him!\"",
+        "ru": "Проблеск Его славы: «Его слушайте!»"
+      },
+      "status": "planned"
+    },
+    {
+      "n": 24,
+      "s": 4,
+      "ref": "9:14-29",
+      "title": {
+        "en": "Help My Unbelief",
+        "ru": "Помоги моему неверию"
+      },
+      "idea": {
+        "en": "Imperfect faith can still pray.",
+        "ru": "Несовершенная вера всё равно может молиться."
+      },
+      "status": "planned"
+    },
+    {
+      "n": 25,
+      "s": 4,
+      "ref": "9:30-50",
+      "title": {
+        "en": "Who Is the Greatest?",
+        "ru": "Кто больше?"
+      },
+      "idea": {
+        "en": "Greatness is serving the smallest.",
+        "ru": "Величие — служить меньшим."
+      },
+      "status": "planned"
+    },
+    {
+      "n": 26,
+      "s": 4,
+      "ref": "10:1-16",
+      "title": {
+        "en": "Let the Children Come",
+        "ru": "Пустите детей"
+      },
+      "idea": {
+        "en": "God's Kingdom belongs to the childlike.",
+        "ru": "Царство Божие — таким, как дети."
+      },
+      "status": "planned"
+    },
+    {
+      "n": 27,
+      "s": 4,
+      "ref": "10:17-31",
+      "title": {
+        "en": "The Rich Young Man",
+        "ru": "Богатый юноша"
+      },
+      "idea": {
+        "en": "What one thing holds me back from following?",
+        "ru": "Что одно удерживает меня от следования за Ним?"
+      },
+      "status": "planned"
+    },
+    {
+      "n": 28,
+      "s": 4,
+      "ref": "10:32-45",
+      "title": {
+        "en": "To Serve and to Give",
+        "ru": "Послужить и отдать"
+      },
+      "idea": {
+        "en": "The Son of Man came to give His life as a ransom.",
+        "ru": "Сын Человеческий пришёл отдать душу Свою для искупления многих."
+      },
+      "status": "planned"
+    },
+    {
+      "n": 29,
+      "s": 4,
+      "ref": "10:46-52",
+      "title": {
+        "en": "Bartimaeus",
+        "ru": "Вартимей"
+      },
+      "idea": {
+        "en": "Cry out to Him — then follow on the road.",
+        "ru": "Воззови к Нему — и иди за Ним по дороге."
+      },
+      "status": "planned"
+    },
+    {
+      "n": 30,
+      "s": 5,
+      "ref": "11:1-25",
+      "title": {
+        "en": "The King on a Donkey",
+        "ru": "Царь на осле"
+      },
+      "idea": {
+        "en": "A humble King who cleanses His house.",
+        "ru": "Кроткий Царь, очищающий Свой дом."
+      },
+      "status": "planned"
+    },
+    {
+      "n": 31,
+      "s": 5,
+      "ref": "11:27-12:37",
+      "title": {
+        "en": "Trick Questions",
+        "ru": "Вопросы-ловушки"
+      },
+      "idea": {
+        "en": "Give to God what is God's; love God and neighbour.",
+        "ru": "Отдайте Божие Богу; любите Бога и ближнего."
+      },
+      "status": "planned"
+    },
+    {
+      "n": 32,
+      "s": 5,
+      "ref": "12:38-44",
+      "title": {
+        "en": "The Widow's Two Coins",
+        "ru": "Две лепты вдовы"
+      },
+      "idea": {
+        "en": "God measures the heart, not the amount.",
+        "ru": "Бог измеряет сердце, а не сумму."
+      },
+      "status": "planned"
+    },
+    {
+      "n": 33,
+      "s": 5,
+      "ref": "13:1-37",
+      "title": {
+        "en": "Stay Awake",
+        "ru": "Бодрствуйте"
+      },
+      "idea": {
+        "en": "He will return; live ready.",
+        "ru": "Он придёт снова; живи готовым."
+      },
+      "status": "planned"
+    },
+    {
+      "n": 34,
+      "s": 6,
+      "ref": "14:1-11",
+      "title": {
+        "en": "The Jar of Perfume",
+        "ru": "Сосуд мира"
+      },
+      "idea": {
+        "en": "Nothing given in love to Jesus is wasted.",
+        "ru": "Ничто, отданное Иисусу с любовью, не потеряно."
+      },
+      "status": "planned"
+    },
+    {
+      "n": 35,
+      "s": 6,
+      "ref": "14:12-31",
+      "title": {
+        "en": "The Last Supper",
+        "ru": "Тайная вечеря"
+      },
+      "idea": {
+        "en": "His body and blood given for us.",
+        "ru": "Его Тело и Кровь, отданные за нас."
+      },
+      "status": "planned"
+    },
+    {
+      "n": 36,
+      "s": 6,
+      "ref": "14:32-52",
+      "title": {
+        "en": "Gethsemane",
+        "ru": "Гефсимания"
+      },
+      "idea": {
+        "en": "\"Not what I will, but what You will.\"",
+        "ru": "«Не чего Я хочу, а чего Ты»."
+      },
+      "status": "planned"
+    },
+    {
+      "n": 37,
+      "s": 6,
+      "ref": "14:53-72",
+      "title": {
+        "en": "The Trial and Peter's Denial",
+        "ru": "Суд и отречение Петра"
+      },
+      "idea": {
+        "en": "He stays faithful when we fail.",
+        "ru": "Он остаётся верным, когда мы падаем."
+      },
+      "status": "planned"
+    },
+    {
+      "n": 38,
+      "s": 6,
+      "ref": "15:1-20",
+      "title": {
+        "en": "Pilate and the Crown of Thorns",
+        "ru": "Пилат и терновый венец"
+      },
+      "idea": {
+        "en": "The innocent One takes the place of the guilty (Barabbas).",
+        "ru": "Невинный занимает место виновного (Варавва)."
+      },
+      "status": "planned"
+    },
+    {
+      "n": 39,
+      "s": 6,
+      "ref": "15:21-47",
+      "title": {
+        "en": "The Cross",
+        "ru": "Крест"
+      },
+      "idea": {
+        "en": "\"Truly this man was the Son of God.\"",
+        "ru": "«Истинно Человек Сей был Сын Божий»."
+      },
+      "status": "planned"
+    },
+    {
+      "n": 40,
+      "s": 6,
+      "ref": "16:1-8",
+      "title": {
+        "en": "He Is Risen!",
+        "ru": "Он воскрес!"
+      },
+      "idea": {
+        "en": "The tomb is empty; go and tell.",
+        "ru": "Гроб пуст; идите и скажите."
+      },
+      "status": "planned"
+    },
+    {
+      "n": 41,
+      "s": 6,
+      "ref": "16:9-20",
+      "title": {
+        "en": "The Longer Ending: Sent to the World",
+        "ru": "Окончание: посланные в мир"
+      },
+      "idea": {
+        "en": "Shown with an honest note: absent from the oldest manuscripts; read in the Orthodox Church at Matins of the Ascension and as the 3rd Sunday Resurrection Gospel.",
+        "ru": "С честной пометкой: нет в древнейших рукописях; в Православной Церкви читается на утрене Вознесения и как 3-е воскресное евангелие."
+      },
+      "status": "planned"
+    }
+  ]
+}

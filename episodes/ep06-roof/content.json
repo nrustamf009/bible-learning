@@ -1,0 +1,458 @@
+{
+  "shared": {
+    "kids": {
+      "en": {
+        "whatHappened": [
+          "The house is packed. Four friends bring a man who cannot walk, but they can't get in. So they climb up, open the roof and lower him down to Jesus!",
+          "Jesus sees their faith and says: \"Son, your sins are forgiven.\" Some teachers think: only God can forgive sins!",
+          "To show He really can forgive, Jesus tells the man: \"Get up, take your mat and go home.\" And he does!"
+        ],
+        "background": [
+          {
+            "term": "Roofs",
+            "text": "Houses had flat roofs made of wooden beams, branches and packed clay, with stairs outside. A hole could be dug and fixed later."
+          },
+          {
+            "term": "Mat",
+            "text": "A simple bed roll that could be carried."
+          }
+        ]
+      },
+      "ru": {
+        "whatHappened": [
+          "Дом полон людей. Четверо друзей приносят человека, который не может ходить, но не могут войти. Тогда они залезают на крышу, разбирают её и спускают друга прямо к Иисусу!",
+          "Иисус видит их веру и говорит: «Сынок, твои грехи прощены». Некоторые учители думают: только Бог может прощать грехи!",
+          "Чтобы показать, что Он правда может прощать, Иисус говорит: «Встань, возьми постель и иди домой». И человек встаёт!"
+        ],
+        "background": [
+          {
+            "term": "Крыши",
+            "text": "Крыши были плоские: брёвна, ветки и утрамбованная глина, а снаружи лестница. Дыру можно было прокопать и потом заделать."
+          },
+          {
+            "term": "Постель",
+            "text": "Простая подстилка, которую можно нести."
+          }
+        ]
+      }
+    },
+    "adults": {
+      "en": {
+        "whatHappened": [
+          "Jesus sees \"their faith\": the faith of the four friends, not only of the sick man. Their persistence is itself faith in action.",
+          "The scribes are theologically right: only God forgives sins against God. That is exactly the point. Jesus claims to do what God alone does, and then backs the invisible claim (forgiveness) with a visible sign (healing).",
+          "\"Son of Man\" is Jesus' favourite title for Himself. It echoes Daniel 7:13–14, where one like a son of man receives authority and an everlasting kingdom from God.",
+          "This is the first of five controversy scenes (2:1–3:6) that end with the plot to kill Him. Forgiveness will cost Him His life."
+        ],
+        "background": [
+          {
+            "term": "Blasphemy",
+            "text": "Claiming for oneself what belongs to God; punishable by death (Leviticus 24:16). The charge returns at Jesus' trial (14:64)."
+          },
+          {
+            "term": "Which is easier?",
+            "text": "Saying 'your sins are forgiven' is easy to say and impossible to check; healing can be checked. Jesus does the checkable thing to prove the uncheckable."
+          }
+        ]
+      },
+      "ru": {
+        "whatHappened": [
+          "Иисус видит «веру их»: веру четверых друзей, а не только больного. Их настойчивость и есть вера в действии.",
+          "Книжники богословски правы: грехи против Бога прощает только Бог. В этом и суть. Иисус претендует на то, что делает один Бог, и подкрепляет невидимое (прощение) видимым знаком (исцелением).",
+          "«Сын Человеческий» — любимое самоназвание Иисуса. Оно отсылает к Даниилу 7:13–14, где подобный Сыну человеческому получает от Бога власть и вечное царство.",
+          "Это первая из пяти сцен-споров (2:1–3:6), которые закончатся заговором убить Его. Прощение будет стоить Ему жизни."
+        ],
+        "background": [
+          {
+            "term": "Богохульство",
+            "text": "Приписывание себе того, что принадлежит Богу; каралось смертью (Лев 24:16). Это обвинение вернётся на суде над Иисусом (14:64)."
+          },
+          {
+            "term": "Что легче?",
+            "text": "Сказать «прощаются грехи» легко, а проверить невозможно; исцеление проверить можно. Иисус делает проверяемое, чтобы доказать непроверяемое."
+          }
+        ]
+      }
+    }
+  },
+  "orthodox": {
+    "kids": {
+      "en": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "On Mark 2:1–12",
+            "text": "St. Theophylact said: Jesus forgave the man's sins first, because healing the soul is more important than healing the body."
+          }
+        ],
+        "bigIdea": {
+          "title": "Jesus forgives sins because He is God",
+          "text": "And we can be like the four friends: bring people to Jesus by praying for them."
+        },
+        "apply": [
+          {
+            "title": "Four friends",
+            "text": "Pray this week for four people who need Jesus' help. Write their names on paper by your icons."
+          },
+          {
+            "title": "Forgiveness",
+            "text": "In Confession the priest says Jesus' words of forgiveness. Get ready for your next confession."
+          }
+        ],
+        "questions": [
+          "How did the friends get the man to Jesus?",
+          "What did Jesus say first?",
+          "Who can you 'carry' to Jesus in prayer?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 2:5",
+          "text": "Son, your sins are forgiven."
+        },
+        "prayer": "Lord Jesus, forgive my sins. Help my friends and my family. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Толкование на Мк 2:1–12",
+            "text": "Блаженный Феофилакт говорит: Иисус сначала простил грехи, потому что исцеление души важнее исцеления тела."
+          }
+        ],
+        "bigIdea": {
+          "title": "Иисус прощает грехи, потому что Он Бог",
+          "text": "А мы можем быть как четверо друзей: приносить людей к Иисусу в молитве."
+        },
+        "apply": [
+          {
+            "title": "Четверо друзей",
+            "text": "На этой неделе молись о четырёх людях, которым нужна помощь Иисуса. Напиши их имена на листке у икон."
+          },
+          {
+            "title": "Прощение",
+            "text": "На исповеди священник от имени Христа прощает грехи. Подготовься к следующей исповеди."
+          }
+        ],
+        "questions": [
+          "Как друзья доставили человека к Иисусу?",
+          "Что Иисус сказал сначала?",
+          "Кого ты можешь «принести» к Иисусу в молитве?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 2:5",
+          "text": "Чадо! прощаются тебе грехи твои."
+        },
+        "prayer": "Господи Иисусе, прости мне грехи. Помоги моим друзьям и моей семье. Аминь."
+      }
+    },
+    "adults": {
+      "en": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "On Mark 2:1–12",
+            "text": "He heals the soul first, removing the cause, for sickness often comes from sin; then He heals the body. By knowing their thoughts and forgiving sins He shows Himself to be God. And see how the faith of others can obtain healing for one who cannot help himself."
+          },
+          {
+            "source": "chrysostom",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Homily 29 on Matthew (Mt 9:1–8)",
+            "text": "The scribes said \"only God forgives sins\", and Christ did not correct them; He confirmed the truth by forgiving and by healing, showing that He is equal in honour with the Father."
+          }
+        ],
+        "bigIdea": {
+          "title": "Christ forgives as God, and the Church prays for one another",
+          "text": "Only God forgives sins; Christ forgives, so Christ is God. He gave this authority to His apostles (John 20:22–23), and in Confession the priest prays, \"May our Lord and God Jesus Christ forgive you.\" And the four friends are an icon of intercession: the Church carries the weak to Christ in prayer, and the faith of some brings healing to others.",
+          "refs": [
+            {
+              "ref": "John 20:23",
+              "text": "If you forgive anyone his sins, they are forgiven."
+            },
+            {
+              "ref": "Daniel 7:14",
+              "text": "He was given dominion, glory, and kingship."
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Carry someone",
+            "text": "Choose one person who cannot 'walk' to God right now. Pray for them daily and submit their name for commemoration at the Liturgy."
+          },
+          {
+            "title": "Soul before body",
+            "text": "When you pray for health, pray also for forgiveness and peace of soul, yours and theirs."
+          },
+          {
+            "title": "Confession",
+            "text": "Go to Confession this month. Listen to the words of absolution as Christ's own words to you."
+          }
+        ],
+        "questions": [
+          "Why did Jesus forgive before He healed?",
+          "What does this scene prove about who Jesus is?",
+          "What 'roofs' would you dig through for someone you love?",
+          "How does the faith of others carry you?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 2:10",
+          "text": "So that you may know that the Son of Man has authority on earth to forgive sins."
+        },
+        "prayer": "O Lord, who healed the paralytic, heal my soul paralysed by sin, and have mercy on those I carry to You in prayer. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Толкование на Мк 2:1–12",
+            "text": "Он сначала исцеляет душу, устраняя причину, ибо болезни часто от грехов; потом исцеляет тело. Зная их помыслы и прощая грехи, Он являет Себя Богом. И смотри, как вера других может испросить исцеление тому, кто сам себе помочь не может."
+          },
+          {
+            "source": "chrysostom",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Беседа 29 на Евангелие от Матфея (Мф 9:1–8)",
+            "text": "Книжники сказали «только Бог прощает грехи», и Христос не поправил их; Он подтвердил эту истину, простив и исцелив, показав, что Он равночестен Отцу."
+          }
+        ],
+        "bigIdea": {
+          "title": "Христос прощает как Бог, а Церковь молится друг за друга",
+          "text": "Только Бог прощает грехи; Христос прощает — значит, Христос есть Бог. Эту власть Он дал апостолам (Ин 20:22–23), и на Исповеди священник молится: «Господь и Бог наш Иисус Христос... да простит ти». А четверо друзей — икона ходатайства: Церковь приносит немощных ко Христу в молитве, и вера одних приносит исцеление другим.",
+          "refs": [
+            {
+              "ref": "Иоанна 20:23",
+              "text": "Кому простите грехи, тому простятся."
+            },
+            {
+              "ref": "Даниил 7:14",
+              "text": "И Ему дана власть, слава и царство."
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Неси кого-то",
+            "text": "Выбери человека, который сейчас не может сам «дойти» до Бога. Молись о нём каждый день и подай его имя на поминовение на Литургии."
+          },
+          {
+            "title": "Душа прежде тела",
+            "text": "Молясь о здоровье, молись и о прощении и мире души — своей и их."
+          },
+          {
+            "title": "Исповедь",
+            "text": "Сходи на исповедь в этом месяце. Слушай разрешительную молитву как слова Самого Христа к тебе."
+          }
+        ],
+        "questions": [
+          "Почему Иисус сначала простил, а потом исцелил?",
+          "Что эта сцена доказывает о том, Кто такой Иисус?",
+          "Какие «крыши» ты разобрал(а) бы ради любимого человека?",
+          "Как вера других несёт тебя?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 2:10",
+          "text": "Но чтобы вы знали, что Сын Человеческий имеет власть на земле прощать грехи."
+        },
+        "prayer": "Господи, исцеливый расслабленного, исцели мою душу, расслабленную грехами, и помилуй тех, кого я приношу Тебе в молитве. Аминь."
+      }
+    }
+  },
+  "protestant": {
+    "kids": {
+      "en": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Expository Thoughts on Mark, 2:1–12",
+            "text": "Bishop Ryle said: we should be like the four friends and bring others to Jesus, even if it is hard."
+          }
+        ],
+        "bigIdea": {
+          "title": "Jesus can forgive, and friends bring friends to Jesus",
+          "text": "The four friends didn't give up! Bring your friends to Jesus by praying and inviting them."
+        },
+        "apply": [
+          {
+            "title": "Don't give up",
+            "text": "Keep praying for a friend who doesn't know Jesus, every day this week."
+          },
+          {
+            "title": "Say thank you",
+            "text": "Thank Jesus for forgiving you. Draw a picture of the roof story and give it to someone."
+          }
+        ],
+        "questions": [
+          "What problem did the friends have?",
+          "What did Jesus give the man first?",
+          "How can you help a friend get close to Jesus?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 2:5",
+          "text": "Son, your sins are forgiven."
+        },
+        "prayer": "Jesus, thank You for forgiving me. Help me bring my friends to You. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "«Толковые размышления на Евангелие от Марка», 2:1–12",
+            "text": "Епископ Райл говорил: будем как четверо друзей и будем приводить других к Иисусу, даже если это трудно."
+          }
+        ],
+        "bigIdea": {
+          "title": "Иисус прощает, а друзья приводят друзей к Иисусу",
+          "text": "Четверо друзей не сдались! Приводи друзей к Иисусу молитвой и приглашением."
+        },
+        "apply": [
+          {
+            "title": "Не сдавайся",
+            "text": "Каждый день этой недели молись о друге, который не знает Иисуса."
+          },
+          {
+            "title": "Скажи спасибо",
+            "text": "Поблагодари Иисуса за прощение. Нарисуй историю с крышей и подари рисунок кому-нибудь."
+          }
+        ],
+        "questions": [
+          "Какая трудность была у друзей?",
+          "Что Иисус дал человеку сначала?",
+          "Как ты можешь помочь другу приблизиться к Иисусу?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 2:5",
+          "text": "Чадо! прощаются тебе грехи твои."
+        },
+        "prayer": "Иисус, спасибо, что прощаешь меня. Помоги мне приводить к Тебе друзей. Аминь."
+      }
+    },
+    "adults": {
+      "en": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Expository Thoughts on Mark, 2:1–12",
+            "text": "Let us learn from these four men to spare no pains in bringing others to Christ. And let us note that forgiveness of sins is the chief blessing Christ gives: the man came for his body, and Christ first gave him the greatest gift for his soul."
+          },
+          {
+            "source": "henry",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Commentary on Mark 2:1–12",
+            "text": "Christ knows our thoughts as well as our words. Those who call His forgiveness blasphemy are answered by power; the man who was carried in walks out carrying his bed."
+          }
+        ],
+        "bigIdea": {
+          "title": "Forgiveness is our deepest need, and Jesus has the authority to give it",
+          "text": "We tend to bring Jesus our visible problems; He addresses our deepest one first. Only God forgives sin, and Jesus does it on earth, in person. The healing proves the claim, and the cross will pay for it. Meanwhile, the gospel advances through persistent friends who refuse to let obstacles keep people from Jesus.",
+          "refs": [
+            {
+              "ref": "Psalm 103:3",
+              "text": "He forgives all your iniquities and heals all your diseases."
+            },
+            {
+              "ref": "Ephesians 1:7",
+              "text": "In Him we have redemption through His blood, the forgiveness of our trespasses."
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Your four",
+            "text": "Form a 'four friends' prayer group (even by messenger) for one person who needs Christ. Pray together weekly."
+          },
+          {
+            "title": "Dig through one roof",
+            "text": "What obstacle keeps a friend from church? Remove it: offer a ride, childcare, or come with them."
+          },
+          {
+            "title": "Receive forgiveness",
+            "text": "Read Psalm 32 this week and thank God specifically for sins He has forgiven."
+          }
+        ],
+        "questions": [
+          "Why did Jesus address forgiveness before paralysis?",
+          "What does the scribes' objection reveal about Jesus' claim?",
+          "Whose faith 'carried' you to Christ?",
+          "What 'roof' might you need to dig through for someone?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 2:10",
+          "text": "So that you may know that the Son of Man has authority on earth to forgive sins."
+        },
+        "prayer": "Lord Jesus, thank You for the authority and the love to forgive me. Make me a friend who carries others to You. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "«Толковые размышления на Евангелие от Марка», 2:1–12",
+            "text": "Поучимся у этих четверых не жалеть трудов, чтобы приводить других ко Христу. И заметим: прощение грехов — главное благо, которое даёт Христос; человек пришёл ради тела, а Христос сначала дал величайший дар для души."
+          },
+          {
+            "source": "henry",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Комментарий на Мк 2:1–12",
+            "text": "Христос знает наши мысли так же, как слова. Называющим Его прощение богохульством Он отвечает силой; человек, которого внесли, выходит, неся свою постель."
+          }
+        ],
+        "bigIdea": {
+          "title": "Прощение — наша глубочайшая нужда, и у Иисуса есть власть его дать",
+          "text": "Мы приносим Иисусу видимые проблемы; Он сначала решает главную. Только Бог прощает грех, и Иисус делает это на земле, лично. Исцеление доказывает Его право, а крест заплатит цену. А Евангелие движется через настойчивых друзей, которые не позволяют препятствиям отделить людей от Иисуса.",
+          "refs": [
+            {
+              "ref": "Псалом 102:3",
+              "text": "Он прощает все беззакония твои, исцеляет все недуги твои."
+            },
+            {
+              "ref": "Ефесянам 1:7",
+              "text": "В Котором мы имеем искупление Кровию Его, прощение грехов."
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Твоя четвёрка",
+            "text": "Создай «четвёрку друзей» (хоть в мессенджере), чтобы молиться за одного человека, которому нужен Христос. Молитесь вместе раз в неделю."
+          },
+          {
+            "title": "Разбери одну крышу",
+            "text": "Какое препятствие мешает другу прийти в церковь? Убери его: подвези, посиди с детьми, пойди вместе."
+          },
+          {
+            "title": "Прими прощение",
+            "text": "Прочитай на этой неделе Псалом 31 и конкретно поблагодари Бога за прощённые грехи."
+          }
+        ],
+        "questions": [
+          "Почему Иисус сначала заговорил о прощении, а не о параличе?",
+          "Что возражение книжников открывает о притязаниях Иисуса?",
+          "Чья вера «принесла» тебя ко Христу?",
+          "Какую «крышу» тебе, возможно, придётся разобрать ради кого-то?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 2:10",
+          "text": "Но чтобы вы знали, что Сын Человеческий имеет власть на земле прощать грехи."
+        },
+        "prayer": "Господи Иисусе, спасибо за власть и любовь простить меня. Сделай меня другом, который приносит к Тебе других. Аминь."
+      }
+    }
+  }
+}

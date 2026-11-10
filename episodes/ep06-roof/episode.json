@@ -1,0 +1,588 @@
+{
+  "id": "ep06-roof",
+  "number": 6,
+  "season": 1,
+  "ref": {
+    "book": "Mark",
+    "chapter": 2,
+    "from": 1,
+    "to": 12
+  },
+  "parallels": [
+    "Matthew 9:1-8",
+    "Luke 5:17-26"
+  ],
+  "title": {
+    "en": "Through the Roof",
+    "ru": "Через крышу"
+  },
+  "subtitle": {
+    "en": "Son, your sins are forgiven",
+    "ru": "Чадо! прощаются тебе грехи твои"
+  },
+  "place": [
+    "capernaum"
+  ],
+  "panels": [
+    {
+      "id": "p1",
+      "verses": [
+        1,
+        2
+      ],
+      "characters": [
+        "jesus",
+        "villager1",
+        "villager2",
+        "scribe"
+      ],
+      "camera": "interior, packed",
+      "scene": {
+        "kids": "a house so full of people that they squeeze out the door; Jesus teaching in the middle",
+        "adults": "a packed courtyard house, bodies pressed to the doorway, Jesus speaking at the centre in lamplight; scribes seated in front"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "Jesus was back home in Capernaum. So many people came that there was no room, not even at the door!",
+              "ru": "Иисус снова был в Капернауме. Пришло столько людей, что не было места даже у дверей!"
+            }
+          }
+        ],
+        "adults": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "They gathered in such large numbers that there was no more room, not even outside the door.",
+              "ru": "Тотчас собрались многие, так что уже и у дверей не было места."
+            }
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "So many people came to hear Jesus that there was no room at all!",
+          "ru": "Послушать Иисуса пришло столько людей, что совсем не было места!"
+        },
+        "parents": {
+          "en": "Ask: why do you think so many people wanted to be near Jesus?",
+          "ru": "Спросите: как ты думаешь, почему так много людей хотели быть рядом с Иисусом?"
+        },
+        "adults": {
+          "orthodox": {
+            "source": "lopukhin",
+            "where": {
+              "en": "Explanatory Bible, on Mk 2:1–2",
+              "ru": "Толковая Библия, на Мк 2:1–2"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Houses in Capernaum were small, built of basalt around a courtyard; a crowd filled them quickly.",
+              "ru": "Дома в Капернауме были маленькие, из базальта, вокруг двора; толпа быстро заполняла их."
+            }
+          },
+          "protestant": {
+            "source": "henry",
+            "where": {
+              "en": "Commentary on Mark 2:2",
+              "ru": "Комментарий на Мк 2:2"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "He preached the word to them: wherever Christ is, the word is the main thing, even before the miracles.",
+              "ru": "Он проповедовал им слово: где Христос, там главное — слово, даже прежде чудес."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p2",
+      "verses": [
+        3,
+        4
+      ],
+      "characters": [
+        "paralytic",
+        "villager1",
+        "villager3",
+        "villager5",
+        "james"
+      ],
+      "camera": "exterior",
+      "scene": {
+        "kids": "four friends carrying a man on a mat, looking at the crowd blocking the door, one points up to the roof",
+        "adults": "four men with a paralysed friend on a stretcher, the doorway blocked; one of them looks up at the flat roof and the outside stairs"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "speech",
+            "x": 7.5,
+            "y": 50.0,
+            "w": 40,
+            "text": {
+              "en": "We can't get in! ... Let's try the roof!",
+              "ru": "Нам не пройти! ... Давайте через крышу!"
+            },
+            "who": "villager1",
+            "tx": 27.5,
+            "ty": 69.9
+          }
+        ],
+        "adults": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "A paralytic was brought to Him, carried by four men. They could not get to Jesus through the crowd.",
+              "ru": "Пришли к Нему с расслабленным, которого несли четверо; и, не имея возможности приблизиться к Нему за многолюдством..."
+            }
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "Four friends carried a man who couldn't walk. But the door was blocked!",
+          "ru": "Четверо друзей несли человека, который не мог ходить. Но дверь была закрыта толпой!"
+        },
+        "parents": {
+          "en": "Ask: who are friends you could help, even when it's hard?",
+          "ru": "Спросите: каким друзьям ты мог бы помочь, даже если это трудно?"
+        },
+        "adults": {
+          "orthodox": {
+            "source": "theophylact",
+            "where": {
+              "en": "On Mark 2:3",
+              "ru": "Толкование на Мк 2:3"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "The sick man could not come himself; the faith of others carried him. So the Church carries the weak to Christ in prayer.",
+              "ru": "Больной не мог прийти сам; его несла вера других. Так Церковь в молитве приносит немощных ко Христу."
+            }
+          },
+          "protestant": {
+            "source": "ryle",
+            "where": {
+              "en": "Expository Thoughts on Mark 2:3–4",
+              "ru": "Размышления на Мк 2:3–4"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Let us learn from these four men to spare no pains in bringing others to Christ.",
+              "ru": "Поучимся у этих четверых не жалеть трудов, чтобы приводить других ко Христу."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p3",
+      "verses": [
+        4
+      ],
+      "characters": [
+        "villager1",
+        "villager3",
+        "villager5",
+        "james",
+        "paralytic"
+      ],
+      "camera": "on the roof",
+      "scene": {
+        "kids": "the friends on the flat roof digging a hole, dust and twigs flying, sun shining",
+        "adults": "on the flat roof: the friends tearing away clay and branches, dust falling into the room below"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "They made a hole in the roof and lowered their friend down on his mat!",
+              "ru": "Они разобрали крышу и спустили друга вниз на постели!"
+            }
+          }
+        ],
+        "adults": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "They uncovered the roof above Him, made an opening, and lowered the paralytic on his mat.",
+              "ru": "Раскрыли кровлю дома, где Он находился, и, прокопав ее, спустили постель, на которой лежал расслабленный."
+            }
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "They didn't give up — they opened the roof!",
+          "ru": "Они не сдались — они разобрали крышу!"
+        },
+        "parents": {
+          "en": "Talk about not giving up when praying for someone. Choose one person to keep praying for.",
+          "ru": "Поговорите о том, чтобы не сдаваться в молитве за кого-то. Выберите человека, за которого будете молиться."
+        },
+        "adults": {
+          "orthodox": {
+            "source": "lopukhin",
+            "where": {
+              "en": "Explanatory Bible, on Mk 2:4",
+              "ru": "Толковая Библия, на Мк 2:4"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Flat roofs of beams, branches and clay could be opened and repaired; the boldness of the friends is what is remarkable.",
+              "ru": "Плоские крыши из балок, веток и глины можно было вскрыть и починить; удивительна смелость друзей."
+            }
+          },
+          "protestant": {
+            "source": "barnes",
+            "where": {
+              "en": "Notes on Mark 2:4",
+              "ru": "Заметки на Мк 2:4"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Outside stairs led to the flat roof; they dug through the clay and lowered him among the people.",
+              "ru": "Наружная лестница вела на плоскую крышу; они прокопали глину и спустили его среди людей."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p4",
+      "verses": [
+        5
+      ],
+      "characters": [
+        "jesus",
+        "paralytic"
+      ],
+      "camera": "from below, looking up",
+      "scene": {
+        "kids": "the man on the mat hanging on ropes in front of Jesus, light pouring through the hole, Jesus smiling at him",
+        "adults": "the mat lands at Jesus' feet in a shaft of daylight from the roof; Jesus looks up at the four faces in the hole, then down at the man"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "speech",
+            "x": 7.5,
+            "y": 43.0,
+            "w": 40,
+            "text": {
+              "en": "My son, your sins are forgiven.",
+              "ru": "Сынок, твои грехи прощены."
+            },
+            "who": "jesus",
+            "tx": 27.5,
+            "ty": 62.9
+          }
+        ],
+        "adults": [
+          {
+            "kind": "speech",
+            "x": 7.5,
+            "y": 25.4,
+            "w": 40,
+            "text": {
+              "en": "Son, your sins are forgiven.",
+              "ru": "Чадо! прощаются тебе грехи твои."
+            },
+            "who": "jesus",
+            "tx": 27.5,
+            "ty": 41.3
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "Jesus said: 'Son, your sins are forgiven.' He healed his heart first!",
+          "ru": "Иисус сказал: «Сынок, твои грехи прощены». Сначала Он исцелил сердце!"
+        },
+        "parents": {
+          "en": "Explain: being forgiven is the best gift. Talk about a time you forgave each other.",
+          "ru": "Объясните: прощение — лучший подарок. Вспомните, как вы прощали друг друга."
+        },
+        "adults": {
+          "orthodox": {
+            "source": "theophylact",
+            "where": {
+              "en": "On Mark 2:5",
+              "ru": "Толкование на Мк 2:5"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "He heals the soul first, removing the cause, for sickness often comes from sin; then He heals the body.",
+              "ru": "Он сначала исцеляет душу, устраняя причину, ибо болезни часто от грехов; потом исцеляет тело."
+            }
+          },
+          "protestant": {
+            "source": "ryle",
+            "where": {
+              "en": "Expository Thoughts on Mark 2:5",
+              "ru": "Размышления на Мк 2:5"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Forgiveness of sins is the chief blessing Christ gives; the man came for his body and received the greatest gift for his soul.",
+              "ru": "Прощение грехов — главное благо Христа; человек пришёл ради тела и получил величайший дар для души."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p5",
+      "verses": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "characters": [
+        "jesus",
+        "scribe",
+        "pharisee"
+      ],
+      "camera": "medium, tension",
+      "scene": {
+        "kids": "teachers of the law frowning and whispering; Jesus looking right at them",
+        "adults": "the scribes' faces: shock, offense; Jesus turns and answers their unspoken thoughts"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "whisper",
+            "x": 45.3,
+            "y": 46.8,
+            "w": 36,
+            "text": {
+              "en": "Only God can forgive sins!",
+              "ru": "Только Бог может прощать грехи!"
+            },
+            "who": "scribe",
+            "tx": 63.3,
+            "ty": 66.7
+          },
+          {
+            "kind": "speech",
+            "x": 8,
+            "y": 30,
+            "w": 38,
+            "text": {
+              "en": "I will show you that I have power to forgive sins.",
+              "ru": "Я покажу вам, что у Меня есть власть прощать грехи."
+            },
+            "who": "jesus",
+            "tx": 29.2,
+            "ty": 63.5
+          }
+        ],
+        "adults": [
+          {
+            "kind": "whisper",
+            "x": 45.3,
+            "y": 27.3,
+            "w": 36,
+            "text": {
+              "en": "He is blaspheming! Who can forgive sins but God alone?",
+              "ru": "Он богохульствует. Кто может прощать грехи, кроме одного Бога?"
+            },
+            "who": "scribe",
+            "tx": 63.3,
+            "ty": 47.6
+          },
+          {
+            "kind": "speech",
+            "x": 8,
+            "y": 30,
+            "w": 38,
+            "text": {
+              "en": "So that you may know that the Son of Man has authority on earth to forgive sins...",
+              "ru": "Но чтобы вы знали, что Сын Человеческий имеет власть на земле прощать грехи..."
+            },
+            "who": "jesus",
+            "tx": 29.2,
+            "ty": 43.2
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "Some teachers thought: only God can forgive! And they were right — Jesus IS God.",
+          "ru": "Некоторые учители подумали: только Бог может прощать! И они были правы — Иисус и есть Бог."
+        },
+        "parents": {
+          "en": "Ask: what does it tell us about Jesus that He can forgive?",
+          "ru": "Спросите: что говорит об Иисусе то, что Он может прощать?"
+        },
+        "adults": {
+          "orthodox": {
+            "source": "chrysostom",
+            "where": {
+              "en": "Homily 29 on Matthew (Mt 9:3–6)",
+              "ru": "Беседа 29 на Мф (Mt 9:3–6)"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "The scribes said only God forgives sins, and Christ did not correct them; He confirmed it by forgiving and healing.",
+              "ru": "Книжники сказали, что только Бог прощает грехи, и Христос не поправил их; Он подтвердил это, простив и исцелив."
+            }
+          },
+          "protestant": {
+            "source": "henry",
+            "where": {
+              "en": "Commentary on Mark 2:6–10",
+              "ru": "Комментарий на Мк 2:6–10"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Christ knows our thoughts as well as our words; the visible cure proves the invisible pardon.",
+              "ru": "Христос знает наши мысли так же, как слова; видимое исцеление доказывает невидимое прощение."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p6",
+      "verses": [
+        11,
+        12
+      ],
+      "characters": [
+        "paralytic",
+        "jesus",
+        "villager2",
+        "villager4"
+      ],
+      "camera": "wide, joyful",
+      "scene": {
+        "kids": "the man standing up holding his mat over his head, walking out through the amazed crowd",
+        "adults": "the man rising, rolling up his mat, walking out through a crowd that parts in silence and then bursts into praise"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "speech",
+            "x": 2,
+            "y": 46.3,
+            "w": 40,
+            "text": {
+              "en": "Get up, take your mat and go home!",
+              "ru": "Встань, возьми свою постель и иди домой!"
+            },
+            "who": "jesus",
+            "tx": 20.8,
+            "ty": 66.2
+          },
+          {
+            "kind": "caption",
+            "x": 58,
+            "y": 82,
+            "w": 39,
+            "text": {
+              "en": "He did! And everyone praised God.",
+              "ru": "И он встал! А все славили Бога."
+            }
+          }
+        ],
+        "adults": [
+          {
+            "kind": "speech",
+            "x": 2,
+            "y": 30.4,
+            "w": 40,
+            "text": {
+              "en": "I tell you, get up, pick up your mat, and go home.",
+              "ru": "Тебе говорю: встань, возьми постель твою и иди в дом твой."
+            },
+            "who": "jesus",
+            "tx": 20.8,
+            "ty": 50.7
+          },
+          {
+            "kind": "caption",
+            "x": 58,
+            "y": 82,
+            "w": 39,
+            "text": {
+              "en": "They were all astounded and glorified God, saying, \"We have never seen anything like this!\"",
+              "ru": "Так что все изумлялись и прославляли Бога, говоря: никогда ничего такого мы не видали."
+            }
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "'Get up and go home!' And he did! Everyone praised God.",
+          "ru": "«Встань и иди домой!» И он пошёл! Все славили Бога."
+        },
+        "parents": {
+          "en": "Thank God together for one thing He has done for your family.",
+          "ru": "Поблагодарите вместе Бога за одно, что Он сделал для вашей семьи."
+        },
+        "adults": {
+          "orthodox": {
+            "source": "theophylact",
+            "where": {
+              "en": "On Mark 2:11–12",
+              "ru": "Толкование на Мк 2:11–12"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "He who was carried in by others walks out carrying his bed: a sign of the soul freed from sin.",
+              "ru": "Того, кого внесли другие, выходит, неся свою постель: знак души, освобождённой от греха."
+            }
+          },
+          "protestant": {
+            "source": "ryle",
+            "where": {
+              "en": "Expository Thoughts on Mark 2:12",
+              "ru": "Размышления на Мк 2:12"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "The cure was instant and complete, in front of everyone; Christ's works can bear examination.",
+              "ru": "Исцеление было мгновенным и полным, на глазах у всех; дела Христа выдерживают проверку."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "cover": "ep06"
+}

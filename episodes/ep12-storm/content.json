@@ -1,0 +1,263 @@
+{
+  "_about": "Text that follows the comic. Structure: shared.<age>.<lang> (same for both traditions) + <tradition>.<age>.<lang>. Every 'teachers' item is kind=paraphrase + verify=true until checked word-for-word against the public-domain source listed in data/sources.json.",
+  "shared": {
+    "kids": {
+      "en": {
+        "whatHappened": [
+          "Jesus and His friends got into a fishing boat to cross the lake. Jesus had been teaching all day, and He was so tired that He fell asleep.",
+          "Suddenly a big storm came. The wind howled, and waves splashed into the boat. The disciples were very scared. They woke Jesus up: \"Teacher, don't You care? We are sinking!\"",
+          "Jesus stood up and told the wind and the waves: \"Quiet! Be still!\" And right away everything became calm. The disciples were amazed. Only God can tell the sea what to do!"
+        ],
+        "background": [
+          { "term": "The Sea of Galilee", "text": "It is really a big lake (21 km long). Cold wind rushes down from the hills around it, so storms can start in just a few minutes." },
+          { "term": "The cushion", "text": "Fishing boats had a little seat at the back for the man who steered. Jesus slept there on a leather cushion." }
+        ]
+      },
+      "ru": {
+        "whatHappened": [
+          "Иисус и Его друзья сели в рыбацкую лодку, чтобы переплыть озеро. Весь день Иисус учил людей и так устал, что уснул.",
+          "Вдруг поднялась сильная буря. Ветер выл, волны захлёстывали лодку. Ученики очень испугались и разбудили Иисуса: «Учитель! Тебе всё равно? Мы тонем!»",
+          "Иисус встал и сказал ветру и волнам: «Замолчи! Успокойся!» И сразу стало тихо. Ученики удивились: ведь только Бог может приказать морю!"
+        ],
+        "background": [
+          { "term": "Галилейское море", "text": "На самом деле это большое озеро (21 км в длину). С гор вокруг него налетает холодный ветер, и буря может начаться за несколько минут." },
+          { "term": "Подушка (возглавие)", "text": "Сзади в лодке было место для рулевого. Иисус спал там на кожаной подушке." }
+        ]
+      }
+    },
+    "adults": {
+      "en": {
+        "whatHappened": [
+          "Evening, after a full day of teaching in parables (Mark 4:1–34). Jesus tells the Twelve to cross the lake to the eastern shore, Gentile territory where the next scene (the man possessed by a legion of demons, 5:1–20) takes place.",
+          "Several of the disciples are professional fishermen; they know this lake. Yet the storm is so violent that they believe they are about to die. Their cry is almost an accusation: \"Don't You care?\"",
+          "Jesus does not pray to God for help. He rebukes the wind with the same word He used to rebuke a demon in 1:25 (Greek epetimēsen) and orders the sea to be silent, literally to \"be muzzled\" (pephimōso). The calm is instant and total.",
+          "The disciples' fear does not end with the storm; it changes. Verse 41 literally says \"they feared a great fear.\" Now they are afraid of Him. The question \"Who is this?\" runs through the whole Gospel and is answered by Peter (8:29) and by a Roman centurion at the cross (15:39)."
+        ],
+        "background": [
+          { "term": "Geography", "text": "The lake lies about 210 m below sea level and is ringed by hills. Cool air falling through the ravines can turn calm water into 2-metre waves in minutes." },
+          { "term": "The boat", "text": "In 1986 a first-century Galilee fishing boat was found in the mud near Magdala: about 8 m long, with room for roughly 13 people. That is the boat in our panels." },
+          { "term": "Old Testament echo", "text": "In the Psalms only the LORD rules the raging sea (Ps 89:9; 107:23–30). Mark's first readers would have heard the claim at once." }
+        ]
+      },
+      "ru": {
+        "whatHappened": [
+          "Вечер после целого дня притч (Мк 4:1–34). Иисус говорит Двенадцати переплыть на восточный берег, в языческую землю, где произойдёт следующая сцена: исцеление гадаринского бесноватого (5:1–20).",
+          "Несколько учеников — профессиональные рыбаки, они знают это озеро. И всё же буря настолько сильна, что они уверены: смерть близко. Их крик звучит почти как упрёк: «Неужели Тебе нужды нет?»",
+          "Иисус не молится о помощи. Он «запрещает» ветру тем же словом, которым запрещал бесу в 1:25 (греч. epetimēsen), и велит морю умолкнуть, буквально «надеть намордник» (pephimōso). Тишина наступает мгновенно и полностью.",
+          "Страх учеников не заканчивается вместе с бурей, он меняется. Стих 41 буквально: «убоялись страхом великим». Теперь они боятся Его. Вопрос «Кто же Это?» проходит через всё Евангелие; ответ дадут Пётр (8:29) и римский сотник у креста (15:39)."
+        ],
+        "background": [
+          { "term": "География", "text": "Озеро лежит примерно на 210 м ниже уровня моря и окружено горами. Холодный воздух, падающий по ущельям, за минуты поднимает двухметровые волны." },
+          { "term": "Лодка", "text": "В 1986 году у Магдалы нашли галилейскую рыбацкую лодку I века: около 8 м в длину, примерно на 13 человек. Именно такая лодка на наших рисунках." },
+          { "term": "Эхо Ветхого Завета", "text": "В Псалтири только Господь владычествует над яростью моря (Пс 88:10; 106:23–30). Первые читатели Марка сразу это слышали." }
+        ]
+      }
+    }
+  },
+
+  "orthodox": {
+    "kids": {
+      "en": {
+        "teachers": [
+          { "source": "theophylact", "kind": "paraphrase", "verify": true, "where": "On Mark 4:35–41", "text": "St. Theophylact explained: Jesus fell asleep because He was truly a man and got tired, like us. And He calmed the sea because He is truly God." },
+          { "source": "chrysostom", "kind": "paraphrase", "verify": true, "where": "Homily 28 on Matthew (Mt 8:23–27)", "text": "St. John Chrysostom said Jesus let the storm come so His friends would see how weak they were and learn to trust Him." }
+        ],
+        "bigIdea": { "title": "Jesus is true God and true Man", "text": "He gets tired like us, and He is stronger than every storm. He is with us in the boat." },
+        "apply": [
+          { "title": "When you are scared", "text": "At night, before a test, when people at home argue: make the sign of the cross and say, like the disciples, \"Lord, save me!\"" },
+          { "title": "Family prayer corner", "text": "Draw your \"storm\" (what worries you) and put the picture by the icons at home. Pray about it together with your family this week." }
+        ],
+        "questions": [
+          "What was Jesus doing when the storm began? Why do you think He could sleep?",
+          "What did Jesus say to the wind and the waves?",
+          "What is a \"storm\" in your life? Who can you call on?"
+        ],
+        "memoryVerse": { "ref": "Psalm 106(107):29", "text": "He calmed the storm to a whisper, and the waves of the sea were hushed." },
+        "prayer": "Lord Jesus Christ, You are always with me. When I am afraid, help me to remember You and to trust You. Amen."
+      },
+      "ru": {
+        "teachers": [
+          { "source": "theophylact", "kind": "paraphrase", "verify": true, "where": "Толкование на Мк 4:35–41", "text": "Блаженный Феофилакт объясняет: Иисус уснул, потому что Он настоящий Человек и устаёт, как мы. А море успокоил, потому что Он настоящий Бог." },
+          { "source": "chrysostom", "kind": "paraphrase", "verify": true, "where": "Беседа 28 на Евангелие от Матфея (Мф 8:23–27)", "text": "Святитель Иоанн Златоуст говорит: Иисус позволил буре начаться, чтобы ученики увидели свою слабость и научились Ему доверять." }
+        ],
+        "bigIdea": { "title": "Иисус — истинный Бог и истинный Человек", "text": "Он устаёт, как мы, и Он сильнее любой бури. Он с нами в лодке." },
+        "apply": [
+          { "title": "Когда страшно", "text": "Ночью, перед контрольной, когда дома ссорятся: перекрестись и скажи, как ученики: «Господи, спаси!»" },
+          { "title": "Молитвенный уголок", "text": "Нарисуй свою «бурю» (то, что тебя тревожит) и положи рисунок у икон дома. Помолитесь об этом всей семьёй на этой неделе." }
+        ],
+        "questions": [
+          "Что делал Иисус, когда началась буря? Как ты думаешь, почему Он мог спать?",
+          "Что Иисус сказал ветру и волнам?",
+          "Что такое «буря» в твоей жизни? Кого можно позвать на помощь?"
+        ],
+        "memoryVerse": { "ref": "Псалом 106:29", "text": "Он превращает бурю в тишину, и волны умолкают." },
+        "prayer": "Господи Иисусе Христе, Ты всегда со мной. Когда мне страшно, помоги мне вспомнить о Тебе и довериться Тебе. Аминь."
+      }
+    },
+    "adults": {
+      "en": {
+        "teachers": [
+          { "source": "theophylact", "kind": "paraphrase", "verify": true, "where": "On Mark 4:35–41", "text": "Christ sleeps as a man and commands the sea as God: in one scene we see both natures of the one Lord. He allows the storm so that the disciples, frightened, would turn to Him and then see the miracle with their own eyes." },
+          { "source": "chrysostom", "kind": "paraphrase", "verify": true, "where": "Homily 28 on Matthew (Mt 8:23–27)", "text": "He let them be afraid on purpose: so that they would recognise their own weakness and the greatness of the miracle, and so that it would be engraved on their memory. Fear is the teacher's tool here, not a sign that He has left them." },
+          { "source": "augustine", "kind": "paraphrase", "verify": true, "where": "Sermon 63 (on Mt 8:23–27)", "text": "When insults blow like a wind and anger rises like a wave, it is because Christ is asleep in you: your faith in Him has gone to sleep. Wake Him. Remember Him, and the storm in the heart will be stilled." },
+          { "source": "lopukhin", "kind": "paraphrase", "verify": true, "where": "Explanatory Bible, on Mark 4:35–41", "text": "Sudden storms are typical for this lake; Mark's eyewitness details (the stern, the cushion, the other boats) point back to Peter's own memory of the night." }
+        ],
+        "bigIdea": {
+          "title": "One Christ, true God and true Man — and the Church as the boat",
+          "text": "The Church confesses at the Council of Chalcedon (451) one Lord Jesus Christ \"in two natures, without confusion, without change, without division, without separation.\" Mark shows it in one scene: the tired Man sleeps; the Creator speaks and the sea obeys. The Fathers often saw the boat as an image of the Church: in a storm salvation lies not in jumping out of the boat but in staying in it, with Christ.",
+          "refs": [
+            { "ref": "Psalm 88(89):9", "text": "You rule the raging sea; when its waves mount up, You still them." },
+            { "ref": "Hebrews 4:15", "text": "For we do not have a high priest who is unable to sympathize with our weaknesses, but we have one who was tempted in every way that we are, yet was without sin." }
+          ]
+        },
+        "apply": [
+          { "title": "Name the storm", "text": "Write down in one line what is \"swamping your boat\" right now: work, a diagnosis, a relationship, anxiety at 3 a.m. Vague fear grows; named fear can be prayed about." },
+          { "title": "Wake Christ with a short prayer", "text": "When anxiety rises, slowly repeat the Jesus Prayer ten times: \"Lord Jesus Christ, Son of God, have mercy on me.\" The disciples' prayer was just as short." },
+          { "title": "Stay in the boat", "text": "In a crisis the temptation is to drop out of church life. Do the opposite this week: go to the Liturgy, or talk to your priest at confession about what frightens you." },
+          { "title": "Evening psalm", "text": "Read Psalm 106 (107 in English Bibles), verses 23–31, every evening this week. It is the storm story in the Old Testament." }
+        ],
+        "questions": [
+          "Have you ever felt that God was \"asleep\" in your life? What happened next?",
+          "Why does Jesus ask \"Do you still have no faith?\" after the calm, not before?",
+          "The disciples' fear was greater after the miracle (v. 41). What is the difference between fear of the storm and the fear of God?",
+          "What does \"staying in the boat\" (the Church) look like for you in a hard season?"
+        ],
+        "memoryVerse": { "ref": "Mark 4:39", "text": "Then Jesus got up and rebuked the wind and the sea. \"Silence!\" He commanded. \"Be still!\" And the wind died down, and it was perfectly calm." },
+        "prayer": "Lord Jesus Christ, Son of God, have mercy on me. Calm the storm of my thoughts and keep me in Your Church. Amen."
+      },
+      "ru": {
+        "teachers": [
+          { "source": "theophylact", "kind": "paraphrase", "verify": true, "where": "Толкование на Мк 4:35–41", "text": "Христос спит как Человек и повелевает морю как Бог: в одной сцене видны обе природы единого Господа. Он попускает бурю, чтобы ученики, испугавшись, обратились к Нему и сами увидели чудо." },
+          { "source": "chrysostom", "kind": "paraphrase", "verify": true, "where": "Беседа 28 на Евангелие от Матфея (Мф 8:23–27)", "text": "Он нарочно допустил им испугаться: чтобы они узнали и свою немощь, и величие чуда, и чтобы оно врезалось в память. Страх здесь — орудие Учителя, а не знак, что Он их оставил." },
+          { "source": "augustine", "kind": "paraphrase", "verify": true, "where": "Проповедь 63 (на Мф 8:23–27)", "text": "Когда обида дует, как ветер, а гнев поднимается, как волна, это значит, что Христос спит в тебе: уснула твоя вера в Него. Разбуди Его. Вспомни о Нём, и буря в сердце утихнет." },
+          { "source": "lopukhin", "kind": "paraphrase", "verify": true, "where": "Толковая Библия, на Мк 4:35–41", "text": "Внезапные бури характерны для этого озера; живые подробности у Марка (корма, возглавие, другие лодки) указывают на воспоминания очевидца, апостола Петра." }
+        ],
+        "bigIdea": {
+          "title": "Один Христос, истинный Бог и истинный Человек, и Церковь — лодка",
+          "text": "Церковь исповедует на Халкидонском Соборе (451) одного Господа Иисуса Христа «в двух естествах неслитно, неизменно, нераздельно, неразлучно». Марк показывает это в одной сцене: уставший Человек спит, Творец говорит, и море повинуется. Отцы часто видели в лодке образ Церкви: в бурю спасение не в том, чтобы выпрыгнуть из лодки, а в том, чтобы оставаться в ней со Христом.",
+          "refs": [
+            { "ref": "Псалом 88:10", "text": "Ты владычествуешь над яростью моря: когда воздымаются волны его, Ты укрощаешь их." },
+            { "ref": "Евреям 4:15", "text": "Ибо мы имеем не такого первосвященника, который не может сострадать нам в немощах наших, но Который, подобно нам, искушен во всем, кроме греха." }
+          ]
+        },
+        "apply": [
+          { "title": "Назови свою бурю", "text": "Запиши одной строкой, что сейчас «заливает твою лодку»: работа, диагноз, отношения, тревога в три часа ночи. Безымянный страх растёт; названный можно принести в молитве." },
+          { "title": "Разбуди Христа короткой молитвой", "text": "Когда поднимается тревога, медленно повтори десять раз Иисусову молитву: «Господи Иисусе Христе, Сыне Божий, помилуй мя». Молитва учеников была такой же короткой." },
+          { "title": "Останься в лодке", "text": "В кризис хочется выпасть из церковной жизни. На этой неделе сделай наоборот: приди на Литургию или расскажи священнику на исповеди о том, что тебя пугает." },
+          { "title": "Вечерний псалом", "text": "Читай каждый вечер этой недели Псалом 106, стихи 23–31. Это ветхозаветная история о буре." }
+        ],
+        "questions": [
+          "Бывало ли, что Бог словно «спал» в твоей жизни? Что было потом?",
+          "Почему Иисус спрашивает «как у вас нет веры?» после тишины, а не до неё?",
+          "После чуда страх учеников стал больше (ст. 41). Чем страх перед бурей отличается от страха Божия?",
+          "Как для тебя выглядит «остаться в лодке» (в Церкви) в трудное время?"
+        ],
+        "memoryVerse": { "ref": "Марка 4:39", "text": "И, встав, Он запретил ветру и сказал морю: умолкни, перестань. И ветер утих, и сделалась великая тишина." },
+        "prayer": "Господи Иисусе Христе, Сыне Божий, помилуй мя. Утиши бурю моих помыслов и сохрани меня в Твоей Церкви. Аминь."
+      }
+    }
+  },
+
+  "protestant": {
+    "kids": {
+      "en": {
+        "teachers": [
+          { "source": "ryle", "kind": "paraphrase", "verify": true, "where": "Expository Thoughts on Mark, 4:35–41", "text": "Bishop Ryle wrote: being Jesus' friend does not mean you will never have storms. But it does mean you are never alone in them." },
+          { "source": "henry", "kind": "paraphrase", "verify": true, "where": "Commentary on Mark 4:35–41", "text": "Matthew Henry said Jesus slept to test His friends' faith and to wake them up to pray." }
+        ],
+        "bigIdea": { "title": "Jesus is stronger than every storm", "text": "The wind and the waves obey Him. You can trust Him when you are scared." },
+        "apply": [
+          { "title": "Tell Jesus the truth", "text": "The disciples told Jesus exactly how they felt. You can too! When you are scared, say: \"Jesus, I'm scared. Please help me.\"" },
+          { "title": "Learn a verse for scary times", "text": "Learn 1 Peter 5:7 this week and say it at bedtime." }
+        ],
+        "questions": [
+          "What was Jesus doing when the storm began?",
+          "What did Jesus say to the wind and the waves?",
+          "What makes you scared? What can you say to Jesus then?"
+        ],
+        "memoryVerse": { "ref": "1 Peter 5:7", "text": "Cast all your anxiety on Him, because He cares for you." },
+        "prayer": "Dear Jesus, thank You that You are stronger than every storm. When I am scared, help me to trust You. Amen."
+      },
+      "ru": {
+        "teachers": [
+          { "source": "ryle", "kind": "paraphrase", "verify": true, "where": "«Толковые размышления на Евангелие от Марка», 4:35–41", "text": "Епископ Райл писал: если ты друг Иисуса, это не значит, что бурь не будет. Но это значит, что ты никогда не будешь в них один." },
+          { "source": "henry", "kind": "paraphrase", "verify": true, "where": "Комментарий на Мк 4:35–41", "text": "Мэтью Генри говорил: Иисус спал, чтобы испытать веру учеников и побудить их молиться." }
+        ],
+        "bigIdea": { "title": "Иисус сильнее любой бури", "text": "Ветер и волны слушаются Его. Ему можно доверять, когда страшно." },
+        "apply": [
+          { "title": "Скажи Иисусу правду", "text": "Ученики честно сказали Иисусу, что чувствуют. Ты тоже можешь! Когда страшно, скажи: «Иисус, мне страшно. Помоги мне, пожалуйста»." },
+          { "title": "Выучи стих на страшные минуты", "text": "Выучи на этой неделе 1 Петра 5:7 и повторяй перед сном." }
+        ],
+        "questions": [
+          "Что делал Иисус, когда началась буря?",
+          "Что Иисус сказал ветру и волнам?",
+          "Чего ты боишься? Что ты можешь тогда сказать Иисусу?"
+        ],
+        "memoryVerse": { "ref": "1 Петра 5:7", "text": "Все заботы ваши возложите на Него, ибо Он печется о вас." },
+        "prayer": "Дорогой Иисус, спасибо, что Ты сильнее любой бури. Когда мне страшно, помоги мне доверять Тебе. Аминь."
+      }
+    },
+    "adults": {
+      "en": {
+        "teachers": [
+          { "source": "ryle", "kind": "paraphrase", "verify": true, "where": "Expository Thoughts on Mark, 4:35–41", "text": "Following Christ does not exempt us from storms; the disciples were in the boat because they obeyed Him. In the same scene we see that He is truly man (He sleeps) and truly God (He commands the sea). And the Lord deals very gently with weak faith: He rebukes the fear, but He does not reject the fearful." },
+          { "source": "henry", "kind": "paraphrase", "verify": true, "where": "Commentary on Mark 4:35–41", "text": "Christ was asleep to try the faith of His disciples and to stir them up to pray. Christ's presence does not keep the storm away, but it secures the passengers: the boat that carries Him cannot sink." },
+          { "source": "calvin", "kind": "paraphrase", "verify": true, "where": "Harmony of the Evangelists, on Mt 8:23–27", "text": "His sleep was real human weakness, which He took on willingly; and the disciples' fault was not that they called on Him, but that they doubted He cared." },
+          { "source": "barnes", "kind": "paraphrase", "verify": true, "where": "Notes on Mark 4:38", "text": "The \"cushion\" was the leather pad on the steersman's seat in the stern: a small eyewitness detail that only someone in the boat would remember." }
+        ],
+        "bigIdea": {
+          "title": "Jesus does what only God does",
+          "text": "In the Old Testament only the LORD stills the sea. In Mark, Jesus does it with a word. The Gospel's question \"Who is this?\" has one answer: the Son of God (Mark 1:1). Faith is not the absence of fear; it is trust in a Person. Our safety rests on who He is, not on how strong our faith feels.",
+          "refs": [
+            { "ref": "Psalm 107:29", "text": "He calmed the storm to a whisper, and the waves of the sea were hushed." },
+            { "ref": "Philippians 4:6–7", "text": "Be anxious for nothing, but in everything, by prayer and petition, with thanksgiving, present your requests to God. And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus." }
+          ]
+        },
+        "apply": [
+          { "title": "Pray honestly", "text": "\"Don't You care?\" is a raw prayer, and Jesus answered it. Write a three-line honest prayer about your current storm: what is happening, how you feel, what you ask." },
+          { "title": "Ask the faith question", "text": "When anxiety spikes, ask: \"What do I know about Jesus that is bigger than this problem?\" Write the answer on your phone's lock screen." },
+          { "title": "Don't bail alone", "text": "Tell one trusted person from your church or small group about your storm this week, and ask them to pray with you." },
+          { "title": "Memorise one verse", "text": "Learn 1 Peter 5:7 and say it whenever the \"what if\" thoughts start." }
+        ],
+        "questions": [
+          "Where in your life does it feel like Jesus is asleep right now?",
+          "Why does Jesus ask \"Do you still have no faith?\" after the calm, not before?",
+          "The disciples were more afraid after the miracle (v. 41). What is the difference between fear of circumstances and the fear of the Lord?",
+          "How does knowing who Jesus is change the way you face your current storm?"
+        ],
+        "memoryVerse": { "ref": "Mark 4:41", "text": "Overwhelmed with fear, they asked one another, \"Who is this, that even the wind and the sea obey Him?\"" },
+        "prayer": "Lord Jesus, You rule the wind and the sea. I bring You my storm. I believe; help my unbelief. Amen."
+      },
+      "ru": {
+        "teachers": [
+          { "source": "ryle", "kind": "paraphrase", "verify": true, "where": "«Толковые размышления на Евангелие от Марка», 4:35–41", "text": "Следование за Христом не освобождает от бурь: ученики оказались в лодке именно потому, что послушались Его. В одной сцене видно, что Он истинный Человек (спит) и истинный Бог (повелевает морю). И Господь очень бережно обходится со слабой верой: Он обличает страх, но не отвергает испуганных." },
+          { "source": "henry", "kind": "paraphrase", "verify": true, "where": "Комментарий на Мк 4:35–41", "text": "Христос спал, чтобы испытать веру учеников и побудить их к молитве. Его присутствие не отменяет бурю, но хранит плывущих: лодка, в которой Он, не может утонуть." },
+          { "source": "calvin", "kind": "paraphrase", "verify": true, "where": "Согласование Евангелий, на Мф 8:23–27", "text": "Его сон был настоящей человеческой немощью, которую Он принял добровольно; а вина учеников не в том, что они воззвали к Нему, а в том, что усомнились в Его заботе." },
+          { "source": "barnes", "kind": "paraphrase", "verify": true, "where": "Заметки на Мк 4:38", "text": "«Возглавие» — кожаная подушка на сиденье рулевого на корме: маленькая подробность очевидца, которую запомнил бы только тот, кто был в лодке." }
+        ],
+        "bigIdea": {
+          "title": "Иисус делает то, что может только Бог",
+          "text": "В Ветхом Завете только Господь укрощает море. У Марка Иисус делает это одним словом. На вопрос Евангелия «Кто же Это?» есть один ответ: Сын Божий (Мк 1:1). Вера — это не отсутствие страха, а доверие Личности. Наша безопасность держится на том, Кто Он, а не на том, насколько сильной кажется наша вера.",
+          "refs": [
+            { "ref": "Псалом 106:29", "text": "Он превращает бурю в тишину, и волны умолкают." },
+            { "ref": "Филиппийцам 4:6–7", "text": "Не заботьтесь ни о чем, но всегда в молитве и прошении с благодарением открывайте свои желания пред Богом, и мир Божий, который превыше всякого ума, соблюдет сердца ваши и помышления ваши во Христе Иисусе." }
+          ]
+        },
+        "apply": [
+          { "title": "Молись честно", "text": "«Неужели Тебе нужды нет?» — резкая молитва, и Иисус на неё ответил. Напиши честную молитву в три строки о своей буре: что происходит, что ты чувствуешь, о чём просишь." },
+          { "title": "Задай вопрос веры", "text": "Когда накрывает тревога, спроси: «Что я знаю об Иисусе, что больше этой проблемы?» Запиши ответ на экран блокировки телефона." },
+          { "title": "Не вычерпывай воду один", "text": "На этой неделе расскажи о своей буре одному надёжному человеку из церкви или домашней группы и попроси помолиться вместе." },
+          { "title": "Выучи один стих", "text": "Выучи 1 Петра 5:7 и повторяй его каждый раз, когда начинаются мысли «а что, если…»." }
+        ],
+        "questions": [
+          "Где в твоей жизни сейчас кажется, что Иисус спит?",
+          "Почему Иисус спрашивает «как у вас нет веры?» после тишины, а не до неё?",
+          "После чуда ученики испугались ещё больше (ст. 41). Чем страх перед обстоятельствами отличается от страха Господня?",
+          "Как знание того, Кто такой Иисус, меняет твой взгляд на нынешнюю бурю?"
+        ],
+        "memoryVerse": { "ref": "Марка 4:41", "text": "И убоялись страхом великим и говорили между собою: кто же Это, что и ветер и море повинуются Ему?" },
+        "prayer": "Господи Иисусе, Ты повелеваешь ветру и морю. Я приношу Тебе свою бурю. Верую, Господи, помоги моему неверию. Аминь."
+      }
+    }
+  }
+}

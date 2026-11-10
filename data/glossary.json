@@ -1,0 +1,649 @@
+{
+ "terms": [
+  {
+   "id": "sea_of_galilee",
+   "name": {
+    "en": "Sea of Galilee",
+    "ru": "Галилейское море"
+   },
+   "match": {
+    "en": [
+     "Sea of Galilee"
+    ],
+    "ru": [
+     "Галилейское море",
+     "Галилейского моря"
+    ]
+   },
+   "kids": {
+    "en": "A big freshwater lake with hills all around. Wind rushes down the hills and can make big waves very fast.",
+    "ru": "Большое пресное озеро, со всех сторон горы. Ветер падает с гор и очень быстро поднимает большие волны."
+   },
+   "adults": {
+    "en": "A lake about 21 × 13 km, some 210 m below sea level. Cold air falling through the ravines raises sudden storms; Jesus based His Galilean ministry on its shores.",
+    "ru": "Озеро около 21 × 13 км, примерно на 210 м ниже уровня моря. Холодный воздух, падающий по ущельям, поднимает внезапные бури; на его берегах прошла большая часть служения Иисуса."
+   },
+   "source": "Lopukhin, Explanatory Bible, on Mk 4:37 · Barnes, Notes on Mk 4:37"
+  },
+  {
+   "id": "parable",
+   "name": {
+    "en": "Parable",
+    "ru": "Притча"
+   },
+   "match": {
+    "en": [
+     "parables"
+    ],
+    "ru": [
+     "притч"
+    ]
+   },
+   "kids": {
+    "en": "A short story with a hidden lesson about God.",
+    "ru": "Короткий рассказ, в котором спрятан урок о Боге."
+   },
+   "adults": {
+    "en": "Greek parabolē: a comparison drawn from daily life (seed, lamp, harvest) that both reveals and conceals; Mark 4:1–34 gathers Jesus' parables of the Kingdom.",
+    "ru": "Греч. parabolē: сравнение из повседневной жизни (семя, светильник, жатва), которое и открывает, и прикрывает истину; в Мк 4:1–34 собраны притчи о Царстве."
+   },
+   "source": "Mark 4:10–12, 33–34"
+  },
+  {
+   "id": "as_he_was",
+   "name": {
+    "en": "“As He was”",
+    "ru": "«Как Он был»"
+   },
+   "match": {
+    "en": [
+     "just as He was"
+    ],
+    "ru": [
+     "как Он был"
+    ]
+   },
+   "kids": {
+    "en": "Right away, without resting first. Jesus was really tired.",
+    "ru": "Сразу, без отдыха. Иисус по-настоящему устал."
+   },
+   "adults": {
+    "en": "An eyewitness detail: they set off immediately, with Jesus still in the boat from which He had been teaching (4:1), without going ashore to rest or prepare.",
+    "ru": "Деталь очевидца: отплыли сразу, в той же лодке, из которой Иисус учил народ (4:1), не сходя на берег отдохнуть и собраться."
+   },
+   "source": "Barnes, Notes on Mk 4:36"
+  },
+  {
+   "id": "stern",
+   "name": {
+    "en": "Stern",
+    "ru": "Корма"
+   },
+   "match": {
+    "en": [
+     "stern"
+    ],
+    "ru": [
+     "корме"
+    ]
+   },
+   "kids": {
+    "en": "The back end of a boat, where the man who steers sits.",
+    "ru": "Задняя часть лодки, где сидит рулевой."
+   },
+   "adults": {
+    "en": "The raised rear deck of a Galilean fishing boat, where the helmsman worked the steering oar; the only partly sheltered spot on an open boat.",
+    "ru": "Приподнятая задняя часть галилейской лодки, где рулевой управлял кормовым веслом; единственное полузащищённое место в открытой лодке."
+   },
+   "source": "Barnes, Notes on Mk 4:38"
+  },
+  {
+   "id": "cushion",
+   "name": {
+    "en": "Cushion",
+    "ru": "Возглавие"
+   },
+   "match": {
+    "en": [
+     "cushion"
+    ],
+    "ru": [
+     "возглавии",
+     "подушке",
+     "подушку"
+    ]
+   },
+   "kids": {
+    "en": "A pillow. Jesus slept with His head on a leather cushion.",
+    "ru": "Подушка. Иисус спал, положив голову на кожаную подушку."
+   },
+   "adults": {
+    "en": "Probably the leather pad of the helmsman's seat, or a sandbag used as ballast. The definite article in Greek (“the cushion”) suggests something everyone in the boat knew.",
+    "ru": "Вероятно, кожаная подушка на сиденье рулевого или мешок-балласт. Греческий артикль («та самая подушка») говорит о предмете, знакомом всем в лодке."
+   },
+   "source": "Barnes, Notes on Mk 4:38"
+  },
+  {
+   "id": "teacher",
+   "name": {
+    "en": "Teacher (Rabbi)",
+    "ru": "Учитель"
+   },
+   "match": {
+    "en": [
+     "Teacher"
+    ],
+    "ru": [
+     "Учитель"
+    ]
+   },
+   "kids": {
+    "en": "What the disciples called Jesus. They learned from Him every day.",
+    "ru": "Так ученики называли Иисуса. Они каждый день учились у Него."
+   },
+   "adults": {
+    "en": "Greek didaskalos, Mark's rendering of “Rabbi”. The disciples still address Him as a teacher; the storm forces a bigger question: “Who is this?”",
+    "ru": "Греч. didaskalos — так Марк передаёт «Равви». Ученики всё ещё обращаются к Нему как к учителю; буря ставит вопрос больше: «Кто же Это?»"
+   },
+   "source": "Mark 4:38, 41; 9:5"
+  },
+  {
+   "id": "rebuke",
+   "name": {
+    "en": "Rebuked",
+    "ru": "Запретил"
+   },
+   "match": {
+    "en": [
+     "rebuked"
+    ],
+    "ru": [
+     "запретил"
+    ]
+   },
+   "kids": {
+    "en": "Jesus didn't ask the wind — He gave it an order, like a master.",
+    "ru": "Иисус не попросил ветер, а приказал ему, как хозяин."
+   },
+   "adults": {
+    "en": "Greek epetimēsen — the word Jesus uses against demons (1:25). “Be still” is literally “be muzzled”. In the Psalms only the LORD rebukes the sea (Ps 106/107:29; 103/104:7).",
+    "ru": "Греч. epetimēsen — тот же глагол, что при изгнании бесов (1:25). «Перестань» буквально «надень намордник». В Псалтири только Господь запрещает морю (Пс 106:29; 103:7)."
+   },
+   "source": "Theophylact, on Mk 4:39 · Ps 106(107):29"
+  },
+  {
+   "id": "faith",
+   "name": {
+    "en": "Faith",
+    "ru": "Вера"
+   },
+   "match": {
+    "en": [
+     "faith"
+    ],
+    "ru": [
+     "веры",
+     "верите",
+     "веру"
+    ]
+   },
+   "kids": {
+    "en": "Trusting Jesus even when you are scared.",
+    "ru": "Доверять Иисусу, даже когда страшно."
+   },
+   "adults": {
+    "en": "Greek pistis: trust in a person, not only belief in facts. The disciples believed He could help, yet doubted that He cared (4:38).",
+    "ru": "Греч. pistis: доверие Личности, а не только согласие с фактами. Ученики верили, что Он может помочь, но усомнились, что Ему есть до них дело (4:38)."
+   },
+   "source": "Mark 4:40; Hebrews 11:1"
+  },
+  {
+   "id": "great_fear",
+   "name": {
+    "en": "“Feared a great fear”",
+    "ru": "«Убоялись страхом великим»"
+   },
+   "match": {
+    "en": [
+     "Overwhelmed with fear",
+     "Who is this"
+    ],
+    "ru": [
+     "страхом великим",
+     "Кто же Это"
+    ]
+   },
+   "kids": {
+    "en": "A different fear: not 'we're sinking', but 'wow — who is He?!'",
+    "ru": "Другой страх: не «мы тонем», а «ничего себе — Кто же Он?!»"
+   },
+   "adults": {
+    "en": "The fear of the storm turns into the fear of God — awe at a divine presence, the response of people in Scripture when God appears (Isa 6:5; Lk 5:8).",
+    "ru": "Страх перед бурей сменяется страхом Божиим — благоговением перед явлением Божества, как у людей Писания при богоявлениях (Ис 6:5; Лк 5:8)."
+   },
+   "source": "Theophylact, on Mk 4:41"
+  },
+  {
+   "id": "gospel",
+   "name": {
+    "en": "Gospel",
+    "ru": "Евангелие"
+   },
+   "match": {
+    "en": [
+     "gospel"
+    ],
+    "ru": [
+     "Евангели"
+    ]
+   },
+   "kids": {
+    "en": "Good news! The good news that Jesus has come.",
+    "ru": "Добрая весть! Весть о том, что пришёл Иисус."
+   },
+   "adults": {
+    "en": "Greek euangelion: a herald's announcement of royal good news (a victory, an heir's birth). Mark applies it to Jesus from the first line (1:1).",
+    "ru": "Греч. euangelion: объявление глашатая о царской радости (победа, рождение наследника). Марк применяет это слово к Иисусу с первой строки (1:1)."
+   },
+   "source": "Mark 1:1, 14–15"
+  },
+  {
+   "id": "wilderness",
+   "name": {
+    "en": "Wilderness",
+    "ru": "Пустыня"
+   },
+   "match": {
+    "en": [
+     "wilderness"
+    ],
+    "ru": [
+     "пустын"
+    ]
+   },
+   "kids": {
+    "en": "A dry, empty place where God often met His people.",
+    "ru": "Сухое пустое место, где Бог часто встречал Свой народ."
+   },
+   "adults": {
+    "en": "The Judean desert: a place of testing and of new beginnings (Israel's 40 years, Elijah). Prophets expected God's new exodus to start there (Isa 40:3).",
+    "ru": "Иудейская пустыня: место испытания и нового начала (40 лет Израиля, Илия). Пророки ждали, что новый исход Божий начнётся именно там (Ис 40:3)."
+   },
+   "source": "Isaiah 40:3"
+  },
+  {
+   "id": "locusts",
+   "name": {
+    "en": "Locusts",
+    "ru": "Акриды"
+   },
+   "match": {
+    "en": [
+     "locusts"
+    ],
+    "ru": [
+     "акрид"
+    ]
+   },
+   "kids": {
+    "en": "Big grasshoppers. People could eat them.",
+    "ru": "Крупная саранча. Её можно было есть."
+   },
+   "adults": {
+    "en": "Locusts were clean food under the Law (Lev 11:22) and still eaten by Bedouin. John's diet marks him as a man of the desert, free from city comforts.",
+    "ru": "Саранча по Закону — чистая пища (Лев 11:22), её и сегодня едят бедуины. Пища Иоанна показывает человека пустыни, свободного от городских удобств."
+   },
+   "source": "Leviticus 11:22"
+  },
+  {
+   "id": "repentance",
+   "name": {
+    "en": "Repentance",
+    "ru": "Покаяние"
+   },
+   "match": {
+    "en": [
+     "Repent",
+     "repentance"
+    ],
+    "ru": [
+     "Покайтесь",
+     "покаяни",
+     "Вернитесь к Богу"
+    ]
+   },
+   "kids": {
+    "en": "Saying sorry to God and turning back to Him.",
+    "ru": "Попросить у Бога прощения и вернуться к Нему."
+   },
+   "adults": {
+    "en": "Greek metanoia: a change of mind that turns the whole life around, not mere regret. In the Orthodox Church it is renewed in Confession; in Protestant teaching it is joined to faith in Christ.",
+    "ru": "Греч. metanoia: перемена ума, разворачивающая всю жизнь, а не просто сожаление. В Православии обновляется в таинстве Исповеди; в протестантском учении неразрывно с верой во Христа."
+   },
+   "source": "Mark 1:4, 15"
+  },
+  {
+   "id": "jordan",
+   "name": {
+    "en": "Jordan River",
+    "ru": "Иордан"
+   },
+   "match": {
+    "en": [
+     "Jordan"
+    ],
+    "ru": [
+     "Иордан"
+    ]
+   },
+   "kids": {
+    "en": "The river where John baptized people.",
+    "ru": "Река, в которой Иоанн крестил людей."
+   },
+   "adults": {
+    "en": "The river Israel crossed into the promised land (Josh 3). Baptism there signals a new entry into God's promise.",
+    "ru": "Река, через которую Израиль вошёл в обетованную землю (Нав 3). Крещение там — знак нового входа в Божье обетование."
+   },
+   "source": "Joshua 3"
+  },
+  {
+   "id": "holy_spirit",
+   "name": {
+    "en": "Holy Spirit",
+    "ru": "Дух Святой"
+   },
+   "match": {
+    "en": [
+     "Holy Spirit",
+     "the Spirit"
+    ],
+    "ru": [
+     "Дух Святой",
+     "Духом Святым",
+     "Духа"
+    ]
+   },
+   "kids": {
+    "en": "God the Holy Spirit, who gives life and makes us holy.",
+    "ru": "Бог Дух Святой, Который даёт жизнь и освящает нас."
+   },
+   "adults": {
+    "en": "The third Person of the Holy Trinity; at the baptism He descends “like a dove”, recalling the Spirit over the waters (Gen 1:2) and Noah's dove (Gen 8).",
+    "ru": "Третье Лицо Святой Троицы; при Крещении сходит «как голубь», напоминая о Духе над водами (Быт 1:2) и о голубе Ноя (Быт 8)."
+   },
+   "source": "Mark 1:8, 10"
+  },
+  {
+   "id": "kingdom",
+   "name": {
+    "en": "Kingdom of God",
+    "ru": "Царство Божие"
+   },
+   "match": {
+    "en": [
+     "kingdom of God",
+     "Kingdom"
+    ],
+    "ru": [
+     "Царство Божие",
+     "Царствие Божие"
+    ]
+   },
+   "kids": {
+    "en": "God being King, making everything right.",
+    "ru": "Бог — Царь, Который всё исправляет."
+   },
+   "adults": {
+    "en": "Not a territory but God's reign breaking into the world in Jesus: forgiving, healing, overcoming evil.",
+    "ru": "Не территория, а владычество Бога, входящее в мир в Иисусе: прощение, исцеление, победа над злом."
+   },
+   "source": "Mark 1:15"
+  },
+  {
+   "id": "synagogue",
+   "name": {
+    "en": "Synagogue",
+    "ru": "Синагога"
+   },
+   "match": {
+    "en": [
+     "synagogue"
+    ],
+    "ru": [
+     "синагог"
+    ]
+   },
+   "kids": {
+    "en": "A meeting house where people read God's Word every Saturday.",
+    "ru": "Дом собраний, где каждую субботу читали Слово Божие."
+   },
+   "adults": {
+    "en": "A local assembly for prayer, reading and teaching of the Law and Prophets; any competent man could be invited to teach.",
+    "ru": "Местное собрание для молитвы, чтения и объяснения Закона и Пророков; учить могли пригласить любого сведущего мужчину."
+   },
+   "source": "Luke 4:16–21"
+  },
+  {
+   "id": "scribes",
+   "name": {
+    "en": "Scribes",
+    "ru": "Книжники"
+   },
+   "match": {
+    "en": [
+     "scribes"
+    ],
+    "ru": [
+     "книжник"
+    ]
+   },
+   "kids": {
+    "en": "Teachers who knew God's Law very well.",
+    "ru": "Учители, которые очень хорошо знали Закон."
+   },
+   "adults": {
+    "en": "Professional experts in the Law of Moses who taught by citing earlier authorities; Jesus taught “with authority” of His own.",
+    "ru": "Профессиональные знатоки Закона Моисеева, учившие ссылками на прежние авторитеты; Иисус учил «со властью» Своей."
+   },
+   "source": "Mark 1:22"
+  },
+  {
+   "id": "unclean_spirit",
+   "name": {
+    "en": "Unclean spirit",
+    "ru": "Нечистый дух"
+   },
+   "match": {
+    "en": [
+     "unclean spirit",
+     "bad spirit"
+    ],
+    "ru": [
+     "нечист",
+     "злые духи",
+     "Выйди из него"
+    ]
+   },
+   "kids": {
+    "en": "A bad spirit that hurts people. It must obey Jesus.",
+    "ru": "Злой дух, который мучает человека. Он должен слушаться Иисуса."
+   },
+   "adults": {
+    "en": "A demon, called “unclean” as opposed to God's holiness. Jesus does not argue with it; He commands it, showing His authority over evil.",
+    "ru": "Бес, «нечистый» в противоположность святости Божией. Иисус не спорит с ним, а повелевает — являя власть над злом."
+   },
+   "source": "Theophylact, on Mk 1:23–27"
+  },
+  {
+   "id": "leprosy",
+   "name": {
+    "en": "Leprosy",
+    "ru": "Проказа"
+   },
+   "match": {
+    "en": [
+     "leprosy"
+    ],
+    "ru": [
+     "проказ",
+     "прокажён"
+    ]
+   },
+   "kids": {
+    "en": "A bad skin disease. Sick people had to live away from everyone.",
+    "ru": "Тяжёлая кожная болезнь. Больным приходилось жить отдельно от всех."
+   },
+   "adults": {
+    "en": "In Scripture a range of serious skin diseases that made a person ritually unclean and excluded from community and worship until a priest declared him clean (Lev 13–14).",
+    "ru": "В Писании — несколько тяжёлых кожных болезней, делавших человека ритуально нечистым и отлучавших от общины и богослужения, пока священник не признает его чистым (Лев 13–14)."
+   },
+   "source": "Leviticus 13–14"
+  },
+  {
+   "id": "son_of_man",
+   "name": {
+    "en": "Son of Man",
+    "ru": "Сын Человеческий"
+   },
+   "match": {
+    "en": [
+     "Son of Man"
+    ],
+    "ru": [
+     "Сын Человеческий"
+    ]
+   },
+   "kids": {
+    "en": "Jesus' favourite name for Himself.",
+    "ru": "Любимое имя, которым Иисус называл Себя."
+   },
+   "adults": {
+    "en": "From Daniel 7:13–14: one “like a son of man” receives authority and an everlasting kingdom from God. Jesus uses it of His authority, His suffering and His return.",
+    "ru": "Из Дан 7:13–14: «подобный Сыну человеческому» получает от Бога власть и вечное царство. Иисус говорит так о Своей власти, страданиях и пришествии."
+   },
+   "source": "Daniel 7:13–14"
+  },
+  {
+   "id": "blasphemy",
+   "name": {
+    "en": "Blasphemy",
+    "ru": "Богохульство"
+   },
+   "match": {
+    "en": [
+     "blaspheming"
+    ],
+    "ru": [
+     "богохульств"
+    ]
+   },
+   "kids": {
+    "en": "Saying something that dishonours God.",
+    "ru": "Слова, которые бесчестят Бога."
+   },
+   "adults": {
+    "en": "Claiming for oneself what belongs to God alone; a capital charge (Lev 24:16), later used against Jesus at His trial (14:64).",
+    "ru": "Присвоение себе того, что принадлежит одному Богу; каралось смертью (Лев 24:16), позднее обвинение на суде над Иисусом (14:64)."
+   },
+   "source": "Mark 2:7; 14:64"
+  },
+  {
+   "id": "tax_collector",
+   "name": {
+    "en": "Tax collector",
+    "ru": "Мытарь"
+   },
+   "match": {
+    "en": [
+     "tax collector"
+    ],
+    "ru": [
+     "мытар",
+     "налог"
+    ]
+   },
+   "kids": {
+    "en": "Someone who collected money for the rulers — and often cheated.",
+    "ru": "Тот, кто собирал деньги для властей — и часто обманывал."
+   },
+   "adults": {
+    "en": "A local agent who bought the right to collect tolls for Herod Antipas or Rome and profited from surcharges; seen as a collaborator and a thief.",
+    "ru": "Местный откупщик, собиравший пошлины для Ирода Антипы или Рима и наживавшийся на надбавках; его считали предателем и вором."
+   },
+   "source": "Mark 2:14–16"
+  },
+  {
+   "id": "pharisees",
+   "name": {
+    "en": "Pharisees",
+    "ru": "Фарисеи"
+   },
+   "match": {
+    "en": [
+     "Pharisees"
+    ],
+    "ru": [
+     "фарисе"
+    ]
+   },
+   "kids": {
+    "en": "People who tried very hard to keep God's rules.",
+    "ru": "Люди, которые очень старались соблюдать Божьи правила."
+   },
+   "adults": {
+    "en": "A devout lay movement devoted to exact keeping of the Law and its traditions, including purity at meals and Sabbath rules. Many were sincere; Jesus challenges their hardness of heart.",
+    "ru": "Благочестивое движение мирян, ревностно соблюдавших Закон и предания, в том числе чистоту за трапезой и субботу. Многие были искренни; Иисус обличает ожесточение сердца."
+   },
+   "source": "Mark 2:16, 24; 3:5"
+  },
+  {
+   "id": "sabbath",
+   "name": {
+    "en": "Sabbath",
+    "ru": "Суббота"
+   },
+   "match": {
+    "en": [
+     "Sabbath"
+    ],
+    "ru": [
+     "суббот"
+    ]
+   },
+   "kids": {
+    "en": "God's day of rest, the seventh day.",
+    "ru": "Божий день покоя, седьмой день."
+   },
+   "adults": {
+    "en": "The seventh day set apart for rest (Ex 20:8–11), a sign of the covenant. Jesus calls Himself its Lord; Christians keep the Lord's Day, the day of the Resurrection.",
+    "ru": "Седьмой день покоя (Исх 20:8–11), знак завета. Иисус называет Себя его Господином; христиане чтут День Господень — день Воскресения."
+   },
+   "source": "Exodus 20:8–11; Mark 2:27–28"
+  },
+  {
+   "id": "wineskins",
+   "name": {
+    "en": "Wineskins",
+    "ru": "Мехи"
+   },
+   "match": {
+    "en": [
+     "wineskins"
+    ],
+    "ru": [
+     "мехи",
+     "бутылки"
+    ]
+   },
+   "kids": {
+    "en": "Bags made of leather to keep wine in.",
+    "ru": "Кожаные мешки для вина."
+   },
+   "adults": {
+    "en": "Goat-skin containers; fermenting new wine stretches the skin, so an old brittle skin bursts. Jesus' new life cannot be squeezed into old forms.",
+    "ru": "Козьи бурдюки; бродящее молодое вино растягивает кожу, и старый ссохшийся мех лопается. Новую жизнь Иисуса не втиснуть в старые формы."
+   },
+   "source": "Mark 2:22"
+  }
+ ]
+}

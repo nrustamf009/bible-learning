@@ -1,0 +1,456 @@
+{
+  "shared": {
+    "kids": {
+      "en": {
+        "whatHappened": [
+          "Mark starts his book with good news: Jesus Christ, the Son of God, is coming! But first God sends a messenger to get people ready.",
+          "The messenger is John. He lives in the desert, wears rough clothes and eats locusts and honey. Crowds come to him. He tells them: turn back to God! People say sorry for their sins, and John baptizes them in the river.",
+          "But John says: \"I am not the important one. Someone much greater is coming after me.\""
+        ],
+        "background": [
+          {
+            "term": "Wilderness",
+            "text": "A dry, empty place. In the Bible the desert is where God often meets His people."
+          },
+          {
+            "term": "Locusts",
+            "text": "Big grasshoppers. People there could eat them; God's Law allowed it (Leviticus 11:22)."
+          }
+        ]
+      },
+      "ru": {
+        "whatHappened": [
+          "Марк начинает книгу с радостной вести: идёт Иисус Христос, Сын Божий! Но сначала Бог посылает вестника, чтобы приготовить людей.",
+          "Вестник — Иоанн. Он живёт в пустыне, носит грубую одежду и ест акриды и мёд. К нему приходят толпы. Он говорит: вернитесь к Богу! Люди просят прощения за грехи, и Иоанн крестит их в реке.",
+          "Но Иоанн говорит: «Главный не я. После меня придёт Тот, Кто гораздо сильнее»."
+        ],
+        "background": [
+          {
+            "term": "Пустыня",
+            "text": "Сухое пустое место. В Библии в пустыне Бог часто встречает Свой народ."
+          },
+          {
+            "term": "Акриды",
+            "text": "Крупная саранча. Её там ели; Закон это разрешал (Левит 11:22)."
+          }
+        ]
+      }
+    },
+    "adults": {
+      "en": {
+        "whatHappened": [
+          "Mark has no Christmas story. He opens with a headline: \"the gospel of Jesus Christ, the Son of God\" (1:1). Gospel (euangelion) was a word for royal news: a victory, the birth of an heir.",
+          "He quotes Malachi 3:1 and Isaiah 40:3: God promised to send a herald before He Himself comes to His people. John is that herald. His camel hair and leather belt deliberately echo the prophet Elijah (2 Kings 1:8), and Malachi 4:5 had promised Elijah's return.",
+          "John's baptism is a public act of repentance: a turning around of the whole life, sealed by confession of sins. Then he points away from himself: he is not worthy even to untie the sandals of the One coming, a slave's job. The best preacher in the land says, in effect, \"Don't look at me.\""
+        ],
+        "background": [
+          {
+            "term": "Isaiah 40",
+            "text": "The prophecy of a road built through the desert for God's return to His people after exile."
+          },
+          {
+            "term": "Repentance",
+            "text": "Greek metanoia: a change of mind and direction, not just regret."
+          },
+          {
+            "term": "Sandals",
+            "text": "Untying a master's sandals was work for the lowest servant."
+          }
+        ]
+      },
+      "ru": {
+        "whatHappened": [
+          "У Марка нет рассказа о Рождестве. Он начинает с заголовка: «Начало Евангелия Иисуса Христа, Сына Божия» (1:1). Евангелие (euangelion) — так называли царскую весть: о победе, о рождении наследника.",
+          "Марк приводит Малахию 3:1 и Исаию 40:3: Бог обещал послать глашатая перед тем, как Сам придёт к Своему народу. Иоанн и есть этот глашатай. Его одежда из верблюжьего волоса и кожаный пояс нарочно напоминают пророка Илию (4 Цар 1:8), а Малахия обещал возвращение Илии (Мал 4:5).",
+          "Крещение Иоанна — открытый знак покаяния: поворота всей жизни, с исповеданием грехов. А потом Иоанн указывает не на себя: он недостоин даже развязать ремень обуви Грядущего, а это работа раба. Лучший проповедник страны говорит: «Смотрите не на меня»."
+        ],
+        "background": [
+          {
+            "term": "Исаия 40",
+            "text": "Пророчество о дороге в пустыне, по которой Бог возвращается к Своему народу после плена."
+          },
+          {
+            "term": "Покаяние",
+            "text": "Греч. metanoia: перемена ума и направления, а не только сожаление."
+          },
+          {
+            "term": "Ремень обуви",
+            "text": "Развязывать обувь господина было делом самого низшего слуги."
+          }
+        ]
+      }
+    }
+  },
+  "orthodox": {
+    "kids": {
+      "en": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "On Mark 1:1–8",
+            "text": "St. Theophylact said: John's baptism did not yet give the Holy Spirit. It got people ready for Jesus, who gives the Spirit."
+          }
+        ],
+        "bigIdea": {
+          "title": "Get ready for Jesus",
+          "text": "Saying sorry to God and turning back to Him is how we make the road ready for Jesus to come into our heart."
+        },
+        "apply": [
+          {
+            "title": "A clean road",
+            "text": "Before bed, think: what did I do wrong today? Tell God \"I'm sorry\" and ask Him to help you tomorrow."
+          },
+          {
+            "title": "Your first confession",
+            "text": "Ask your parents about confession in church. Maybe it is time for your first one, or the next one."
+          }
+        ],
+        "questions": [
+          "What did John wear and eat?",
+          "Why did people come to John?",
+          "Who did John say was coming after him?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 1:3",
+          "text": "Prepare the way for the Lord, make straight paths for Him."
+        },
+        "prayer": "Lord, I am sorry for what I did wrong. Make my heart a straight road for You. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Толкование на Мк 1:1–8",
+            "text": "Блаженный Феофилакт говорит: крещение Иоанна ещё не давало Духа Святого. Оно готовило людей к Иисусу, Который даёт Духа."
+          }
+        ],
+        "bigIdea": {
+          "title": "Приготовь путь для Иисуса",
+          "text": "Когда мы просим у Бога прощения и возвращаемся к Нему, мы готовим дорогу, чтобы Иисус вошёл в наше сердце."
+        },
+        "apply": [
+          {
+            "title": "Чистая дорога",
+            "text": "Перед сном подумай: что я сегодня сделал(а) не так? Скажи Богу «прости» и попроси помочь завтра."
+          },
+          {
+            "title": "Исповедь",
+            "text": "Спроси родителей об исповеди в храме. Может быть, пора пойти на первую или на следующую."
+          }
+        ],
+        "questions": [
+          "Что носил и ел Иоанн?",
+          "Зачем люди приходили к Иоанну?",
+          "Кто, по словам Иоанна, идёт за ним?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 1:3",
+          "text": "Приготовьте путь Господу, прямыми сделайте стези Ему."
+        },
+        "prayer": "Господи, прости меня за то, что я сделал(а) плохо. Сделай моё сердце прямой дорогой для Тебя. Аминь."
+      }
+    },
+    "adults": {
+      "en": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "On Mark 1:1–8",
+            "text": "John's baptism had no gift of the Spirit and did not itself grant forgiveness; it led people to repentance so that they would receive Christ, who forgives. It was a forerunner baptism, as John was a forerunner."
+          },
+          {
+            "source": "chrysostom",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Homily 10 on Matthew",
+            "text": "John preached with his life before he opened his mouth: the desert, the rough clothes and the simple food were themselves a sermon about leaving behind the things that weigh us down."
+          }
+        ],
+        "bigIdea": {
+          "title": "Repentance makes room for Christ",
+          "text": "The Church calls St. John \"the Forerunner\" (Prodromos): every human heart needs its forerunner moment, when we turn around and confess. In the Orthodox Church repentance is not a single event but a way of life, renewed in the sacrament of Confession, which prepares us for Communion as John prepared Israel for Christ.",
+          "refs": [
+            {
+              "ref": "Isaiah 40:3",
+              "text": "A voice of one calling: \"Prepare the way for the LORD in the wilderness.\""
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Make a 'desert' hour",
+            "text": "John met God in the wilderness. This week turn off the phone for one hour and sit in silence with the Gospel of Mark, chapter 1."
+          },
+          {
+            "title": "Prepare for Confession",
+            "text": "Write down honestly what stands between you and God. Bring the list to Confession this month."
+          },
+          {
+            "title": "Point away from yourself",
+            "text": "In one conversation this week, deliberately give credit to someone else. Practise John's \"He must increase, I must decrease\" (John 3:30)."
+          }
+        ],
+        "questions": [
+          "Why does Mark begin with John and not with Jesus' birth?",
+          "What is the difference between regret and repentance?",
+          "Where is your 'wilderness', the place where you can hear God?",
+          "What would 'untying the sandal' look like in your work or family?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 1:7",
+          "text": "After me will come One more powerful than I, the straps of whose sandals I am not worthy to stoop down and untie."
+        },
+        "prayer": "Holy Forerunner John, pray to God for us. Lord, grant me to see my own sins and not to judge my brother. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Толкование на Мк 1:1–8",
+            "text": "Крещение Иоанна не имело благодати Духа и само не давало прощения; оно вело к покаянию, чтобы люди приняли Христа, Который прощает. Это было крещение-предтеча, как и сам Иоанн — Предтеча."
+          },
+          {
+            "source": "chrysostom",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Беседа 10 на Евангелие от Матфея",
+            "text": "Иоанн проповедовал жизнью прежде, чем открыл уста: пустыня, грубая одежда и простая пища уже были проповедью о том, чтобы оставить то, что нас отягощает."
+          }
+        ],
+        "bigIdea": {
+          "title": "Покаяние даёт место Христу",
+          "text": "Церковь называет Иоанна Предтечей: каждому сердцу нужен свой «предтеча», момент, когда мы разворачиваемся и исповедуемся. В Православии покаяние — не разовое событие, а образ жизни, который обновляется в таинстве Исповеди и готовит нас к Причастию, как Иоанн готовил Израиль ко Христу.",
+          "refs": [
+            {
+              "ref": "Исаия 40:3",
+              "text": "Глас вопиющего в пустыне: приготовьте путь Господу."
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Устрой себе «пустыню»",
+            "text": "Иоанн встретил Бога в пустыне. На этой неделе выключи телефон на час и посиди в тишине с первой главой Евангелия от Марка."
+          },
+          {
+            "title": "Подготовься к Исповеди",
+            "text": "Честно запиши, что стоит между тобой и Богом. Принеси этот список на исповедь в этом месяце."
+          },
+          {
+            "title": "Укажи не на себя",
+            "text": "В одном разговоре на этой неделе намеренно отдай заслугу другому. Это упражнение Иоанна: «Ему должно расти, а мне умаляться» (Ин 3:30)."
+          }
+        ],
+        "questions": [
+          "Почему Марк начинает с Иоанна, а не с Рождества?",
+          "Чем сожаление отличается от покаяния?",
+          "Где твоя «пустыня», место, где ты можешь услышать Бога?",
+          "Как выглядело бы «развязать ремень обуви» в твоей работе или семье?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 1:7",
+          "text": "Идет за мною Сильнейший меня, у Которого я недостоин, наклонившись, развязать ремень обуви Его."
+        },
+        "prayer": "Святый Иоанне, Предтече Господень, моли Бога о нас. Господи, даруй ми зрети моя прегрешения и не осуждати брата моего. Аминь."
+      }
+    }
+  },
+  "protestant": {
+    "kids": {
+      "en": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Expository Thoughts on Mark, 1:1–8",
+            "text": "Bishop Ryle wrote that John was a good preacher because he pointed people away from himself to Jesus."
+          }
+        ],
+        "bigIdea": {
+          "title": "Turn back to God",
+          "text": "When we say sorry to God and turn back to Him, we are ready for Jesus. And Jesus is the One who forgives!"
+        },
+        "apply": [
+          {
+            "title": "Say sorry",
+            "text": "Is there someone you need to say sorry to? Do it this week, and tell God too."
+          },
+          {
+            "title": "Point to Jesus",
+            "text": "John pointed to Jesus. Tell one friend one thing you like about Jesus."
+          }
+        ],
+        "questions": [
+          "What did John wear and eat?",
+          "What does 'repent' mean?",
+          "Who was John getting people ready for?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 1:3",
+          "text": "Prepare the way for the Lord, make straight paths for Him."
+        },
+        "prayer": "Dear God, I'm sorry for the wrong things I did. Thank You for sending Jesus. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "«Толковые размышления на Евангелие от Марка», 1:1–8",
+            "text": "Епископ Райл писал: Иоанн был хорошим проповедником, потому что указывал людям не на себя, а на Иисуса."
+          }
+        ],
+        "bigIdea": {
+          "title": "Вернись к Богу",
+          "text": "Когда мы говорим Богу «прости» и возвращаемся к Нему, мы готовы встретить Иисуса. А прощает нас именно Иисус!"
+        },
+        "apply": [
+          {
+            "title": "Попроси прощения",
+            "text": "Есть ли кто-то, у кого тебе нужно попросить прощения? Сделай это на этой неделе и скажи об этом Богу."
+          },
+          {
+            "title": "Укажи на Иисуса",
+            "text": "Иоанн указывал на Иисуса. Расскажи одному другу, что тебе нравится в Иисусе."
+          }
+        ],
+        "questions": [
+          "Что носил и ел Иоанн?",
+          "Что значит «покаяться»?",
+          "К Кому Иоанн готовил людей?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 1:3",
+          "text": "Приготовьте путь Господу, прямыми сделайте стези Ему."
+        },
+        "prayer": "Дорогой Бог, прости меня за плохое, что я сделал(а). Спасибо, что Ты послал Иисуса. Аминь."
+      }
+    },
+    "adults": {
+      "en": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Expository Thoughts on Mark, 1:1–8",
+            "text": "The faithful minister is known by this: he exalts Christ and makes little of himself. John preached repentance plainly, but he never let people stop at himself; he sent them on to the One who could take away their sins."
+          },
+          {
+            "source": "henry",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Commentary on Mark 1:1–8",
+            "text": "The gospel begins with repentance. Those who would welcome Christ must first be humbled by the sight of their sin; the valleys of pride must be filled and the crooked ways made straight."
+          }
+        ],
+        "bigIdea": {
+          "title": "Repentance and faith belong together",
+          "text": "John's message prepares for Jesus' own first words: \"Repent and believe in the gospel\" (1:15). Repentance is turning from sin; faith is turning to Christ. John's baptism could point to forgiveness, but only Christ gives it and baptizes with the Holy Spirit. The best ministry, and the best Christian life, makes Jesus bigger and us smaller.",
+          "refs": [
+            {
+              "ref": "John 3:30",
+              "text": "He must increase; I must decrease."
+            },
+            {
+              "ref": "1 John 1:9",
+              "text": "If we confess our sins, He is faithful and just to forgive us our sins and to cleanse us from all unrighteousness."
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Honest inventory",
+            "text": "Take 15 minutes this week to list specific sins, not vague feelings. Confess them to God using 1 John 1:9."
+          },
+          {
+            "title": "A quiet place",
+            "text": "Find your 'wilderness': a regular 20-minute slot with no phone, just Scripture and prayer."
+          },
+          {
+            "title": "Make Him bigger",
+            "text": "In one conversation this week, turn attention away from yourself and toward Christ or toward someone else's good work."
+          }
+        ],
+        "questions": [
+          "Why does Mark call this the 'beginning' of the gospel?",
+          "What is the difference between feeling bad and repenting?",
+          "Who in your life has 'prepared the way' for you to meet Christ?",
+          "How can you make Christ bigger and yourself smaller this week?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 1:8",
+          "text": "I baptize you with water, but He will baptize you with the Holy Spirit."
+        },
+        "prayer": "Lord Jesus, I turn from my sin and I turn to You. Make my life point to You. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "«Толковые размышления на Евангелие от Марка», 1:1–8",
+            "text": "Верного служителя видно по одному: он возвышает Христа и умаляет себя. Иоанн ясно проповедовал покаяние, но никогда не позволял людям остановиться на нём самом; он отправлял их к Тому, Кто может снять грехи."
+          },
+          {
+            "source": "henry",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Комментарий на Мк 1:1–8",
+            "text": "Евангелие начинается с покаяния. Кто хочет принять Христа, должен сначала смириться, увидев свой грех; долины гордости должны наполниться, а кривые пути выпрямиться."
+          }
+        ],
+        "bigIdea": {
+          "title": "Покаяние и вера неразделимы",
+          "text": "Весть Иоанна готовит первые слова Иисуса: «Покайтесь и веруйте в Евангелие» (1:15). Покаяние — отвернуться от греха; вера — повернуться ко Христу. Крещение Иоанна указывало на прощение, но даёт его и крестит Духом Святым только Христос. Лучшее служение и лучшая христианская жизнь делают Иисуса больше, а нас меньше.",
+          "refs": [
+            {
+              "ref": "Иоанна 3:30",
+              "text": "Ему должно расти, а мне умаляться."
+            },
+            {
+              "ref": "1 Иоанна 1:9",
+              "text": "Если исповедуем грехи наши, то Он, будучи верен и праведен, простит нам грехи наши и очистит нас от всякой неправды."
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Честная опись",
+            "text": "Найди на этой неделе 15 минут и запиши конкретные грехи, а не смутные чувства. Исповедуй их Богу по 1 Иоанна 1:9."
+          },
+          {
+            "title": "Тихое место",
+            "text": "Найди свою «пустыню»: регулярные 20 минут без телефона, только Писание и молитва."
+          },
+          {
+            "title": "Сделай Его больше",
+            "text": "В одном разговоре на этой неделе переведи внимание с себя на Христа или на добрые дела другого человека."
+          }
+        ],
+        "questions": [
+          "Почему Марк называет это «началом» Евангелия?",
+          "Чем отличается «чувствовать вину» от покаяния?",
+          "Кто в твоей жизни «приготовил путь», чтобы ты встретил Христа?",
+          "Как на этой неделе сделать Христа больше, а себя меньше?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 1:8",
+          "text": "Я крестил вас водою, а Он будет крестить вас Духом Святым."
+        },
+        "prayer": "Господи Иисусе, я отворачиваюсь от греха и обращаюсь к Тебе. Пусть моя жизнь указывает на Тебя. Аминь."
+      }
+    }
+  }
+}

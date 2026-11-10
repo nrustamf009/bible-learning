@@ -1,0 +1,450 @@
+{
+  "shared": {
+    "kids": {
+      "en": {
+        "whatHappened": [
+          "Levi is a tax collector, and people think he is a cheat. But Jesus says to him: \"Follow Me!\" Levi gets up and follows.",
+          "Then Levi throws a party, and lots of people with bad reputations come. Jesus eats with them. Some Pharisees grumble: \"Why does He eat with sinners?\"",
+          "Jesus answers: \"A doctor is for sick people. I came for sinners.\""
+        ],
+        "background": [
+          {
+            "term": "Tax collector",
+            "text": "A local man who collected money for the rulers and often took extra for himself."
+          },
+          {
+            "term": "Levi",
+            "text": "Another name of Matthew, who later wrote the first Gospel."
+          }
+        ]
+      },
+      "ru": {
+        "whatHappened": [
+          "Левий — мытарь, сборщик налогов, и люди считают его обманщиком. Но Иисус говорит ему: «Иди за Мной!» Левий встаёт и идёт.",
+          "Потом Левий устраивает праздник, и приходит много людей с плохой славой. Иисус ест с ними. Некоторые фарисеи ворчат: «Почему Он ест с грешниками?»",
+          "Иисус отвечает: «Врач нужен больным. Я пришёл к грешникам»."
+        ],
+        "background": [
+          {
+            "term": "Мытарь",
+            "text": "Местный житель, собиравший деньги для власти и часто бравший лишнее себе."
+          },
+          {
+            "term": "Левий",
+            "text": "Другое имя Матфея, который позже написал первое Евангелие."
+          }
+        ]
+      }
+    },
+    "adults": {
+      "en": {
+        "whatHappened": [
+          "Tax collectors were seen as collaborators and thieves; they were barred from many religious circles. Jesus calls one of them to be an apostle.",
+          "In that culture, sharing a meal meant accepting someone. Jesus' table fellowship with sinners is a living parable of the Kingdom: God welcomes the unworthy.",
+          "The Pharisees' problem is not that they are too religious but that they think they are healthy. Jesus' irony: He came for the sick, and everyone is sick; only those who admit it come to the Doctor.",
+          "The fasting question leads to the wedding image: the Bridegroom (a title of God in the prophets) is here. And the new wine of the Kingdom cannot be contained in old forms."
+        ],
+        "background": [
+          {
+            "term": "Pharisees",
+            "text": "A devout lay movement devoted to careful obedience to the Law, including purity at meals."
+          },
+          {
+            "term": "Wineskins",
+            "text": "Goat-skin bags; new wine still ferments and stretches the skin, so an old brittle skin bursts."
+          }
+        ]
+      },
+      "ru": {
+        "whatHappened": [
+          "Мытарей считали предателями и ворами; во многие религиозные круги им не было доступа. Иисус зовёт одного из них в апостолы.",
+          "В той культуре разделить трапезу значило принять человека. Трапеза Иисуса с грешниками — живая притча о Царстве: Бог принимает недостойных.",
+          "Проблема фарисеев не в том, что они слишком религиозны, а в том, что считают себя здоровыми. Ирония Иисуса: Он пришёл к больным, а больны все; к Врачу приходят только те, кто это признаёт.",
+          "Вопрос о посте ведёт к образу свадьбы: Жених (так пророки называли Бога) уже здесь. И молодое вино Царства не удержать в старых формах."
+        ],
+        "background": [
+          {
+            "term": "Фарисеи",
+            "text": "Благочестивое движение мирян, ревностно исполнявших Закон, в том числе правила чистоты за трапезой."
+          },
+          {
+            "term": "Мехи",
+            "text": "Кожаные бурдюки; молодое вино бродит и растягивает кожу, поэтому старый ссохшийся мех лопается."
+          }
+        ]
+      }
+    }
+  },
+  "orthodox": {
+    "kids": {
+      "en": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "On Mark 2:13–22",
+            "text": "St. Theophylact said: Jesus is a Doctor. A doctor goes where the sick people are!"
+          }
+        ],
+        "bigIdea": {
+          "title": "Jesus is the Doctor for our souls",
+          "text": "Nobody is too bad for Jesus. He calls sinners to come to Him and get well."
+        },
+        "apply": [
+          {
+            "title": "Don't call names",
+            "text": "Is someone called 'bad' at school? Say something kind to them this week."
+          },
+          {
+            "title": "The publican's prayer",
+            "text": "Learn the short prayer: \"God, be merciful to me, a sinner\" (Luke 18:13)."
+          }
+        ],
+        "questions": [
+          "What was Levi's job?",
+          "Who came to Levi's party?",
+          "Why did Jesus say He is like a doctor?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 2:17",
+          "text": "It is not the healthy who need a doctor, but the sick."
+        },
+        "prayer": "God, be merciful to me, a sinner. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Толкование на Мк 2:13–22",
+            "text": "Блаженный Феофилакт говорит: Иисус — Врач. А врач идёт туда, где больные!"
+          }
+        ],
+        "bigIdea": {
+          "title": "Иисус — Врач наших душ",
+          "text": "Нет никого слишком плохого для Иисуса. Он зовёт грешников прийти к Нему и исцелиться."
+        },
+        "apply": [
+          {
+            "title": "Не обзывай",
+            "text": "Кого-то в школе называют «плохим»? Скажи ему что-то доброе на этой неделе."
+          },
+          {
+            "title": "Молитва мытаря",
+            "text": "Выучи короткую молитву: «Боже, милостив буди мне грешному» (Лк 18:13)."
+          }
+        ],
+        "questions": [
+          "Кем работал Левий?",
+          "Кто пришёл на праздник к Левию?",
+          "Почему Иисус сказал, что Он как врач?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 2:17",
+          "text": "Не здоровые имеют нужду во враче, но больные."
+        },
+        "prayer": "Боже, милостив буди мне грешному. Аминь."
+      }
+    },
+    "adults": {
+      "en": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "On Mark 2:13–22",
+            "text": "Christ goes to sinners as a physician goes to the sick, not to share their sickness but to heal it. Levi left the tax booth at once, and from being a publican became an apostle and evangelist."
+          },
+          {
+            "source": "chrysostom",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Homily 30 on Matthew (Mt 9:9–13)",
+            "text": "Matthew does not hide what he was: he calls himself a publican in his own Gospel, so that no sinner would despair. Christ's mercy changed a lover of money into an apostle."
+          }
+        ],
+        "bigIdea": {
+          "title": "The Church is a hospital, and the meal is the medicine",
+          "text": "Orthodox tradition calls the Church a spiritual hospital and Christ \"the Physician of our souls and bodies\". The meal at Levi's house points to the Eucharist: before Communion we pray, \"I believe that You came into the world to save sinners, of whom I am first.\" Only those who know they are sick approach the Doctor.",
+          "refs": [
+            {
+              "ref": "1 Timothy 1:15",
+              "text": "Christ Jesus came into the world to save sinners, of whom I am the worst."
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Admit you are sick",
+            "text": "Read the pre-Communion prayer \"I believe, O Lord, and I confess...\" slowly every day this week."
+          },
+          {
+            "title": "Eat with an outsider",
+            "text": "Invite to your table someone who is not 'your circle' this month."
+          },
+          {
+            "title": "Watch the inner Pharisee",
+            "text": "Notice once a day when you judge someone. Pray for them instead, by name."
+          }
+        ],
+        "questions": [
+          "Why was it shocking for Jesus to eat with tax collectors?",
+          "Who do you find it hardest to sit at a table with?",
+          "In what ways do you think you are 'healthy'?",
+          "What is the 'new wine' Jesus brings?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 2:17",
+          "text": "It is not the healthy who need a doctor, but the sick. I have not come to call the righteous, but sinners."
+        },
+        "prayer": "O Christ, Physician of our souls and bodies, who called Matthew from the tax booth, call me also from my sins. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Толкование на Мк 2:13–22",
+            "text": "Христос идёт к грешникам, как врач к больным: не разделить их болезнь, а исцелить её. Левий тотчас оставил мытницу и из мытаря стал апостолом и евангелистом."
+          },
+          {
+            "source": "chrysostom",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Беседа 30 на Евангелие от Матфея (Мф 9:9–13)",
+            "text": "Матфей не скрывает, кем был: в своём Евангелии он называет себя мытарем, чтобы ни один грешник не отчаивался. Милость Христа превратила сребролюбца в апостола."
+          }
+        ],
+        "bigIdea": {
+          "title": "Церковь — лечебница, а Трапеза — лекарство",
+          "text": "Православное предание называет Церковь духовной лечебницей, а Христа — «Врачом душ и телес наших». Трапеза в доме Левия указывает на Евхаристию: перед Причастием мы молимся «Верую, Господи, и исповедую, яко Ты еси воистину Христос... пришедый в мир грешныя спасти, от нихже первый есмь аз». К Врачу подходит только тот, кто знает, что болен.",
+          "refs": [
+            {
+              "ref": "1 Тимофею 1:15",
+              "text": "Христос Иисус пришел в мир спасти грешников, из которых я первый."
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Признай, что болен",
+            "text": "Каждый день этой недели медленно читай молитву перед Причастием «Верую, Господи, и исповедую...»."
+          },
+          {
+            "title": "Раздели трапезу с «чужим»",
+            "text": "В этом месяце пригласи за свой стол человека «не из своего круга»."
+          },
+          {
+            "title": "Следи за внутренним фарисеем",
+            "text": "Раз в день замечай, когда осуждаешь кого-то. Вместо этого помолись о нём по имени."
+          }
+        ],
+        "questions": [
+          "Почему трапеза Иисуса с мытарями была скандалом?",
+          "С кем тебе труднее всего сесть за один стол?",
+          "В чём ты считаешь себя «здоровым»?",
+          "Что за «молодое вино» приносит Иисус?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 2:17",
+          "text": "Не здоровые имеют нужду во враче, но больные; Я пришел призвать не праведников, но грешников к покаянию."
+        },
+        "prayer": "Христе, Врачу душ и телес наших, призвавший Матфея от мытницы, призови и меня от грехов моих. Аминь."
+      }
+    }
+  },
+  "protestant": {
+    "kids": {
+      "en": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Expository Thoughts on Mark, 2:13–17",
+            "text": "Bishop Ryle said: no one is too bad to be saved by Jesus. Levi is proof!"
+          }
+        ],
+        "bigIdea": {
+          "title": "Jesus came for people who need Him",
+          "text": "Jesus loves people that others don't like. He came for everyone who knows they need help."
+        },
+        "apply": [
+          {
+            "title": "Sit with someone",
+            "text": "Sit with someone new at lunch or recess this week."
+          },
+          {
+            "title": "Thank Jesus",
+            "text": "Thank Jesus every night that He came for you."
+          }
+        ],
+        "questions": [
+          "What did Jesus say to Levi?",
+          "Why were the Pharisees upset?",
+          "Who is someone you could be kind to?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 2:17",
+          "text": "It is not the healthy who need a doctor, but the sick."
+        },
+        "prayer": "Jesus, thank You for loving sinners like me. Help me love others like You. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "«Толковые размышления на Евангелие от Марка», 2:13–17",
+            "text": "Епископ Райл говорил: никто не слишком плох, чтобы Иисус не мог его спасти. Левий — доказательство!"
+          }
+        ],
+        "bigIdea": {
+          "title": "Иисус пришёл к тем, кому Он нужен",
+          "text": "Иисус любит тех, кого не любят другие. Он пришёл ко всем, кто понимает, что им нужна помощь."
+        },
+        "apply": [
+          {
+            "title": "Сядь рядом",
+            "text": "На этой неделе сядь за обедом или на перемене рядом с кем-то новым."
+          },
+          {
+            "title": "Поблагодари Иисуса",
+            "text": "Каждый вечер благодари Иисуса, что Он пришёл к тебе."
+          }
+        ],
+        "questions": [
+          "Что Иисус сказал Левию?",
+          "Почему фарисеи были недовольны?",
+          "К кому ты мог(ла) бы быть добр(а)?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 2:17",
+          "text": "Не здоровые имеют нужду во враче, но больные."
+        },
+        "prayer": "Иисус, спасибо, что любишь грешников, как я. Помоги мне любить других, как Ты. Аминь."
+      }
+    },
+    "adults": {
+      "en": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Expository Thoughts on Mark, 2:13–17",
+            "text": "Let no man despair of being saved, however great his sins. Christ called a publican; He came to call sinners. The very feeling of our sinfulness, which we think shuts us out, is our first qualification to come."
+          },
+          {
+            "source": "henry",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Commentary on Mark 2:13–22",
+            "text": "Christ conversed with sinners as their Physician, not as their companion in sin. Those who think themselves whole will never seek the Physician; it is the sense of need that brings souls to Christ."
+          }
+        ],
+        "bigIdea": {
+          "title": "Grace is for the sick, not the self-righteous",
+          "text": "The gospel is not good advice for good people but good news for sinners. Jesus' table is open to the unworthy; the only people who exclude themselves are those who think they don't need it. A church that looks like Levi's dinner, full of forgiven sinners, preaches the gospel before anyone opens a Bible.",
+          "refs": [
+            {
+              "ref": "Luke 19:10",
+              "text": "For the Son of Man came to seek and to save the lost."
+            },
+            {
+              "ref": "Romans 5:8",
+              "text": "But God proves His love for us in this: While we were still sinners, Christ died for us."
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Host a Levi dinner",
+            "text": "Invite a neighbour or colleague who doesn't go to church for a meal this month. No agenda, just friendship."
+          },
+          {
+            "title": "Check your diagnosis",
+            "text": "Pray Psalm 139:23–24 daily: ask God to show you where you think you are 'healthy'."
+          },
+          {
+            "title": "Speak well of the 'sinner'",
+            "text": "Refuse to join in gossip about someone's reputation this week."
+          }
+        ],
+        "questions": [
+          "What did following Jesus cost Levi?",
+          "Why did the religious leaders object?",
+          "Are you more like Levi or like the Pharisees right now?",
+          "How welcoming is your church to people with a bad reputation?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 2:17",
+          "text": "It is not the healthy who need a doctor, but the sick. I have not come to call the righteous, but sinners."
+        },
+        "prayer": "Lord Jesus, I am sick and You are the Doctor. Thank You for calling sinners, and make me welcoming like You. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "«Толковые размышления на Евангелие от Марка», 2:13–17",
+            "text": "Пусть никто не отчаивается в спасении, как бы велики ни были его грехи. Христос призвал мытаря; Он пришёл призвать грешников. Само чувство своей греховности, которое кажется нам препятствием, и есть наше первое основание прийти."
+          },
+          {
+            "source": "henry",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Комментарий на Мк 2:13–22",
+            "text": "Христос общался с грешниками как их Врач, а не как товарищ по греху. Кто считает себя здоровым, никогда не будет искать Врача; к Христу души приводит чувство нужды."
+          }
+        ],
+        "bigIdea": {
+          "title": "Благодать — для больных, а не для самоправедных",
+          "text": "Евангелие — не добрый совет для хороших людей, а добрая весть для грешников. Стол Иисуса открыт для недостойных; исключают себя только те, кто думает, что он им не нужен. Церковь, похожая на обед у Левия, полная прощённых грешников, проповедует Евангелие ещё до того, как кто-то откроет Библию.",
+          "refs": [
+            {
+              "ref": "Луки 19:10",
+              "text": "Ибо Сын Человеческий пришел взыскать и спасти погибшее."
+            },
+            {
+              "ref": "Римлянам 5:8",
+              "text": "Но Бог Свою любовь к нам доказывает тем, что Христос умер за нас, когда мы были еще грешниками."
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Устрой «обед Левия»",
+            "text": "В этом месяце пригласи на обед соседа или коллегу, который не ходит в церковь. Без повестки, просто дружба."
+          },
+          {
+            "title": "Проверь свой диагноз",
+            "text": "Каждый день молись Псалмом 138:23–24: попроси Бога показать, где ты считаешь себя «здоровым»."
+          },
+          {
+            "title": "Говори хорошо о «грешнике»",
+            "text": "На этой неделе откажись участвовать в сплетнях о чьей-то репутации."
+          }
+        ],
+        "questions": [
+          "Чего стоило Левию идти за Иисусом?",
+          "Почему религиозные лидеры возражали?",
+          "На кого ты сейчас больше похож(а): на Левия или на фарисеев?",
+          "Насколько ваша церковь открыта людям с плохой репутацией?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 2:17",
+          "text": "Не здоровые имеют нужду во враче, но больные; Я пришел призвать не праведников, но грешников к покаянию."
+        },
+        "prayer": "Господи Иисусе, я болен, а Ты — Врач. Спасибо, что призываешь грешников; сделай меня открытым, как Ты. Аминь."
+      }
+    }
+  }
+}

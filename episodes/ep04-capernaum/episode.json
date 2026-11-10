@@ -1,0 +1,564 @@
+{
+  "id": "ep04-capernaum",
+  "number": 4,
+  "season": 1,
+  "ref": {
+    "book": "Mark",
+    "chapter": 1,
+    "from": 21,
+    "to": 39
+  },
+  "parallels": [
+    "Luke 4:31-44",
+    "Matthew 8:14-17"
+  ],
+  "title": {
+    "en": "A Day in Capernaum",
+    "ru": "День в Капернауме"
+  },
+  "subtitle": {
+    "en": "A new teaching with authority",
+    "ru": "Новое учение со властью"
+  },
+  "place": [
+    "capernaum"
+  ],
+  "panels": [
+    {
+      "id": "p1",
+      "verses": [
+        21,
+        22
+      ],
+      "characters": [
+        "jesus",
+        "villager1",
+        "scribe"
+      ],
+      "camera": "interior wide",
+      "scene": {
+        "kids": "Jesus teaching in a white stone synagogue, people on benches with amazed faces",
+        "adults": "interior of the limestone synagogue at Capernaum, shafts of light, Jesus seated to teach as rabbis did; listeners leaning in, a scribe frowning"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "In the synagogue Jesus taught. People were amazed: He spoke like Someone with real power!",
+              "ru": "В синагоге Иисус учил. Люди удивлялись: Он говорил как Тот, у Кого есть власть!"
+            }
+          }
+        ],
+        "adults": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "They were astonished at His teaching, because He taught as one who had authority, and not as the scribes.",
+              "ru": "И дивились Его учению, ибо Он учил их, как власть имеющий, а не как книжники."
+            }
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "Jesus taught in the synagogue. People were amazed: He spoke like Someone in charge!",
+          "ru": "Иисус учил в синагоге. Люди удивлялись: Он говорил как Тот, у Кого есть власть!"
+        },
+        "parents": {
+          "en": "Ask: how is listening to Jesus different from listening to anyone else?",
+          "ru": "Спросите: чем слушать Иисуса отличается от того, чтобы слушать кого-то ещё?"
+        },
+        "adults": {
+          "orthodox": {
+            "source": "theophylact",
+            "where": {
+              "en": "On Mark 1:22",
+              "ru": "Толкование на Мк 1:22"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "The scribes taught as servants of the Law; He taught as its Lord, adding nothing borrowed from others.",
+              "ru": "Книжники учили как слуги Закона; Он учил как его Господин, ничего не заимствуя у других."
+            }
+          },
+          "protestant": {
+            "source": "ryle",
+            "where": {
+              "en": "Expository Thoughts on Mark 1:21–22",
+              "ru": "Размышления на Мк 1:21–22"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Christ taught with authority because He spoke the truth of God directly, not opinions about it.",
+              "ru": "Христос учил со властью, потому что говорил саму истину Божию, а не мнения о ней."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p2",
+      "verses": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "characters": [
+        "jesus",
+        "villager3"
+      ],
+      "camera": "medium, dramatic",
+      "scene": {
+        "kids": "a man shouting and shaking, a dark shadow around him; Jesus calm, holding up His hand; the shadow flies away (not scary)",
+        "adults": "a man convulsing, a dark presence twisting his shadow on the wall; Jesus standing, one word, hand raised"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "shout",
+            "x": 13.5,
+            "y": 53.8,
+            "w": 38,
+            "text": {
+              "en": "Be quiet! Come out of him!",
+              "ru": "Замолчи! Выйди из него!"
+            },
+            "who": "jesus",
+            "tx": 32.5,
+            "ty": 68.5
+          }
+        ],
+        "adults": [
+          {
+            "kind": "shout",
+            "x": 13.5,
+            "y": 29.7,
+            "w": 38,
+            "text": {
+              "en": "Be silent! Come out of him!",
+              "ru": "Замолчи и выйди из него!"
+            },
+            "who": "jesus",
+            "tx": 32.5,
+            "ty": 45.6
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "A bad spirit was hurting a man. Jesus said one word, and it had to leave.",
+          "ru": "Злой дух мучил человека. Иисус сказал одно слово — и дух вышел."
+        },
+        "parents": {
+          "en": "Reassure: Jesus is stronger than anything scary. We can pray 'Lord, protect me' anytime.",
+          "ru": "Успокойте: Иисус сильнее всего страшного. Можно в любой момент сказать «Господи, сохрани меня»."
+        },
+        "adults": {
+          "orthodox": {
+            "source": "theophylact",
+            "where": {
+              "en": "On Mark 1:23–26",
+              "ru": "Толкование на Мк 1:23–26"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Christ silences the demon because He does not accept testimony from unclean lips, and the time to reveal Himself had not yet come.",
+              "ru": "Христос запрещает бесу говорить, потому что не принимает свидетельства от нечистых уст и ещё не пришло время открыть Себя."
+            }
+          },
+          "protestant": {
+            "source": "henry",
+            "where": {
+              "en": "Commentary on Mark 1:23–26",
+              "ru": "Комментарий на Мк 1:23–26"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "The devil knew who Christ was and yet remained a devil: knowledge without love and faith saves no one.",
+              "ru": "Дьявол знал, Кто Христос, и остался дьяволом: знание без любви и веры никого не спасает."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p3",
+      "verses": [
+        27,
+        28
+      ],
+      "characters": [
+        "villager1",
+        "villager2",
+        "villager4"
+      ],
+      "camera": "group reaction",
+      "scene": {
+        "kids": "people whispering to each other with wide eyes",
+        "adults": "the crowd buzzing, faces turned to each other, news already spreading out of the door"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "whisper",
+            "x": 2,
+            "y": 46.7,
+            "w": 36,
+            "text": {
+              "en": "Who is He? Even bad spirits obey Him!",
+              "ru": "Кто Он? Даже злые духи слушаются Его!"
+            },
+            "who": "villager1",
+            "tx": 11.7,
+            "ty": 66.6
+          }
+        ],
+        "adults": [
+          {
+            "kind": "whisper",
+            "x": 2,
+            "y": 15.2,
+            "w": 36,
+            "text": {
+              "en": "What is this? A new teaching with authority! He commands even the unclean spirits, and they obey Him!",
+              "ru": "Что это? что это за новое учение, что Он и духам нечистым повелевает со властью, и они повинуются Ему?"
+            },
+            "who": "villager1",
+            "tx": 11.7,
+            "ty": 39.9
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "Everyone was talking about Jesus! News spread fast.",
+          "ru": "Все говорили об Иисусе! Новость разлетелась быстро."
+        },
+        "parents": {
+          "en": "Ask: what good news would you like to share about Jesus with a friend?",
+          "ru": "Спросите: какой доброй вестью об Иисусе тебе хотелось бы поделиться с другом?"
+        },
+        "adults": {
+          "orthodox": {
+            "source": "lopukhin",
+            "where": {
+              "en": "Explanatory Bible, on Mk 1:27–28",
+              "ru": "Толковая Библия, на Мк 1:27–28"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "'A new teaching with authority': the people sensed that the word and the deed of Jesus were one.",
+              "ru": "«Новое учение со властью»: люди почувствовали, что слово и дело Иисуса едины."
+            }
+          },
+          "protestant": {
+            "source": "barnes",
+            "where": {
+              "en": "Notes on Mark 1:27",
+              "ru": "Заметки на Мк 1:27"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "The newness was not in the doctrine of God but in the power that accompanied the word.",
+              "ru": "Новизна была не в учении о Боге, а в силе, которая сопровождала слово."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p4",
+      "verses": [
+        29,
+        30,
+        31
+      ],
+      "characters": [
+        "jesus",
+        "peter",
+        "mother_in_law"
+      ],
+      "camera": "interior, warm",
+      "scene": {
+        "kids": "in Peter's house Jesus holding the hand of Peter's sick mother-in-law and helping her up, her face happy",
+        "adults": "Simon's house: Jesus takes the feverish woman by the hand and raises her; next panel-moment she is already serving bread"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "At Peter's house, his wife's mother was sick. Jesus took her hand and helped her up, and she was well!",
+              "ru": "В доме Петра его тёща лежала в горячке. Иисус взял её за руку и поднял, и она выздоровела!"
+            }
+          }
+        ],
+        "adults": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "He went to her, took her by the hand, and helped her up. The fever left her, and she began to serve them.",
+              "ru": "Подойдя, Он поднял ее, взяв ее за руку; и горячка тотчас оставила ее, и она стала служить им."
+            }
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "Peter's mother-in-law was sick. Jesus took her hand, and she got up and helped everyone.",
+          "ru": "Тёща Петра болела. Иисус взял её за руку, она встала и стала всем помогать."
+        },
+        "parents": {
+          "en": "After someone helps us, we can help others. Plan one small 'thank-you' helping task this week.",
+          "ru": "Когда нам помогли, мы можем помочь другим. Придумайте на этой неделе одно маленькое доброе дело в ответ."
+        },
+        "adults": {
+          "orthodox": {
+            "source": "theophylact",
+            "where": {
+              "en": "On Mark 1:31",
+              "ru": "Толкование на Мк 1:31"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "She rose and served: health given by God is to be spent in His service.",
+              "ru": "Она встала и служила: здоровье, данное Богом, надо тратить на служение Ему."
+            }
+          },
+          "protestant": {
+            "source": "ryle",
+            "where": {
+              "en": "Expository Thoughts on Mark 1:29–31",
+              "ru": "Размышления на Мк 1:29–31"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Gratitude shows itself in service. Those whom Christ has healed should be quick to serve Him and His people.",
+              "ru": "Благодарность проявляется в служении. Исцелённые Христом должны спешить служить Ему и Его людям."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p5",
+      "verses": [
+        32,
+        33,
+        34
+      ],
+      "characters": [
+        "jesus",
+        "villager5",
+        "villager4",
+        "villager6"
+      ],
+      "camera": "evening, wide",
+      "scene": {
+        "kids": "sunset; the whole town at the door of the house with sick people on mats; Jesus healing them one by one",
+        "adults": "after sunset, torches and oil lamps; the whole town at one door; Jesus moving among the sick"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "In the evening the whole town came to the door, and Jesus healed many sick people.",
+              "ru": "Вечером весь город собрался у дверей, и Иисус исцелил многих больных."
+            }
+          }
+        ],
+        "adults": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "That evening the whole town gathered at the door, and He healed many.",
+              "ru": "При наступлении вечера весь город собрался к дверям. И Он исцелил многих."
+            }
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "At sunset the whole town came. Jesus helped many sick people.",
+          "ru": "На закате пришёл весь город. Иисус помог многим больным."
+        },
+        "parents": {
+          "en": "Pray together by name for someone who is sick.",
+          "ru": "Помолитесь вместе по имени о ком-то, кто болеет."
+        },
+        "adults": {
+          "orthodox": {
+            "source": "theophylact",
+            "where": {
+              "en": "On Mark 1:32–34",
+              "ru": "Толкование на Мк 1:32–34"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "They waited until the Sabbath ended at sunset; the Lord did not refuse anyone who came.",
+              "ru": "Они дождались окончания субботы на закате; Господь не отказал никому, кто пришёл."
+            }
+          },
+          "protestant": {
+            "source": "henry",
+            "where": {
+              "en": "Commentary on Mark 1:32–34",
+              "ru": "Комментарий на Мк 1:32–34"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Christ's door was never shut to the sick and needy; there is room for all who come to Him.",
+              "ru": "Дверь Христа никогда не была закрыта для больных и нуждающихся; у Него есть место для всех."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p6",
+      "verses": [
+        35,
+        36,
+        37,
+        38
+      ],
+      "characters": [
+        "jesus",
+        "peter"
+      ],
+      "camera": "pre-dawn, lonely",
+      "scene": {
+        "kids": "early morning in the dark, Jesus praying alone on a hill under the stars; Peter running up the path to find Him",
+        "adults": "before dawn, Jesus kneeling alone on a hillside, the town still dark below; Simon arriving out of breath"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "speech",
+            "x": 57.5,
+            "y": 47.7,
+            "w": 40,
+            "text": {
+              "en": "Everyone is looking for You!",
+              "ru": "Все ищут Тебя!"
+            },
+            "who": "peter",
+            "tx": 77.5,
+            "ty": 62.4
+          },
+          {
+            "kind": "speech",
+            "x": 16.0,
+            "y": 45.3,
+            "w": 38,
+            "text": {
+              "en": "Let's go to other towns, so I can tell them the good news too. That is why I came.",
+              "ru": "Пойдём в другие города, чтобы и там рассказать добрую весть. Для этого Я пришёл."
+            },
+            "who": "jesus",
+            "tx": 35.0,
+            "ty": 70.4
+          }
+        ],
+        "adults": [
+          {
+            "kind": "speech",
+            "x": 57.5,
+            "y": 31.1,
+            "w": 40,
+            "text": {
+              "en": "Everyone is looking for You!",
+              "ru": "Все ищут Тебя."
+            },
+            "who": "peter",
+            "tx": 77.5,
+            "ty": 47.0
+          },
+          {
+            "kind": "speech",
+            "x": 16.0,
+            "y": 33.0,
+            "w": 38,
+            "text": {
+              "en": "Let us go on to the neighboring towns so I can preach there as well, for that is why I have come.",
+              "ru": "Пойдем в ближние селения и города, чтобы Мне и там проповедовать, ибо Я для того пришел."
+            },
+            "who": "jesus",
+            "tx": 35.0,
+            "ty": 57.7
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "Early, while it was dark, Jesus went alone to pray. Even busy days start with God.",
+          "ru": "Рано, ещё затемно, Иисус ушёл один молиться. Даже занятой день начинается с Бога."
+        },
+        "parents": {
+          "en": "Start a family habit: a short prayer before breakfast or before screens.",
+          "ru": "Начните семейную привычку: короткая молитва до завтрака или до экранов."
+        },
+        "adults": {
+          "orthodox": {
+            "source": "theophan",
+            "where": {
+              "en": "Thoughts for Each Day of the Year",
+              "ru": "Мысли на каждый день года"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "The Lord prayed alone in the early morning to teach us: begin the day with God before the cares of the day crowd in.",
+              "ru": "Господь молился наедине рано утром, чтобы научить нас: начинай день с Богом, прежде чем нахлынут заботы."
+            }
+          },
+          "protestant": {
+            "source": "ryle",
+            "where": {
+              "en": "Expository Thoughts on Mark 1:35",
+              "ru": "Размышления на Мк 1:35"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "If He who had no sin prayed so much, how much more ought we, who are weak and sinful.",
+              "ru": "Если Он, безгрешный, так много молился, то насколько больше должны молиться мы, слабые и грешные."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "cover": "ep04"
+}

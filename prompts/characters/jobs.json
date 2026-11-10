@@ -1,0 +1,386 @@
+[
+ {
+  "style": "kids",
+  "character": "jesus",
+  "prompt_file": "prompts/characters/kids/jesus.txt",
+  "references": [],
+  "out": "art/kids/characters/jesus.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "character": "peter",
+  "prompt_file": "prompts/characters/kids/peter.txt",
+  "references": [],
+  "out": "art/kids/characters/peter.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "character": "andrew",
+  "prompt_file": "prompts/characters/kids/andrew.txt",
+  "references": [],
+  "out": "art/kids/characters/andrew.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "character": "james",
+  "prompt_file": "prompts/characters/kids/james.txt",
+  "references": [],
+  "out": "art/kids/characters/james.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "character": "john",
+  "prompt_file": "prompts/characters/kids/john.txt",
+  "references": [],
+  "out": "art/kids/characters/john.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "character": "matthew",
+  "prompt_file": "prompts/characters/kids/matthew.txt",
+  "references": [],
+  "out": "art/kids/characters/matthew.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "character": "judas",
+  "prompt_file": "prompts/characters/kids/judas.txt",
+  "references": [],
+  "out": "art/kids/characters/judas.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "character": "john_baptist",
+  "prompt_file": "prompts/characters/kids/john_baptist.txt",
+  "references": [],
+  "out": "art/kids/characters/john_baptist.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "character": "mary_magdalene",
+  "prompt_file": "prompts/characters/kids/mary_magdalene.txt",
+  "references": [],
+  "out": "art/kids/characters/mary_magdalene.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "character": "pharisee",
+  "prompt_file": "prompts/characters/kids/pharisee.txt",
+  "references": [],
+  "out": "art/kids/characters/pharisee.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "character": "roman_soldier",
+  "prompt_file": "prompts/characters/kids/roman_soldier.txt",
+  "references": [],
+  "out": "art/kids/characters/roman_soldier.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "character": "child",
+  "prompt_file": "prompts/characters/kids/child.txt",
+  "references": [],
+  "out": "art/kids/characters/child.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "character": "zebedee",
+  "prompt_file": "prompts/characters/kids/zebedee.txt",
+  "references": [],
+  "out": "art/kids/characters/zebedee.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "character": "mother_in_law",
+  "prompt_file": "prompts/characters/kids/mother_in_law.txt",
+  "references": [],
+  "out": "art/kids/characters/mother_in_law.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "character": "scribe",
+  "prompt_file": "prompts/characters/kids/scribe.txt",
+  "references": [],
+  "out": "art/kids/characters/scribe.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "character": "leper",
+  "prompt_file": "prompts/characters/kids/leper.txt",
+  "references": [],
+  "out": "art/kids/characters/leper.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "character": "paralytic",
+  "prompt_file": "prompts/characters/kids/paralytic.txt",
+  "references": [],
+  "out": "art/kids/characters/paralytic.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "character": "villager1",
+  "prompt_file": "prompts/characters/kids/villager1.txt",
+  "references": [],
+  "out": "art/kids/characters/villager1.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "character": "villager2",
+  "prompt_file": "prompts/characters/kids/villager2.txt",
+  "references": [],
+  "out": "art/kids/characters/villager2.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "character": "villager3",
+  "prompt_file": "prompts/characters/kids/villager3.txt",
+  "references": [],
+  "out": "art/kids/characters/villager3.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "character": "villager4",
+  "prompt_file": "prompts/characters/kids/villager4.txt",
+  "references": [],
+  "out": "art/kids/characters/villager4.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "character": "villager5",
+  "prompt_file": "prompts/characters/kids/villager5.txt",
+  "references": [],
+  "out": "art/kids/characters/villager5.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "character": "villager6",
+  "prompt_file": "prompts/characters/kids/villager6.txt",
+  "references": [],
+  "out": "art/kids/characters/villager6.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "character": "leper_healed",
+  "prompt_file": "prompts/characters/kids/leper_healed.txt",
+  "references": [],
+  "out": "art/kids/characters/leper_healed.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "character": "jesus",
+  "prompt_file": "prompts/characters/adults/jesus.txt",
+  "references": [],
+  "out": "art/adults/characters/jesus.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "character": "peter",
+  "prompt_file": "prompts/characters/adults/peter.txt",
+  "references": [],
+  "out": "art/adults/characters/peter.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "character": "andrew",
+  "prompt_file": "prompts/characters/adults/andrew.txt",
+  "references": [],
+  "out": "art/adults/characters/andrew.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "character": "james",
+  "prompt_file": "prompts/characters/adults/james.txt",
+  "references": [],
+  "out": "art/adults/characters/james.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "character": "john",
+  "prompt_file": "prompts/characters/adults/john.txt",
+  "references": [],
+  "out": "art/adults/characters/john.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "character": "matthew",
+  "prompt_file": "prompts/characters/adults/matthew.txt",
+  "references": [],
+  "out": "art/adults/characters/matthew.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "character": "judas",
+  "prompt_file": "prompts/characters/adults/judas.txt",
+  "references": [],
+  "out": "art/adults/characters/judas.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "character": "john_baptist",
+  "prompt_file": "prompts/characters/adults/john_baptist.txt",
+  "references": [],
+  "out": "art/adults/characters/john_baptist.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "character": "mary_magdalene",
+  "prompt_file": "prompts/characters/adults/mary_magdalene.txt",
+  "references": [],
+  "out": "art/adults/characters/mary_magdalene.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "character": "pharisee",
+  "prompt_file": "prompts/characters/adults/pharisee.txt",
+  "references": [],
+  "out": "art/adults/characters/pharisee.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "character": "roman_soldier",
+  "prompt_file": "prompts/characters/adults/roman_soldier.txt",
+  "references": [],
+  "out": "art/adults/characters/roman_soldier.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "character": "child",
+  "prompt_file": "prompts/characters/adults/child.txt",
+  "references": [],
+  "out": "art/adults/characters/child.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "character": "zebedee",
+  "prompt_file": "prompts/characters/adults/zebedee.txt",
+  "references": [],
+  "out": "art/adults/characters/zebedee.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "character": "mother_in_law",
+  "prompt_file": "prompts/characters/adults/mother_in_law.txt",
+  "references": [],
+  "out": "art/adults/characters/mother_in_law.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "character": "scribe",
+  "prompt_file": "prompts/characters/adults/scribe.txt",
+  "references": [],
+  "out": "art/adults/characters/scribe.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "character": "leper",
+  "prompt_file": "prompts/characters/adults/leper.txt",
+  "references": [],
+  "out": "art/adults/characters/leper.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "character": "paralytic",
+  "prompt_file": "prompts/characters/adults/paralytic.txt",
+  "references": [],
+  "out": "art/adults/characters/paralytic.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "character": "villager1",
+  "prompt_file": "prompts/characters/adults/villager1.txt",
+  "references": [],
+  "out": "art/adults/characters/villager1.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "character": "villager2",
+  "prompt_file": "prompts/characters/adults/villager2.txt",
+  "references": [],
+  "out": "art/adults/characters/villager2.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "character": "villager3",
+  "prompt_file": "prompts/characters/adults/villager3.txt",
+  "references": [],
+  "out": "art/adults/characters/villager3.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "character": "villager4",
+  "prompt_file": "prompts/characters/adults/villager4.txt",
+  "references": [],
+  "out": "art/adults/characters/villager4.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "character": "villager5",
+  "prompt_file": "prompts/characters/adults/villager5.txt",
+  "references": [],
+  "out": "art/adults/characters/villager5.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "character": "villager6",
+  "prompt_file": "prompts/characters/adults/villager6.txt",
+  "references": [],
+  "out": "art/adults/characters/villager6.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "character": "leper_healed",
+  "prompt_file": "prompts/characters/adults/leper_healed.txt",
+  "references": [],
+  "out": "art/adults/characters/leper_healed.png",
+  "size": "1536x1024"
+ }
+]

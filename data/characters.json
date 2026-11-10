@@ -1,0 +1,586 @@
+{
+  "_about": "Character bible. One source of truth for every episode. 'look' is the fixed visual description that is pasted into EVERY image prompt where the character appears, so the character stays the same across panels and episodes. 'kids' / 'adults' add style-specific notes. 'svg' holds the parameters used by tools/render_sample_art.py for the sample art.",
+  "styles": {
+    "kids": {
+      "name": {
+        "en": "Bright cartoon (kids 6–11)",
+        "ru": "Яркий мультяшный (дети 6–11)"
+      },
+      "prompt": "bright friendly cartoon illustration for children, modern animated picture-book style, rounded shapes, big expressive eyes, thick clean dark outlines, flat saturated colors with soft cel shading, warm and joyful mood, simple uncluttered background, never scary or gory, no text, no letters, no speech bubbles",
+      "negative": "text, letters, watermark, speech bubbles, photorealism, gore, horror, creepy faces, extra fingers, European medieval clothing, modern objects",
+      "palette": [
+        "#FFB347 sunset orange",
+        "#3FA7D6 lake blue",
+        "#2E4057 storm navy",
+        "#F25F5C coral",
+        "#70C1B3 teal",
+        "#FFE066 lamplight yellow"
+      ],
+      "rules": [
+        "Head-to-body ratio about 1:2.5 (chibi-lite).",
+        "Storms look exciting, not terrifying: big rounded waves, cartoon lightning.",
+        "Jesus is always calm and kind; His face is never shown angry.",
+        "Every panel leaves the top 25% fairly empty for speech bubbles."
+      ]
+    },
+    "adults": {
+      "name": {
+        "en": "Modern graphic novel (teens & adults)",
+        "ru": "Современный графический роман (подростки и взрослые)"
+      },
+      "prompt": "modern graphic novel panel, cinematic composition, dramatic chiaroscuro lighting, confident inked linework with textured digital painting, muted palette of deep teal and warm amber, realistic human proportions, historically accurate first-century Galilee (Jewish clothing, basalt stone houses, wooden fishing boat), emotional realism, film-still framing, no text, no letters, no speech bubbles",
+      "negative": "text, letters, watermark, speech bubbles, cartoon, anime, chibi, glossy 3D render, gore, European medieval clothing, blond Jesus, modern objects",
+      "palette": [
+        "#0F2A33 deep teal",
+        "#1C4A55 sea teal",
+        "#D99A4E amber",
+        "#F2D7A6 candle light",
+        "#8C2F1F mantle red",
+        "#E8E4DA bone white"
+      ],
+      "rules": [
+        "Real proportions; faces carry the emotion (fear, awe, exhaustion).",
+        "Use light as meaning: Jesus is usually the clearest-lit figure without glowing like a superhero.",
+        "Camera language: wide establishing shot → medium → close-up → reveal.",
+        "Every panel leaves a calm area (sky, wall, water) for speech bubbles."
+      ]
+    }
+  },
+  "traditionLayers": {
+    "orthodox": {
+      "en": "Orthodox edition adds a subtle golden cruciform nimbus (halo with a cross) behind the head of Jesus and plain golden halos for saints after Pentecost. The halo is a separate layer, so the same picture serves both editions.",
+      "ru": "В православной версии за головой Иисуса — тонкий золотой крестчатый нимб, у святых (после Пятидесятницы) — простые нимбы. Нимб — отдельный слой, поэтому одна картинка служит обеим версиям.",
+      "promptAddon": "subtle thin golden cruciform halo behind the head of Jesus, in the manner of Byzantine iconography, understated"
+    },
+    "protestant": {
+      "en": "Protestant edition: no halos; holiness is shown through light, composition and the reactions of other people.",
+      "ru": "Протестантская версия: без нимбов; святость передаётся светом, композицией и реакцией людей.",
+      "promptAddon": ""
+    }
+  },
+  "characters": [
+    {
+      "id": "jesus",
+      "name": {
+        "en": "Jesus",
+        "ru": "Иисус"
+      },
+      "role": {
+        "en": "The Messiah, Son of God; the main character of every episode.",
+        "ru": "Мессия, Сын Божий; главный герой каждого эпизода."
+      },
+      "look": "Jesus of Nazareth, a Jewish man about 30 years old, olive-brown skin, dark brown wavy shoulder-length hair parted in the middle, short full dark beard, warm dark brown eyes, kind steady expression; cream undyed linen tunic to the ankles, deep blue woolen outer mantle with small blue-and-white tassels at the corners, leather sandals",
+      "kids": "soft round face, gentle smile, always the calmest person in the scene",
+      "adults": "strong worker's hands of a carpenter, sun-weathered face, eyes that look directly at people",
+      "svg": {
+        "skin": "#B9825A",
+        "hair": "#3B2416",
+        "hairStyle": "wavy-long",
+        "beard": "short",
+        "beardColor": "#3B2416",
+        "tunic": "#F3E6CC",
+        "mantle": "#2F4C8C"
+      }
+    },
+    {
+      "id": "peter",
+      "name": {
+        "en": "Simon Peter",
+        "ru": "Симон Пётр"
+      },
+      "role": {
+        "en": "Fisherman, the loudest and most impulsive disciple; later the leader of the apostles.",
+        "ru": "Рыбак, самый громкий и порывистый ученик; позже — первый среди апостолов."
+      },
+      "look": "Simon Peter, a burly Galilean fisherman about 40, very broad shoulders, sun-tanned skin, short curly black hair with grey at the temples, thick bushy grey-black beard, big expressive eyebrows; rough brown knee-length tunic with sleeves rolled up, rope belt, bare forearms",
+      "kids": "big round body, huge eyebrows that show every emotion",
+      "adults": "scar on the left forearm from fishing nets, deep laugh lines",
+      "svg": {
+        "skin": "#A86F47",
+        "hair": "#2A2320",
+        "hairStyle": "curly-short",
+        "beard": "full-grey",
+        "beardColor": "#4A4440",
+        "tunic": "#8A5A34",
+        "mantle": null
+      }
+    },
+    {
+      "id": "andrew",
+      "name": {
+        "en": "Andrew",
+        "ru": "Андрей"
+      },
+      "role": {
+        "en": "Peter's brother; quiet, brings people to Jesus.",
+        "ru": "Брат Петра; тихий, приводит людей к Иисусу."
+      },
+      "look": "Andrew, Peter's younger brother, about 35, lean and wiry, tanned skin, long dark hair tied back at the neck, scruffy short beard, thoughtful eyes; faded sage-green tunic, rope belt",
+      "kids": "tall and thin, small ponytail",
+      "adults": "calm watchful face, usually standing slightly behind Peter",
+      "svg": {
+        "skin": "#A97650",
+        "hair": "#2B1D14",
+        "hairStyle": "tied",
+        "beard": "stubble",
+        "beardColor": "#2B1D14",
+        "tunic": "#7E9C76",
+        "mantle": null
+      }
+    },
+    {
+      "id": "james",
+      "name": {
+        "en": "James (son of Zebedee)",
+        "ru": "Иаков Зеведеев"
+      },
+      "role": {
+        "en": "Fisherman, one of the three closest disciples; 'Son of Thunder'.",
+        "ru": "Рыбак, один из трёх ближайших учеников; «сын громов»."
+      },
+      "look": "James son of Zebedee, about 28, strong and athletic, olive skin, short straight black hair, short trimmed black beard, intense eyes, strong jaw; rust-orange tunic, leather belt",
+      "kids": "sporty, energetic, often mid-action",
+      "adults": "impatient body language, clenched jaw",
+      "svg": {
+        "skin": "#B07A50",
+        "hair": "#141414",
+        "hairStyle": "short",
+        "beard": "short",
+        "beardColor": "#141414",
+        "tunic": "#C0612B",
+        "mantle": null
+      }
+    },
+    {
+      "id": "john",
+      "name": {
+        "en": "John (son of Zebedee)",
+        "ru": "Иоанн Зеведеев"
+      },
+      "role": {
+        "en": "James's younger brother; the youngest disciple; later wrote a Gospel.",
+        "ru": "Младший брат Иакова; самый юный ученик; позже написал Евангелие."
+      },
+      "look": "John son of Zebedee, the youngest disciple, about 18, slim, olive skin, curly black hair, no beard (only light fuzz), large bright eyes, open curious face; sky-blue tunic, simple belt",
+      "kids": "looks like a big kid, very expressive",
+      "adults": "youthful but serious, often looking at Jesus",
+      "svg": {
+        "skin": "#BE8A5E",
+        "hair": "#1B1410",
+        "hairStyle": "curly",
+        "beard": "none",
+        "beardColor": "#1B1410",
+        "tunic": "#5DA9E9",
+        "mantle": null
+      }
+    },
+    {
+      "id": "matthew",
+      "name": {
+        "en": "Matthew (Levi)",
+        "ru": "Матфей (Левий)"
+      },
+      "role": {
+        "en": "Former tax collector.",
+        "ru": "Бывший сборщик налогов (мытарь)."
+      },
+      "look": "Matthew Levi, former tax collector, about 35, neat appearance, olive skin, short neat black hair, carefully trimmed beard, finer clothing than the fishermen: deep purple tunic with a woven border, small leather pouch at the belt",
+      "kids": "neat, carries a small scroll",
+      "adults": "ink-stained fingers",
+      "svg": {
+        "skin": "#B48058",
+        "hair": "#1E1A17",
+        "hairStyle": "short",
+        "beard": "short",
+        "beardColor": "#1E1A17",
+        "tunic": "#6B3E8C",
+        "mantle": null
+      }
+    },
+    {
+      "id": "judas",
+      "name": {
+        "en": "Judas Iscariot",
+        "ru": "Иуда Искариот"
+      },
+      "role": {
+        "en": "Keeper of the money bag; later betrays Jesus. Never drawn as a monster — he is a real person who made a terrible choice.",
+        "ru": "Хранитель денежного ящика; позже предаёт Иисуса. Не рисуем чудовищем — это реальный человек, сделавший страшный выбор."
+      },
+      "look": "Judas Iscariot, about 30, olive skin, dark hair to the ears, short dark beard, restless eyes; dark mustard-yellow tunic, money bag at the belt",
+      "kids": "ordinary friendly face (no villain features)",
+      "adults": "often at the edge of the frame, partly in shadow",
+      "svg": {
+        "skin": "#AE7A52",
+        "hair": "#20160F",
+        "hairStyle": "short",
+        "beard": "short",
+        "beardColor": "#20160F",
+        "tunic": "#B08A2E",
+        "mantle": null
+      }
+    },
+    {
+      "id": "john_baptist",
+      "name": {
+        "en": "John the Baptist",
+        "ru": "Иоанн Креститель"
+      },
+      "role": {
+        "en": "Prophet in the wilderness who prepares the way.",
+        "ru": "Пророк в пустыне, приготовивший путь Господу."
+      },
+      "look": "John the Baptist, a wild wilderness prophet about 30, deeply sun-darkened skin, long unkempt dark hair, long untrimmed beard, piercing eyes, lean; rough garment of brown camel hair with a wide leather belt, wooden staff",
+      "kids": "big wild hair, friendly fiery eyes",
+      "adults": "gaunt, intense, standing waist-deep in the Jordan",
+      "svg": {
+        "skin": "#93603C",
+        "hair": "#2A1B10",
+        "hairStyle": "wild",
+        "beard": "long",
+        "beardColor": "#2A1B10",
+        "tunic": "#9C7A4C",
+        "mantle": null
+      }
+    },
+    {
+      "id": "mary_magdalene",
+      "name": {
+        "en": "Mary Magdalene",
+        "ru": "Мария Магдалина"
+      },
+      "role": {
+        "en": "Follower of Jesus healed by Him; first witness of the resurrection.",
+        "ru": "Последовательница Иисуса, исцелённая Им; первая свидетельница Воскресения."
+      },
+      "look": "Mary Magdalene, a Jewish woman about 30, olive skin, dark hair under a long deep-red head covering, kind determined face; cream tunic, deep red mantle",
+      "kids": "warm smile, red scarf",
+      "adults": "strong, grieving and then radiant at the tomb",
+      "svg": {
+        "skin": "#B9845C",
+        "hair": "#2A1A12",
+        "hairStyle": "scarf",
+        "scarf": "#A3352B",
+        "beard": "none",
+        "beardColor": "#000",
+        "tunic": "#EFE2C8",
+        "mantle": "#A3352B"
+      }
+    },
+    {
+      "id": "pharisee",
+      "name": {
+        "en": "Pharisee",
+        "ru": "Фарисей"
+      },
+      "role": {
+        "en": "Religious teacher; sincere about the Law but often opposed Jesus. Draw with respect, not as a caricature.",
+        "ru": "Учитель Закона; ревностный, но часто противостоял Иисусу. Рисуем с уважением, без карикатуры."
+      },
+      "look": "a Pharisee, Jewish religious teacher about 55, olive skin, grey beard, white-and-blue striped prayer shawl over the head, small leather phylactery on the forehead, fine white tunic, holding a scroll",
+      "kids": "tall, serious, never ugly",
+      "adults": "dignified, sincere, conflicted",
+      "svg": {
+        "skin": "#B18664",
+        "hair": "#8E8A86",
+        "hairStyle": "shawl",
+        "scarf": "#EDEFF2",
+        "beard": "long-grey",
+        "beardColor": "#B8B4AE",
+        "tunic": "#F4F4F0",
+        "mantle": null
+      }
+    },
+    {
+      "id": "roman_soldier",
+      "name": {
+        "en": "Roman centurion",
+        "ru": "Римский сотник"
+      },
+      "role": {
+        "en": "Roman officer; at the cross he says 'Truly this man was the Son of God' (15:39).",
+        "ru": "Римский офицер; у креста говорит: «Истинно Человек Сей был Сын Божий» (15:39)."
+      },
+      "look": "a Roman centurion about 40, tanned skin, clean-shaven, short cropped hair, bronze helmet with a transverse red crest, segmented iron armor over a red tunic, red cloak",
+      "kids": "big helmet, square jaw",
+      "adults": "tired professional soldier",
+      "svg": {
+        "skin": "#C38F67",
+        "hair": "#3A2A1C",
+        "hairStyle": "helmet",
+        "beard": "none",
+        "beardColor": "#000",
+        "tunic": "#B0302A",
+        "mantle": null
+      }
+    },
+    {
+      "id": "child",
+      "name": {
+        "en": "Jairus's daughter (child)",
+        "ru": "Дочь Иаира (ребёнок)"
+      },
+      "role": {
+        "en": "A 12-year-old girl Jesus raises from death (5:21–43); also the template for children around Jesus (10:13–16).",
+        "ru": "Двенадцатилетняя девочка, которую Иисус воскрешает (5:21–43); также образец для детей рядом с Иисусом (10:13–16)."
+      },
+      "look": "a 12-year-old Jewish girl, olive skin, two long dark braids, big bright eyes, simple light-yellow tunic",
+      "kids": "small, joyful",
+      "adults": "pale and still, then alive and laughing",
+      "svg": {
+        "skin": "#C4936A",
+        "hair": "#2A1A12",
+        "hairStyle": "braids",
+        "beard": "none",
+        "beardColor": "#000",
+        "tunic": "#F2C94C",
+        "mantle": null
+      }
+    },
+    {
+      "id": "zebedee",
+      "name": {
+        "en": "Zebedee",
+        "ru": "Зеведей"
+      },
+      "role": {
+        "en": "Father of James and John, owner of a fishing boat with hired men.",
+        "ru": "Отец Иакова и Иоанна, хозяин рыбацкой лодки с работниками."
+      },
+      "look": "Zebedee, an old Galilean fisherman about 65, weathered skin, short grey hair, long grey-white beard, slate-blue work tunic, strong hands",
+      "kids": "friendly simplified version, never scary",
+      "adults": "realistic, dignified",
+      "svg": {}
+    },
+    {
+      "id": "mother_in_law",
+      "name": {
+        "en": "Simon's mother-in-law",
+        "ru": "Тёща Симона"
+      },
+      "role": {
+        "en": "Healed of a fever, she immediately serves (1:29–31).",
+        "ru": "Исцелённая от горячки, она сразу начинает служить (1:29–31)."
+      },
+      "look": "Simon Peter's mother-in-law, Galilean woman about 60, olive skin, grey hair under a plum-purple head covering, cream tunic, kind tired face",
+      "kids": "friendly simplified version, never scary",
+      "adults": "realistic, dignified",
+      "svg": {}
+    },
+    {
+      "id": "scribe",
+      "name": {
+        "en": "Scribe",
+        "ru": "Книжник"
+      },
+      "role": {
+        "en": "Expert in the Law who teaches by quoting earlier authorities. Respectful portrayal.",
+        "ru": "Знаток Закона, который учит, ссылаясь на авторитеты. Без карикатуры."
+      },
+      "look": "a Jewish scribe about 45, olive skin, full dark beard, white prayer shawl over the head, fine off-white tunic, ink case at the belt, holding a scroll",
+      "kids": "friendly simplified version, never scary",
+      "adults": "realistic, dignified",
+      "svg": {}
+    },
+    {
+      "id": "leper",
+      "name": {
+        "en": "Man with leprosy",
+        "ru": "Прокажённый"
+      },
+      "role": {
+        "en": "Outcast healed by Jesus' touch (1:40–45).",
+        "ru": "Изгой, исцелённый прикосновением Иисуса (1:40–45)."
+      },
+      "look": "a man with leprosy about 40, thin, pale blotched skin, unkempt grey-brown hair and beard, torn grey garments, bandaged hands, face half covered; after healing the same man with clear skin",
+      "kids": "friendly simplified version, never scary",
+      "adults": "realistic, dignified",
+      "svg": {}
+    },
+    {
+      "id": "paralytic",
+      "name": {
+        "en": "Paralysed man",
+        "ru": "Расслабленный"
+      },
+      "role": {
+        "en": "Carried by four friends and lowered through the roof (2:1–12).",
+        "ru": "Его принесли четверо друзей и спустили через крышу (2:1–12)."
+      },
+      "look": "a paralysed man about 30, thin legs, olive skin, short dark hair and beard, simple off-white tunic, lying on a woven straw mat",
+      "kids": "friendly simplified version, never scary",
+      "adults": "realistic, dignified",
+      "svg": {}
+    },
+    {
+      "id": "villager1",
+      "name": {
+        "en": "Villager",
+        "ru": "Житель"
+      },
+      "role": {
+        "en": "Background crowd.",
+        "ru": "Толпа на фоне."
+      },
+      "look": "a Galilean villager, man in olive-green mantle over a brown tunic, short beard, first-century Jewish clothing",
+      "kids": "cheerful background character",
+      "adults": "realistic background character",
+      "svg": {},
+      "extra": true
+    },
+    {
+      "id": "villager2",
+      "name": {
+        "en": "Villager",
+        "ru": "Житель"
+      },
+      "role": {
+        "en": "Background crowd.",
+        "ru": "Толпа на фоне."
+      },
+      "look": "a Galilean villager, woman with a sand-coloured head covering, cream tunic, first-century Jewish clothing",
+      "kids": "cheerful background character",
+      "adults": "realistic background character",
+      "svg": {},
+      "extra": true
+    },
+    {
+      "id": "villager3",
+      "name": {
+        "en": "Villager",
+        "ru": "Житель"
+      },
+      "role": {
+        "en": "Background crowd.",
+        "ru": "Толпа на фоне."
+      },
+      "look": "a Galilean villager, curly-haired bearded man in a purple tunic, first-century Jewish clothing",
+      "kids": "cheerful background character",
+      "adults": "realistic background character",
+      "svg": {},
+      "extra": true
+    },
+    {
+      "id": "villager4",
+      "name": {
+        "en": "Villager",
+        "ru": "Житель"
+      },
+      "role": {
+        "en": "Background crowd.",
+        "ru": "Толпа на фоне."
+      },
+      "look": "a Galilean villager, woman with a teal head covering and mantle, first-century Jewish clothing",
+      "kids": "cheerful background character",
+      "adults": "realistic background character",
+      "svg": {},
+      "extra": true
+    },
+    {
+      "id": "villager5",
+      "name": {
+        "en": "Villager",
+        "ru": "Житель"
+      },
+      "role": {
+        "en": "Background crowd.",
+        "ru": "Толпа на фоне."
+      },
+      "look": "a Galilean villager, old man with a long grey beard in a rust tunic, first-century Jewish clothing",
+      "kids": "cheerful background character",
+      "adults": "realistic background character",
+      "svg": {},
+      "extra": true
+    },
+    {
+      "id": "villager6",
+      "name": {
+        "en": "Villager",
+        "ru": "Житель"
+      },
+      "role": {
+        "en": "Background crowd.",
+        "ru": "Толпа на фоне."
+      },
+      "look": "a Galilean villager, girl about 10 with two braids in a mint tunic, first-century Jewish clothing",
+      "kids": "cheerful background character",
+      "adults": "realistic background character",
+      "svg": {},
+      "extra": true
+    },
+    {
+      "id": "leper_healed",
+      "name": {
+        "en": "The healed man",
+        "ru": "Исцелённый"
+      },
+      "role": {
+        "en": "The same man after Jesus healed him.",
+        "ru": "Тот же человек после исцеления."
+      },
+      "look": "the same man after healing: clear healthy skin, unkempt grey-brown hair and beard, clean light tunic and a sage-green mantle, joyful",
+      "kids": "joyful",
+      "adults": "radiant",
+      "svg": {},
+      "extra": true
+    }
+  ],
+  "places": [
+    {
+      "id": "galilee_lake",
+      "name": {
+        "en": "Sea of Galilee",
+        "ru": "Галилейское море"
+      },
+      "look": "the Sea of Galilee, a freshwater lake about 21 km long surrounded by brown hills, sudden violent storms caused by cold wind falling from the hills"
+    },
+    {
+      "id": "galilee_boat",
+      "name": {
+        "en": "Galilee fishing boat",
+        "ru": "Галилейская рыбацкая лодка"
+      },
+      "look": "first-century Galilee fishing boat about 8 m long and 2.3 m wide, wooden planks, one square sail, raised stern with a small steering platform and a cushion, room for about 13 people (modelled on the real 'Ancient Galilee Boat' found in 1986)"
+    },
+    {
+      "id": "capernaum",
+      "name": {
+        "en": "Capernaum",
+        "ru": "Капернаум"
+      },
+      "look": "Capernaum, a fishing town on the north shore, houses of black basalt stone with flat roofs of beams and clay, a white limestone synagogue"
+    },
+    {
+      "id": "jerusalem_temple",
+      "name": {
+        "en": "Jerusalem Temple",
+        "ru": "Иерусалимский храм"
+      },
+      "look": "Herod's Temple in Jerusalem, massive pale limestone walls, colonnades, gold details glinting in the sun"
+    },
+    {
+      "id": "jordan",
+      "name": {
+        "en": "Jordan River",
+        "ru": "Река Иордан"
+      },
+      "look": "the Jordan River winding through the dry Judean wilderness, reeds and tamarisk bushes on the banks, ochre hills"
+    },
+    {
+      "id": "galilee_road",
+      "name": {
+        "en": "Galilee road",
+        "ru": "Дорога в Галилее"
+      },
+      "look": "a dusty road between Galilean villages, stone walls, olive trees, distant blue lake"
+    },
+    {
+      "id": "grainfield",
+      "name": {
+        "en": "Grain field",
+        "ru": "Поле"
+      },
+      "look": "a field of ripe golden barley in Galilee in spring, a footpath through it, low stone boundary walls"
+    }
+  ]
+}

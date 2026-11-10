@@ -1,0 +1,144 @@
+[
+ {
+  "style": "kids",
+  "panel": "p1",
+  "variant": "base",
+  "prompt_file": "prompts/ep01-voice/kids/p1.txt",
+  "references": [
+   "art/kids/characters/john_baptist.png"
+  ],
+  "out": "art/kids/ep01-voice/p1.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p2",
+  "variant": "base",
+  "prompt_file": "prompts/ep01-voice/kids/p2.txt",
+  "references": [
+   "art/kids/characters/john_baptist.png"
+  ],
+  "out": "art/kids/ep01-voice/p2.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p3",
+  "variant": "base",
+  "prompt_file": "prompts/ep01-voice/kids/p3.txt",
+  "references": [
+   "art/kids/characters/john_baptist.png",
+   "art/kids/characters/villager1.png",
+   "art/kids/characters/villager2.png",
+   "art/kids/characters/villager5.png"
+  ],
+  "out": "art/kids/ep01-voice/p3.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p4",
+  "variant": "base",
+  "prompt_file": "prompts/ep01-voice/kids/p4.txt",
+  "references": [
+   "art/kids/characters/john_baptist.png",
+   "art/kids/characters/villager1.png"
+  ],
+  "out": "art/kids/ep01-voice/p4.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p5",
+  "variant": "base",
+  "prompt_file": "prompts/ep01-voice/kids/p5.txt",
+  "references": [
+   "art/kids/characters/john_baptist.png",
+   "art/kids/characters/villager5.png"
+  ],
+  "out": "art/kids/ep01-voice/p5.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p6",
+  "variant": "base",
+  "prompt_file": "prompts/ep01-voice/kids/p6.txt",
+  "references": [
+   "art/kids/characters/john_baptist.png"
+  ],
+  "out": "art/kids/ep01-voice/p6.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p1",
+  "variant": "base",
+  "prompt_file": "prompts/ep01-voice/adults/p1.txt",
+  "references": [
+   "art/adults/characters/john_baptist.png"
+  ],
+  "out": "art/adults/ep01-voice/p1.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p2",
+  "variant": "base",
+  "prompt_file": "prompts/ep01-voice/adults/p2.txt",
+  "references": [
+   "art/adults/characters/john_baptist.png"
+  ],
+  "out": "art/adults/ep01-voice/p2.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p3",
+  "variant": "base",
+  "prompt_file": "prompts/ep01-voice/adults/p3.txt",
+  "references": [
+   "art/adults/characters/john_baptist.png",
+   "art/adults/characters/villager1.png",
+   "art/adults/characters/villager2.png",
+   "art/adults/characters/villager5.png"
+  ],
+  "out": "art/adults/ep01-voice/p3.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p4",
+  "variant": "base",
+  "prompt_file": "prompts/ep01-voice/adults/p4.txt",
+  "references": [
+   "art/adults/characters/john_baptist.png",
+   "art/adults/characters/villager1.png"
+  ],
+  "out": "art/adults/ep01-voice/p4.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p5",
+  "variant": "base",
+  "prompt_file": "prompts/ep01-voice/adults/p5.txt",
+  "references": [
+   "art/adults/characters/john_baptist.png",
+   "art/adults/characters/villager5.png"
+  ],
+  "out": "art/adults/ep01-voice/p5.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p6",
+  "variant": "base",
+  "prompt_file": "prompts/ep01-voice/adults/p6.txt",
+  "references": [
+   "art/adults/characters/john_baptist.png"
+  ],
+  "out": "art/adults/ep01-voice/p6.png",
+  "size": "1536x1024"
+ }
+]

@@ -1,0 +1,17 @@
+STYLE: modern graphic novel panel, cinematic composition, dramatic chiaroscuro lighting, confident inked linework with textured digital painting, muted palette of deep teal and warm amber, realistic human proportions, historically accurate first-century Galilee (Jewish clothing, basalt stone houses, wooden fishing boat), emotional realism, film-still framing, no text, no letters, no speech bubbles.
+
+SCENE (medium-wide): Jesus preaching in a Galilean village market, early light, people stopping their work to listen.
+
+SETTING: the Sea of Galilee, a freshwater lake about 21 km long surrounded by brown hills, sudden violent storms caused by cold wind falling from the hills; first-century Galilee fishing boat about 8 m long and 2.3 m wide, wooden planks, one square sail, raised stern with a small steering platform and a cushion, room for about 13 people (modelled on the real 'Ancient Galilee Boat' found in 1986).
+
+CHARACTERS (keep exactly the same look in every image):
+- Jesus of Nazareth, a Jewish man about 30 years old, olive-brown skin, dark brown wavy shoulder-length hair parted in the middle, short full dark beard, warm dark brown eyes, kind steady expression; cream undyed linen tunic to the ankles, deep blue woolen outer mantle with small blue-and-white tassels at the corners, leather sandals; strong worker's hands of a carpenter, sun-weathered face, eyes that look directly at people
+- a Galilean villager, man in olive-green mantle over a brown tunic, short beard, first-century Jewish clothing; realistic background character
+- a Galilean villager, woman with a sand-coloured head covering, cream tunic, first-century Jewish clothing; realistic background character
+- a Galilean villager, girl about 10 with two braids in a mint tunic, first-century Jewish clothing; realistic background character
+
+COMPOSITION: wide 3:2 frame; keep the top quarter of the image calm and uncluttered (speech bubbles will be added later).
+
+DETAIL: subtle thin golden cruciform halo behind the head of Jesus, in the manner of Byzantine iconography, understated.
+
+AVOID: text, letters, watermark, speech bubbles, cartoon, anime, chibi, glossy 3D render, gore, European medieval clothing, blond Jesus, modern objects.

@@ -1,0 +1,450 @@
+{
+  "shared": {
+    "kids": {
+      "en": {
+        "whatHappened": [
+          "A man with leprosy comes to Jesus. Everyone stays away from him, but he kneels and says: \"If You want to, You can make me clean.\"",
+          "Jesus feels sorry for him, reaches out and touches him. \"I want to. Be clean!\" And the man is healed at once.",
+          "Jesus sends him to the priest to show he is well. The man is so happy that he tells everyone."
+        ],
+        "background": [
+          {
+            "term": "Leprosy",
+            "text": "In the Bible this word covered several serious skin diseases. Sick people had to live alone."
+          },
+          {
+            "term": "The priest",
+            "text": "Only a priest could say officially that someone was healed, so they could go home to their family."
+          }
+        ]
+      },
+      "ru": {
+        "whatHappened": [
+          "К Иисусу приходит человек, больной проказой. Все его избегают, а он становится на колени и говорит: «Если хочешь, Ты можешь меня очистить».",
+          "Иисусу становится жаль его. Он протягивает руку и прикасается к нему: «Хочу, очистись!» И человек сразу выздоравливает.",
+          "Иисус посылает его к священнику, чтобы тот подтвердил исцеление. А человек так рад, что рассказывает всем."
+        ],
+        "background": [
+          {
+            "term": "Проказа",
+            "text": "В Библии так называли несколько тяжёлых кожных болезней. Больные должны были жить отдельно."
+          },
+          {
+            "term": "Священник",
+            "text": "Только священник мог официально признать человека здоровым, чтобы тот вернулся к семье."
+          }
+        ]
+      }
+    },
+    "adults": {
+      "en": {
+        "whatHappened": [
+          "Leprosy meant more than illness: social death. The leper lived outside the community, could not worship, and touching him made a person ritually unclean.",
+          "The leper does not doubt Jesus' power, only His willingness. Jesus answers the real question: \"I am willing.\"",
+          "Jesus touches before He heals. By the Law the touch should have made Jesus unclean; instead, His holiness flows the other way and makes the leper clean.",
+          "Sending him to the priest restores him to community and worship, and is a testimony to the priests. The man's enthusiastic disobedience has a cost: now Jesus has to stay outside the towns, as the leper used to. He takes the outcast's place."
+        ],
+        "background": [
+          {
+            "term": "Leviticus 13–14",
+            "text": "The rules for skin disease and the cleansing ritual, including two birds and an offering."
+          },
+          {
+            "term": "Compassion",
+            "text": "Greek splanchnistheis: moved in the gut, the deepest kind of pity."
+          }
+        ]
+      },
+      "ru": {
+        "whatHappened": [
+          "Проказа означала больше, чем болезнь: социальную смерть. Прокажённый жил вне общины, не мог прийти на богослужение, а прикосновение к нему делало человека ритуально нечистым.",
+          "Прокажённый не сомневается в силе Иисуса, только в Его желании. Иисус отвечает на главный вопрос: «Хочу».",
+          "Иисус прикасается раньше, чем исцеляет. По Закону прикосновение должно было сделать Его нечистым; но святость течёт в обратную сторону и очищает прокажённого.",
+          "Посылая его к священнику, Иисус возвращает его в общину и к богослужению, «во свидетельство им». А восторженное непослушание исцелённого имеет цену: теперь Иисус вынужден оставаться вне городов, как прежде прокажённый. Он занимает место изгоя."
+        ],
+        "background": [
+          {
+            "term": "Левит 13–14",
+            "text": "Правила о кожных болезнях и обряд очищения, с двумя птицами и жертвой."
+          },
+          {
+            "term": "Умилосердившись",
+            "text": "Греч. splanchnistheis: «тронут до глубины утробы», самая глубокая жалость."
+          }
+        ]
+      }
+    }
+  },
+  "orthodox": {
+    "kids": {
+      "en": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "On Mark 1:40–45",
+            "text": "St. Theophylact said: Jesus touched the man to show that His holy body heals and is not made unclean."
+          }
+        ],
+        "bigIdea": {
+          "title": "Jesus is never afraid to come close",
+          "text": "No one is too sick, too sad or too alone for Jesus. He touches and heals."
+        },
+        "apply": [
+          {
+            "title": "Be kind to the left-out",
+            "text": "Is there a child at school nobody plays with? Sit with them or invite them to play."
+          },
+          {
+            "title": "Pray for the sick",
+            "text": "Pray every evening for someone who is sick. Ask your parents to write their name in the family prayer list."
+          }
+        ],
+        "questions": [
+          "Why did people stay away from the man?",
+          "What did Jesus do before He said 'Be clean'?",
+          "Who might feel 'left out' around you?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 1:41",
+          "text": "\"I am willing,\" He said. \"Be clean!\""
+        },
+        "prayer": "Lord, heal the sick and comfort the lonely. Make me kind like You. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Толкование на Мк 1:40–45",
+            "text": "Блаженный Феофилакт говорит: Иисус прикоснулся к человеку, чтобы показать: Его святое тело исцеляет, а не оскверняется."
+          }
+        ],
+        "bigIdea": {
+          "title": "Иисус не боится подойти близко",
+          "text": "Нет человека слишком больного, грустного или одинокого для Иисуса. Он прикасается и исцеляет."
+        },
+        "apply": [
+          {
+            "title": "Будь добр к тем, кто один",
+            "text": "Есть ли в школе ребёнок, с которым никто не играет? Сядь рядом или позови его играть."
+          },
+          {
+            "title": "Молись о больных",
+            "text": "Каждый вечер молись о ком-то, кто болеет. Попроси родителей записать его имя в домашний помянник."
+          }
+        ],
+        "questions": [
+          "Почему люди сторонились этого человека?",
+          "Что Иисус сделал, прежде чем сказать «очистись»?",
+          "Кто вокруг тебя может чувствовать себя «лишним»?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 1:41",
+          "text": "Хочу, очистись."
+        },
+        "prayer": "Господи, исцели больных и утешь одиноких. Сделай меня добрым, как Ты. Аминь."
+      }
+    },
+    "adults": {
+      "en": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "On Mark 1:40–45",
+            "text": "The Lord touches the leper to show that His flesh is life-giving and that He is not under the Law but its Master; nothing unclean can defile Him, while His touch makes clean."
+          },
+          {
+            "source": "chrysostom",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Homily 25 on Matthew (Mt 8:1–4)",
+            "text": "The leper said \"If You will\", and the Lord answered \"I will\", confirming the man's right faith in His power. He sends him to the priest to honour the Law and so that the priests would have a testimony."
+          }
+        ],
+        "bigIdea": {
+          "title": "The healing touch of Christ continues in the Church",
+          "text": "Christ's body is life-giving: His touch cleanses. In the Church this touch continues in the Mysteries: in Holy Communion we receive His Body, and in Holy Unction the Church prays over the sick with oil. And the leper's prayer \"If You will, You can make me clean\" is the prayer of every penitent.",
+          "refs": [
+            {
+              "ref": "James 5:14",
+              "text": "Is any one of you sick? He should call the elders of the church to pray over him and anoint him with oil in the name of the Lord."
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Visit the isolated",
+            "text": "Visit or call one person who is ill, elderly or isolated this week, and stay long enough to listen."
+          },
+          {
+            "title": "Pray the leper's prayer",
+            "text": "Before Confession or Communion, pray: \"Lord, if You will, You can make me clean.\""
+          },
+          {
+            "title": "Unction",
+            "text": "If you or someone close is seriously ill, ask your priest about the Mystery of Holy Unction."
+          }
+        ],
+        "questions": [
+          "Why did the leper doubt Jesus' willingness but not His power?",
+          "What did Jesus' touch mean to a man no one had touched for years?",
+          "Who are the 'untouchables' in our society?",
+          "Why did Jesus end up staying outside the towns?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 1:41",
+          "text": "Moved with compassion, Jesus reached out His hand and touched the man. \"I am willing,\" He said. \"Be clean!\""
+        },
+        "prayer": "Lord, if You will, You can make me clean. Heal my soul and body, and send me to those whom others avoid. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Толкование на Мк 1:40–45",
+            "text": "Господь касается прокажённого, чтобы показать, что Его плоть животворна и что Он не под Законом, а Владыка Закона; ничто нечистое не оскверняет Его, а Его прикосновение очищает."
+          },
+          {
+            "source": "chrysostom",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Беседа 25 на Евангелие от Матфея (Мф 8:1–4)",
+            "text": "Прокажённый сказал «если хочешь», и Господь ответил «хочу», подтверждая его правую веру в Его власть. Он посылает его к священнику, чтобы почтить Закон и чтобы у священников было свидетельство."
+          }
+        ],
+        "bigIdea": {
+          "title": "Исцеляющее прикосновение Христа продолжается в Церкви",
+          "text": "Тело Христово животворно: Его прикосновение очищает. В Церкви это прикосновение продолжается в Таинствах: в Причастии мы принимаем Его Тело, а в Таинстве Елеосвящения Церковь молится над больными с елеем. А молитва прокажённого «если хочешь, можешь меня очистить» — молитва каждого кающегося.",
+          "refs": [
+            {
+              "ref": "Иакова 5:14",
+              "text": "Болен ли кто из вас, пусть призовет пресвитеров Церкви, и пусть помолятся над ним, помазав его елеем во имя Господне."
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Навести одинокого",
+            "text": "На этой неделе навести или позвони одному больному, пожилому или одинокому человеку и побудь с ним достаточно, чтобы выслушать."
+          },
+          {
+            "title": "Молитва прокажённого",
+            "text": "Перед Исповедью или Причастием молись: «Господи, если хочешь, можешь меня очистить»."
+          },
+          {
+            "title": "Соборование",
+            "text": "Если ты или кто-то из близких тяжело болен, спроси священника о Таинстве Елеосвящения."
+          }
+        ],
+        "questions": [
+          "Почему прокажённый сомневался в желании Иисуса, но не в Его силе?",
+          "Что значило прикосновение Иисуса для человека, к которому годами никто не прикасался?",
+          "Кто «неприкасаемые» в нашем обществе?",
+          "Почему Иисус в итоге оставался вне городов?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 1:41",
+          "text": "Иисус, умилосердившись над ним, простер руку, коснулся его и сказал ему: хочу, очистись."
+        },
+        "prayer": "Господи, аще хощеши, можеши мя очистити. Исцели мою душу и тело и пошли меня к тем, кого другие избегают. Аминь."
+      }
+    }
+  },
+  "protestant": {
+    "kids": {
+      "en": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Expository Thoughts on Mark, 1:40–45",
+            "text": "Bishop Ryle said: leprosy is a picture of sin, and only Jesus can make our hearts clean."
+          }
+        ],
+        "bigIdea": {
+          "title": "Jesus WANTS to help you",
+          "text": "The man asked, \"Do You want to?\" Jesus said, \"I do!\" He wants to make our hearts clean from sin too."
+        },
+        "apply": [
+          {
+            "title": "Include someone",
+            "text": "Invite someone who is often left out to play or sit with you this week."
+          },
+          {
+            "title": "Ask boldly",
+            "text": "Bring Jesus one big thing you need. He is willing to listen!"
+          }
+        ],
+        "questions": [
+          "What did the man ask Jesus?",
+          "How did Jesus answer?",
+          "How can you be like Jesus to someone who is alone?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 1:41",
+          "text": "\"I am willing,\" He said. \"Be clean!\""
+        },
+        "prayer": "Jesus, thank You that You want to help me. Make my heart clean. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "«Толковые размышления на Евангелие от Марка», 1:40–45",
+            "text": "Епископ Райл говорил: проказа — картина греха, и только Иисус может очистить наше сердце."
+          }
+        ],
+        "bigIdea": {
+          "title": "Иисус ХОЧЕТ тебе помочь",
+          "text": "Человек спросил: «Хочешь ли Ты?» Иисус ответил: «Хочу!» Он хочет очистить и наше сердце от греха."
+        },
+        "apply": [
+          {
+            "title": "Позови того, кого не зовут",
+            "text": "На этой неделе позови играть или сесть рядом того, кого часто не замечают."
+          },
+          {
+            "title": "Проси смело",
+            "text": "Принеси Иисусу одну большую нужду. Он хочет выслушать!"
+          }
+        ],
+        "questions": [
+          "О чём человек попросил Иисуса?",
+          "Что ответил Иисус?",
+          "Как ты можешь быть похож(а) на Иисуса для того, кто одинок?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 1:41",
+          "text": "Хочу, очистись."
+        },
+        "prayer": "Иисус, спасибо, что Ты хочешь мне помочь. Очисти моё сердце. Аминь."
+      }
+    },
+    "adults": {
+      "en": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Expository Thoughts on Mark, 1:40–45",
+            "text": "Leprosy is a vivid picture of sin: it spreads, it defiles, it separates from God's people, and no human doctor can cure it. Yet Christ is willing as well as able; the sinner need never ask whether He is willing to save one who comes to Him."
+          },
+          {
+            "source": "henry",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Commentary on Mark 1:40–45",
+            "text": "Christ's \"I will\" is the comfort of every humble petitioner. Those who are not sure of His goodwill may be sure of it when they see His hand stretched out."
+          }
+        ],
+        "bigIdea": {
+          "title": "Christ is willing to cleanse sinners",
+          "text": "The leper's question is ours: \"Is He willing?\" The answer is written on the cross: He was \"made sin for us\" and took the outcast's place outside the camp so that we could be brought in. Grace touches before it fixes; we come as we are.",
+          "refs": [
+            {
+              "ref": "Hebrews 13:12",
+              "text": "Jesus also suffered outside the city gate, to sanctify the people by His own blood."
+            },
+            {
+              "ref": "2 Corinthians 5:21",
+              "text": "God made Him who knew no sin to be sin on our behalf, so that in Him we might become the righteousness of God."
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Come as you are",
+            "text": "Bring the sin you are most ashamed of to Christ in prayer this week. Read 1 John 1:7–9 afterwards."
+          },
+          {
+            "title": "Touch the untouchable",
+            "text": "Reach out to someone others avoid (an addict, a prisoner's family, a lonely neighbour) with a concrete act of help."
+          },
+          {
+            "title": "Tell what He did",
+            "text": "Share with one person, simply, one thing Christ has done in your life."
+          }
+        ],
+        "questions": [
+          "Do you doubt Christ's power or His willingness?",
+          "Why does Jesus touch before He heals?",
+          "How does Jesus 'take the leper's place' at the end of the story?",
+          "Whom does your church find hard to touch?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 1:41",
+          "text": "Moved with compassion, Jesus reached out His hand and touched the man. \"I am willing,\" He said. \"Be clean!\""
+        },
+        "prayer": "Lord Jesus, You are willing. Touch what is unclean in me, and make me willing to touch others with Your love. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "«Толковые размышления на Евангелие от Марка», 1:40–45",
+            "text": "Проказа — живая картина греха: она распространяется, оскверняет, отделяет от народа Божия, и ни один врач её не излечит. Но Христос не только может, Он хочет; грешнику не нужно гадать, захочет ли Христос спасти пришедшего к Нему."
+          },
+          {
+            "source": "henry",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Комментарий на Мк 1:40–45",
+            "text": "«Хочу» Христа — утешение каждого смиренного просителя. Кто не уверен в Его благорасположении, может убедиться, увидев Его протянутую руку."
+          }
+        ],
+        "bigIdea": {
+          "title": "Христос хочет очищать грешников",
+          "text": "Вопрос прокажённого — наш вопрос: «Захочет ли Он?» Ответ написан на кресте: Он «сделался для нас жертвою за грех» и занял место изгоя «вне стана», чтобы нас ввести внутрь. Благодать прикасается раньше, чем исправляет; мы приходим такими, какие есть.",
+          "refs": [
+            {
+              "ref": "Евреям 13:12",
+              "text": "Иисус, дабы освятить людей Кровию Своею, пострадал вне врат."
+            },
+            {
+              "ref": "2 Коринфянам 5:21",
+              "text": "Ибо не знавшего греха Он сделал для нас жертвою за грех, чтобы мы в Нем сделались праведными пред Богом."
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Приди как есть",
+            "text": "На этой неделе принеси Христу в молитве грех, которого больше всего стыдишься. Потом прочитай 1 Иоанна 1:7–9."
+          },
+          {
+            "title": "Коснись «неприкасаемого»",
+            "text": "Сделай конкретное доброе дело для того, кого избегают другие (зависимый, семья заключённого, одинокий сосед)."
+          },
+          {
+            "title": "Расскажи, что Он сделал",
+            "text": "Просто поделись с одним человеком тем, что Христос сделал в твоей жизни."
+          }
+        ],
+        "questions": [
+          "Ты сомневаешься в силе Христа или в Его желании?",
+          "Почему Иисус сначала прикасается, а потом исцеляет?",
+          "Как в конце истории Иисус «занимает место прокажённого»?",
+          "К кому вашей церкви трудно прикоснуться?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 1:41",
+          "text": "Иисус, умилосердившись над ним, простер руку, коснулся его и сказал ему: хочу, очистись."
+        },
+        "prayer": "Господи Иисусе, Ты хочешь. Коснись нечистого во мне и сделай меня готовым прикасаться к другим Твоей любовью. Аминь."
+      }
+    }
+  }
+}

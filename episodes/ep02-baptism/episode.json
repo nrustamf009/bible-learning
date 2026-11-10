@@ -1,0 +1,515 @@
+{
+  "id": "ep02-baptism",
+  "number": 2,
+  "season": 1,
+  "ref": {
+    "book": "Mark",
+    "chapter": 1,
+    "from": 9,
+    "to": 13
+  },
+  "parallels": [
+    "Matthew 3:13–4:11",
+    "Luke 3:21-22; 4:1-13"
+  ],
+  "title": {
+    "en": "The Baptism and the Desert",
+    "ru": "Крещение и пустыня"
+  },
+  "subtitle": {
+    "en": "You are My beloved Son",
+    "ru": "Ты Сын Мой возлюбленный"
+  },
+  "place": [
+    "jordan"
+  ],
+  "panels": [
+    {
+      "id": "p1",
+      "verses": [
+        9
+      ],
+      "characters": [
+        "jesus",
+        "john_baptist"
+      ],
+      "camera": "wide",
+      "scene": {
+        "kids": "Jesus walking down a hill path from a little village toward the river where John is baptizing, waving hello",
+        "adults": "Jesus arriving at the Jordan among the crowd, unnoticed by most; John looks up and freezes"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "One day Jesus came from Nazareth to the river.",
+              "ru": "Однажды Иисус пришёл из Назарета к реке."
+            }
+          }
+        ],
+        "adults": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "In those days Jesus came from Nazareth in Galilee.",
+              "ru": "И было в те дни, пришел Иисус из Назарета Галилейского."
+            }
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "Jesus came to the river like everyone else and waited His turn.",
+          "ru": "Иисус пришёл к реке, как все, и ждал своей очереди."
+        },
+        "parents": {
+          "en": "Point out Jesus' humility: He stood in line with ordinary people.",
+          "ru": "Обратите внимание на смирение Иисуса: Он встал в очередь вместе с простыми людьми."
+        },
+        "adults": {
+          "orthodox": {
+            "source": "theophylact",
+            "where": {
+              "en": "On Mark 1:9",
+              "ru": "Толкование на Мк 1:9"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "He comes from despised Nazareth and stands among sinners, though sinless, humbling Himself for our sake.",
+              "ru": "Он приходит из презираемого Назарета и становится среди грешников, будучи безгрешным, смиряя Себя ради нас."
+            }
+          },
+          "protestant": {
+            "source": "henry",
+            "where": {
+              "en": "Commentary on Mark 1:9",
+              "ru": "Комментарий на Мк 1:9"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Christ, who had no sin to confess, submitted to John's baptism to identify Himself with those He came to save.",
+              "ru": "Христос, Которому не в чем было каяться, принял крещение Иоанна, чтобы соединить Себя с теми, кого пришёл спасти."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p2",
+      "verses": [
+        9
+      ],
+      "characters": [
+        "jesus",
+        "john_baptist"
+      ],
+      "camera": "medium",
+      "scene": {
+        "kids": "John baptizing Jesus in the river, both standing waist-deep in sparkling water",
+        "adults": "John lowering Jesus into the Jordan; water closing over Him; John's face full of awe"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "John baptized Jesus in the Jordan River.",
+              "ru": "Иоанн крестил Иисуса в реке Иордан."
+            }
+          }
+        ],
+        "adults": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "And was baptized by John in the Jordan.",
+              "ru": "И крестился от Иоанна в Иордане."
+            }
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "Jesus didn't need washing from sin. He went into the water to make it holy for us.",
+          "ru": "Иисусу не нужно было омываться от грехов. Он вошёл в воду, чтобы освятить её для нас."
+        },
+        "parents": {
+          "en": "If your child is baptized, tell them about that day. If not, talk about what baptism means.",
+          "ru": "Если ребёнок крещён, расскажите ему об этом дне. Если нет — поговорите, что значит крещение."
+        },
+        "adults": {
+          "orthodox": {
+            "source": "theophylact",
+            "where": {
+              "en": "On Mark 1:9–10",
+              "ru": "Толкование на Мк 1:9–10"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "He was baptized not to be cleansed but to cleanse the waters, and to bury the old Adam in them.",
+              "ru": "Он крестился не для очищения, а чтобы очистить воды и погрести в них ветхого Адама."
+            }
+          },
+          "protestant": {
+            "source": "ryle",
+            "where": {
+              "en": "Expository Thoughts on Mark 1:9–11",
+              "ru": "Размышления на Мк 1:9–11"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "The Lord honoured the ordinance of baptism by receiving it Himself; we should not despise what He honoured.",
+              "ru": "Господь почтил крещение, приняв его Сам; нам не следует пренебрегать тем, что Он почтил."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p3",
+      "verses": [
+        10
+      ],
+      "characters": [
+        "jesus",
+        "john_baptist"
+      ],
+      "camera": "low angle",
+      "scene": {
+        "kids": "the sky opening with golden light and a white dove flying down above Jesus as He comes up out of the water",
+        "adults": "the heavens tearing open above the river, a shaft of light, the Spirit descending like a dove onto Jesus rising from the water"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "The sky opened, and the Holy Spirit came down like a dove!",
+              "ru": "Небо открылось, и Дух Святой сошёл, как голубь!"
+            }
+          }
+        ],
+        "adults": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "He saw the heavens breaking open and the Spirit descending on Him like a dove.",
+              "ru": "Увидел разверзающиеся небеса и Духа, как голубя, сходящего на Него."
+            }
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "The sky opened, and the Holy Spirit came like a dove. God was doing something brand new!",
+          "ru": "Небо открылось, и Дух Святой сошёл, как голубь. Бог делал что-то совсем новое!"
+        },
+        "parents": {
+          "en": "Ask: why a dove? (Gentle, peaceful — like Noah's dove.) Draw one together.",
+          "ru": "Спросите: почему голубь? (Кроткий, мирный — как голубь Ноя.) Нарисуйте его вместе."
+        },
+        "adults": {
+          "orthodox": {
+            "source": "lopukhin",
+            "where": {
+              "en": "Explanatory Bible, on Mk 1:10",
+              "ru": "Толковая Библия, на Мк 1:10"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "The heavens are 'torn open': the way between God and humankind, closed since Eden, is opening again.",
+              "ru": "Небеса «разверзаются»: путь между Богом и людьми, закрытый со времён рая, снова открывается."
+            }
+          },
+          "protestant": {
+            "source": "barnes",
+            "where": {
+              "en": "Notes on Mark 1:10",
+              "ru": "Заметки на Мк 1:10"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "The dove-like descent signified the gentle, peaceful character of the Spirit's work, fitting the meek ministry of Christ.",
+              "ru": "Сошествие «как голубь» говорит о кроткой и мирной природе действия Духа, подобающей кроткому служению Христа."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p4",
+      "verses": [
+        11
+      ],
+      "characters": [
+        "jesus",
+        "john_baptist",
+        "villager1"
+      ],
+      "camera": "wide, light from above",
+      "scene": {
+        "kids": "everyone looking up in wonder, light shining on Jesus, a voice from heaven shown as glowing rays (no text in the art)",
+        "adults": "the crowd frozen, faces lifted; light falls on Jesus; the voice from heaven is shown only by light and wind"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "A voice from heaven said:",
+              "ru": "Голос с неба сказал:"
+            }
+          },
+          {
+            "kind": "speech",
+            "x": 50,
+            "y": 6,
+            "w": 40,
+            "text": {
+              "en": "You are My Son. I love You. I am very happy with You!",
+              "ru": "Ты Мой Сын. Я люблю Тебя. Я очень радуюсь о Тебе!"
+            },
+            "who": "heaven"
+          }
+        ],
+        "adults": [
+          {
+            "kind": "speech",
+            "x": 50,
+            "y": 6,
+            "w": 40,
+            "text": {
+              "en": "You are My beloved Son; in You I am well pleased.",
+              "ru": "Ты Сын Мой возлюбленный, в Котором Мое благоволение."
+            },
+            "who": "heaven"
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "God the Father said He loves Jesus. In Jesus, He loves you too.",
+          "ru": "Бог Отец сказал, что любит Иисуса. В Иисусе Он любит и тебя."
+        },
+        "parents": {
+          "en": "Say to your child today, by name: 'I love you, and God loves you.' Words like these build them up.",
+          "ru": "Скажите сегодня ребёнку по имени: «Я люблю тебя, и Бог любит тебя». Такие слова его укрепляют."
+        },
+        "adults": {
+          "orthodox": {
+            "source": "theophylact",
+            "where": {
+              "en": "On Mark 1:11",
+              "ru": "Толкование на Мк 1:11"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Here the Holy Trinity is revealed: the Father speaks, the Spirit descends, the Son stands in the water. This is why the feast is called Theophany.",
+              "ru": "Здесь явилась Святая Троица: Отец говорит, Дух сходит, Сын стоит в воде. Поэтому праздник называется Богоявлением."
+            }
+          },
+          "protestant": {
+            "source": "ryle",
+            "where": {
+              "en": "Expository Thoughts on Mark 1:11",
+              "ru": "Размышления на Мк 1:11"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "All three Persons of the Trinity are present and act together in the work of our salvation.",
+              "ru": "Все три Лица Троицы присутствуют и действуют вместе в деле нашего спасения."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p5",
+      "verses": [
+        12,
+        13
+      ],
+      "characters": [
+        "jesus"
+      ],
+      "camera": "wide, lonely",
+      "scene": {
+        "kids": "Jesus alone in a rocky desert at night under the stars, wild animals (a fox, a jackal) watching from a distance, Jesus praying",
+        "adults": "Jesus alone in the wilderness, gaunt after many days, wild animals at the edge of the firelight; a shadowy presence of temptation"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "Then the Spirit led Jesus into the desert for forty days. Satan tried to make Him do wrong.",
+              "ru": "Потом Дух повёл Иисуса в пустыню на сорок дней. Сатана искушал Его."
+            }
+          }
+        ],
+        "adults": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "At once the Spirit drove Him into the wilderness, forty days, tempted by Satan.",
+              "ru": "Немедленно после того Дух ведет Его в пустыню. И был Он там в пустыне сорок дней, искушаемый сатаною."
+            }
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "In the desert Satan tried to make Jesus do wrong. Jesus said no.",
+          "ru": "В пустыне сатана искушал Иисуса. Иисус сказал «нет»."
+        },
+        "parents": {
+          "en": "Ask about a time it was hard to say no to something wrong. Pray together for strength.",
+          "ru": "Спросите, когда было трудно сказать «нет» плохому. Помолитесь вместе о силе."
+        },
+        "adults": {
+          "orthodox": {
+            "source": "chrysostom",
+            "where": {
+              "en": "Homily 13 on Matthew (Mt 4:1)",
+              "ru": "Беседа 13 на Мф (Mt 4:1)"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "After baptism comes temptation; let no one be surprised by fierce attacks after receiving grace. Fasting, the word of God and humility are the weapons.",
+              "ru": "После крещения — искушение; пусть никто не удивляется нападениям после благодати. Оружие — пост, слово Божие и смирение."
+            }
+          },
+          "protestant": {
+            "source": "henry",
+            "where": {
+              "en": "Commentary on Mark 1:12–13",
+              "ru": "Комментарий на Мк 1:12–13"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Great honours are often followed by great temptations; the Spirit led Him into the battle He came to win for us.",
+              "ru": "За великими почестями часто следуют великие искушения; Дух повёл Его на битву, которую Он пришёл выиграть за нас."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p6",
+      "verses": [
+        13
+      ],
+      "characters": [
+        "jesus"
+      ],
+      "camera": "medium, dawn",
+      "scene": {
+        "kids": "dawn in the desert, kind angels bringing Jesus bread and water, Jesus smiling",
+        "adults": "dawn: angels, drawn as tall figures of light without wings-cliché, serving the exhausted Jesus water and bread"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "Jesus did not give in. And angels came to help Him.",
+              "ru": "Иисус не поддался. И Ангелы служили Ему."
+            }
+          }
+        ],
+        "adults": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "He was with the wild animals, and the angels ministered to Him.",
+              "ru": "И был со зверями; и Ангелы служили Ему."
+            }
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "Jesus did not give in. God sent angels to help Him. God helps us too.",
+          "ru": "Иисус не поддался. Бог послал Ангелов помочь Ему. Бог помогает и нам."
+        },
+        "parents": {
+          "en": "Talk about who helps your child when it is hard: parents, teachers, God. Thank God for them.",
+          "ru": "Поговорите, кто помогает ребёнку, когда трудно: родители, учителя, Бог. Поблагодарите за них Бога."
+        },
+        "adults": {
+          "orthodox": {
+            "source": "theophylact",
+            "where": {
+              "en": "On Mark 1:13",
+              "ru": "Толкование на Мк 1:13"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "He was with the wild beasts and they did not harm Him: in Christ the peace of paradise between man and creation begins to return.",
+              "ru": "Он был со зверями, и они не вредили Ему: во Христе начинает возвращаться райский мир между человеком и творением."
+            }
+          },
+          "protestant": {
+            "source": "ryle",
+            "where": {
+              "en": "Expository Thoughts on Mark 1:13",
+              "ru": "Размышления на Мк 1:13"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Our Lord knows by experience what temptation is; therefore He is able to help those who are tempted (Heb 2:18).",
+              "ru": "Наш Господь по опыту знает, что такое искушение; поэтому может и искушаемым помочь (Евр 2:18)."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "cover": "ep02"
+}

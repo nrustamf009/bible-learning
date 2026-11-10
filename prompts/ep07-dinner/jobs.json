@@ -1,0 +1,276 @@
+[
+ {
+  "style": "kids",
+  "panel": "p1",
+  "variant": "base",
+  "prompt_file": "prompts/ep07-dinner/kids/p1.txt",
+  "references": [
+   "art/kids/characters/matthew.png",
+   "art/kids/characters/jesus.png"
+  ],
+  "out": "art/kids/ep07-dinner/p1.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p1",
+  "variant": "orthodox",
+  "prompt_file": "prompts/ep07-dinner/kids/p1.orthodox.txt",
+  "references": [
+   "art/kids/characters/matthew.png",
+   "art/kids/characters/jesus.png"
+  ],
+  "out": "art/kids/ep07-dinner/p1.orthodox.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p2",
+  "variant": "base",
+  "prompt_file": "prompts/ep07-dinner/kids/p2.txt",
+  "references": [
+   "art/kids/characters/jesus.png",
+   "art/kids/characters/matthew.png"
+  ],
+  "out": "art/kids/ep07-dinner/p2.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p2",
+  "variant": "orthodox",
+  "prompt_file": "prompts/ep07-dinner/kids/p2.orthodox.txt",
+  "references": [
+   "art/kids/characters/jesus.png",
+   "art/kids/characters/matthew.png"
+  ],
+  "out": "art/kids/ep07-dinner/p2.orthodox.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p3",
+  "variant": "base",
+  "prompt_file": "prompts/ep07-dinner/kids/p3.txt",
+  "references": [
+   "art/kids/characters/jesus.png",
+   "art/kids/characters/matthew.png",
+   "art/kids/characters/villager1.png",
+   "art/kids/characters/villager3.png",
+   "art/kids/characters/peter.png"
+  ],
+  "out": "art/kids/ep07-dinner/p3.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p3",
+  "variant": "orthodox",
+  "prompt_file": "prompts/ep07-dinner/kids/p3.orthodox.txt",
+  "references": [
+   "art/kids/characters/jesus.png",
+   "art/kids/characters/matthew.png",
+   "art/kids/characters/villager1.png",
+   "art/kids/characters/villager3.png",
+   "art/kids/characters/peter.png"
+  ],
+  "out": "art/kids/ep07-dinner/p3.orthodox.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p4",
+  "variant": "base",
+  "prompt_file": "prompts/ep07-dinner/kids/p4.txt",
+  "references": [
+   "art/kids/characters/pharisee.png",
+   "art/kids/characters/scribe.png",
+   "art/kids/characters/john.png"
+  ],
+  "out": "art/kids/ep07-dinner/p4.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p5",
+  "variant": "base",
+  "prompt_file": "prompts/ep07-dinner/kids/p5.txt",
+  "references": [
+   "art/kids/characters/jesus.png",
+   "art/kids/characters/pharisee.png"
+  ],
+  "out": "art/kids/ep07-dinner/p5.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p5",
+  "variant": "orthodox",
+  "prompt_file": "prompts/ep07-dinner/kids/p5.orthodox.txt",
+  "references": [
+   "art/kids/characters/jesus.png",
+   "art/kids/characters/pharisee.png"
+  ],
+  "out": "art/kids/ep07-dinner/p5.orthodox.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p6",
+  "variant": "base",
+  "prompt_file": "prompts/ep07-dinner/kids/p6.txt",
+  "references": [
+   "art/kids/characters/jesus.png"
+  ],
+  "out": "art/kids/ep07-dinner/p6.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p6",
+  "variant": "orthodox",
+  "prompt_file": "prompts/ep07-dinner/kids/p6.orthodox.txt",
+  "references": [
+   "art/kids/characters/jesus.png"
+  ],
+  "out": "art/kids/ep07-dinner/p6.orthodox.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p1",
+  "variant": "base",
+  "prompt_file": "prompts/ep07-dinner/adults/p1.txt",
+  "references": [
+   "art/adults/characters/matthew.png",
+   "art/adults/characters/jesus.png"
+  ],
+  "out": "art/adults/ep07-dinner/p1.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p1",
+  "variant": "orthodox",
+  "prompt_file": "prompts/ep07-dinner/adults/p1.orthodox.txt",
+  "references": [
+   "art/adults/characters/matthew.png",
+   "art/adults/characters/jesus.png"
+  ],
+  "out": "art/adults/ep07-dinner/p1.orthodox.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p2",
+  "variant": "base",
+  "prompt_file": "prompts/ep07-dinner/adults/p2.txt",
+  "references": [
+   "art/adults/characters/jesus.png",
+   "art/adults/characters/matthew.png"
+  ],
+  "out": "art/adults/ep07-dinner/p2.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p2",
+  "variant": "orthodox",
+  "prompt_file": "prompts/ep07-dinner/adults/p2.orthodox.txt",
+  "references": [
+   "art/adults/characters/jesus.png",
+   "art/adults/characters/matthew.png"
+  ],
+  "out": "art/adults/ep07-dinner/p2.orthodox.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p3",
+  "variant": "base",
+  "prompt_file": "prompts/ep07-dinner/adults/p3.txt",
+  "references": [
+   "art/adults/characters/jesus.png",
+   "art/adults/characters/matthew.png",
+   "art/adults/characters/villager1.png",
+   "art/adults/characters/villager3.png",
+   "art/adults/characters/peter.png"
+  ],
+  "out": "art/adults/ep07-dinner/p3.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p3",
+  "variant": "orthodox",
+  "prompt_file": "prompts/ep07-dinner/adults/p3.orthodox.txt",
+  "references": [
+   "art/adults/characters/jesus.png",
+   "art/adults/characters/matthew.png",
+   "art/adults/characters/villager1.png",
+   "art/adults/characters/villager3.png",
+   "art/adults/characters/peter.png"
+  ],
+  "out": "art/adults/ep07-dinner/p3.orthodox.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p4",
+  "variant": "base",
+  "prompt_file": "prompts/ep07-dinner/adults/p4.txt",
+  "references": [
+   "art/adults/characters/pharisee.png",
+   "art/adults/characters/scribe.png",
+   "art/adults/characters/john.png"
+  ],
+  "out": "art/adults/ep07-dinner/p4.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p5",
+  "variant": "base",
+  "prompt_file": "prompts/ep07-dinner/adults/p5.txt",
+  "references": [
+   "art/adults/characters/jesus.png",
+   "art/adults/characters/pharisee.png"
+  ],
+  "out": "art/adults/ep07-dinner/p5.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p5",
+  "variant": "orthodox",
+  "prompt_file": "prompts/ep07-dinner/adults/p5.orthodox.txt",
+  "references": [
+   "art/adults/characters/jesus.png",
+   "art/adults/characters/pharisee.png"
+  ],
+  "out": "art/adults/ep07-dinner/p5.orthodox.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p6",
+  "variant": "base",
+  "prompt_file": "prompts/ep07-dinner/adults/p6.txt",
+  "references": [
+   "art/adults/characters/jesus.png"
+  ],
+  "out": "art/adults/ep07-dinner/p6.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p6",
+  "variant": "orthodox",
+  "prompt_file": "prompts/ep07-dinner/adults/p6.orthodox.txt",
+  "references": [
+   "art/adults/characters/jesus.png"
+  ],
+  "out": "art/adults/ep07-dinner/p6.orthodox.png",
+  "size": "1536x1024"
+ }
+]

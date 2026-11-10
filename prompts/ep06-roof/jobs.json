@@ -1,0 +1,274 @@
+[
+ {
+  "style": "kids",
+  "panel": "p1",
+  "variant": "base",
+  "prompt_file": "prompts/ep06-roof/kids/p1.txt",
+  "references": [
+   "art/kids/characters/jesus.png",
+   "art/kids/characters/villager1.png",
+   "art/kids/characters/villager2.png",
+   "art/kids/characters/scribe.png"
+  ],
+  "out": "art/kids/ep06-roof/p1.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p1",
+  "variant": "orthodox",
+  "prompt_file": "prompts/ep06-roof/kids/p1.orthodox.txt",
+  "references": [
+   "art/kids/characters/jesus.png",
+   "art/kids/characters/villager1.png",
+   "art/kids/characters/villager2.png",
+   "art/kids/characters/scribe.png"
+  ],
+  "out": "art/kids/ep06-roof/p1.orthodox.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p2",
+  "variant": "base",
+  "prompt_file": "prompts/ep06-roof/kids/p2.txt",
+  "references": [
+   "art/kids/characters/paralytic.png",
+   "art/kids/characters/villager1.png",
+   "art/kids/characters/villager3.png",
+   "art/kids/characters/villager5.png",
+   "art/kids/characters/james.png"
+  ],
+  "out": "art/kids/ep06-roof/p2.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p3",
+  "variant": "base",
+  "prompt_file": "prompts/ep06-roof/kids/p3.txt",
+  "references": [
+   "art/kids/characters/villager1.png",
+   "art/kids/characters/villager3.png",
+   "art/kids/characters/villager5.png",
+   "art/kids/characters/james.png",
+   "art/kids/characters/paralytic.png"
+  ],
+  "out": "art/kids/ep06-roof/p3.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p4",
+  "variant": "base",
+  "prompt_file": "prompts/ep06-roof/kids/p4.txt",
+  "references": [
+   "art/kids/characters/jesus.png",
+   "art/kids/characters/paralytic.png"
+  ],
+  "out": "art/kids/ep06-roof/p4.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p4",
+  "variant": "orthodox",
+  "prompt_file": "prompts/ep06-roof/kids/p4.orthodox.txt",
+  "references": [
+   "art/kids/characters/jesus.png",
+   "art/kids/characters/paralytic.png"
+  ],
+  "out": "art/kids/ep06-roof/p4.orthodox.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p5",
+  "variant": "base",
+  "prompt_file": "prompts/ep06-roof/kids/p5.txt",
+  "references": [
+   "art/kids/characters/jesus.png",
+   "art/kids/characters/scribe.png",
+   "art/kids/characters/pharisee.png"
+  ],
+  "out": "art/kids/ep06-roof/p5.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p5",
+  "variant": "orthodox",
+  "prompt_file": "prompts/ep06-roof/kids/p5.orthodox.txt",
+  "references": [
+   "art/kids/characters/jesus.png",
+   "art/kids/characters/scribe.png",
+   "art/kids/characters/pharisee.png"
+  ],
+  "out": "art/kids/ep06-roof/p5.orthodox.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p6",
+  "variant": "base",
+  "prompt_file": "prompts/ep06-roof/kids/p6.txt",
+  "references": [
+   "art/kids/characters/paralytic.png",
+   "art/kids/characters/jesus.png",
+   "art/kids/characters/villager2.png",
+   "art/kids/characters/villager4.png"
+  ],
+  "out": "art/kids/ep06-roof/p6.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p6",
+  "variant": "orthodox",
+  "prompt_file": "prompts/ep06-roof/kids/p6.orthodox.txt",
+  "references": [
+   "art/kids/characters/paralytic.png",
+   "art/kids/characters/jesus.png",
+   "art/kids/characters/villager2.png",
+   "art/kids/characters/villager4.png"
+  ],
+  "out": "art/kids/ep06-roof/p6.orthodox.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p1",
+  "variant": "base",
+  "prompt_file": "prompts/ep06-roof/adults/p1.txt",
+  "references": [
+   "art/adults/characters/jesus.png",
+   "art/adults/characters/villager1.png",
+   "art/adults/characters/villager2.png",
+   "art/adults/characters/scribe.png"
+  ],
+  "out": "art/adults/ep06-roof/p1.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p1",
+  "variant": "orthodox",
+  "prompt_file": "prompts/ep06-roof/adults/p1.orthodox.txt",
+  "references": [
+   "art/adults/characters/jesus.png",
+   "art/adults/characters/villager1.png",
+   "art/adults/characters/villager2.png",
+   "art/adults/characters/scribe.png"
+  ],
+  "out": "art/adults/ep06-roof/p1.orthodox.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p2",
+  "variant": "base",
+  "prompt_file": "prompts/ep06-roof/adults/p2.txt",
+  "references": [
+   "art/adults/characters/paralytic.png",
+   "art/adults/characters/villager1.png",
+   "art/adults/characters/villager3.png",
+   "art/adults/characters/villager5.png",
+   "art/adults/characters/james.png"
+  ],
+  "out": "art/adults/ep06-roof/p2.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p3",
+  "variant": "base",
+  "prompt_file": "prompts/ep06-roof/adults/p3.txt",
+  "references": [
+   "art/adults/characters/villager1.png",
+   "art/adults/characters/villager3.png",
+   "art/adults/characters/villager5.png",
+   "art/adults/characters/james.png",
+   "art/adults/characters/paralytic.png"
+  ],
+  "out": "art/adults/ep06-roof/p3.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p4",
+  "variant": "base",
+  "prompt_file": "prompts/ep06-roof/adults/p4.txt",
+  "references": [
+   "art/adults/characters/jesus.png",
+   "art/adults/characters/paralytic.png"
+  ],
+  "out": "art/adults/ep06-roof/p4.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p4",
+  "variant": "orthodox",
+  "prompt_file": "prompts/ep06-roof/adults/p4.orthodox.txt",
+  "references": [
+   "art/adults/characters/jesus.png",
+   "art/adults/characters/paralytic.png"
+  ],
+  "out": "art/adults/ep06-roof/p4.orthodox.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p5",
+  "variant": "base",
+  "prompt_file": "prompts/ep06-roof/adults/p5.txt",
+  "references": [
+   "art/adults/characters/jesus.png",
+   "art/adults/characters/scribe.png",
+   "art/adults/characters/pharisee.png"
+  ],
+  "out": "art/adults/ep06-roof/p5.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p5",
+  "variant": "orthodox",
+  "prompt_file": "prompts/ep06-roof/adults/p5.orthodox.txt",
+  "references": [
+   "art/adults/characters/jesus.png",
+   "art/adults/characters/scribe.png",
+   "art/adults/characters/pharisee.png"
+  ],
+  "out": "art/adults/ep06-roof/p5.orthodox.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p6",
+  "variant": "base",
+  "prompt_file": "prompts/ep06-roof/adults/p6.txt",
+  "references": [
+   "art/adults/characters/paralytic.png",
+   "art/adults/characters/jesus.png",
+   "art/adults/characters/villager2.png",
+   "art/adults/characters/villager4.png"
+  ],
+  "out": "art/adults/ep06-roof/p6.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p6",
+  "variant": "orthodox",
+  "prompt_file": "prompts/ep06-roof/adults/p6.orthodox.txt",
+  "references": [
+   "art/adults/characters/paralytic.png",
+   "art/adults/characters/jesus.png",
+   "art/adults/characters/villager2.png",
+   "art/adults/characters/villager4.png"
+  ],
+  "out": "art/adults/ep06-roof/p6.orthodox.png",
+  "size": "1536x1024"
+ }
+]

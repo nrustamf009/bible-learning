@@ -1,0 +1,862 @@
+<title>Mark in the Margins</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yeseva+One&family=Ruslan+Display&family=Unbounded:wght@500;700;900&family=Golos+Text:wght@400;500;600;700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Neucha&family=PT+Sans+Narrow:wght@700&display=swap">
+<style>
+/* Layout: a book with margins. The comic runs as one vertical strip (webtoon) in the
+   text block; each panel has its gloss in the outer margin (below it on phones), the way
+   a glossed Gospel puts the Fathers around the text. Back matter follows the strip. */
+:root {
+  --paper: #F1F1EC; --paper-2: #E6E6DF; --ink: #17171B; --ink-2: #5A5A62; --rule: #CCCCC3;
+  --lapis: #2A3CC0; --lapis-ink: #FFFFFF; --lapis-soft: #E2E5F8; --sun: #FFD84D; --gold: #9A6E12; --warn: #9C4A12; --plate: #0D0E11;
+  --display: "Yeseva One", "Georgia", "Times New Roman", serif;
+  --text: "Golos Text", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --book: "Old Standard TT", "Georgia", "Times New Roman", serif;
+  --letter: "PT Sans Narrow", "Arial Narrow", Arial, sans-serif;
+  --hand: "Neucha", "Comic Sans MS", "Segoe Print", cursive;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #121316; --paper-2: #1B1C21; --ink: #E9E8E3; --ink-2: #A3A3AB; --rule: #2E2F36;
+  --lapis: #9DAAFF; --lapis-ink: #0B0D24; --lapis-soft: #1D2142; --gold: #E2BC62; --warn: #F0A56A; --plate: #000000; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --paper: #121316; --paper-2: #1B1C21; --ink: #E9E8E3; --ink-2: #A3A3AB; --rule: #2E2F36;
+  --lapis: #9DAAFF; --lapis-ink: #0B0D24; --lapis-soft: #1D2142; --gold: #E2BC62; --warn: #F0A56A; --plate: #000000; color-scheme: dark }
+
+* { box-sizing: border-box }
+html, body { background: var(--paper) }
+body { margin: 0; color: var(--ink); font: 400 17px/1.6 var(--text) }
+[data-skin="kids"] body { font-size: 19px }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 30; background: var(--paper) }
+a { color: var(--lapis); text-underline-offset: 3px }
+h1, h2, h3 { font-family: var(--display); font-weight: 400; line-height: 1.08; margin: 0; text-wrap: balance }
+button { font: inherit; color: inherit }
+:focus-visible { outline: 2px solid var(--lapis); outline-offset: 3px }
+.page { width: 100%; max-width: 1120px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)) }
+.measure { max-width: 680px }
+.small { font-size: 14px; color: var(--ink-2) }
+.book { font-family: var(--book) }
+.eyebrow { font: italic 400 17px/1.3 var(--book); color: var(--ink-2) }
+
+/* ------------------------------------------------ top bar */
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: var(--paper); border-bottom: 1px solid var(--rule) }
+.bar-in { display: flex; align-items: baseline; gap: 8px 22px; padding-block: 12px; flex-wrap: wrap }
+.mark { font: 400 23px/1 var(--display); color: var(--ink); text-decoration: none; margin-right: auto; white-space: nowrap }
+.mark i { font: italic 400 15px var(--book); color: var(--ink-2); margin-left: 6px }
+.nav { display: flex; gap: 18px; flex-wrap: wrap }
+.nav a { color: var(--ink-2); text-decoration: none; font-size: 15px; padding-block: 4px; border-bottom: 2px solid transparent }
+.nav a[aria-current="page"] { color: var(--ink); border-color: var(--lapis) }
+.reader-btn { border: 0; background: none; padding: 4px 0; font-size: 15px; color: var(--lapis); cursor: pointer; text-decoration: underline; text-decoration-style: dotted; text-underline-offset: 4px }
+@media (max-width: 720px) { .mark i { display: none } .nav { order: 3; width: 100%; gap: 14px; flex-wrap: nowrap; overflow-x: auto } .nav a { font-size: 14px; white-space: nowrap } }
+
+/* ------------------------------------------------ buttons */
+.btn { display: inline-flex; align-items: center; gap: 10px; border: 1.5px solid var(--ink); background: var(--ink); color: var(--paper); padding: 12px 20px; font: 600 15px/1 var(--text); text-decoration: none; cursor: pointer; border-radius: 2px }
+.btn.line { background: transparent; color: var(--ink) }
+[data-skin="kids"] .btn { border-radius: 12px; border-width: 2.5px; box-shadow: 3px 3px 0 var(--ink); font-size: 17px }
+[data-skin="kids"] .btn:not(.line) { background: var(--lapis); color: var(--lapis-ink); border-color: var(--ink) }
+.row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center }
+
+/* ------------------------------------------------ setup */
+.veil { position: fixed; inset: 0; z-index: 40; background: rgba(10, 10, 14, .55); display: grid; place-items: center; padding: max(16px, env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) max(16px, env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)) }
+.dialog { width: min(560px, 100%); max-height: 100%; overflow: auto; background: var(--paper); color: var(--ink); border: 1.5px solid var(--ink); padding: 28px; display: grid; gap: 22px }
+.dialog h2 { font-size: 34px }
+.choice { display: grid; gap: 6px }
+.choice > span { font: italic 400 16px var(--book); color: var(--ink-2) }
+.opts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px }
+.opt { text-align: left; border: 1.5px solid var(--rule); background: transparent; padding: 12px 14px; cursor: pointer; display: grid; gap: 2px }
+.opt b { font-weight: 600 }
+.opt small { color: var(--ink-2); font-size: 13px; line-height: 1.35 }
+.opt[aria-pressed="true"] { border-color: var(--lapis); background: var(--lapis-soft) }
+
+/* ------------------------------------------------ title page */
+.title-page { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: 48px; align-items: center; padding-block: 56px 40px }
+@media (max-width: 880px) { .title-page { grid-template-columns: minmax(0, 1fr); gap: 28px; padding-top: 32px } }
+.title-page h1 { font-size: clamp(48px, 7vw, 86px); margin-block: 10px 18px }
+.title-page p.lede { font-size: 19px; margin: 0 0 24px; max-width: 30em }
+.plate { margin: 0 }
+.plate img { width: 100%; max-width: 100%; aspect-ratio: 2 / 1; object-fit: cover; display: block; border: 1px solid var(--ink) }
+[data-skin="kids"] .plate img { border: 3px solid var(--ink); border-radius: 14px }
+.plate figcaption { font: italic 400 15px/1.4 var(--book); color: var(--ink-2); margin-top: 8px }
+.how { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; padding-block: 28px 44px; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule) }
+@media (max-width: 760px) { .how { grid-template-columns: minmax(0, 1fr); gap: 16px } }
+.how b { display: block; font: 400 22px/1.2 var(--display); margin-bottom: 6px }
+.how p { margin: 0; font-size: 15px; color: var(--ink-2) }
+
+.contents { padding-block: 40px 20px; display: grid; gap: 36px }
+.contents > h2 { font-size: clamp(36px, 5vw, 52px) }
+.season h3 { font-size: 28px; display: flex; gap: 14px; align-items: baseline; flex-wrap: wrap; padding-bottom: 10px; border-bottom: 1.5px solid var(--ink) }
+.season h3 .book { font-size: 16px; font-style: italic; color: var(--ink-2) }
+.toc { list-style: none; margin: 0; padding: 0 }
+.toc li { border-bottom: 1px solid var(--rule) }
+.toc a, .toc .soon { display: grid; grid-template-columns: 112px 2.6em minmax(0, 1fr) auto; gap: 16px; align-items: center; padding: 12px 0; color: inherit; text-decoration: none }
+.toc a:hover .t { color: var(--lapis) }
+.toc .thumb { width: 112px; aspect-ratio: 3 / 2; object-fit: cover; display: block; border: 1px solid var(--ink); background: var(--paper-2) }
+[data-skin="kids"] .toc .thumb { border-radius: 8px; border-width: 2px }
+.toc .ph { width: 112px; aspect-ratio: 3 / 2; border: 1px dashed var(--rule) }
+.toc .n { font: 700 22px/1 var(--book); color: var(--ink-2); font-variant-numeric: lining-nums tabular-nums }
+.toc .t { font: 400 22px/1.15 var(--display) }
+.toc .i { display: block; font-size: 14px; color: var(--ink-2); margin-top: 3px }
+.toc .r { font: italic 400 15px var(--book); color: var(--ink-2); text-align: right; white-space: nowrap }
+.toc .r em { display: block; font-style: normal; font-family: var(--text); font-size: 12px; color: var(--lapis) }
+.toc .soon { opacity: .55 }
+@media (max-width: 620px) { .toc a, .toc .soon { grid-template-columns: 84px minmax(0, 1fr); } .toc .thumb, .toc .ph { width: 84px } .toc .n { display: none } .toc .r { grid-column: 2; text-align: left } }
+
+/* ------------------------------------------------ episode head */
+.ep-head { display: grid; gap: 10px; padding-block: 40px 22px; max-width: 760px }
+.crumbs { font-size: 14px; color: var(--ink-2) } .crumbs a { color: inherit }
+.ep-head h1 { font-size: clamp(44px, 7vw, 80px) }
+.ep-head .ref { font: 700 18px var(--book) } .ep-head .ref span { color: var(--lapis) }
+.ep-head .q { font: italic 400 22px/1.35 var(--book); color: var(--ink-2); margin: 0 }
+.hint { display: flex; gap: 10px; align-items: baseline; font-size: 15px; color: var(--ink-2); padding: 12px 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); margin-bottom: 26px; flex-wrap: wrap }
+.hint .tools { margin-left: auto; display: flex; gap: 16px }
+.linkish { border: 0; background: none; padding: 0; color: var(--lapis); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; font-size: 15px }
+
+/* ------------------------------------------------ strip + margins */
+.strip { display: grid; gap: 36px; padding-bottom: 30px }
+.leaf { display: grid; grid-template-columns: minmax(0, 680px) minmax(0, 1fr); gap: 36px; align-items: start }
+@media (max-width: 980px) { .leaf { grid-template-columns: minmax(0, 1fr); gap: 14px } }
+.panel { position: relative; aspect-ratio: 3 / 2; max-width: 100%; margin: 0; overflow: hidden; container-type: inline-size; background: var(--plate); border: 1px solid var(--ink); cursor: zoom-in }
+[data-skin="kids"] .panel { border: 3px solid var(--ink); border-radius: 16px }
+.panel img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block }
+.panel .tails { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none }
+.b { position: absolute; color: #111; background: #fff; border: 2px solid #111; padding: .42em .7em; line-height: 1.2; z-index: 2; transition: opacity .3s }
+[data-skin="kids"] .b { font: 400 clamp(12px, 3.1cqw, 23px)/1.16 var(--hand); border-width: 2.5px }
+[data-skin="adults"] .b { font: 700 clamp(10px, 2.3cqw, 17px)/1.18 var(--letter); letter-spacing: .02em; text-transform: uppercase }
+.b.speech, .b.shout, .b.whisper { border-radius: 1.4em; text-align: center }
+.b.shout { border-width: 3px }
+.b.whisper { border-style: dashed; font-style: italic }
+[data-skin="kids"] .b.caption { background: var(--sun); border-radius: 8px }
+[data-skin="adults"] .b.caption { background: #EFE9DA; color: #18170F; border-color: #18170F; border-radius: 0; text-transform: none; font: italic 400 clamp(10px, 2.2cqw, 16px)/1.3 var(--book); letter-spacing: 0 }
+.b.sfx { background: none; border: 0; padding: 0; font: 400 clamp(22px, 8cqw, 70px)/1 var(--hand); color: #FFE066; -webkit-text-stroke: 2px #2B1E2F; transform: rotate(-8deg) }
+.b.hidden { opacity: 0 }
+.vs { position: absolute; left: 8px; bottom: 6px; z-index: 3; font: 700 clamp(10px, 1.8cqw, 13px)/1 var(--book); color: #fff; background: rgba(0, 0, 0, .55); padding: 4px 6px }
+
+/* the gloss in the margin */
+.gloss { display: grid; gap: 12px; font-size: 15px; line-height: 1.5; padding-top: 4px }
+@media (min-width: 981px) { .gloss { border-left: 1.5px solid var(--lapis); padding-left: 18px } }
+@media (max-width: 980px) { .gloss { border-left: 3px solid var(--lapis); padding: 2px 0 2px 14px } }
+.gloss .vref { font: 700 15px var(--book); color: var(--lapis) }
+.gloss .voice { display: grid; gap: 3px }
+.gloss .who { font: italic 400 14px var(--book); color: var(--ink-2) }
+.gloss .say { font: 400 17px/1.5 var(--book) }
+[data-skin="kids"] .gloss .say { font: 500 18px/1.45 var(--text) }
+.gloss .note { font-size: 14px; color: var(--ink-2); line-height: 1.45 }
+.gloss .cite { font-size: 13px; color: var(--ink-2) }
+.gloss .cite b { font-weight: 600; color: var(--ink) }
+.gloss .more[hidden] { display: none }
+.verify-mark { color: var(--warn) }
+
+/* glossary terms */
+.term { display: inline; border: 0; background: none; padding: 0; margin: 0; font: inherit; color: inherit; text-transform: inherit; letter-spacing: inherit; cursor: help;
+  text-decoration: underline dotted; text-decoration-color: var(--lapis); text-decoration-thickness: 2px; text-underline-offset: .18em }
+.b .term { text-decoration-color: #2A3CC0 }
+.term sup { font: 700 .62em/1 var(--text); color: var(--lapis-ink); background: var(--lapis); border-radius: 50%; display: inline-grid; place-items: center; width: 1.35em; height: 1.35em; margin-left: .15em; vertical-align: .55em; text-decoration: none }
+.b .term sup { color: #fff; background: #2A3CC0 }
+.pop { position: absolute; z-index: 45; width: min(340px, calc(100vw - 32px)); background: var(--paper); color: var(--ink); border: 1.5px solid var(--ink); padding: 16px 18px; display: grid; gap: 8px; box-shadow: 6px 6px 0 rgba(0, 0, 0, .12) }
+.pop h4 { margin: 0; font: 400 22px/1.15 var(--display) }
+.pop p { margin: 0; font: 400 16px/1.5 var(--book) }
+.pop .src { font-size: 13px; color: var(--ink-2) }
+.pop .x { position: absolute; right: 8px; top: 6px; border: 0; background: none; font-size: 22px; line-height: 1; cursor: pointer; color: var(--ink-2); padding: 4px 6px }
+@media (max-width: 640px) { .pop { position: fixed; left: 0 !important; right: 0; top: auto !important; bottom: 0; width: 100%; border-width: 1.5px 0 0; padding: 18px max(18px, env(safe-area-inset-right, 0px)) max(22px, env(safe-area-inset-bottom, 0px)) max(18px, env(safe-area-inset-left, 0px)); box-shadow: 0 -8px 30px rgba(0, 0, 0, .2) } }
+
+/* storyboard leaves */
+.frame { border: 1.5px dashed var(--rule); padding: 18px 20px; display: grid; gap: 10px; background: var(--paper-2); aspect-ratio: auto }
+.frame .scene { margin: 0; font: italic 400 15px/1.45 var(--book); color: var(--ink-2) }
+.frame ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px }
+.frame li b { font-weight: 600; color: var(--lapis); margin-right: 6px }
+
+/* ------------------------------------------------ back matter */
+.after { border-top: 1.5px solid var(--ink); margin-top: 20px; padding-top: 10px }
+.after > section { padding-block: 30px; border-bottom: 1px solid var(--rule); display: grid; gap: 14px }
+.after h2 { font-size: clamp(30px, 4.4vw, 42px) }
+.scripture { font: 400 20px/1.7 var(--book); margin: 0 }
+.scripture sup { font: 700 13px var(--book); color: var(--lapis); margin-right: 2px }
+.verify { border-left: 3px solid var(--warn); padding: 8px 12px; font-size: 14px; color: var(--ink-2) }
+dl.bg { margin: 0; display: grid; gap: 12px }
+dl.bg div { display: grid; grid-template-columns: minmax(0, 11em) minmax(0, 1fr); gap: 4px 20px }
+@media (max-width: 560px) { dl.bg div { grid-template-columns: minmax(0, 1fr) } }
+dl.bg dt { font: 700 16px/1.4 var(--book) } dl.bg dd { margin: 0 }
+.teachers { display: grid; gap: 18px }
+.teacher blockquote { margin: 0; font: 400 19px/1.5 var(--book) }
+.teacher .cite { font-size: 13px; color: var(--ink-2); margin-top: 4px }
+.idea { border-left: 4px solid var(--lapis); padding: 4px 0 4px 20px; display: grid; gap: 10px }
+[data-skin="kids"] .idea { border: 3px solid var(--ink); border-radius: 16px; background: var(--sun); padding: 22px; color: #17171B }
+.idea h3 { font-size: clamp(28px, 4vw, 40px) }
+.idea p { margin: 0; font-size: 18px }
+.refs { display: grid; gap: 6px; font: 400 16px/1.5 var(--book) }
+.refs b { font-family: var(--text); font-size: 14px; color: var(--lapis); margin-right: 6px }
+[data-skin="kids"] .refs b { color: #1D2B99 }
+.apply { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px }
+.apply li { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 14px; align-items: start; padding: 12px 0; border-bottom: 1px dotted var(--rule) }
+.apply input { width: 22px; height: 22px; margin-top: 3px; accent-color: var(--lapis) }
+.apply label { display: grid; gap: 2px; cursor: pointer }
+.apply label b { font: 400 21px/1.2 var(--display) }
+.apply li.done label b { text-decoration: line-through; text-decoration-color: var(--lapis) }
+.count { font-size: 14px; color: var(--ink-2) }
+ol.qs { margin: 0; padding-left: 1.4em; display: grid; gap: 10px; font: 400 19px/1.45 var(--book) }
+ol.qs li::marker { color: var(--lapis); font-weight: 700 }
+.verse { font: italic 400 clamp(24px, 3.4vw, 32px)/1.4 var(--book); margin: 0 }
+[data-skin="kids"] .verse { font: 600 clamp(22px, 3vw, 28px)/1.4 var(--text); font-style: normal }
+.verse .w { cursor: pointer; border-radius: 3px }
+.verse .w.gone { color: transparent; background: var(--lapis-soft); box-shadow: inset 0 -2px 0 var(--lapis) }
+.prayer { font: italic 400 19px/1.5 var(--book); margin: 0 }
+.next { display: flex; justify-content: space-between; gap: 16px; align-items: baseline; padding-block: 30px 60px; text-decoration: none; color: inherit }
+.next h3 { font-size: clamp(22px, 5vw, 30px); min-width: 0; overflow-wrap: anywhere }
+.next { flex-wrap: wrap } .next:hover h3 { color: var(--lapis) }
+
+/* guided reader */
+.reader { position: fixed; inset: 0; z-index: 50; background: #08090B; display: grid; grid-template-rows: auto minmax(0, 1fr) auto; color: #EAE8E2 }
+.reader header, .reader footer { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: max(12px, env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) 10px max(16px, env(safe-area-inset-left, 0px)) }
+.reader footer { padding-bottom: max(14px, env(safe-area-inset-bottom, 0px)) }
+.reader .stage { display: grid; place-items: center; padding: 0 max(16px, env(safe-area-inset-left, 0px)); min-height: 0 }
+.reader .panel { width: min(100%, calc((100vh - 170px) * 1.5)); cursor: pointer; border-color: #333 }
+.rbtn { border: 1px solid #44464d; background: transparent; color: #EAE8E2; padding: 10px 16px; cursor: pointer; font: 500 14px var(--text) }
+
+/* other views */
+.view-head { padding-block: 40px 16px; display: grid; gap: 10px; max-width: 760px }
+.view-head h1 { font-size: clamp(40px, 6vw, 64px) }
+.view-head p { margin: 0; color: var(--ink-2) }
+.lexicon { columns: 2 360px; column-gap: 48px; padding-block: 10px 50px }
+.lexicon article { break-inside: avoid; padding-block: 14px; border-bottom: 1px solid var(--rule) }
+.lexicon h3 { font-size: 24px; margin-bottom: 4px }
+.lexicon p { margin: 4px 0; font: 400 16px/1.5 var(--book) }
+.lexicon .kid { font-family: var(--text); font-size: 14px; color: var(--ink-2) }
+.lexicon .src { font-size: 13px; color: var(--ink-2) }
+.sheet-img { width: 100%; max-width: 100%; aspect-ratio: 9 / 5; object-fit: cover; display: block; border: 1px solid var(--ink) }
+.cast { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: 0 36px; padding-block: 20px 50px }
+.cast article { padding-block: 14px; border-bottom: 1px solid var(--rule) }
+.cast h3 { font-size: 24px } .cast p { margin: 4px 0; font-size: 15px }
+.cast code, .prompt pre { font: 12.5px/1.55 ui-monospace, "SF Mono", Menlo, Consolas, monospace; color: var(--ink-2) }
+.prompt { border-top: 1px solid var(--rule); padding-block: 18px; display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 20px }
+@media (max-width: 700px) { .prompt { grid-template-columns: minmax(0, 1fr) } }
+.prompt img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border: 1px solid var(--ink) }
+.prompt pre { margin: 0; white-space: pre-wrap; max-height: 240px; overflow: auto }
+select { font: inherit; background: var(--paper); color: var(--ink); border: 1.5px solid var(--ink); padding: 8px 10px }
+.about { display: grid; gap: 22px; padding-block: 10px 60px; max-width: 760px }
+.about h2 { font-size: 30px; margin-top: 10px }
+.about p, .about li { font-size: 17px }
+.about table { border-collapse: collapse; width: 100%; font-size: 15px }
+.about td, .about th { border-bottom: 1px solid var(--rule); padding: 8px 10px 8px 0; text-align: left; vertical-align: top }
+.tablewrap { overflow-x: auto }
+footer.site { padding-block: 30px 60px; color: var(--ink-2); font-size: 13px; border-top: 1px solid var(--rule) }
+
+/* before-you-read, map, cast, quiz, listen */
+.before { display: grid; grid-template-columns: minmax(0, 1fr) 220px; gap: 28px; padding: 22px 0 26px; border-bottom: 1px solid var(--rule); margin-bottom: 28px }
+@media (max-width: 720px) { .before { grid-template-columns: minmax(0, 1fr) } .before .map { max-width: 220px } }
+.before h2 { font-size: 28px; margin-bottom: 4px }
+.before dl { margin: 0; display: grid; gap: 10px }
+.before dt { font: italic 400 15px var(--book); color: var(--ink-2) }
+.before dd { margin: 0; font-size: 17px }
+.before .ask { font: italic 400 20px/1.4 var(--book); color: var(--lapis); border-left: 3px solid var(--lapis); padding-left: 12px }
+.cast-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px }
+
+.who-chip i { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font: 700 13px var(--text); color: #fff; font-style: normal; border: 2px solid var(--ink) }
+.who-chip:hover { border-color: var(--lapis) }
+.map svg { width: 100%; height: auto; display: block }
+.map figcaption { font: italic 400 14px var(--book); color: var(--ink-2); margin-top: 4px }
+.quiz { display: grid; gap: 22px; padding: 30px 0; border-top: 1.5px solid var(--ink); margin-top: 10px }
+.quiz h2 { font-size: clamp(30px, 4.4vw, 42px) }
+.qa { display: grid; gap: 10px }
+.qa > b { font: 400 22px/1.3 var(--display) }
+.qopts { display: flex; flex-wrap: wrap; gap: 8px }
+.qopt { border: 1.5px solid var(--ink); background: transparent; padding: 10px 16px; cursor: pointer; font-size: 16px; border-radius: 2px }
+[data-skin="kids"] .qopt { border-radius: 12px; font-size: 18px }
+.qopt[data-state="right"] { background: #1F7A4D; border-color: #1F7A4D; color: #fff }
+.qopt[data-state="wrong"] { background: transparent; border-color: var(--warn); color: var(--warn); text-decoration: line-through }
+.qwhy { font: italic 400 17px/1.45 var(--book); color: var(--ink-2); margin: 0 }
+.score { font-size: 15px; color: var(--ink-2) }
+.listen { display: inline-flex; align-items: center; gap: 8px }
+.panel.speaking { outline: 4px solid var(--lapis); outline-offset: 4px }
+.continue { display: flex; gap: 10px; align-items: baseline; margin-top: 16px; font-size: 15px; color: var(--ink-2) }
+.toc .done-mark { color: #1F7A4D; font-family: var(--text); font-size: 12px; display: block }
+
+/* ===================================================== design switcher + cast cards (all designs) */
+.design-sw { display: flex; align-items: center; gap: 4px; width: 100%; justify-content: flex-end; font-size: 13px }
+.design-sw .sw-label { color: var(--ink-2); margin-right: 6px }
+.design-sw button { display: inline-flex; align-items: center; gap: 6px; border: 1.5px solid var(--rule); background: transparent; color: var(--ink); padding: 5px 10px; cursor: pointer; font: 500 13px var(--text) }
+.design-sw button[aria-pressed="true"] { border-color: var(--ink); background: var(--ink); color: var(--paper) }
+.sw { width: 14px; height: 14px; display: inline-block; border-radius: 50% }
+.sw-book { background: linear-gradient(135deg, #F1F1EC 50%, #2A3CC0 50%) }
+.sw-icon { background: linear-gradient(135deg, #1B140F 50%, #D9B456 50%) }
+.sw-comic { background: conic-gradient(#FFE600 0 33%, #00A3E0 0 66%, #E5007D 0) }
+.cast-row { gap: 10px }
+.who-chip { display: inline-flex; align-items: center; gap: 10px; border: 1.5px solid var(--rule); background: var(--paper); padding: 5px 14px 5px 5px; border-radius: 999px; cursor: pointer; text-align: left }
+.who-chip img { width: 46px; height: 46px; border-radius: 50%; object-fit: cover; display: block; border: 2px solid var(--ink) }
+.who-chip span { display: grid; line-height: 1.2 }
+.who-chip b { font-weight: 600; font-size: 15px }
+.who-chip small { font-size: 12px; color: var(--ink-2); max-width: 22ch; white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+.who-pop .who-big { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; border: 2px solid var(--ink) }
+
+/* ===================================================== DESIGN 2 · ICON
+   Icon board: dark lacquered wood, gold leaf, cinnabar rubrics, lapis. Titles in an Old-Russian vyaz-inspired face.
+   Panels are framed like the 'kleima' (border scenes) of a hagiographic icon. */
+html:root[data-design="icon"] {
+  --paper: #17110C; --paper-2: #221911; --ink: #F2E7CF; --ink-2: #BBA987; --rule: #4B3B27;
+  --lapis: #E0BC5C; --lapis-ink: #1A1209; --lapis-soft: #2E2416; --sun: #E9C46A; --gold: #E0BC5C; --cinnabar: #D2533A; --warn: #E58A6B; --plate: #000;
+  --display: "Ruslan Display", "Yeseva One", Georgia, serif; color-scheme: dark }
+[data-design="icon"] body { background: radial-gradient(120% 80% at 50% 0%, #2A1E14 0%, #17110C 60%) fixed, #17110C }
+[data-design="icon"] .bar { background: #120D09; border-bottom: 1px solid var(--gold) }
+[data-design="icon"] .mark { color: var(--gold); letter-spacing: .02em }
+[data-design="icon"] h1, [data-design="icon"] h2, [data-design="icon"] h3 { color: var(--gold); letter-spacing: .01em }
+[data-design="icon"] .eyebrow, [data-design="icon"] .gloss .vref, [data-design="icon"] .scripture sup, [data-design="icon"] .ep-head .ref span { color: var(--cinnabar) }
+[data-design="icon"] .btn { background: linear-gradient(180deg, #E8C770, #B8902E); color: #1A1209; border: 1px solid #F3DC92; border-radius: 0; text-transform: uppercase; letter-spacing: .08em; font-size: 13px }
+[data-design="icon"] .btn.line { background: transparent; color: var(--gold); border-color: var(--gold) }
+[data-design="icon"] .panel, [data-design="icon"] .plate img, [data-design="icon"] .toc .thumb { border: 2px solid var(--gold); box-shadow: 0 0 0 5px #120D09, 0 0 0 6px #7A5E28; border-radius: 0 }
+[data-design="icon"] .leaf { gap: 44px }
+[data-design="icon"] .gloss { border-left: 0; padding-left: 0; position: relative }
+@media (min-width: 981px) { [data-design="icon"] .gloss { border-left: 0; padding-left: 22px; background: linear-gradient(var(--gold), var(--gold)) left top / 2px 100% no-repeat } }
+[data-design="icon"] .gloss .say { color: var(--ink) }
+[data-design="icon"] .term { text-decoration-color: var(--gold) }
+[data-design="icon"] .term sup { background: var(--cinnabar); color: #fff }
+[data-design="icon"] .before { border: 1px solid var(--gold); outline: 1px solid #5A4520; outline-offset: 5px; padding: 26px; margin: 10px 6px 40px; background: #1C150F }
+[data-design="icon"] .before h2 { font-size: 30px }
+[data-design="icon"] .before .ask { color: var(--gold); border-left-color: var(--cinnabar) }
+[data-design="icon"] .who-chip { background: #1C150F; border-color: #5A4520 }
+[data-design="icon"] .who-chip img, [data-design="icon"] .who-pop .who-big { border: 2px solid var(--gold); box-shadow: 0 0 0 3px #1C150F, 0 0 0 4px #7A5E28 }
+[data-design="icon"] .after p:first-of-type::first-letter, [data-design="icon"] .after section:nth-child(2) p:first-of-type::first-letter { font: 400 3.2em/0.85 var(--display); color: var(--cinnabar); float: left; margin: .05em .12em 0 0 }
+[data-design="icon"] .idea { border-left: 0; border: 1px solid var(--gold); padding: 24px; background: radial-gradient(100% 120% at 0 0, #3A2C18, #1C150F) }
+[data-design="icon"] .quiz { border-top: 1px solid var(--gold) }
+[data-design="icon"] .qopt { border-color: #7A5E28; color: var(--ink); background: #1C150F; border-radius: 0 }
+[data-design="icon"] .qopt[data-state="right"] { background: #2E5A3A; border-color: #6FBF8A; color: #fff }
+[data-design="icon"] .pop { background: #1C150F; border-color: var(--gold); box-shadow: 0 0 0 4px #120D09, 0 0 0 5px #7A5E28 }
+[data-design="icon"] .toc li { border-bottom-color: #3A2C1A }
+[data-design="icon"] .season h3 { border-bottom: 1px solid var(--gold) }
+[data-design="icon"] .how { border-color: #3A2C1A }
+[data-design="icon"] .design-sw button[aria-pressed="true"] { background: var(--gold); color: #1A1209; border-color: var(--gold) }
+[data-design="icon"] .map svg rect:first-child { fill: #221911 }
+[data-design="icon"] .hint, [data-design="icon"] .after > section { border-color: #3A2C1A }
+[data-design="icon"] .frame { background: #1C150F; border-color: #5A4520 }
+[data-design="icon"] .title-page h1 { font-size: clamp(44px, 6.4vw, 78px); line-height: 1.1 }
+
+/* ===================================================== DESIGN 3 · COMIC
+   A printed comic magazine: white newsprint with process-colour halftone, black ink outlines,
+   CMYK spot colours, heavy display type, hard offset shadows, notes styled as speech balloons. */
+html:root[data-design="comic"] {
+  --paper: #FFFFFF; --paper-2: #F4F4F4; --ink: #111111; --ink-2: #4A4A4A; --rule: #111111;
+  --lapis: #0090D0; --lapis-ink: #FFFFFF; --lapis-soft: #DDF3FF; --sun: #FFE600; --magenta: #E5007D; --warn: #E5007D; --plate: #111;
+  --display: "Unbounded", "Arial Black", Impact, sans-serif; --book: "Golos Text", Arial, sans-serif; color-scheme: light }
+[data-design="comic"] body { background: #fff radial-gradient(#00A3E022 1.2px, transparent 1.4px) 0 0 / 9px 9px }
+[data-design="comic"] .bar { background: var(--sun); border-bottom: 3px solid #111 }
+[data-design="comic"] .mark { font: 900 22px var(--display); text-transform: uppercase; letter-spacing: -.01em }
+[data-design="comic"] .mark i { font: 700 12px var(--text); color: #111; background: #fff; border: 2px solid #111; padding: 2px 6px; margin-left: 8px; text-transform: none }
+[data-design="comic"] .nav a { color: #111; font-weight: 600 }
+[data-design="comic"] .nav a[aria-current="page"] { border-color: var(--magenta) }
+[data-design="comic"] .reader-btn { color: #111 }
+[data-design="comic"] h1, [data-design="comic"] h2, [data-design="comic"] h3 { font-family: var(--display); font-weight: 900; text-transform: uppercase; letter-spacing: -.02em; line-height: 1 }
+[data-design="comic"] .title-page h1, [data-design="comic"] .ep-head h1 { font-size: clamp(40px, 6vw, 76px) }
+[data-design="comic"] .title-page h1 span, [data-design="comic"] .ep-head h1 { background: linear-gradient(transparent 58%, var(--sun) 58%); display: inline; box-decoration-break: clone; -webkit-box-decoration-break: clone }
+[data-design="comic"] .after h2, [data-design="comic"] .quiz h2, [data-design="comic"] .contents > h2, [data-design="comic"] .before h2 { display: inline-block; background: #111; color: #fff; padding: 6px 12px 4px; transform: rotate(-1.5deg); font-size: clamp(22px, 3vw, 30px) }
+[data-design="comic"] .eyebrow { font: 700 13px var(--text); color: #fff; background: var(--magenta); display: inline-block; padding: 3px 8px; justify-self: start; text-transform: uppercase; letter-spacing: .04em; font-style: normal }
+[data-design="comic"] .btn { background: var(--sun); color: #111; border: 3px solid #111; box-shadow: 4px 4px 0 #111; border-radius: 0; font: 800 14px var(--text); text-transform: uppercase }
+[data-design="comic"] .btn.line { background: #fff }
+[data-design="comic"] .btn:active { transform: translate(2px, 2px); box-shadow: 2px 2px 0 #111 }
+[data-design="comic"] .panel { border: 4px solid #111; box-shadow: 8px 8px 0 #111; border-radius: 0 }
+[data-design="comic"] .plate img, [data-design="comic"] .toc .thumb { border: 3px solid #111; box-shadow: 5px 5px 0 #111; border-radius: 0 }
+[data-design="comic"] .gloss { position: relative; background: #fff; border: 3px solid #111; border-radius: 22px; padding: 16px 18px; box-shadow: 5px 5px 0 #111 }
+@media (min-width: 981px) { [data-design="comic"] .gloss::before { content: ""; position: absolute; left: -22px; top: 34px; border: 11px solid transparent; border-right: 14px solid #111 } [data-design="comic"] .gloss::after { content: ""; position: absolute; left: -15px; top: 37px; border: 8px solid transparent; border-right: 10px solid #fff } }
+[data-design="comic"] .gloss .vref { color: #fff; background: var(--lapis); justify-self: start; padding: 2px 8px; font-family: var(--text) }
+[data-design="comic"] .gloss .who { font: 800 12px var(--text); text-transform: uppercase; color: var(--magenta) }
+[data-design="comic"] .gloss .say { font: 500 17px/1.45 var(--text) }
+[data-design="comic"] .term { text-decoration: none; background: var(--sun); padding: 0 2px }
+[data-design="comic"] .term sup { background: var(--magenta); color: #fff }
+[data-design="comic"] .before { border: 4px solid #111; box-shadow: 8px 8px 0 #111; padding: 24px; background: #fff; margin-bottom: 40px }
+[data-design="comic"] .before dt { font: 800 12px var(--text); color: var(--magenta); text-transform: uppercase; font-style: normal }
+[data-design="comic"] .before .ask { color: #111; background: var(--sun); border: 3px solid #111; padding: 10px 14px; font: 700 18px var(--text) }
+[data-design="comic"] .who-chip { border: 3px solid #111; border-radius: 0; box-shadow: 3px 3px 0 #111; background: #fff }
+[data-design="comic"] .who-chip img { border-radius: 0; border: 2px solid #111 }
+[data-design="comic"] .who-pop .who-big { border-radius: 0 }
+[data-design="comic"] .pop { border: 3px solid #111; box-shadow: 6px 6px 0 #111; border-radius: 18px }
+[data-design="comic"] .idea { border: 4px solid #111; background: var(--sun); padding: 24px; box-shadow: 8px 8px 0 #111; color: #111 }
+[data-design="comic"] .idea .eyebrow { background: #111 }
+[data-design="comic"] .qopt { border: 3px solid #111; box-shadow: 3px 3px 0 #111; border-radius: 0; font: 700 16px var(--text); background: #fff }
+[data-design="comic"] .qopt[data-state="right"] { background: var(--lapis); border-color: #111; color: #fff }
+[data-design="comic"] .qopt[data-state="wrong"] { background: var(--magenta); border-color: #111; color: #fff }
+[data-design="comic"] .quiz, [data-design="comic"] .after { border-top: 4px solid #111 }
+[data-design="comic"] .scripture { font-family: "Old Standard TT", Georgia, serif }
+[data-design="comic"] .season h3 { border-bottom: 4px solid #111; font-size: 22px }
+[data-design="comic"] .toc .t { font: 800 18px var(--text); text-transform: uppercase }
+[data-design="comic"] .toc .n { font: 900 26px var(--display); color: var(--magenta) }
+[data-design="comic"] .how b { font: 900 18px var(--display); text-transform: uppercase }
+[data-design="comic"] .design-sw button { border: 2px solid #111; background: #fff; color: #111; font-weight: 700 }
+[data-design="comic"] .design-sw button[aria-pressed="true"] { background: #111; color: var(--sun) }
+[data-design="comic"] .frame { border: 3px dashed #111; background: #fff }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important } }
+</style>
+
+<header class="bar"><div class="page bar-in">
+  <a class="mark" href="#home" id="mark"></a>
+  <nav class="nav" id="nav"></nav>
+  <button class="reader-btn" type="button" id="readerBtn"></button>
+  <div class="design-sw" id="designSw" role="group" aria-label="Design"></div>
+</div></header>
+<main id="app"></main>
+<div id="overlay"></div>
+<div id="popHost"></div>
+
+<script>
+const DATA = /*__DATA__*/null;
+const UI = {
+  en: {
+    mark: "Mark", markSub: "in the Margins", contents: "Contents", lexicon: "Glossary", cast: "Characters", studio: "Studio", about: "About",
+    orthodox: "Orthodox", protestant: "Protestant", kids: "kids", adults: "adults", readerLine: (a, t, l) => `For ${a} · ${t.toLowerCase()} · ${l}`,
+    setupTitle: "Who is reading?", setupText: "Pictures, explanations and the look of the book change with your choice. You can switch any time.",
+    reader: "Reader", tradition: "Tradition", language: "Language",
+    kidsSub: "6–11 · cartoon, simple words, a note for parents", adultsSub: "Teens and adults · graphic novel, commentary of the teachers",
+    orthSub: "Church Fathers, sacraments, prayer rule", protSub: "Reformers and preachers, Scripture, personal faith",
+    start: "Start reading", done: "Done",
+    kicker: "The Gospel of Mark as a comic, with notes in the margins",
+    title: "Mark in the Margins", lede: "The story of Jesus told panel by panel. Next to every picture, a short note: one for a child, one for a parent, one for a grown-up reader. Tap any word marked ? to see what it means.",
+    readPilot: "Read “The Storm on the Lake”", fromStart: "Begin at chapter 1",
+    plate: "The boat sets out. Mark 4:35",
+    how1: "A strip you scroll", how1t: "The comic runs top to bottom, like comics on a phone. One scene at a time.",
+    how2: "Notes in the margin", how2t: "Beside each picture: for a child, for a parent, and the words of the Church's teachers.",
+    how3: "Tap the ?", how3t: "Old and unusual words are marked. Tap one to see a short explanation and where it comes from.",
+    season: "Season", episode: "Episode", comic: "comic", storyboard: "storyboard", soon: "coming",
+    hint: "Tap a word with ? to see what it means. The notes beside each picture are for you; open “For a child” to read with children.",
+    zoom: "Read panel by panel", forChild: "For a child", forParent: "For the parent", teacher: "Commentary", howToChild: "How to explain this to a child", hideChild: "Hide",
+    paraphrase: "paraphrase — check against the source before print", source: "Source", allWords: "All words in the glossary",
+    forArtist: "For the artist", sbNote: "This episode has a cover and a full storyboard; panel art comes next.",
+    after: "After reading", passage: "The passage", whatHappened: "What happened", background: "Background", teachers: "What the teachers say",
+    bigIdea: "The big idea", apply: "This week", questions: "Talk about it", memory: "Learn by heart", hideWord: "Hide a word", showAll: "Show all", prayer: "Prayer",
+    stepsDone: (a, b) => `${a} of ${b} done`, nextEp: "Next episode",
+    noRu: "The Synodal text for this passage is not loaded yet (tools/fetch_scripture.py); the English text is shown.",
+    partial: "The Synodal text here was entered by hand; check it against a printed Bible before publishing.",
+    voice: "Voice from heaven", disciples: "Disciples", caption: "Narrator",
+    lexTitle: "Glossary", lexText: "Every word marked ? in the comics, with a simple meaning for children and a fuller one for adults.",
+    castTitle: "Characters", castText: "The same people in every episode. The written description goes into every image prompt.",
+    studioTitle: "Studio", studioText: "For illustrators and image generators: the drawn panel and the exact prompt.", copy: "Copy prompt", copied: "Copied",
+    prev: "Back", next: "Next", close: "Close", frame: "Panel",
+    before: "Before you read", where: "Where", prev: "What happened before", who: "Who is here", ask: "Keep in mind",
+    quiz: "Check yourself", quizHint: "Tap an answer.", score: (a, b) => `${a} of ${b} correct`, listen: "Listen", stop: "Stop",
+    cont: "Continue reading:", readMark: "read", mapCap: "Where it happens",
+    footer: "Scripture: Berean Standard Bible (public domain), Russian Synodal Translation (public domain). Commentary: public-domain authors, paraphrased. Illustrations drawn in code for this project. Non-commercial.",
+  },
+  ru: {
+    mark: "Марк", markSub: "на полях", contents: "Оглавление", lexicon: "Словарь", cast: "Герои", studio: "Студия", about: "О проекте",
+    orthodox: "Православная", protestant: "Протестантская", kids: "детей", adults: "взрослых", readerLine: (a, t, l) => `Для ${a} · ${t.toLowerCase()} · ${l}`,
+    setupTitle: "Кто читает?", setupText: "От выбора меняются рисунки, пояснения и вид книги. Поменять можно в любой момент.",
+    reader: "Читатель", tradition: "Традиция", language: "Язык",
+    kidsSub: "6–11 лет · мультфильм, простые слова, заметка для родителей", adultsSub: "Подростки и взрослые · графический роман, толкования учителей",
+    orthSub: "Святые отцы, Таинства, молитвенное правило", protSub: "Реформаторы и проповедники, Писание, личная вера",
+    start: "Начать читать", done: "Готово",
+    kicker: "Евангелие от Марка в комиксах, с пояснениями на полях",
+    title: "Марк на полях", lede: "История Иисуса кадр за кадром. Рядом с каждой картинкой — короткое пояснение: для ребёнка, для родителя и для взрослого читателя. Нажмите на слово со знаком ?, чтобы узнать, что оно значит.",
+    readPilot: "Читать «Бурю на озере»", fromStart: "Начать с первой главы",
+    plate: "Отплытие. Марк 4:35",
+    how1: "Лента сверху вниз", how1t: "Комикс идёт одной лентой, как комиксы в телефоне. Одна сцена за раз.",
+    how2: "Пояснения на полях", how2t: "Рядом с каждой картинкой — ребёнку, родителю и слова учителей Церкви.",
+    how3: "Нажмите на ?", how3t: "Старые и непривычные слова отмечены. Нажмите — и прочитаете короткое объяснение с источником.",
+    season: "Сезон", episode: "Эпизод", comic: "комикс", storyboard: "раскадровка", soon: "скоро",
+    hint: "Нажмите на слово со знаком ?, чтобы узнать, что оно значит. Пояснения рядом с картинками — для вас; раскройте «Ребёнку», если читаете с детьми.",
+    zoom: "Читать по кадрам", forChild: "Ребёнку", forParent: "Родителю", teacher: "Толкование", howToChild: "Как объяснить ребёнку", hideChild: "Скрыть",
+    paraphrase: "пересказ — сверить с источником перед печатью", source: "Источник", allWords: "Все слова — в словаре",
+    forArtist: "Для художника", sbNote: "У этого эпизода готовы обложка и полная раскадровка; рисунки панелей — следующий шаг.",
+    after: "После чтения", passage: "Отрывок", whatHappened: "Что произошло", background: "Фон", teachers: "Что говорят учителя",
+    bigIdea: "Главная мысль", apply: "На этой неделе", questions: "Обсудим", memory: "Выучить наизусть", hideWord: "Спрятать слово", showAll: "Показать всё", prayer: "Молитва",
+    stepsDone: (a, b) => `Сделано ${a} из ${b}`, nextEp: "Следующий эпизод",
+    noRu: "Синодальный текст этого отрывка ещё не загружен (tools/fetch_scripture.py); показан английский.",
+    partial: "Синодальный текст здесь внесён вручную; перед публикацией сверить с печатной Библией.",
+    voice: "Голос с неба", disciples: "Ученики", caption: "Рассказчик",
+    lexTitle: "Словарь", lexText: "Все слова со знаком ? из комиксов: простое значение для детей и подробное для взрослых.",
+    castTitle: "Герои", castText: "Одни и те же люди в каждом эпизоде. Текстовое описание вставляется в каждый промпт.",
+    studioTitle: "Студия", studioText: "Для иллюстраторов и генераторов: нарисованная панель и точный промпт.", copy: "Копировать промпт", copied: "Скопировано",
+    prev: "Назад", next: "Дальше", close: "Закрыть", frame: "Кадр",
+    before: "Перед чтением", where: "Где", prev: "Что было до этого", who: "Кто здесь", ask: "Держите в голове",
+    quiz: "Проверь себя", quizHint: "Нажмите на ответ.", score: (a, b) => `Верно ${a} из ${b}`, listen: "Слушать", stop: "Остановить",
+    cont: "Продолжить:", readMark: "прочитано", mapCap: "Где это происходит",
+    footer: "Писание: Berean Standard Bible (общественное достояние), Синодальный перевод (общественное достояние). Толкования: авторы, чьи труды в общественном достоянии, в пересказе. Иллюстрации нарисованы кодом для этого проекта. Некоммерческий проект.",
+  }
+};
+
+// ------------------------------------------------------------ state
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : v } catch (e) { return d } },
+  set(k, v) { try { localStorage.setItem(k, v) } catch (e) {} }
+};
+const S = { lang: store.get("mk3.lang", "ru"), track: store.get("mk3.track", "orthodox"), age: store.get("mk3.age", "adults"), setup: store.get("mk3.setup", ""), design: store.get("mk3.design", "book") };
+const t = (k, ...a) => { const v = UI[S.lang][k]; return typeof v === "function" ? v(...a) : v };
+const L = o => (o && typeof o === "object" && !Array.isArray(o) ? (o[S.lang] ?? o.en) : o);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const CH = Object.fromEntries(DATA.characters.characters.map(c => [c.id, c]));
+const EP = Object.fromEntries(Object.values(DATA.episodes).map(e => [e.episode.number, e]));
+const TERMS = DATA.glossary.terms;
+const TERM = Object.fromEntries(TERMS.map(x => [x.id, x]));
+
+const urls = new Map();
+function art(src) {
+  if (!src) return "";
+  if (src.png) return S.track === "orthodox" && src.pngOrth ? src.pngOrth : src.png;
+  const key = src.id + "|" + S.track;
+  if (!urls.has(key)) {
+    const text = S.track === "orthodox" ? src.svg : src.svg.replace(/<g class="nimbus">[\s\S]*?<\/g>/g, "");
+    urls.set(key, URL.createObjectURL(new Blob([text], { type: "image/svg+xml" })));
+  }
+  return urls.get(key);
+}
+
+// mark glossary words in a piece of text: returns safe HTML
+function marked(text, used) {
+  let html = esc(text);
+  const hits = [];
+  for (const term of TERMS) {
+    if (used && used.has(term.id)) continue;
+    for (const m of term.match[S.lang] || []) {
+      const i = html.toLowerCase().indexOf(esc(m).toLowerCase());
+      if (i < 0) continue;
+      if (hits.some(h => i < h.end && i + m.length > h.start)) continue;
+      // extend to the end of the word
+      let end = i + esc(m).length;
+      while (end < html.length && /[\p{L}]/u.test(html[end])) end++;
+      hits.push({ start: i, end, id: term.id });
+      used && used.add(term.id);
+      break;
+    }
+  }
+  hits.sort((a, b) => b.start - a.start);
+  for (const h of hits) html = html.slice(0, h.start) + `<button class="term" type="button" data-t="${h.id}">${html.slice(h.start, h.end)}<sup aria-hidden="true">?</sup></button>` + html.slice(h.end);
+  return html;
+}
+
+// ------------------------------------------------------------ chrome
+function route() {
+  const h = location.hash.slice(1);
+  if (/^ep-\d+$/.test(h) && EP[+h.slice(3)]) return { v: "ep", n: +h.slice(3) };
+  if (["lexicon", "cast", "studio", "about"].includes(h)) return { v: h };
+  return { v: "home" };
+}
+const DESIGNS = [["book", { en: "Book", ru: "Книга" }], ["icon", { en: "Icon", ru: "Икона" }], ["comic", { en: "Comic", ru: "Комикс" }]];
+function renderBar() {
+  document.documentElement.dataset.skin = S.age;
+  document.documentElement.dataset.design = S.design;
+  const sw = document.getElementById("designSw");
+  sw.innerHTML = `<span class="sw-label">${S.lang === "ru" ? "Дизайн" : "Design"}</span>` + DESIGNS.map(([k, n]) => `<button type="button" id="ds-${k}" data-d="${k}" aria-pressed="${S.design === k}"><i class="sw sw-${k}" aria-hidden="true"></i>${esc(L(n))}</button>`).join("");
+  sw.onclick = ev => { const b = ev.target.closest("button"); if (!b) return; S.design = b.dataset.d; store.set("mk3.design", S.design); render(true) };
+  document.documentElement.lang = S.lang;
+  document.getElementById("mark").innerHTML = `${esc(t("mark"))}<i>${esc(t("markSub"))}</i>`;
+  const r = route().v;
+  document.getElementById("nav").innerHTML = [["home", "contents"], ["lexicon", "lexicon"], ["cast", "cast"], ["studio", "studio"], ["about", "about"]]
+    .map(([h, k]) => `<a href="#${h}" ${r === h || (h === "home" && r === "ep") ? 'aria-current="page"' : ""}>${esc(t(k))}</a>`).join("");
+  const b = document.getElementById("readerBtn");
+  b.textContent = t("readerLine", t(S.age), t(S.track), S.lang.toUpperCase());
+  b.onclick = () => setup(false);
+}
+
+function setup(first) {
+  const ov = document.getElementById("overlay");
+  const o = (k, v, title, sub) => `<button class="opt" type="button" id="o-${k}-${v}" data-k="${k}" data-v="${v}" aria-pressed="${S[k] === v}"><b>${esc(title)}</b>${sub ? `<small>${esc(sub)}</small>` : ""}</button>`;
+  ov.innerHTML = `<div class="veil"><div class="dialog" role="dialog" aria-modal="true" aria-labelledby="sT">
+    <div><h2 id="sT">${esc(t("setupTitle"))}</h2><p class="small" style="margin:8px 0 0">${esc(t("setupText"))}</p></div>
+    <div class="choice"><span>${esc(t("reader"))}</span><div class="opts">${o("age", "kids", S.lang === "ru" ? "Ребёнок" : "A child", t("kidsSub"))}${o("age", "adults", S.lang === "ru" ? "Взрослый" : "An adult", t("adultsSub"))}</div></div>
+    <div class="choice"><span>${esc(t("tradition"))}</span><div class="opts">${o("track", "orthodox", t("orthodox"), t("orthSub"))}${o("track", "protestant", t("protestant"), t("protSub"))}</div></div>
+    <div class="choice"><span>${esc(t("language"))}</span><div class="opts">${o("lang", "ru", "Русский")}${o("lang", "en", "English")}</div></div>
+    <div class="row"><button class="btn" type="button" id="sDone">${esc(first ? t("start") : t("done"))}</button></div></div></div>`;
+  ov.querySelectorAll(".opt").forEach(b => b.onclick = () => { S[b.dataset.k] = b.dataset.v; store.set("mk3." + b.dataset.k, b.dataset.v); render(true); setup(first) });
+  const close = () => { ov.innerHTML = ""; S.setup = "1"; store.set("mk3.setup", "1"); render(true) };
+  document.getElementById("sDone").onclick = close;
+  ov.querySelector(".veil").onclick = e => { if (e.target.classList.contains("veil")) close() };
+  document.getElementById("sDone").focus();
+}
+
+// ------------------------------------------------------------ home
+function renderHome() {
+  const meta = DATA.series;
+  return `<div class="page">
+    <section class="title-page">
+      <div><div class="eyebrow">${esc(t("kicker"))}</div><h1>${esc(t("title"))}</h1><p class="lede">${marked(t("lede"))}</p>
+        <div class="row"><a class="btn" href="#ep-12">${esc(t("readPilot"))}</a><a class="btn line" href="#ep-1">${esc(t("fromStart"))}</a></div>
+        ${(() => { const last = +store.get("mk3.last", "0"); const m = DATA.series.episodes.find(x => x.n === last); return m ? `<div class="continue">${esc(t("cont"))} <a href="#ep-${last}">${last}. ${esc(L(m.title))}</a></div>` : "" })()}</div>
+      <figure class="plate"><img src="${art(DATA.hero[S.age])}" alt="${esc(t("plate"))}"><figcaption>${esc(t("plate"))}</figcaption></figure>
+    </section>
+    <section class="how"><div><b>${esc(t("how1"))}</b><p>${esc(t("how1t"))}</p></div><div><b>${esc(t("how2"))}</b><p>${esc(t("how2t"))}</p></div><div><b>${esc(t("how3"))}</b><p>${esc(t("how3t"))}</p></div></section>
+    <section class="contents"><h2>${esc(t("contents"))}</h2>
+      ${meta.seasons.map(s => `<div class="season"><h3>${esc(t("season"))} ${s.n}. ${esc(L(s.title))} <span class="book">${esc(t("mark"))} ${s.range}</span></h3><ul class="toc">
+        ${meta.episodes.filter(e => e.s === s.n).map(e => {
+          const ep = EP[e.n];
+          const status = ep ? (ep.hasArt[S.age] ? t("comic") : t("storyboard")) : t("soon");
+          const inner = `${ep ? `<img class="thumb" src="${art(ep.cover[S.age])}" alt="" loading="lazy">` : `<span class="ph"></span>`}<span class="n">${e.n}</span>
+            <span><span class="t">${esc(L(e.title))}</span><span class="i">${esc(L(e.idea))}</span></span><span class="r">${e.ref}<em>${esc(status)}</em>${store.get(`mk3.read.${e.n}`, "") ? `<span class="done-mark">✓ ${esc(t("readMark"))}</span>` : ""}</span>`;
+          return `<li>${ep ? `<a href="#ep-${e.n}">${inner}</a>` : `<div class="soon">${inner}</div>`}</li>`;
+        }).join("")}</ul></div>`).join("")}
+    </section></div>`;
+}
+
+// ------------------------------------------------------------ episode
+const whoName = w => !w ? t("caption") : w === "heaven" ? t("voice") : w === "disciples" ? t("disciples") : CH[w] ? L(CH[w].name) : w;
+function vref(ep, p) {
+  const f = v => typeof v === "string" ? v : `${ep.ref.chapter}:${v}`;
+  const a = f(p.verses[0]), b = f(p.verses[p.verses.length - 1]);
+  return a === b ? a : `${a}–${b.split(":")[0] === a.split(":")[0] ? b.split(":")[1] : b}`;
+}
+function panelHTML(e, p, i, guided) {
+  const used = new Set();
+  const bs = (p.bubbles[S.age] || []).map(b => `<div class="b ${b.kind}${guided ? " hidden" : ""}" style="left:${b.x}%;top:${b.y}%;${b.kind === "sfx" ? "" : `width:${b.w}%`}" ${b.tx != null ? `data-tx="${b.tx}" data-ty="${b.ty}"` : ""}>${guided ? esc(L(b.text)) : marked(L(b.text), used)}</div>`).join("");
+  return `<figure class="panel" data-i="${i}"><img src="${art(e.art[S.age][p.id])}" alt=""><svg class="tails" aria-hidden="true"></svg>${bs}<span class="vs">${vref(e.episode, p)}</span></figure>`;
+}
+function glossHTML(e, p) {
+  const g = p.gloss;
+  if (!g) return "";
+  const src = DATA.sources[S.track];
+  const a = g.adults[S.track], s = src.find(x => x.id === a.source);
+  const used = new Set();
+  const child = `<div class="voice"><span class="who">${esc(t("forChild"))}</span><span class="say">${marked(L(g.kids), used)}</span></div>
+                 <div class="voice"><span class="who">${esc(t("forParent"))}</span><span class="note">${marked(L(g.parents), used)}</span></div>`;
+  const adult = `<div class="voice"><span class="who">${esc(t("teacher"))}</span><span class="say">${marked(L(a.text), used)}</span>
+                 <span class="cite"><b>${esc(L(s.name))}</b>, ${esc(L(a.where))}${a.verify ? ` · <span class="verify-mark">${esc(t("paraphrase"))}</span>` : ""}</span></div>`;
+  if (S.age === "kids") return `<aside class="gloss"><span class="vref">${vref(e.episode, p)}</span>${child}</aside>`;
+  return `<aside class="gloss"><span class="vref">${vref(e.episode, p)}</span>${adult}
+    <button class="linkish" type="button" data-more aria-expanded="false">${esc(t("howToChild"))}</button><div class="more" hidden>${child}</div></aside>`;
+}
+function scriptureHTML(e) {
+  let sc = e.scripture[S.lang], missing = false;
+  if (!sc.hasText) { missing = S.lang === "ru"; sc = e.scripture.en }
+  return `<p class="scripture">${sc.verses.map(v => `<sup>${esc(v.label)}</sup>${esc(v.text)}`).join(" ")}</p><div class="small">${esc(sc.translation)} · ${esc(sc.license)}</div>
+    ${missing ? `<div class="verify">${esc(t("noRu"))}</div>` : sc.verify ? `<div class="verify">${esc(t("partial"))}</div>` : ""}`;
+}
+
+function mapSVG(ids) {
+  const P = DATA.extras.places;
+  const dots = ids.map(id => P[id]).filter(Boolean);
+  return `<svg viewBox="0 0 300 400" role="img" aria-label="${esc(dots.map(d => L(d.name)).join(", "))}">
+    <rect width="300" height="400" fill="var(--paper-2)"/>
+    <path d="M0 0 H92 Q80 60 70 120 Q58 200 40 280 Q30 340 18 400 H0 Z" fill="var(--lapis-soft)"/>
+    <text x="14" y="200" font-family="var(--book)" font-style="italic" font-size="12" fill="var(--ink-2)" transform="rotate(-80 14 200)">${S.lang === "ru" ? "Средиземное море" : "Mediterranean Sea"}</text>
+    <ellipse cx="176" cy="112" rx="14" ry="22" fill="var(--lapis-soft)" stroke="var(--lapis)" stroke-width="1.5"/>
+    <path d="M178 134 C 186 170, 172 200, 188 230 S 186 280, 194 280" fill="none" stroke="var(--lapis)" stroke-width="2"/>
+    <ellipse cx="196" cy="318" rx="12" ry="38" fill="var(--lapis-soft)" stroke="var(--lapis)" stroke-width="1.5"/>
+    <text x="110" y="70" font-family="var(--book)" font-style="italic" font-size="13" fill="var(--ink-2)">${S.lang === "ru" ? "Галилея" : "Galilee"}</text>
+    <text x="96" y="350" font-family="var(--book)" font-style="italic" font-size="13" fill="var(--ink-2)">${S.lang === "ru" ? "Иудея" : "Judea"}</text>
+    ${["nazareth", "capernaum", "jerusalem"].filter(id => !ids.includes(id)).map(id => `<circle cx="${P[id].x}" cy="${P[id].y}" r="3" fill="var(--ink-2)"/><text x="${P[id].x - 6}" y="${P[id].y - 7}" text-anchor="end" font-size="11" font-family="var(--text)" fill="var(--ink-2)">${esc(L(P[id].name))}</text>`).join("")}
+    ${dots.map(d => `<circle cx="${d.x}" cy="${d.y}" r="14" fill="var(--lapis)" opacity=".18"/><circle cx="${d.x}" cy="${d.y}" r="6" fill="var(--lapis)" stroke="var(--paper)" stroke-width="2"/><text x="${d.x - 12}" y="${d.y + 4}" text-anchor="end" font-size="13" font-weight="700" font-family="var(--text)" fill="var(--ink)" paint-order="stroke" stroke="var(--paper-2)" stroke-width="4">${esc(L(d.name))}</text>`).join("")}
+  </svg>`;
+}
+function chipColor(id) { const c = CH[id]; return (c && c.svg && (c.svg.mantle || c.svg.tunic)) || "#777" }
+function beforeHTML(n) {
+  const x = DATA.extras.episodes[n];
+  if (!x) return "";
+  const b = x.before;
+  return `<section class="before"><div><h2>${esc(t("before"))}</h2><dl>
+      <div><dt>${esc(t("where"))}</dt><dd>${marked(L(b.where))}</dd></div>
+      <div><dt>${esc(t("prev"))}</dt><dd>${esc(L(b.prev))}</dd></div>
+      <div><dt>${esc(t("who"))}</dt><dd class="cast-row">${x.cast.map(id => `<button class="who-chip" type="button" data-who="${id}"><img src="${art(DATA.portraits[S.age][id])}" alt=""><span><b>${esc(L(CH[id].name))}</b><small>${esc(L(CH[id].role).split(/[.;]/)[0])}</small></span></button>`).join("")}</dd></div>
+      <div><dt>${esc(t("ask"))}</dt><dd class="ask">${esc(L(b.ask))}</dd></div></dl></div>
+    <figure class="map" style="margin:0">${mapSVG(x.place)}<figcaption>${esc(t("mapCap"))}</figcaption></figure></section>`;
+}
+function quizHTML(n) {
+  const x = DATA.extras.episodes[n];
+  if (!x) return "";
+  return `<section class="quiz"><h2>${esc(t("quiz"))}</h2><span class="score" id="score">${esc(t("quizHint"))}</span>
+    ${x.quiz.map((q, i) => `<div class="qa" data-q="${i}"><b>${i + 1}. ${esc(L(q.q))}</b><div class="qopts">${L(q.options).map((o, j) => `<button class="qopt" type="button" data-j="${j}">${esc(o)}</button>`).join("")}</div><p class="qwhy" hidden>${esc(L(q.why))}</p></div>`).join("")}</section>`;
+}
+function renderEp(n) {
+  const e = EP[n], ep = e.episode, C = e.content, sh = C.shared[S.age][S.lang], tr = C[S.track][S.age][S.lang];
+  const meta = DATA.series.episodes.find(x => x.n === n), season = DATA.series.seasons.find(s => s.n === ep.season);
+  const src = DATA.sources[S.track];
+  const real = e.hasArt[S.age];
+  const done = JSON.parse(store.get(`mk3.done.${n}.${S.track}.${S.age}`, "[]"));
+  const nx = DATA.series.episodes.find(x => x.n === n + 1);
+  const strip = real
+    ? ep.panels.map((p, i) => `<div class="leaf">${panelHTML(e, p, i, false)}${glossHTML(e, p)}</div>`).join("")
+    : `<div class="leaf"><figure class="plate"><img src="${art(e.cover[S.age])}" alt=""><figcaption>${esc(t("sbNote"))}</figcaption></figure></div>` +
+      ep.panels.map((p, i) => { const used = new Set(); return `<div class="leaf"><div class="frame"><span class="small">${esc(t("frame"))} ${i + 1} · <b class="book">${vref(ep, p)}</b></span>
+        <p class="scene">${esc(t("forArtist"))}: ${esc(p.scene[S.age])}</p><ul>${(p.bubbles[S.age] || []).map(b => `<li><b>${esc(whoName(b.who))}</b>${marked(L(b.text), used)}</li>`).join("")}</ul></div></div>` }).join("");
+  return `<div class="page">
+    <header class="ep-head"><div class="crumbs"><a href="#home">${esc(t("contents"))}</a> › ${esc(t("season"))} ${ep.season}. ${esc(L(season.title))}</div>
+      <div class="eyebrow">${esc(t("episode"))} ${ep.number}</div><h1>${esc(L(ep.title))}</h1>
+      <div class="ref">${esc(t("mark"))} <span>${esc(meta.ref)}</span></div><p class="q">${esc(L(ep.subtitle))}</p></header>
+    <div class="hint"><span>${marked(t("hint"))}</span>${real ? `<span class="tools">${"speechSynthesis" in window ? `<button class="linkish listen" type="button" id="listen">▶ ${esc(t("listen"))}</button>` : ""}<button class="linkish" type="button" id="zoom">${esc(t("zoom"))}</button></span>` : ""}</div>
+    ${beforeHTML(n)}
+    <div class="strip">${strip}</div>
+    <div class="measure">${quizHTML(n)}</div>
+    <div class="after measure">
+      <section><h2>${esc(t("passage"))}</h2>${scriptureHTML(e)}</section>
+      <section><h2>${esc(t("whatHappened"))}</h2>${(() => { const u = new Set(); return sh.whatHappened.map(p => `<p style="margin:0">${marked(p, u)}</p>`).join("") })()}
+        <dl class="bg">${sh.background.map(b => `<div><dt>${esc(b.term)}</dt><dd>${esc(b.text)}</dd></div>`).join("")}</dl></section>
+      <section><h2>${esc(t("teachers"))}</h2><div class="teachers">${tr.teachers.map(q => { const s = src.find(x => x.id === q.source);
+        return `<div class="teacher"><blockquote>${esc(q.text)}</blockquote><div class="cite"><b>${esc(L(s.name))}</b> (${esc(s.dates)}), ${esc(L(s.work))}, ${esc(q.where)}${q.verify ? ` · <span class="verify-mark">${esc(t("paraphrase"))}</span>` : ""}</div></div>` }).join("")}</div></section>
+      <section><div class="idea"><span class="eyebrow">${esc(t("bigIdea"))}</span><h3>${esc(tr.bigIdea.title)}</h3><p>${esc(tr.bigIdea.text)}</p>
+        ${tr.bigIdea.refs ? `<div class="refs">${tr.bigIdea.refs.map(r => `<div><b>${esc(r.ref)}</b>${esc(r.text)}</div>`).join("")}</div>` : ""}</div></section>
+      <section><h2>${esc(t("apply"))}</h2><span class="count" id="count">${esc(t("stepsDone", done.length, tr.apply.length))}</span>
+        <ul class="apply">${tr.apply.map((a, i) => `<li class="${done.includes(i) ? "done" : ""}"><input type="checkbox" id="ap-${i}" data-i="${i}" ${done.includes(i) ? "checked" : ""}><label for="ap-${i}"><b>${esc(a.title)}</b><span>${esc(a.text)}</span></label></li>`).join("")}</ul></section>
+      <section><h2>${esc(t("questions"))}</h2><ol class="qs">${tr.questions.map(q => `<li>${esc(q)}</li>`).join("")}</ol></section>
+      <section><h2>${esc(t("memory"))}</h2><p class="verse" id="verse">${tr.memoryVerse.text.split(/\s+/).map((w, i) => `<span class="w" data-i="${i}">${esc(w)}</span>`).join(" ")}</p>
+        <div class="small book" style="font-style:italic">${esc(tr.memoryVerse.ref)}</div>
+        <div class="row"><button class="btn line" type="button" id="hideW">${esc(t("hideWord"))}</button><button class="linkish" type="button" id="showW">${esc(t("showAll"))}</button></div></section>
+      <section><h2>${esc(t("prayer"))}</h2><p class="prayer">${esc(tr.prayer)}</p></section>
+      ${nx ? `<a class="next" href="${EP[n + 1] ? "#ep-" + (n + 1) : "#home"}"><span class="eyebrow">${esc(t("nextEp"))}</span><h3>${nx.n}. ${esc(L(nx.title))} →</h3></a>` : ""}
+    </div></div>`;
+}
+function bindEp(n) {
+  const app = document.getElementById("app");
+  const key = `mk3.done.${n}.${S.track}.${S.age}`;
+  app.querySelectorAll(".apply input").forEach(cb => cb.onchange = () => {
+    const set = new Set(JSON.parse(store.get(key, "[]")));
+    cb.checked ? set.add(+cb.dataset.i) : set.delete(+cb.dataset.i);
+    store.set(key, JSON.stringify([...set]));
+    cb.closest("li").classList.toggle("done", cb.checked);
+    document.getElementById("count").textContent = t("stepsDone", set.size, app.querySelectorAll(".apply input").length);
+  });
+  const ws = [...app.querySelectorAll("#verse .w")];
+  const order = ws.map((_, i) => i).sort((a, b) => ((a * 7919) % 13) - ((b * 7919) % 13));
+  let k = 0;
+  document.getElementById("hideW").onclick = () => { if (k < order.length) ws[order[k++]].classList.add("gone") };
+  document.getElementById("showW").onclick = () => { ws.forEach(w => w.classList.remove("gone")); k = 0 };
+  ws.forEach(w => w.onclick = () => w.classList.toggle("gone"));
+  app.querySelectorAll("[data-more]").forEach(b => b.onclick = () => {
+    const box = b.nextElementSibling, open = box.hidden;
+    box.hidden = !open; b.setAttribute("aria-expanded", String(open)); b.textContent = open ? t("hideChild") : t("howToChild");
+  });
+  app.querySelectorAll(".strip .panel").forEach(p => p.addEventListener("click", ev => { if (!ev.target.closest(".term")) guided(n, +p.dataset.i) }));
+  const z = document.getElementById("zoom"); if (z) z.onclick = () => guided(n, 0);
+  store.set("mk3.last", String(n)); store.set(`mk3.read.${n}`, "1");
+  // quiz
+  const x = DATA.extras.episodes[n]; let right = 0, answered = 0;
+  app.querySelectorAll(".qa").forEach(qa => qa.querySelectorAll(".qopt").forEach(btn => btn.onclick = () => {
+    if (qa.dataset.done) return;
+    const q = x.quiz[+qa.dataset.q], j = +btn.dataset.j;
+    qa.dataset.done = "1"; answered++;
+    if (j === q.answer) { right++; btn.dataset.state = "right" } else { btn.dataset.state = "wrong"; qa.querySelectorAll(".qopt")[q.answer].dataset.state = "right" }
+    qa.querySelector(".qwhy").hidden = false;
+    document.getElementById("score").textContent = t("score", right, answered);
+  }));
+  // cast chips
+  app.querySelectorAll(".who-chip").forEach(b => b.onclick = ev => { ev.stopPropagation(); openWho(b) });
+  // listen
+  const lb = document.getElementById("listen");
+  if (lb) lb.onclick = () => speakEpisode(n, lb);
+}
+let speaking = false;
+function speakEpisode(n, btn) {
+  const synth = window.speechSynthesis;
+  if (speaking) { synth.cancel(); speaking = false; btn.textContent = "▶ " + t("listen"); document.querySelectorAll(".panel.speaking").forEach(p => p.classList.remove("speaking")); return }
+  const e = EP[n], panels = [...document.querySelectorAll(".strip .panel")];
+  speaking = true; btn.textContent = "■ " + t("stop");
+  e.episode.panels.forEach((p, i) => {
+    const text = (p.bubbles[S.age] || []).map(b => L(b.text)).join(" ");
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = S.lang === "ru" ? "ru-RU" : "en-US"; u.rate = S.age === "kids" ? .9 : 1;
+    u.onstart = () => { panels.forEach(x => x.classList.remove("speaking")); if (panels[i]) { panels[i].classList.add("speaking"); panels[i].scrollIntoView({ behavior: "smooth", block: "center" }) } };
+    if (i === e.episode.panels.length - 1) u.onend = () => { speaking = false; btn.textContent = "▶ " + t("listen"); panels.forEach(x => x.classList.remove("speaking")) };
+    synth.speak(u);
+  });
+}
+function openWho(btn) {
+  const c = CH[btn.dataset.who]; if (!c) return;
+  const host = document.getElementById("popHost");
+  host.innerHTML = `<div class="pop who-pop" role="dialog" aria-label="${esc(L(c.name))}"><button class="x" type="button" aria-label="${esc(t("close"))}">×</button><img class="who-big" src="${art(DATA.portraits[S.age][c.id])}" alt=""><h4>${esc(L(c.name))}</h4><p>${esc(L(c.role))}</p><div class="src"><a href="#cast">${esc(t("cast"))}</a></div></div>`;
+  const pop = host.firstElementChild, r = btn.getBoundingClientRect();
+  pop.style.left = Math.max(16, Math.min(r.left + scrollX, scrollX + document.documentElement.clientWidth - pop.offsetWidth - 16)) + "px";
+  pop.style.top = (r.bottom + scrollY + 8) + "px";
+  pop.querySelector(".x").onclick = closeTerm;
+}
+
+function guided(n, start) {
+  const e = EP[n], ps = e.episode.panels; let i = start, step = 0;
+  const ov = document.getElementById("overlay");
+  const close = () => { ov.innerHTML = ""; ov.onkeydown = null };
+  const draw = () => {
+    const nb = (ps[i].bubbles[S.age] || []).length;
+    ov.innerHTML = `<div class="reader" role="dialog" aria-modal="true"><header><span>${esc(L(e.episode.title))} · ${esc(t("frame"))} ${i + 1} / ${ps.length}</span><button class="rbtn" type="button" id="rX">${esc(t("close"))}</button></header>
+      <div class="stage">${panelHTML(e, ps[i], i, true)}</div><footer><button class="rbtn" type="button" id="rP">← ${esc(t("prev"))}</button><button class="rbtn" type="button" id="rN">${esc(t("next"))} →</button></footer></div>`;
+    ov.querySelectorAll(".b").forEach((b, j) => b.classList.toggle("hidden", j >= step));
+    requestAnimationFrame(() => tails(ov));
+    const nx = () => { if (step < nb) { step++; draw() } else if (i < ps.length - 1) { i++; step = 0; draw() } else close() };
+    const pv = () => { if (step > 0) { step--; draw() } else if (i > 0) { i--; step = (ps[i].bubbles[S.age] || []).length; draw() } };
+    ov.querySelector("#rN").onclick = nx; ov.querySelector("#rP").onclick = pv; ov.querySelector("#rX").onclick = close;
+    ov.querySelector(".stage .panel").onclick = nx;
+    ov.onkeydown = ev => { if (ev.key === "ArrowRight" || ev.key === " ") { ev.preventDefault(); nx() } if (ev.key === "ArrowLeft") pv(); if (ev.key === "Escape") close() };
+    ov.querySelector("#rN").focus();
+  };
+  draw();
+}
+
+function tails(root = document) {
+  root.querySelectorAll(".panel").forEach(panel => {
+    const svg = panel.querySelector(".tails"), pr = panel.getBoundingClientRect();
+    if (!pr.width) return;
+    svg.setAttribute("viewBox", `0 0 ${pr.width} ${pr.height}`);
+    let out = "";
+    panel.querySelectorAll(".b[data-tx]").forEach(b => {
+      if (b.classList.contains("hidden")) return;
+      const r = b.getBoundingClientRect();
+      const tx = pr.width * b.dataset.tx / 100, ty = pr.height * b.dataset.ty / 100;
+      const bx = Math.min(Math.max(tx, r.left - pr.left + r.width * .25), r.right - pr.left - r.width * .25);
+      const by = ty > r.bottom - pr.top ? r.bottom - pr.top - 3 : r.top - pr.top + 3;
+      const w = Math.max(6, Math.min(14, r.width * .06));
+      out += `<path d="M${bx - w} ${by} Q${(bx + tx) / 2} ${(by + ty) / 2} ${tx} ${ty} Q${(bx + tx) / 2 + 2} ${(by + ty) / 2} ${bx + w} ${by} Z" fill="#fff" stroke="#111" stroke-width="2" stroke-linejoin="round" ${b.classList.contains("whisper") ? 'stroke-dasharray="5 4"' : ""}/>`;
+    });
+    svg.innerHTML = out;
+  });
+}
+
+// ------------------------------------------------------------ glossary popover
+function openTerm(btn) {
+  const term = TERM[btn.dataset.t];
+  if (!term) return;
+  const host = document.getElementById("popHost");
+  host.innerHTML = `<div class="pop" role="dialog" aria-label="${esc(L(term.name))}"><button class="x" type="button" aria-label="${esc(t("close"))}">×</button>
+    <h4>${esc(L(term.name))}</h4><p>${esc(L(term[S.age]))}</p>
+    ${S.age === "adults" ? `<p class="small" style="font-family:var(--text)">${esc(t("forChild"))}: ${esc(L(term.kids))}</p>` : ""}
+    <div class="src">${esc(t("source"))}: ${esc(term.source)} · <a href="#lexicon">${esc(t("allWords"))}</a></div></div>`;
+  const pop = host.firstElementChild;
+  const r = btn.getBoundingClientRect();
+  const w = pop.offsetWidth;
+  pop.style.left = Math.max(16, Math.min(r.left + scrollX, scrollX + document.documentElement.clientWidth - w - 16)) + "px";
+  pop.style.top = (r.bottom + scrollY + 8) + "px";
+  pop.querySelector(".x").onclick = closeTerm;
+  pop.querySelector(".x").focus({ preventScroll: true });
+}
+function closeTerm() { document.getElementById("popHost").innerHTML = "" }
+document.addEventListener("click", ev => {
+  const b = ev.target.closest(".term");
+  if (b) { ev.preventDefault(); ev.stopPropagation(); openTerm(b); return }
+  if (!ev.target.closest(".pop")) closeTerm();
+}, true);
+document.addEventListener("keydown", ev => { if (ev.key === "Escape") closeTerm() });
+
+// ------------------------------------------------------------ other views
+function renderLexicon() {
+  const list = [...TERMS].sort((a, b) => L(a.name).localeCompare(L(b.name), S.lang));
+  return `<div class="page"><header class="view-head"><h1>${esc(t("lexTitle"))}</h1><p>${esc(t("lexText"))}</p></header>
+    <div class="lexicon">${list.map(x => `<article id="t-${x.id}"><h3>${esc(L(x.name))}</h3><p>${esc(L(x.adults))}</p><p class="kid">${esc(t("forChild"))}: ${esc(L(x.kids))}</p><div class="src">${esc(t("source"))}: ${esc(x.source)}</div></article>`).join("")}</div></div>`;
+}
+function renderCast() {
+  return `<div class="page"><header class="view-head"><h1>${esc(t("castTitle"))}</h1><p>${esc(t("castText"))}</p></header>
+    <img class="sheet-img" src="${art(DATA.sheets[S.age])}" alt="">
+    <div class="cast">${DATA.characters.characters.filter(c => !c.extra).map(c => `<article><h3>${esc(L(c.name))}</h3><p>${esc(L(c.role))}</p><code>${esc(c.look)}</code></article>`).join("")}</div></div>`;
+}
+let studioEp = 12;
+function renderStudio() {
+  const e = EP[studioEp], P = e.prompts[S.age], suf = S.track === "orthodox" ? ".orthodox" : "";
+  return `<div class="page"><header class="view-head"><h1>${esc(t("studioTitle"))}</h1><p>${esc(t("studioText"))}</p>
+    <div class="row"><label for="stSel" class="small">${esc(t("episode"))}</label><select id="stSel">${Object.values(DATA.episodes).sort((a, b) => a.episode.number - b.episode.number).map(x => `<option value="${x.episode.number}" ${x.episode.number === studioEp ? "selected" : ""}>${x.episode.number}. ${esc(L(x.episode.title))}</option>`).join("")}</select></div></header>
+    ${e.episode.panels.map(p => { const k = P[p.id + suf] ? p.id + suf : p.id, img = e.art[S.age][p.id];
+      return `<div class="prompt"><div><img src="${art(img || e.cover[S.age])}" alt=""><div class="row" style="margin-top:8px"><span class="small">${esc(k)}</span><button class="linkish" type="button" data-k="${k}">${esc(t("copy"))}</button></div></div><pre>${esc(P[k] || "")}</pre></div>` }).join("")}</div>`;
+}
+function bindStudio() {
+  const sel = document.getElementById("stSel"); sel.onchange = () => { studioEp = +sel.value; render() };
+  document.querySelectorAll("[data-k]").forEach(b => b.onclick = () => {
+    const text = EP[studioEp].prompts[S.age][b.dataset.k];
+    const pre = b.closest(".prompt").querySelector("pre");
+    const fb = () => { const r = document.createRange(); r.selectNodeContents(pre); const s = getSelection(); s.removeAllRanges(); s.addRange(r) };
+    try { navigator.clipboard.writeText(text).then(() => b.textContent = t("copied"), fb) } catch (e) { fb() }
+  });
+}
+function renderAbout() { return `<div class="page"><header class="view-head"><h1>${esc(t("about"))}</h1></header><div class="about">${L(DATA.about)}</div></div>` }
+
+// ------------------------------------------------------------ render
+function render(keep) {
+  renderBar(); closeTerm();
+  const r = route(), app = document.getElementById("app"), y = scrollY;
+  app.innerHTML = (r.v === "ep" ? renderEp(r.n) : r.v === "lexicon" ? renderLexicon() : r.v === "cast" ? renderCast() : r.v === "studio" ? renderStudio() : r.v === "about" ? renderAbout() : renderHome())
+    + `<footer class="site"><div class="page">${esc(t("footer"))}</div></footer>`;
+  if (r.v === "ep") bindEp(r.n);
+  if (r.v === "studio") bindStudio();
+  requestAnimationFrame(() => tails(app));
+  document.fonts && document.fonts.ready.then(() => tails(app));
+  if (keep) scrollTo(0, y);
+}
+addEventListener("hashchange", () => { try { speechSynthesis.cancel(); speaking = false } catch (e) {} document.getElementById("overlay").innerHTML = ""; render(); scrollTo(0, 0) });
+new ResizeObserver(() => tails(document)).observe(document.body);
+render();
+if (!S.setup) setup(true);
+</script>

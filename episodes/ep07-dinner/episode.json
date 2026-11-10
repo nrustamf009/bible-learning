@@ -1,0 +1,548 @@
+{
+  "id": "ep07-dinner",
+  "number": 7,
+  "season": 1,
+  "ref": {
+    "book": "Mark",
+    "chapter": 2,
+    "from": 13,
+    "to": 22
+  },
+  "parallels": [
+    "Matthew 9:9-17",
+    "Luke 5:27-39"
+  ],
+  "title": {
+    "en": "Dinner with Sinners",
+    "ru": "Обед с грешниками"
+  },
+  "subtitle": {
+    "en": "Not the healthy, but the sick",
+    "ru": "Не здоровые, но больные"
+  },
+  "place": [
+    "capernaum"
+  ],
+  "panels": [
+    {
+      "id": "p1",
+      "verses": [
+        14
+      ],
+      "characters": [
+        "matthew",
+        "jesus"
+      ],
+      "camera": "medium",
+      "scene": {
+        "kids": "Levi the tax collector sitting at a little booth with coins and scrolls, people frowning at him; Jesus walking up",
+        "adults": "Levi's tax booth by the lake road: coins, scales, a Roman soldier nearby, travellers scowling; Jesus stops in front of him"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "Levi collected taxes. People didn't like tax collectors: many cheated.",
+              "ru": "Левий собирал налоги. Сборщиков налогов не любили: многие обманывали."
+            }
+          }
+        ],
+        "adults": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "Tax collectors worked for Herod and Rome and were known for extortion. Levi sat at his booth.",
+              "ru": "Мытари служили Ироду и Риму и славились вымогательством. Левий сидел у сбора пошлин."
+            }
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "Levi collected taxes. People didn't like tax collectors because many cheated.",
+          "ru": "Левий собирал налоги. Мытарей не любили, потому что многие обманывали."
+        },
+        "parents": {
+          "en": "Ask: is there someone nobody likes at school? How might Jesus treat them?",
+          "ru": "Спросите: есть ли в школе тот, кого никто не любит? Как бы к нему отнёсся Иисус?"
+        },
+        "adults": {
+          "orthodox": {
+            "source": "theophylact",
+            "where": {
+              "en": "On Mark 2:14",
+              "ru": "Толкование на Мк 2:14"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Levi is Matthew the evangelist; he does not hide that he was a publican, so that no sinner would despair.",
+              "ru": "Левий — это евангелист Матфей; он не скрывает, что был мытарем, чтобы ни один грешник не отчаивался."
+            }
+          },
+          "protestant": {
+            "source": "barnes",
+            "where": {
+              "en": "Notes on Mark 2:14",
+              "ru": "Заметки на Мк 2:14"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Tax collectors bought the right to collect tolls and often extorted more; Jews counted them with sinners and pagans.",
+              "ru": "Мытари откупали право сбора пошлин и часто вымогали больше; иудеи причисляли их к грешникам и язычникам."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p2",
+      "verses": [
+        14
+      ],
+      "characters": [
+        "jesus",
+        "matthew"
+      ],
+      "camera": "close",
+      "scene": {
+        "kids": "Jesus smiling and holding out a hand to Levi; Levi's mouth open in surprise, coins spilling",
+        "adults": "Jesus' face, calm and direct; Levi stands, the stool falling behind him"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "speech",
+            "x": 4.2,
+            "y": 50.0,
+            "w": 40,
+            "text": {
+              "en": "Follow Me!",
+              "ru": "Иди за Мной!"
+            },
+            "who": "jesus",
+            "tx": 24.2,
+            "ty": 64.7
+          },
+          {
+            "kind": "caption",
+            "x": 58,
+            "y": 82,
+            "w": 39,
+            "text": {
+              "en": "And Levi got up and followed Him!",
+              "ru": "И Левий встал и пошёл за Ним!"
+            }
+          }
+        ],
+        "adults": [
+          {
+            "kind": "speech",
+            "x": 4.2,
+            "y": 20.9,
+            "w": 40,
+            "text": {
+              "en": "Follow Me.",
+              "ru": "Иди за Мною."
+            },
+            "who": "jesus",
+            "tx": 24.2,
+            "ty": 36.8
+          },
+          {
+            "kind": "caption",
+            "x": 58,
+            "y": 82,
+            "w": 39,
+            "text": {
+              "en": "And Levi got up and followed Him.",
+              "ru": "И он, встав, последовал за Ним."
+            }
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "Jesus said 'Follow Me!' — and Levi left his money and went!",
+          "ru": "Иисус сказал: «Иди за Мной!» — и Левий оставил деньги и пошёл!"
+        },
+        "parents": {
+          "en": "Talk about how Jesus sees what a person can become, not only what they were.",
+          "ru": "Поговорите о том, что Иисус видит, кем человек может стать, а не только кем он был."
+        },
+        "adults": {
+          "orthodox": {
+            "source": "chrysostom",
+            "where": {
+              "en": "Homily 30 on Matthew (Mt 9:9)",
+              "ru": "Беседа 30 на Мф (Mt 9:9)"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "He called him in the very act of his sinful trade, showing the power of the One who calls.",
+              "ru": "Он призвал его в самом занятии его грешным ремеслом, показывая силу Призывающего."
+            }
+          },
+          "protestant": {
+            "source": "ryle",
+            "where": {
+              "en": "Expository Thoughts on Mark 2:14",
+              "ru": "Размышления на Мк 2:14"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Let no man despair of being saved, however great his sins: Christ called a publican.",
+              "ru": "Пусть никто не отчаивается в спасении, как бы велики ни были грехи: Христос призвал мытаря."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p3",
+      "verses": [
+        15
+      ],
+      "characters": [
+        "jesus",
+        "matthew",
+        "villager1",
+        "villager3",
+        "peter"
+      ],
+      "camera": "interior, warm, lamps",
+      "scene": {
+        "kids": "a happy dinner party in Levi's house, lots of people laughing around a long table with bread and grapes, Jesus in the middle",
+        "adults": "a crowded evening meal in Levi's courtyard: tax collectors, rough men, a woman at the edge; Jesus reclining among them, laughing"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "Levi threw a big dinner. Lots of tax collectors and 'sinners' came and ate with Jesus.",
+              "ru": "Левий устроил большой обед. Пришло много мытарей и «грешников», и они ели вместе с Иисусом."
+            }
+          }
+        ],
+        "adults": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "Many tax collectors and sinners were eating with Him and His disciples.",
+              "ru": "И многие мытари и грешники возлежали также с Иисусом и учениками Его."
+            }
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "Levi threw a big party, and Jesus ate with people that others didn't like.",
+          "ru": "Левий устроил праздник, и Иисус ел с людьми, которых другие не любили."
+        },
+        "parents": {
+          "en": "Invite someone new to your family table this month.",
+          "ru": "Пригласите в этом месяце к семейному столу кого-то нового."
+        },
+        "adults": {
+          "orthodox": {
+            "source": "theophylact",
+            "where": {
+              "en": "On Mark 2:15",
+              "ru": "Толкование на Мк 2:15"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "He goes to sinners as a physician goes to the sick, not to share their sickness but to heal it.",
+              "ru": "Он идёт к грешникам, как врач к больным: не разделить болезнь, а исцелить её."
+            }
+          },
+          "protestant": {
+            "source": "henry",
+            "where": {
+              "en": "Commentary on Mark 2:15",
+              "ru": "Комментарий на Мк 2:15"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Christ conversed with sinners as their Physician, not as their companion in sin.",
+              "ru": "Христос общался с грешниками как их Врач, а не как товарищ по греху."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p4",
+      "verses": [
+        16
+      ],
+      "characters": [
+        "pharisee",
+        "scribe",
+        "john"
+      ],
+      "camera": "doorway, outside looking in",
+      "scene": {
+        "kids": "two Pharisees outside the door looking in with crossed arms, whispering to one of the disciples",
+        "adults": "Pharisees at the gate, refusing to enter, questioning a disciple; warm light inside, cold blue outside"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "whisper",
+            "x": 13.7,
+            "y": 43.6,
+            "w": 36,
+            "text": {
+              "en": "Why does He eat with bad people?",
+              "ru": "Почему Он ест с плохими людьми?"
+            },
+            "who": "pharisee",
+            "tx": 31.7,
+            "ty": 63.5
+          }
+        ],
+        "adults": [
+          {
+            "kind": "whisper",
+            "x": 13.7,
+            "y": 22.9,
+            "w": 36,
+            "text": {
+              "en": "Why does He eat with tax collectors and sinners?",
+              "ru": "Как это Он ест и пьет с мытарями и грешниками?"
+            },
+            "who": "pharisee",
+            "tx": 31.7,
+            "ty": 43.2
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "Some Pharisees were upset: 'Why does He eat with sinners?'",
+          "ru": "Некоторые фарисеи возмутились: «Почему Он ест с грешниками?»"
+        },
+        "parents": {
+          "en": "Ask: do we sometimes act like the Pharisees, thinking we're better than others?",
+          "ru": "Спросите: бываем ли мы похожи на фарисеев, думая, что мы лучше других?"
+        },
+        "adults": {
+          "orthodox": {
+            "source": "lopukhin",
+            "where": {
+              "en": "Explanatory Bible, on Mk 2:16",
+              "ru": "Толковая Библия, на Мк 2:16"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "For the Pharisees, eating together meant fellowship and ritual impurity; they judged by outward cleanness.",
+              "ru": "Для фарисеев совместная трапеза означала общение и ритуальную нечистоту; они судили по внешней чистоте."
+            }
+          },
+          "protestant": {
+            "source": "ryle",
+            "where": {
+              "en": "Expository Thoughts on Mark 2:16",
+              "ru": "Размышления на Мк 2:16"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Self-righteousness is one of the greatest hindrances to receiving the gospel.",
+              "ru": "Самоправедность — одно из величайших препятствий к принятию Евангелия."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p5",
+      "verses": [
+        17
+      ],
+      "characters": [
+        "jesus",
+        "pharisee"
+      ],
+      "camera": "medium",
+      "scene": {
+        "kids": "Jesus at the door answering kindly, a doctor's bag drawn as a little picture in a thought bubble",
+        "adults": "Jesus steps into the doorway between the light and the dark to answer them"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "speech",
+            "x": 20.0,
+            "y": 37.8,
+            "w": 40,
+            "text": {
+              "en": "Healthy people don't need a doctor. Sick people do! I came for sinners.",
+              "ru": "Здоровым врач не нужен — он нужен больным! Я пришёл к грешникам."
+            },
+            "who": "jesus",
+            "tx": 40.0,
+            "ty": 62.9
+          }
+        ],
+        "adults": [
+          {
+            "kind": "speech",
+            "x": 20.0,
+            "y": 16.6,
+            "w": 40,
+            "text": {
+              "en": "It is not the healthy who need a doctor, but the sick. I have not come to call the righteous, but sinners.",
+              "ru": "Не здоровые имеют нужду во враче, но больные; Я пришел призвать не праведников, но грешников к покаянию."
+            },
+            "who": "jesus",
+            "tx": 40.0,
+            "ty": 41.3
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "Jesus said: 'A doctor is for sick people. I came for sinners.' We all need Him.",
+          "ru": "Иисус сказал: «Врач нужен больным. Я пришёл к грешникам». Он нужен всем нам."
+        },
+        "parents": {
+          "en": "Use the doctor picture: we go to a doctor because we need help. That's how we come to Jesus.",
+          "ru": "Используйте образ врача: мы идём к врачу, потому что нужна помощь. Так мы приходим к Иисусу."
+        },
+        "adults": {
+          "orthodox": {
+            "source": "theophylact",
+            "where": {
+              "en": "On Mark 2:17",
+              "ru": "Толкование на Мк 2:17"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "He came to call to repentance not the righteous — there were none truly — but those who know they are sick.",
+              "ru": "Он пришёл призвать к покаянию не праведников — истинно праведных не было, — а тех, кто знает, что болен."
+            }
+          },
+          "protestant": {
+            "source": "henry",
+            "where": {
+              "en": "Commentary on Mark 2:17",
+              "ru": "Комментарий на Мк 2:17"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Those who think themselves whole will never seek the Physician; it is the sense of need that brings souls to Christ.",
+              "ru": "Кто считает себя здоровым, не будет искать Врача; ко Христу приводит чувство нужды."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p6",
+      "verses": [
+        18,
+        19,
+        22
+      ],
+      "characters": [
+        "jesus"
+      ],
+      "camera": "still life / symbol",
+      "scene": {
+        "kids": "a wedding feast with a happy groom, and a picture of new wine poured into a new leather bottle",
+        "adults": "a symbolic panel: an old cracked wineskin bursting beside a new supple one being filled; a wedding in the background"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "speech",
+            "x": 50,
+            "y": 6,
+            "w": 40,
+            "text": {
+              "en": "You don't put new wine into old bottles. Something new has come!",
+              "ru": "Молодое вино не наливают в старые мехи. Пришло новое!"
+            },
+            "who": "jesus"
+          }
+        ],
+        "adults": [
+          {
+            "kind": "speech",
+            "x": 50,
+            "y": 6,
+            "w": 40,
+            "text": {
+              "en": "New wine is poured into new wineskins.",
+              "ru": "Вино молодое надобно вливать в мехи новые."
+            },
+            "who": "jesus"
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "New wine needs new bottles. Jesus brings something new and wonderful!",
+          "ru": "Молодому вину нужны новые мехи. Иисус приносит что-то новое и чудесное!"
+        },
+        "parents": {
+          "en": "Ask: what new thing could Jesus be starting in our family?",
+          "ru": "Спросите: что новое Иисус может начать в нашей семье?"
+        },
+        "adults": {
+          "orthodox": {
+            "source": "theophylact",
+            "where": {
+              "en": "On Mark 2:21–22",
+              "ru": "Толкование на Мк 2:21–22"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "The new wine is the grace of the Gospel; it needs a renewed heart, not the old one, worn out by sin.",
+              "ru": "Молодое вино — благодать Евангелия; ей нужно обновлённое сердце, а не ветхое, изношенное грехом."
+            }
+          },
+          "protestant": {
+            "source": "ryle",
+            "where": {
+              "en": "Expository Thoughts on Mark 2:21–22",
+              "ru": "Размышления на Мк 2:21–22"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "The gospel cannot be patched onto an old religion of works; it needs a new heart.",
+              "ru": "Евангелие нельзя пришить заплатой к старой религии дел; ему нужно новое сердце."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "cover": "ep07"
+}

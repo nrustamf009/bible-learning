@@ -1,0 +1,651 @@
+{
+  "id": "ep12-storm",
+  "number": 12,
+  "season": 2,
+  "ref": {
+    "book": "Mark",
+    "chapter": 4,
+    "from": 35,
+    "to": 41
+  },
+  "parallels": [
+    "Matthew 8:23-27",
+    "Luke 8:22-25"
+  ],
+  "title": {
+    "en": "The Storm on the Lake",
+    "ru": "Буря на озере"
+  },
+  "subtitle": {
+    "en": "Who is this, that even the wind and the sea obey Him?",
+    "ru": "Кто же Это, что и ветер и море повинуются Ему?"
+  },
+  "place": [
+    "galilee_lake",
+    "galilee_boat"
+  ],
+  "_bubbles": "Bubble coordinates are % of the panel (x, y = top-left corner, w = width). tx/ty = where the tail points (the speaker). kind: caption | speech | shout | whisper | sfx. Text never goes into the picture; the reader draws it on top, so one picture works in every language.",
+  "panels": [
+    {
+      "id": "p1",
+      "verses": [
+        35
+      ],
+      "characters": [
+        "jesus",
+        "peter",
+        "john"
+      ],
+      "camera": "wide establishing shot",
+      "scene": {
+        "kids": "evening on the shore of the Sea of Galilee, orange-pink sunset sky, gentle lake, a small crowd of happy people on the sand on the left, a wooden fishing boat pulled to the shore on the right, Jesus standing in the boat pointing across the lake with a smile, Peter and John walking toward the boat",
+        "adults": "golden-hour wide shot of the Sea of Galilee shore, long shadows, tired crowd dispersing on the left, wooden fishing boat at the water's edge on the right, Jesus standing in the boat looking and pointing across the darkening lake, Peter pushing the boat off, John climbing in"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 44,
+            "text": {
+              "en": "It was evening by the Sea of Galilee. Jesus had been teaching people all day.",
+              "ru": "Был вечер у Галилейского моря. Весь день Иисус учил людей."
+            }
+          },
+          {
+            "kind": "speech",
+            "who": "jesus",
+            "x": 51.3,
+            "y": 35.5,
+            "w": 34,
+            "tx": 68.3,
+            "ty": 55.4,
+            "text": {
+              "en": "Let's go across to the other side!",
+              "ru": "Давайте переплывём на ту сторону!"
+            }
+          }
+        ],
+        "adults": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 40,
+            "text": {
+              "en": "Evening. The Sea of Galilee. After a long day of parables by the shore.",
+              "ru": "Вечер. Галилейское море. Позади — долгий день притч на берегу."
+            }
+          },
+          {
+            "kind": "speech",
+            "who": "jesus",
+            "x": 58.3,
+            "y": 21.5,
+            "w": 30,
+            "tx": 73.3,
+            "ty": 41.8,
+            "text": {
+              "en": "Let us cross to the other side.",
+              "ru": "Переправимся на ту сторону."
+            }
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "It was Jesus' idea to sail. The disciples obeyed — and still ended up in a storm.",
+          "ru": "Плыть предложил Иисус. Ученики послушались — и всё равно попали в бурю."
+        },
+        "parents": {
+          "en": "Ask: has it ever been hard even when you did the right thing? Share a moment from your own life.",
+          "ru": "Спросите: бывает ли трудно, даже когда поступаешь правильно? Расскажите случай из своей жизни."
+        },
+        "adults": {
+          "orthodox": {
+            "source": "chrysostom",
+            "where": {
+              "en": "Homily 28 on Matthew",
+              "ru": "Беседа 28 на Мф"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "He leaves the crowd and crosses over, teaching us not to chase human praise; and He takes His disciples into the trial on purpose, so that they would learn from it.",
+              "ru": "Он оставляет народ и отплывает, уча не гнаться за славой людской; и нарочно берёт учеников туда, где их ждёт испытание, чтобы они научились."
+            }
+          },
+          "protestant": {
+            "source": "ryle",
+            "where": {
+              "en": "Expository Thoughts on Mark 4:35–41",
+              "ru": "Размышления на Мк 4:35–41"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "The disciples were in the path of duty, at Christ's own command, and yet the storm came. Obedience does not exempt us from trouble.",
+              "ru": "Ученики были на пути долга, по слову Самого Христа, и всё же буря пришла. Послушание не освобождает от испытаний."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p2",
+      "verses": [
+        36
+      ],
+      "characters": [
+        "jesus",
+        "peter",
+        "andrew",
+        "james",
+        "john"
+      ],
+      "camera": "medium-wide, side view of the boat",
+      "scene": {
+        "kids": "the fishing boat sailing on a calm purple-blue lake at dusk, big round moon rising, two small boats in the distance, the disciples smiling and rowing, Jesus yawning and sitting at the back of the boat",
+        "adults": "side view of the fishing boat on calm water at blue hour, sail half-filled, two other boats with lanterns in the distance, disciples working the oars and the sail, Jesus sitting in the stern, exhausted, head bowed"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 50,
+            "text": {
+              "en": "They sailed away. Other boats came too. Jesus was very, very tired…",
+              "ru": "Они поплыли. За ними поплыли и другие лодки. Иисус очень-очень устал…"
+            }
+          }
+        ],
+        "adults": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 46,
+            "text": {
+              "en": "They left the crowd behind and took Him along, just as He was. Other boats followed.",
+              "ru": "Отпустив народ, они взяли Его с собою, как Он был, в лодке. С Ним были и другие лодки."
+            }
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "Jesus was God, and He also got really tired — like you after a long day.",
+          "ru": "Иисус — Бог, и при этом по-настоящему уставал, как ты после долгого дня."
+        },
+        "parents": {
+          "en": "Point out that Jesus understands tiredness. Ask: when you're worn out, what helps you?",
+          "ru": "Обратите внимание: Иисус знает, что такое усталость. Спросите: когда ты очень устал, что тебе помогает?"
+        },
+        "adults": {
+          "orthodox": {
+            "source": "theophylact",
+            "where": {
+              "en": "On Mark 4:35–41",
+              "ru": "Толкование на Мк 4:35–41"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "He sleeps as a man, showing that He truly took our nature, with its weariness; soon He will command the sea as God. One Person, two natures.",
+              "ru": "Он спит как Человек, показывая, что воистину принял нашу природу с её усталостью; скоро Он повелит морю как Бог. Одна Личность — два естества."
+            }
+          },
+          "protestant": {
+            "source": "barnes",
+            "where": {
+              "en": "Notes on Mark 4:36",
+              "ru": "Заметки на Мк 4:36"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "“As He was”: without going ashore to rest or prepare. The other boats meant there were more witnesses of what would happen.",
+              "ru": "«Как Он был»: не сходя на берег отдохнуть и собраться. Другие лодки — значит, свидетелей случившегося было больше."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p3",
+      "verses": [
+        37,
+        38
+      ],
+      "characters": [
+        "jesus",
+        "peter",
+        "andrew",
+        "james",
+        "john"
+      ],
+      "camera": "dramatic tilted angle",
+      "scene": {
+        "kids": "a sudden cartoon storm: dark navy sky, zig-zag lightning, huge rounded waves, the boat tipping to one side with water splashing in, the disciples holding on with wide scared eyes, and at the back of the boat Jesus peacefully asleep on a cushion",
+        "adults": "violent night storm on the lake, a towering wave about to break over the small boat, lightning tearing the sky, rain slashing diagonally, disciples bailing water and gripping the mast, in the stern Jesus asleep on a cushion, completely still in the chaos"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "Suddenly a HUGE storm came! Waves splashed into the boat.",
+              "ru": "Вдруг поднялась ОГРОМНАЯ буря! Волны захлёстывали лодку."
+            }
+          },
+          {
+            "kind": "sfx",
+            "x": 60,
+            "y": 6,
+            "w": 22,
+            "text": {
+              "en": "CRASH!",
+              "ru": "БАХ!"
+            }
+          },
+          {
+            "kind": "caption",
+            "x": 62,
+            "y": 82,
+            "w": 35,
+            "text": {
+              "en": "And Jesus? He was asleep on a cushion!",
+              "ru": "А Иисус? Он спал на подушке!"
+            }
+          }
+        ],
+        "adults": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 40,
+            "text": {
+              "en": "A violent windstorm came up. The waves broke over the boat — it was filling with water.",
+              "ru": "Поднялась великая буря. Волны били в лодку, так что она уже наполнялась водою."
+            }
+          },
+          {
+            "kind": "caption",
+            "x": 62,
+            "y": 84,
+            "w": 34,
+            "text": {
+              "en": "But He was in the stern, asleep on the cushion.",
+              "ru": "А Он спал на корме, на возглавии."
+            }
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "Storms come fast on this lake. Even the fishermen were scared — and Jesus was asleep!",
+          "ru": "На этом озере бури налетают быстро. Даже рыбаки испугались — а Иисус спал!"
+        },
+        "parents": {
+          "en": "Don't rush to say “don't be scared”. Ask what was the scariest part. Fear is a normal feeling.",
+          "ru": "Не спешите говорить «не бойся». Спросите, что было страшнее всего. Страх — нормальное чувство."
+        },
+        "adults": {
+          "orthodox": {
+            "source": "augustine",
+            "where": {
+              "en": "Sermon 63",
+              "ru": "Проповедь 63"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "When the wind of insult blows and anger rises like a wave, it is because Christ is asleep in you: your faith in Him has fallen asleep. Wake Him by remembering Him.",
+              "ru": "Когда дует ветер обиды и гнев поднимается волной, значит, Христос спит в тебе: уснула твоя вера. Разбуди Его — вспомни о Нём."
+            }
+          },
+          "protestant": {
+            "source": "henry",
+            "where": {
+              "en": "Commentary on Mark 4:35–41",
+              "ru": "Комментарий на Мк 4:35–41"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Christ was asleep to try the faith of His disciples and to stir them up to pray. He may seem asleep in a storm; He is never absent from the boat.",
+              "ru": "Христос спал, чтобы испытать веру учеников и побудить их к молитве. В бурю Он может казаться спящим, но Он никогда не покидает лодку."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p4",
+      "verses": [
+        38
+      ],
+      "characters": [
+        "jesus",
+        "peter",
+        "john"
+      ],
+      "camera": "close-up inside the boat",
+      "scene": {
+        "kids": "close-up inside the rocking boat: Peter with huge worried eyebrows shaking the sleeping Jesus by the shoulder, John hugging the mast, water splashing over the side",
+        "adults": "close-up in the stern lit by a flash of lightning: Peter, soaked and desperate, grabbing the shoulder of the sleeping Jesus, John behind him clinging to the mast, water pouring over the side"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "shout",
+            "who": "peter",
+            "x": 2.0,
+            "y": 41.8,
+            "w": 46,
+            "tx": 25.0,
+            "ty": 61.7,
+            "text": {
+              "en": "Teacher! Don't You care? We're sinking!",
+              "ru": "Учитель! Тебе всё равно? Мы тонем!"
+            }
+          }
+        ],
+        "adults": [
+          {
+            "kind": "shout",
+            "who": "peter",
+            "x": 5.5,
+            "y": 12.1,
+            "w": 44,
+            "tx": 27.5,
+            "ty": 32.4,
+            "text": {
+              "en": "Teacher, don't You care that we are perishing?",
+              "ru": "Учитель! Неужели Тебе нужды нет, что мы погибаем?"
+            }
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "The disciples told Jesus exactly how they felt. You can talk to God honestly too.",
+          "ru": "Ученики честно сказали Иисусу, что чувствуют. С Богом тоже можно говорить честно."
+        },
+        "parents": {
+          "en": "A good moment to teach a prayer in their own words: “Lord, I'm scared. Please help me.”",
+          "ru": "Хороший момент научить молитве своими словами: «Господи, мне страшно. Помоги мне»."
+        },
+        "adults": {
+          "orthodox": {
+            "source": "chrysostom",
+            "where": {
+              "en": "Homily 28 on Matthew",
+              "ru": "Беседа 28 на Мф"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "He let them be afraid so that they would know their own weakness; their cry “Lord, save us!” (Mt 8:25) is the prayer the Church still prays in every storm.",
+              "ru": "Он допустил им испугаться, чтобы они узнали свою немощь; их вопль «Господи, спаси нас!» (Мф 8:25) Церковь и сейчас повторяет в каждой буре."
+            }
+          },
+          "protestant": {
+            "source": "calvin",
+            "where": {
+              "en": "Harmony of the Evangelists, on Mt 8:23–27",
+              "ru": "Согласование Евангелий, на Мф 8:23–27"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Their fault was not that they called on Him, but that they doubted whether He cared.",
+              "ru": "Их вина не в том, что они воззвали к Нему, а в том, что усомнились, есть ли Ему до них дело."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p5",
+      "verses": [
+        39
+      ],
+      "characters": [
+        "jesus",
+        "peter",
+        "andrew",
+        "james",
+        "john"
+      ],
+      "camera": "low angle hero shot",
+      "scene": {
+        "kids": "Jesus standing tall at the front of the boat, one hand raised toward the storm, a burst of warm light pushing the dark clouds away, the waves bowing down, the disciples peeking from behind Him amazed",
+        "adults": "low-angle shot: Jesus standing at the bow, mantle whipped by the wind, right hand raised against the storm, rain freezing mid-air, the clouds beginning to tear open and pale light breaking through, disciples crouched behind Him staring"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "shout",
+            "who": "jesus",
+            "x": 26.7,
+            "y": 37.7,
+            "w": 30,
+            "tx": 41.7,
+            "ty": 52.4,
+            "text": {
+              "en": "Quiet! Be still!",
+              "ru": "Замолчи! Успокойся!"
+            }
+          }
+        ],
+        "adults": [
+          {
+            "kind": "caption",
+            "x": 62,
+            "y": 4,
+            "w": 34,
+            "text": {
+              "en": "He got up and rebuked the wind and the sea.",
+              "ru": "И, встав, Он запретил ветру и сказал морю:"
+            }
+          },
+          {
+            "kind": "shout",
+            "who": "jesus",
+            "x": 25.2,
+            "y": 18.1,
+            "w": 28,
+            "tx": 39.2,
+            "ty": 34.0,
+            "text": {
+              "en": "Silence! Be still!",
+              "ru": "Умолкни, перестань!"
+            }
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "Jesus didn't ask the wind — He gave it an order. Only God can do that.",
+          "ru": "Иисус не попросил ветер — Он приказал. Так может только Бог."
+        },
+        "parents": {
+          "en": "Read Psalm 107:29 (106:29 in Orthodox Bibles) together. Ask: in the Old Testament, who calms the sea?",
+          "ru": "Прочитайте вместе Псалом 106:29. Спросите: кто в Ветхом Завете успокаивает море?"
+        },
+        "adults": {
+          "orthodox": {
+            "source": "theophylact",
+            "where": {
+              "en": "On Mark 4:39",
+              "ru": "Толкование на Мк 4:39"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "He rebukes the wind and orders the sea as its Master and Creator; the same Lord who slept as a man now acts as God.",
+              "ru": "Он запрещает ветру и повелевает морю как Владыка и Творец; Тот, Кто спал как Человек, теперь действует как Бог."
+            }
+          },
+          "protestant": {
+            "source": "ryle",
+            "where": {
+              "en": "Expository Thoughts on Mark 4:35–41",
+              "ru": "Размышления на Мк 4:35–41"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Here is almighty power: one word, and wind and waves obey. The One who sleeps in the stern is the Lord of creation.",
+              "ru": "Вот всемогущество: одно слово — и ветер и волны покорны. Спящий на корме — Господь творения."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p6",
+      "verses": [
+        39,
+        40,
+        41
+      ],
+      "characters": [
+        "jesus",
+        "peter",
+        "andrew",
+        "james",
+        "john"
+      ],
+      "camera": "wide, then the reaction",
+      "scene": {
+        "kids": "perfect calm night: the lake like a mirror reflecting a big moon and stars, the boat floating still, Jesus smiling gently, the disciples with hands on their cheeks in amazement",
+        "adults": "absolute stillness: mirror-flat lake under a full moon and stars, the small boat motionless with its reflection, Jesus standing calm, the disciples soaked and silent, staring at Him with awe and fear"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 30,
+            "text": {
+              "en": "And everything became very, very calm.",
+              "ru": "И стало тихо-тихо."
+            }
+          },
+          {
+            "kind": "speech",
+            "who": "jesus",
+            "x": 34.7,
+            "y": 22.8,
+            "w": 34,
+            "tx": 51.7,
+            "ty": 47.9,
+            "text": {
+              "en": "Why were you so scared? Don't you trust Me yet?",
+              "ru": "Почему вы так испугались? Разве вы ещё не верите Мне?"
+            }
+          },
+          {
+            "kind": "whisper",
+            "who": "disciples",
+            "x": 66,
+            "y": 26,
+            "w": 31,
+            "tx": 61.3,
+            "ty": 49.9,
+            "text": {
+              "en": "Who is He? Even the wind and the waves obey Him!",
+              "ru": "Кто же Он? Даже ветер и волны Его слушаются!"
+            }
+          }
+        ],
+        "adults": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 28,
+            "text": {
+              "en": "And it was perfectly calm.",
+              "ru": "И сделалась великая тишина."
+            }
+          },
+          {
+            "kind": "speech",
+            "who": "jesus",
+            "x": 34.0,
+            "y": 19.9,
+            "w": 32,
+            "tx": 50.0,
+            "ty": 40.2,
+            "text": {
+              "en": "Why are you so afraid? Do you still have no faith?",
+              "ru": "Что вы так боязливы? Как у вас нет веры?"
+            }
+          },
+          {
+            "kind": "whisper",
+            "who": "disciples",
+            "x": 66,
+            "y": 24,
+            "w": 31,
+            "tx": 58.3,
+            "ty": 42.0,
+            "text": {
+              "en": "Who is this, that even the wind and the sea obey Him?",
+              "ru": "Кто же Это, что и ветер и море повинуются Ему?"
+            }
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "After the storm they were even more amazed: “Who is He?” That is the big question of the whole book.",
+          "ru": "После бури они удивились ещё больше: «Кто же Он?» Это главный вопрос всей книги."
+        },
+        "parents": {
+          "en": "Ask: what is the difference between “scared” and “amazed”? End with a short thank-you prayer together.",
+          "ru": "Спросите: чем «страшно» отличается от «дух захватывает»? Закончите короткой благодарственной молитвой."
+        },
+        "adults": {
+          "orthodox": {
+            "source": "lopukhin",
+            "where": {
+              "en": "Explanatory Bible, on Mk 4:41",
+              "ru": "Толковая Библия, на Мк 4:41"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "The “great fear” is reverent awe at the manifest power of God in Christ; the disciples' question prepares Peter's confession (8:29).",
+              "ru": "«Страх великий» — благоговение перед явной силой Божией во Христе; вопрос учеников готовит исповедание Петра (8:29)."
+            }
+          },
+          "protestant": {
+            "source": "ryle",
+            "where": {
+              "en": "Expository Thoughts on Mark 4:35–41",
+              "ru": "Размышления на Мк 4:35–41"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "“Why are you so fearful?” He rebukes their fear, yet He does not reject them. Christ deals very gently with weak faith.",
+              "ru": "«Что вы так боязливы?» Он обличает страх, но не отвергает их. Христос очень бережно обходится со слабой верой."
+            }
+          }
+        }
+      }
+    }
+  ]
+}

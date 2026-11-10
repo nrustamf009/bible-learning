@@ -1,0 +1,14 @@
+STYLE: modern graphic novel panel, cinematic composition, dramatic chiaroscuro lighting, confident inked linework with textured digital painting, muted palette of deep teal and warm amber, realistic human proportions, historically accurate first-century Galilee (Jewish clothing, basalt stone houses, wooden fishing boat), emotional realism, film-still framing, no text, no letters, no speech bubbles.
+
+SCENE (interior, warm): Simon's house: Jesus takes the feverish woman by the hand and raises her; next panel-moment she is already serving bread.
+
+SETTING: Capernaum, a fishing town on the north shore, houses of black basalt stone with flat roofs of beams and clay, a white limestone synagogue.
+
+CHARACTERS (keep exactly the same look in every image):
+- Jesus of Nazareth, a Jewish man about 30 years old, olive-brown skin, dark brown wavy shoulder-length hair parted in the middle, short full dark beard, warm dark brown eyes, kind steady expression; cream undyed linen tunic to the ankles, deep blue woolen outer mantle with small blue-and-white tassels at the corners, leather sandals; strong worker's hands of a carpenter, sun-weathered face, eyes that look directly at people
+- Simon Peter, a burly Galilean fisherman about 40, very broad shoulders, sun-tanned skin, short curly black hair with grey at the temples, thick bushy grey-black beard, big expressive eyebrows; rough brown knee-length tunic with sleeves rolled up, rope belt, bare forearms; scar on the left forearm from fishing nets, deep laugh lines
+- Simon Peter's mother-in-law, Galilean woman about 60, olive skin, grey hair under a plum-purple head covering, cream tunic, kind tired face; realistic, dignified
+
+COMPOSITION: wide 3:2 frame; keep the top quarter of the image calm and uncluttered (speech bubbles will be added later).
+
+AVOID: text, letters, watermark, speech bubbles, cartoon, anime, chibi, glossy 3D render, gore, European medieval clothing, blond Jesus, modern objects.

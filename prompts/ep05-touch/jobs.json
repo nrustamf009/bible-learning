@@ -1,0 +1,248 @@
+[
+ {
+  "style": "kids",
+  "panel": "p1",
+  "variant": "base",
+  "prompt_file": "prompts/ep05-touch/kids/p1.txt",
+  "references": [
+   "art/kids/characters/leper.png",
+   "art/kids/characters/villager1.png",
+   "art/kids/characters/villager2.png"
+  ],
+  "out": "art/kids/ep05-touch/p1.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p2",
+  "variant": "base",
+  "prompt_file": "prompts/ep05-touch/kids/p2.txt",
+  "references": [
+   "art/kids/characters/leper.png",
+   "art/kids/characters/jesus.png"
+  ],
+  "out": "art/kids/ep05-touch/p2.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p2",
+  "variant": "orthodox",
+  "prompt_file": "prompts/ep05-touch/kids/p2.orthodox.txt",
+  "references": [
+   "art/kids/characters/leper.png",
+   "art/kids/characters/jesus.png"
+  ],
+  "out": "art/kids/ep05-touch/p2.orthodox.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p3",
+  "variant": "base",
+  "prompt_file": "prompts/ep05-touch/kids/p3.txt",
+  "references": [
+   "art/kids/characters/jesus.png",
+   "art/kids/characters/leper.png"
+  ],
+  "out": "art/kids/ep05-touch/p3.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p3",
+  "variant": "orthodox",
+  "prompt_file": "prompts/ep05-touch/kids/p3.orthodox.txt",
+  "references": [
+   "art/kids/characters/jesus.png",
+   "art/kids/characters/leper.png"
+  ],
+  "out": "art/kids/ep05-touch/p3.orthodox.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p4",
+  "variant": "base",
+  "prompt_file": "prompts/ep05-touch/kids/p4.txt",
+  "references": [
+   "art/kids/characters/jesus.png",
+   "art/kids/characters/leper.png"
+  ],
+  "out": "art/kids/ep05-touch/p4.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p4",
+  "variant": "orthodox",
+  "prompt_file": "prompts/ep05-touch/kids/p4.orthodox.txt",
+  "references": [
+   "art/kids/characters/jesus.png",
+   "art/kids/characters/leper.png"
+  ],
+  "out": "art/kids/ep05-touch/p4.orthodox.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p5",
+  "variant": "base",
+  "prompt_file": "prompts/ep05-touch/kids/p5.txt",
+  "references": [
+   "art/kids/characters/jesus.png",
+   "art/kids/characters/leper.png"
+  ],
+  "out": "art/kids/ep05-touch/p5.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p5",
+  "variant": "orthodox",
+  "prompt_file": "prompts/ep05-touch/kids/p5.orthodox.txt",
+  "references": [
+   "art/kids/characters/jesus.png",
+   "art/kids/characters/leper.png"
+  ],
+  "out": "art/kids/ep05-touch/p5.orthodox.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "kids",
+  "panel": "p6",
+  "variant": "base",
+  "prompt_file": "prompts/ep05-touch/kids/p6.txt",
+  "references": [
+   "art/kids/characters/leper.png",
+   "art/kids/characters/villager1.png",
+   "art/kids/characters/villager2.png",
+   "art/kids/characters/villager4.png"
+  ],
+  "out": "art/kids/ep05-touch/p6.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p1",
+  "variant": "base",
+  "prompt_file": "prompts/ep05-touch/adults/p1.txt",
+  "references": [
+   "art/adults/characters/leper.png",
+   "art/adults/characters/villager1.png",
+   "art/adults/characters/villager2.png"
+  ],
+  "out": "art/adults/ep05-touch/p1.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p2",
+  "variant": "base",
+  "prompt_file": "prompts/ep05-touch/adults/p2.txt",
+  "references": [
+   "art/adults/characters/leper.png",
+   "art/adults/characters/jesus.png"
+  ],
+  "out": "art/adults/ep05-touch/p2.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p2",
+  "variant": "orthodox",
+  "prompt_file": "prompts/ep05-touch/adults/p2.orthodox.txt",
+  "references": [
+   "art/adults/characters/leper.png",
+   "art/adults/characters/jesus.png"
+  ],
+  "out": "art/adults/ep05-touch/p2.orthodox.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p3",
+  "variant": "base",
+  "prompt_file": "prompts/ep05-touch/adults/p3.txt",
+  "references": [
+   "art/adults/characters/jesus.png",
+   "art/adults/characters/leper.png"
+  ],
+  "out": "art/adults/ep05-touch/p3.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p3",
+  "variant": "orthodox",
+  "prompt_file": "prompts/ep05-touch/adults/p3.orthodox.txt",
+  "references": [
+   "art/adults/characters/jesus.png",
+   "art/adults/characters/leper.png"
+  ],
+  "out": "art/adults/ep05-touch/p3.orthodox.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p4",
+  "variant": "base",
+  "prompt_file": "prompts/ep05-touch/adults/p4.txt",
+  "references": [
+   "art/adults/characters/jesus.png",
+   "art/adults/characters/leper.png"
+  ],
+  "out": "art/adults/ep05-touch/p4.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p4",
+  "variant": "orthodox",
+  "prompt_file": "prompts/ep05-touch/adults/p4.orthodox.txt",
+  "references": [
+   "art/adults/characters/jesus.png",
+   "art/adults/characters/leper.png"
+  ],
+  "out": "art/adults/ep05-touch/p4.orthodox.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p5",
+  "variant": "base",
+  "prompt_file": "prompts/ep05-touch/adults/p5.txt",
+  "references": [
+   "art/adults/characters/jesus.png",
+   "art/adults/characters/leper.png"
+  ],
+  "out": "art/adults/ep05-touch/p5.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p5",
+  "variant": "orthodox",
+  "prompt_file": "prompts/ep05-touch/adults/p5.orthodox.txt",
+  "references": [
+   "art/adults/characters/jesus.png",
+   "art/adults/characters/leper.png"
+  ],
+  "out": "art/adults/ep05-touch/p5.orthodox.png",
+  "size": "1536x1024"
+ },
+ {
+  "style": "adults",
+  "panel": "p6",
+  "variant": "base",
+  "prompt_file": "prompts/ep05-touch/adults/p6.txt",
+  "references": [
+   "art/adults/characters/leper.png",
+   "art/adults/characters/villager1.png",
+   "art/adults/characters/villager2.png",
+   "art/adults/characters/villager4.png"
+  ],
+  "out": "art/adults/ep05-touch/p6.png",
+  "size": "1536x1024"
+ }
+]

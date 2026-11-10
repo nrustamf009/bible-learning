@@ -1,0 +1,458 @@
+{
+  "shared": {
+    "kids": {
+      "en": {
+        "whatHappened": [
+          "Jesus comes to the river, and John baptizes Him. When Jesus comes up out of the water, the sky opens, the Holy Spirit comes down like a dove, and God the Father says: \"You are My beloved Son.\"",
+          "Here we meet God the Father, God the Son and God the Holy Spirit, all at once!",
+          "Then Jesus goes into the desert for forty days. Satan tempts Him, but Jesus stays faithful to God."
+        ],
+        "background": [
+          {
+            "term": "Forty days",
+            "text": "Moses was on the mountain 40 days, Elijah walked 40 days. Israel was in the desert 40 years."
+          },
+          {
+            "term": "Dove",
+            "text": "A gentle bird; it reminds us of Noah's dove bringing peace after the flood."
+          }
+        ]
+      },
+      "ru": {
+        "whatHappened": [
+          "Иисус приходит к реке, и Иоанн крестит Его. Когда Иисус выходит из воды, небо открывается, Дух Святой сходит, как голубь, и Бог Отец говорит: «Ты Сын Мой возлюбленный».",
+          "Здесь мы встречаем сразу Бога Отца, Бога Сына и Бога Святого Духа!",
+          "Потом Иисус уходит в пустыню на сорок дней. Сатана искушает Его, но Иисус остаётся верен Богу."
+        ],
+        "background": [
+          {
+            "term": "Сорок дней",
+            "text": "Моисей был на горе 40 дней, Илия шёл 40 дней, Израиль был в пустыне 40 лет."
+          },
+          {
+            "term": "Голубь",
+            "text": "Кроткая птица; напоминает голубя Ноя, который принёс весть о мире после потопа."
+          }
+        ]
+      }
+    },
+    "adults": {
+      "en": {
+        "whatHappened": [
+          "The sinless Jesus joins the line of sinners at the Jordan. He has nothing to confess, yet He stands with those who do; from the first scene He takes our place.",
+          "Mark says the heavens were 'torn' (schizomenous). The same verb appears only once more in Mark: when the Temple curtain is torn at Jesus' death (15:38). The way between heaven and earth is opening.",
+          "The Father's words combine Psalm 2:7 (the royal Son) and Isaiah 42:1 (the Servant in whom God delights). Jesus is the King who will rule by serving and suffering.",
+          "Immediately the Spirit 'drives' Him into the wilderness. Where Adam fell in a garden and Israel failed in the desert, Jesus stands firm."
+        ],
+        "background": [
+          {
+            "term": "Torn heavens",
+            "text": "Isaiah 64:1 prayed: \"Oh, that You would rend the heavens and come down!\""
+          },
+          {
+            "term": "Wild animals",
+            "text": "Only Mark mentions them: a hint of a restored Eden, or of the danger Jesus faced alone."
+          }
+        ]
+      },
+      "ru": {
+        "whatHappened": [
+          "Безгрешный Иисус встаёт в очередь грешников у Иордана. Ему нечего исповедовать, и всё же Он становится рядом с теми, кому есть; с первой сцены Он занимает наше место.",
+          "Марк говорит, что небеса «разверзлись», буквально «разорвались» (schizomenous). Этот глагол встречается у Марка ещё лишь раз: когда при смерти Иисуса раздирается завеса в храме (15:38). Путь между небом и землёй открывается.",
+          "Слова Отца соединяют Псалом 2:7 (царственный Сын) и Исаию 42:1 (Отрок, в Котором благоволит душа Божия). Иисус — Царь, Который будет царствовать, служа и страдая.",
+          "Сразу Дух «ведёт», буквально «гонит» Его в пустыню. Где Адам пал в саду, а Израиль не устоял в пустыне, Иисус выстоял."
+        ],
+        "background": [
+          {
+            "term": "Разверзшиеся небеса",
+            "text": "Исаия молился: «О, если бы Ты расторг небеса и сошел!» (Ис 64:1)."
+          },
+          {
+            "term": "Звери",
+            "text": "Только Марк упоминает их: намёк на восстановленный рай или на опасность, которую Иисус встретил один."
+          }
+        ]
+      }
+    }
+  },
+  "orthodox": {
+    "kids": {
+      "en": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "On Mark 1:9–13",
+            "text": "St. Theophylact said: Jesus did not need to be washed from sin. He went into the water to make it holy for our baptism."
+          }
+        ],
+        "bigIdea": {
+          "title": "God is Father, Son and Holy Spirit",
+          "text": "At Jesus' baptism we see the whole Holy Trinity. The Church celebrates it on the feast of Theophany."
+        },
+        "apply": [
+          {
+            "title": "Your baptism day",
+            "text": "Ask your parents when you were baptized and who your godparents are. Pray for them this week."
+          },
+          {
+            "title": "Holy water",
+            "text": "At Theophany the Church blesses water. Drink a little holy water in the morning with a prayer."
+          }
+        ],
+        "questions": [
+          "What came down from heaven like a dove?",
+          "What did the Father say about Jesus?",
+          "What did Jesus do in the desert?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 1:11",
+          "text": "You are My beloved Son; in You I am well pleased."
+        },
+        "prayer": "Glory to the Father, and to the Son, and to the Holy Spirit. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Толкование на Мк 1:9–13",
+            "text": "Блаженный Феофилакт говорит: Иисусу не нужно было омываться от грехов. Он вошёл в воду, чтобы освятить её для нашего крещения."
+          }
+        ],
+        "bigIdea": {
+          "title": "Бог — Отец, Сын и Святой Дух",
+          "text": "При Крещении Иисуса мы видим всю Святую Троицу. Церковь празднует это в праздник Богоявления (Крещения Господня)."
+        },
+        "apply": [
+          {
+            "title": "День твоего крещения",
+            "text": "Спроси родителей, когда тебя крестили и кто твои крёстные. Помолись за них на этой неделе."
+          },
+          {
+            "title": "Святая вода",
+            "text": "На Крещение Церковь освящает воду. Утром выпей немного святой воды с молитвой."
+          }
+        ],
+        "questions": [
+          "Кто сошёл с неба, как голубь?",
+          "Что сказал Отец об Иисусе?",
+          "Что делал Иисус в пустыне?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 1:11",
+          "text": "Ты Сын Мой возлюбленный, в Котором Мое благоволение."
+        },
+        "prayer": "Слава Отцу и Сыну и Святому Духу. Аминь."
+      }
+    },
+    "adults": {
+      "en": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "On Mark 1:9–13",
+            "text": "Christ was baptized not because He needed cleansing, but to sanctify the waters and to fulfil all righteousness; and the Trinity was revealed: the Father in the voice, the Spirit in the dove, the Son in the water."
+          },
+          {
+            "source": "chrysostom",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Homily 13 on Matthew (Mt 4:1–11)",
+            "text": "After baptism comes temptation: let no one be surprised if, after receiving grace, he meets fierce attacks. The weapons are those Christ used: fasting, the word of God, and humility."
+          }
+        ],
+        "bigIdea": {
+          "title": "Theophany: the Trinity revealed, the waters sanctified",
+          "text": "The Orthodox Church calls this feast Theophany, \"the appearing of God\": \"When You, O Lord, were baptized in the Jordan, the worship of the Trinity was made manifest.\" Christ enters the water to make it a womb of new birth for us. Our own baptism unites us to Him, and the temptation that follows reminds us that grace is given for battle, not for comfort.",
+          "refs": [
+            {
+              "ref": "Psalm 2:7",
+              "text": "You are My Son; today I have become Your Father."
+            },
+            {
+              "ref": "Romans 6:4",
+              "text": "We were therefore buried with Him through baptism into death, in order that, just as Christ was raised from the dead... we too may walk in newness of life."
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Remember your baptism",
+            "text": "Find out your baptism date and your patron saint. Mark the day and read your saint's life this week."
+          },
+          {
+            "title": "Answer temptation with Scripture",
+            "text": "Choose one verse to say when your typical temptation comes. Christ answered each temptation with a verse."
+          },
+          {
+            "title": "Small fast",
+            "text": "Choose one small thing to give up this week (sugar, social media at night) and use the time for prayer."
+          }
+        ],
+        "questions": [
+          "Why would the sinless Jesus be baptized?",
+          "What does the Theophany show us about God?",
+          "Why does temptation come right after the Father's blessing?",
+          "Which 'wild animals' surround you, and where are the 'angels'?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 1:11",
+          "text": "You are My beloved Son; in You I am well pleased."
+        },
+        "prayer": "You have appeared today to the whole world, and Your light, O Lord, has shone upon us. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Толкование на Мк 1:9–13",
+            "text": "Христос крестился не потому, что нуждался в очищении, но чтобы освятить воды и исполнить всякую правду; и явилась Троица: Отец в гласе, Дух в голубе, Сын в воде."
+          },
+          {
+            "source": "chrysostom",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Беседа 13 на Евангелие от Матфея (Мф 4:1–11)",
+            "text": "После крещения — искушение: пусть никто не удивляется, если после полученной благодати встретит сильные нападения. Оружие то же, что у Христа: пост, слово Божие и смирение."
+          }
+        ],
+        "bigIdea": {
+          "title": "Богоявление: открылась Троица, освятились воды",
+          "text": "Православная Церковь называет этот праздник Богоявлением: «Во Иордане крещающуся Тебе, Господи, Троическое явися поклонение». Христос входит в воду, чтобы сделать её для нас купелью нового рождения. Наше крещение соединяет нас с Ним, а последующее искушение напоминает: благодать даётся для борьбы, а не для покоя.",
+          "refs": [
+            {
+              "ref": "Псалом 2:7",
+              "text": "Ты Сын Мой; Я ныне родил Тебя."
+            },
+            {
+              "ref": "Римлянам 6:4",
+              "text": "Итак мы погреблись с Ним крещением в смерть, дабы, как Христос воскрес из мертвых славою Отца, так и нам ходить в обновленной жизни."
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Вспомни своё крещение",
+            "text": "Узнай дату своего крещения и своего небесного покровителя. Отметь этот день и прочитай житие святого на этой неделе."
+          },
+          {
+            "title": "Отвечай на искушение Писанием",
+            "text": "Выбери один стих, который будешь говорить, когда приходит твоё привычное искушение. Христос отвечал на каждое искушение словами Писания."
+          },
+          {
+            "title": "Маленький пост",
+            "text": "Выбери одну мелочь, от которой откажешься на этой неделе (сладкое, соцсети вечером), и отдай это время молитве."
+          }
+        ],
+        "questions": [
+          "Зачем безгрешный Иисус крестился?",
+          "Что Богоявление открывает о Боге?",
+          "Почему искушение приходит сразу после благословения Отца?",
+          "Какие «звери» окружают тебя и где «Ангелы»?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 1:11",
+          "text": "Ты Сын Мой возлюбленный, в Котором Мое благоволение."
+        },
+        "prayer": "Явился еси днесь вселенней, и свет Твой, Господи, знаменася на нас. Аминь."
+      }
+    }
+  },
+  "protestant": {
+    "kids": {
+      "en": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Expository Thoughts on Mark, 1:9–13",
+            "text": "Bishop Ryle said: here we see the Father, the Son and the Holy Spirit together, all working to save us."
+          }
+        ],
+        "bigIdea": {
+          "title": "God loves His Son, and in Jesus He loves you",
+          "text": "God said to Jesus, \"I love You.\" When you trust Jesus, God calls you His child too!"
+        },
+        "apply": [
+          {
+            "title": "Remember who you are",
+            "text": "Every morning this week say: \"I am God's child, and He loves me.\""
+          },
+          {
+            "title": "Say no with God's Word",
+            "text": "When you are tempted to do wrong, say a Bible verse, like Jesus did."
+          }
+        ],
+        "questions": [
+          "What happened when Jesus came out of the water?",
+          "What did God say?",
+          "How did Jesus fight temptation?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 1:11",
+          "text": "You are My beloved Son; in You I am well pleased."
+        },
+        "prayer": "Father, thank You for loving me because of Jesus. Help me say no to wrong things. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "«Толковые размышления на Евангелие от Марка», 1:9–13",
+            "text": "Епископ Райл говорил: здесь мы видим Отца, Сына и Святого Духа вместе, и все Они действуют, чтобы спасти нас."
+          }
+        ],
+        "bigIdea": {
+          "title": "Бог любит Сына, а в Иисусе — и тебя",
+          "text": "Бог сказал Иисусу: «Я люблю Тебя». Когда ты доверяешь Иисусу, Бог и тебя называет Своим ребёнком!"
+        },
+        "apply": [
+          {
+            "title": "Помни, кто ты",
+            "text": "Каждое утро этой недели говори: «Я Божий ребёнок, и Он меня любит»."
+          },
+          {
+            "title": "Говори «нет» словами Библии",
+            "text": "Когда хочется сделать плохое, вспомни стих из Библии, как это делал Иисус."
+          }
+        ],
+        "questions": [
+          "Что произошло, когда Иисус вышел из воды?",
+          "Что сказал Бог?",
+          "Как Иисус боролся с искушением?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 1:11",
+          "text": "Ты Сын Мой возлюбленный, в Котором Мое благоволение."
+        },
+        "prayer": "Отец, спасибо, что любишь меня ради Иисуса. Помоги мне говорить «нет» плохому. Аминь."
+      }
+    },
+    "adults": {
+      "en": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Expository Thoughts on Mark, 1:9–13",
+            "text": "All three Persons of the Trinity appear together at the opening of Christ's ministry: the Father approving, the Spirit anointing, the Son obeying. And straight after, He is tempted, so that He might be a High Priest who can sympathize with tempted people."
+          },
+          {
+            "source": "henry",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Commentary on Mark 1:9–13",
+            "text": "Great honours are often followed by great temptations. The Spirit who had descended on Him led Him to the battle; those who are sealed as God's children must expect to be tried."
+          }
+        ],
+        "bigIdea": {
+          "title": "Beloved before doing anything",
+          "text": "The Father says \"You are My beloved Son; in You I am well pleased\" before Jesus has preached a sermon or healed anyone. In Christ, believers receive the same verdict by grace: adopted, loved, accepted. From that identity, not for it, we face temptation. Jesus also stood with sinners in baptism, the first sign that He came to take our place.",
+          "refs": [
+            {
+              "ref": "Hebrews 4:15",
+              "text": "We have one who was tempted in every way that we are, yet was without sin."
+            },
+            {
+              "ref": "Galatians 4:6",
+              "text": "Because you are sons, God sent the Spirit of His Son into our hearts, crying out, \"Abba, Father!\""
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Start from identity",
+            "text": "Write Galatians 4:6 on a card. Read it before you check messages each morning this week."
+          },
+          {
+            "title": "Name your wilderness",
+            "text": "Identify your recurring temptation and choose one Scripture to answer it, as Jesus did."
+          },
+          {
+            "title": "Share the fight",
+            "text": "Tell one mature believer about the temptation and ask them to check on you."
+          }
+        ],
+        "questions": [
+          "Why was Jesus baptized if He had no sin?",
+          "What changes when you believe God is pleased with you in Christ?",
+          "Why did temptation follow the blessing?",
+          "How does Jesus' victory help you in yours?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 1:11",
+          "text": "You are My beloved Son; in You I am well pleased."
+        },
+        "prayer": "Abba, Father, thank You that in Christ I am Your beloved child. Keep me in the hour of temptation. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "«Толковые размышления на Евангелие от Марка», 1:9–13",
+            "text": "Все три Лица Троицы являются вместе в начале служения Христа: Отец одобряет, Дух помазывает, Сын повинуется. А сразу после этого Он искушается, чтобы быть Первосвященником, способным сострадать искушаемым."
+          },
+          {
+            "source": "henry",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Комментарий на Мк 1:9–13",
+            "text": "За великими почестями часто следуют великие искушения. Дух, сошедший на Него, повёл Его на битву; запечатлённые как дети Божии должны ожидать испытаний."
+          }
+        ],
+        "bigIdea": {
+          "title": "Любимый ещё до всех дел",
+          "text": "Отец говорит «Ты Сын Мой возлюбленный, в Котором Мое благоволение» прежде, чем Иисус сказал хоть одну проповедь или исцелил кого-либо. Во Христе верующие по благодати получают тот же приговор: усыновлены, любимы, приняты. Из этой идентичности, а не ради неё, мы встречаем искушение. А в крещении Иисус встал рядом с грешниками — первый знак того, что Он пришёл занять наше место.",
+          "refs": [
+            {
+              "ref": "Евреям 4:15",
+              "text": "Который, подобно нам, искушен во всем, кроме греха."
+            },
+            {
+              "ref": "Галатам 4:6",
+              "text": "А как вы — сыны, то Бог послал в сердца ваши Духа Сына Своего, вопиющего: «Авва, Отче!»"
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Начинай с того, кто ты",
+            "text": "Запиши Галатам 4:6 на карточке. Читай её каждое утро этой недели прежде, чем откроешь сообщения."
+          },
+          {
+            "title": "Назови свою пустыню",
+            "text": "Определи своё повторяющееся искушение и выбери стих, которым будешь на него отвечать, как Иисус."
+          },
+          {
+            "title": "Не борись в одиночку",
+            "text": "Расскажи о своём искушении одному зрелому верующему и попроси его спрашивать, как ты."
+          }
+        ],
+        "questions": [
+          "Зачем крестился Иисус, если у Него не было греха?",
+          "Что меняется, когда ты веришь, что Бог благоволит к тебе во Христе?",
+          "Почему за благословением последовало искушение?",
+          "Как победа Иисуса помогает в твоей борьбе?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 1:11",
+          "text": "Ты Сын Мой возлюбленный, в Котором Мое благоволение."
+        },
+        "prayer": "Авва, Отче, спасибо, что во Христе я Твоё любимое дитя. Сохрани меня в час искушения. Аминь."
+      }
+    }
+  }
+}

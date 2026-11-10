@@ -1,0 +1,923 @@
+{
+ "places": {
+  "nazareth": {
+   "x": 118,
+   "y": 128,
+   "name": {
+    "en": "Nazareth",
+    "ru": "Назарет"
+   }
+  },
+  "capernaum": {
+   "x": 168,
+   "y": 92,
+   "name": {
+    "en": "Capernaum",
+    "ru": "Капернаум"
+   }
+  },
+  "sea_galilee": {
+   "x": 176,
+   "y": 112,
+   "name": {
+    "en": "Sea of Galilee",
+    "ru": "Галилейское море"
+   }
+  },
+  "galilee": {
+   "x": 132,
+   "y": 104,
+   "name": {
+    "en": "Galilee",
+    "ru": "Галилея"
+   }
+  },
+  "jordan": {
+   "x": 192,
+   "y": 262,
+   "name": {
+    "en": "Jordan River",
+    "ru": "Река Иордан"
+   }
+  },
+  "wilderness": {
+   "x": 168,
+   "y": 300,
+   "name": {
+    "en": "Judean wilderness",
+    "ru": "Иудейская пустыня"
+   }
+  },
+  "jerusalem": {
+   "x": 140,
+   "y": 292,
+   "name": {
+    "en": "Jerusalem",
+    "ru": "Иерусалим"
+   }
+  }
+ },
+ "episodes": {
+  "1": {
+   "place": [
+    "wilderness",
+    "jordan"
+   ],
+   "cast": [
+    "john_baptist"
+   ],
+   "before": {
+    "where": {
+     "en": "The Judean wilderness by the Jordan River, about the year 28.",
+     "ru": "Иудейская пустыня у реки Иордан, около 28 года."
+    },
+    "prev": {
+     "en": "For 400 years no prophet had spoken in Israel. People waited for the Messiah God had promised.",
+     "ru": "Четыреста лет в Израиле не было пророков. Люди ждали обещанного Богом Мессию."
+    },
+    "ask": {
+     "en": "Why does God send someone ahead of Jesus?",
+     "ru": "Зачем Бог посылает кого-то впереди Иисуса?"
+    }
+   },
+   "quiz": [
+    {
+     "q": {
+      "en": "Who did God send to get people ready for Jesus?",
+      "ru": "Кого Бог послал приготовить людей к Иисусу?"
+     },
+     "options": {
+      "en": [
+       "Peter",
+       "John the Baptist",
+       "Moses"
+      ],
+      "ru": [
+       "Петра",
+       "Иоанна Крестителя",
+       "Моисея"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "John is the 'voice in the wilderness' Isaiah spoke about (Mark 1:2–3).",
+      "ru": "Иоанн — «глас вопиющего в пустыне», о котором говорил Исаия (Мк 1:2–3)."
+     }
+    },
+    {
+     "q": {
+      "en": "What does 'repent' mean?",
+      "ru": "Что значит «покаяться»?"
+     },
+     "options": {
+      "en": [
+       "To feel sad",
+       "To turn around and come back to God",
+       "To go to the river"
+      ],
+      "ru": [
+       "Погрустить",
+       "Развернуться и вернуться к Богу",
+       "Сходить к реке"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Repentance (metanoia) is a change of mind and direction, not only a feeling.",
+      "ru": "Покаяние (метанойя) — перемена ума и направления, а не только чувство."
+     }
+    },
+    {
+     "q": {
+      "en": "What did John say about the One coming after him?",
+      "ru": "Что Иоанн сказал о Том, Кто идёт за ним?"
+     },
+     "options": {
+      "en": [
+       "He is weaker",
+       "He will baptize with the Holy Spirit",
+       "He will never come"
+      ],
+      "ru": [
+       "Он слабее",
+       "Он будет крестить Духом Святым",
+       "Он не придёт"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "John baptized with water; Jesus gives the Holy Spirit (1:8).",
+      "ru": "Иоанн крестил водой; Иисус даёт Духа Святого (1:8)."
+     }
+    }
+   ]
+  },
+  "2": {
+   "place": [
+    "jordan",
+    "wilderness"
+   ],
+   "cast": [
+    "jesus",
+    "john_baptist"
+   ],
+   "before": {
+    "where": {
+     "en": "The Jordan River, then the wilderness.",
+     "ru": "Река Иордан, затем пустыня."
+    },
+    "prev": {
+     "en": "John has been baptizing crowds and announcing that Someone greater is coming.",
+     "ru": "Иоанн крестил толпы и объявлял, что идёт Тот, Кто сильнее его."
+    },
+    "ask": {
+     "en": "Watch who speaks from heaven and what He says about Jesus.",
+     "ru": "Посмотрите, Кто говорит с неба и что Он говорит об Иисусе."
+    }
+   },
+   "quiz": [
+    {
+     "q": {
+      "en": "What came down on Jesus like a dove?",
+      "ru": "Кто сошёл на Иисуса, как голубь?"
+     },
+     "options": {
+      "en": [
+       "An angel",
+       "The Holy Spirit",
+       "A bird from the river"
+      ],
+      "ru": [
+       "Ангел",
+       "Дух Святой",
+       "Птица с реки"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Father, Son and Holy Spirit are all present at the baptism.",
+      "ru": "При Крещении присутствуют Отец, Сын и Дух Святой."
+     }
+    },
+    {
+     "q": {
+      "en": "What did the voice from heaven say?",
+      "ru": "Что сказал голос с неба?"
+     },
+     "options": {
+      "en": [
+       "“Go to the desert”",
+       "“You are My beloved Son”",
+       "“Build a temple”"
+      ],
+      "ru": [
+       "«Иди в пустыню»",
+       "«Ты Сын Мой возлюбленный»",
+       "«Построй храм»"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Mark 1:11 combines Psalm 2:7 and Isaiah 42:1.",
+      "ru": "Мк 1:11 соединяет Псалом 2:7 и Исаию 42:1."
+     }
+    },
+    {
+     "q": {
+      "en": "How long was Jesus in the wilderness?",
+      "ru": "Сколько дней Иисус был в пустыне?"
+     },
+     "options": {
+      "en": [
+       "7 days",
+       "40 days",
+       "1 year"
+      ],
+      "ru": [
+       "7 дней",
+       "40 дней",
+       "Один год"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Forty recalls Israel's 40 years in the desert and Moses' 40 days.",
+      "ru": "Сорок напоминает о 40 годах Израиля в пустыне и 40 днях Моисея."
+     }
+    }
+   ]
+  },
+  "3": {
+   "place": [
+    "sea_galilee",
+    "capernaum"
+   ],
+   "cast": [
+    "jesus",
+    "peter",
+    "andrew",
+    "james",
+    "john"
+   ],
+   "before": {
+    "where": {
+     "en": "The north shore of the Sea of Galilee, near Capernaum.",
+     "ru": "Северный берег Галилейского моря, у Капернаума."
+    },
+    "prev": {
+     "en": "After His baptism and forty days in the desert, Jesus comes back to Galilee.",
+     "ru": "После Крещения и сорока дней в пустыне Иисус возвращается в Галилею."
+    },
+    "ask": {
+     "en": "What does it cost to follow Jesus?",
+     "ru": "Чего стоит пойти за Иисусом?"
+    }
+   },
+   "quiz": [
+    {
+     "q": {
+      "en": "What were Simon and Andrew doing when Jesus called them?",
+      "ru": "Что делали Симон и Андрей, когда Иисус их позвал?"
+     },
+     "options": {
+      "en": [
+       "Praying in the temple",
+       "Casting a net",
+       "Sleeping"
+      ],
+      "ru": [
+       "Молились в храме",
+       "Закидывали сеть",
+       "Спали"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Jesus called them in the middle of their everyday work.",
+      "ru": "Иисус позвал их прямо за работой."
+     }
+    },
+    {
+     "q": {
+      "en": "What did Jesus promise to make them?",
+      "ru": "Кем Иисус обещал их сделать?"
+     },
+     "options": {
+      "en": [
+       "Rich",
+       "Fishers of people",
+       "Kings"
+      ],
+      "ru": [
+       "Богатыми",
+       "Ловцами людей",
+       "Царями"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Their skill would serve a new mission: bringing people to God.",
+      "ru": "Их умение послужит новой цели: приводить людей к Богу."
+     }
+    },
+    {
+     "q": {
+      "en": "Whom did James and John leave in the boat?",
+      "ru": "Кого Иаков и Иоанн оставили в лодке?"
+     },
+     "options": {
+      "en": [
+       "Their father Zebedee",
+       "Jesus",
+       "Peter"
+      ],
+      "ru": [
+       "Отца Зеведея",
+       "Иисуса",
+       "Петра"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "Following Jesus had a real cost: family business and father.",
+      "ru": "Следовать за Иисусом стоило по-настоящему: семейное дело и отец."
+     }
+    }
+   ]
+  },
+  "4": {
+   "place": [
+    "capernaum"
+   ],
+   "cast": [
+    "jesus",
+    "peter",
+    "mother_in_law",
+    "scribe"
+   ],
+   "before": {
+    "where": {
+     "en": "Capernaum: the synagogue, Peter's house, then a hill before dawn.",
+     "ru": "Капернаум: синагога, дом Петра, а затем гора перед рассветом."
+    },
+    "prev": {
+     "en": "Jesus has just called His first four disciples.",
+     "ru": "Иисус только что призвал первых четырёх учеников."
+    },
+    "ask": {
+     "en": "Notice how one day of Jesus' life begins and ends.",
+     "ru": "Посмотрите, как начинается и кончается один день Иисуса."
+    }
+   },
+   "quiz": [
+    {
+     "q": {
+      "en": "Why were people amazed at Jesus' teaching?",
+      "ru": "Почему люди удивлялись учению Иисуса?"
+     },
+     "options": {
+      "en": [
+       "It was very long",
+       "He taught with authority",
+       "He sang it"
+      ],
+      "ru": [
+       "Оно было длинным",
+       "Он учил со властью",
+       "Он его пел"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Scribes quoted others; Jesus spoke with His own authority.",
+      "ru": "Книжники ссылались на других; Иисус говорил Своей властью."
+     }
+    },
+    {
+     "q": {
+      "en": "What did Peter's mother-in-law do after she was healed?",
+      "ru": "Что сделала тёща Петра после исцеления?"
+     },
+     "options": {
+      "en": [
+       "Went to sleep",
+       "Began to serve them",
+       "Left the house"
+      ],
+      "ru": [
+       "Легла спать",
+       "Стала служить им",
+       "Ушла из дома"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Health given by God becomes service.",
+      "ru": "Здоровье, данное Богом, становится служением."
+     }
+    },
+    {
+     "q": {
+      "en": "When did Jesus go to pray?",
+      "ru": "Когда Иисус уходил молиться?"
+     },
+     "options": {
+      "en": [
+       "Early, while it was still dark",
+       "At noon",
+       "Never"
+      ],
+      "ru": [
+       "Рано утром, ещё затемно",
+       "В полдень",
+       "Никогда"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "Mark 1:35: prayer came first, even on the busiest days.",
+      "ru": "Мк 1:35: молитва была первой даже в самые занятые дни."
+     }
+    }
+   ]
+  },
+  "5": {
+   "place": [
+    "galilee"
+   ],
+   "cast": [
+    "jesus",
+    "leper"
+   ],
+   "before": {
+    "where": {
+     "en": "A road in Galilee, outside a town.",
+     "ru": "Дорога в Галилее, за городом."
+    },
+    "prev": {
+     "en": "Jesus is travelling through Galilee, preaching and healing.",
+     "ru": "Иисус ходит по Галилее, проповедует и исцеляет."
+    },
+    "ask": {
+     "en": "What does Jesus do that no one else would dare to do?",
+     "ru": "Что делает Иисус, на что больше никто бы не решился?"
+    }
+   },
+   "quiz": [
+    {
+     "q": {
+      "en": "Why did people stay away from the man?",
+      "ru": "Почему люди сторонились этого человека?"
+     },
+     "options": {
+      "en": [
+       "He was rich",
+       "He had leprosy",
+       "He was a soldier"
+      ],
+      "ru": [
+       "Он был богат",
+       "У него была проказа",
+       "Он был солдатом"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Leprosy meant living apart from family and worship (Lev 13:46).",
+      "ru": "Проказа означала жизнь вдали от семьи и богослужения (Лев 13:46)."
+     }
+    },
+    {
+     "q": {
+      "en": "What did Jesus do before saying “Be clean”?",
+      "ru": "Что сделал Иисус, прежде чем сказать «очистись»?"
+     },
+     "options": {
+      "en": [
+       "Walked away",
+       "Touched him",
+       "Asked for money"
+      ],
+      "ru": [
+       "Ушёл",
+       "Прикоснулся к нему",
+       "Попросил денег"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "He touched the untouchable; His holiness made the man clean.",
+      "ru": "Он прикоснулся к «неприкасаемому»; Его святость очистила человека."
+     }
+    },
+    {
+     "q": {
+      "en": "Where did Jesus send the healed man?",
+      "ru": "Куда Иисус послал исцелённого?"
+     },
+     "options": {
+      "en": [
+       "To the priest",
+       "To Rome",
+       "To the desert"
+      ],
+      "ru": [
+       "К священнику",
+       "В Рим",
+       "В пустыню"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "The priest could declare him clean, so he could return home.",
+      "ru": "Священник мог признать его чистым, чтобы он вернулся домой."
+     }
+    }
+   ]
+  },
+  "6": {
+   "place": [
+    "capernaum"
+   ],
+   "cast": [
+    "jesus",
+    "paralytic",
+    "scribe"
+   ],
+   "before": {
+    "where": {
+     "en": "A house in Capernaum, full of people.",
+     "ru": "Дом в Капернауме, полный людей."
+    },
+    "prev": {
+     "en": "News about Jesus has spread everywhere; crowds follow Him.",
+     "ru": "Слух об Иисусе разошёлся повсюду; за Ним ходят толпы."
+    },
+    "ask": {
+     "en": "What does the man need most: to walk, or something deeper?",
+     "ru": "Что этому человеку нужно больше всего: ходить — или что-то глубже?"
+    }
+   },
+   "quiz": [
+    {
+     "q": {
+      "en": "How did the friends get the man to Jesus?",
+      "ru": "Как друзья доставили человека к Иисусу?"
+     },
+     "options": {
+      "en": [
+       "Through the window",
+       "Through the roof",
+       "They didn't"
+      ],
+      "ru": [
+       "Через окно",
+       "Через крышу",
+       "Никак"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "They uncovered the roof and lowered his mat (2:4).",
+      "ru": "Они разобрали кровлю и спустили постель (2:4)."
+     }
+    },
+    {
+     "q": {
+      "en": "What did Jesus say first?",
+      "ru": "Что Иисус сказал сначала?"
+     },
+     "options": {
+      "en": [
+       "“Get up and walk”",
+       "“Your sins are forgiven”",
+       "“Go away”"
+      ],
+      "ru": [
+       "«Встань и иди»",
+       "«Прощаются тебе грехи»",
+       "«Уходите»"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "He healed the soul first, then the body.",
+      "ru": "Сначала Он исцелил душу, потом тело."
+     }
+    },
+    {
+     "q": {
+      "en": "Why were the scribes upset?",
+      "ru": "Почему книжники возмутились?"
+     },
+     "options": {
+      "en": [
+       "Only God can forgive sins",
+       "The roof was broken",
+       "It was the Sabbath"
+      ],
+      "ru": [
+       "Только Бог может прощать грехи",
+       "Сломали крышу",
+       "Была суббота"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "They were right that only God forgives — that is exactly who Jesus is.",
+      "ru": "Они правы, что прощает только Бог, — именно Это и есть Иисус."
+     }
+    }
+   ]
+  },
+  "7": {
+   "place": [
+    "capernaum",
+    "sea_galilee"
+   ],
+   "cast": [
+    "jesus",
+    "matthew",
+    "pharisee"
+   ],
+   "before": {
+    "where": {
+     "en": "A tax booth by the lake road, then a dinner at Levi's house.",
+     "ru": "Мытница у дороги вдоль озера, затем обед в доме Левия."
+    },
+    "prev": {
+     "en": "Jesus has just shown that He has authority to forgive sins.",
+     "ru": "Иисус только что показал, что имеет власть прощать грехи."
+    },
+    "ask": {
+     "en": "Who is Jesus' table for?",
+     "ru": "Для кого стол Иисуса?"
+    }
+   },
+   "quiz": [
+    {
+     "q": {
+      "en": "What was Levi's job?",
+      "ru": "Кем работал Левий?"
+     },
+     "options": {
+      "en": [
+       "Fisherman",
+       "Tax collector",
+       "Priest"
+      ],
+      "ru": [
+       "Рыбаком",
+       "Мытарем (сборщиком налогов)",
+       "Священником"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Levi is Matthew, who later wrote the first Gospel.",
+      "ru": "Левий — это Матфей, позже написавший первое Евангелие."
+     }
+    },
+    {
+     "q": {
+      "en": "Whom did Jesus eat with at Levi's house?",
+      "ru": "С кем Иисус ел в доме Левия?"
+     },
+     "options": {
+      "en": [
+       "Only priests",
+       "Tax collectors and sinners",
+       "Nobody"
+      ],
+      "ru": [
+       "Только со священниками",
+       "С мытарями и грешниками",
+       "Ни с кем"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Eating together meant welcome; Jesus welcomed the unwelcome.",
+      "ru": "Есть вместе значило принять; Иисус принял тех, кого не принимали."
+     }
+    },
+    {
+     "q": {
+      "en": "Who did Jesus say needs a doctor?",
+      "ru": "Кому, по словам Иисуса, нужен врач?"
+     },
+     "options": {
+      "en": [
+       "The healthy",
+       "The sick",
+       "The rich"
+      ],
+      "ru": [
+       "Здоровым",
+       "Больным",
+       "Богатым"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Those who know they need help come to the Doctor.",
+      "ru": "К Врачу приходят те, кто знает, что нуждается в помощи."
+     }
+    }
+   ]
+  },
+  "8": {
+   "place": [
+    "galilee",
+    "capernaum"
+   ],
+   "cast": [
+    "jesus",
+    "peter",
+    "pharisee"
+   ],
+   "before": {
+    "where": {
+     "en": "A grain field in Galilee on the Sabbath, then the synagogue.",
+     "ru": "Поле в Галилее в субботу, затем синагога."
+    },
+    "prev": {
+     "en": "The religious leaders are more and more unhappy with Jesus.",
+     "ru": "Религиозные начальники всё больше недовольны Иисусом."
+    },
+    "ask": {
+     "en": "What is God's day of rest really for?",
+     "ru": "Для чего на самом деле Божий день покоя?"
+    }
+   },
+   "quiz": [
+    {
+     "q": {
+      "en": "What did the disciples do in the field?",
+      "ru": "Что делали ученики на поле?"
+     },
+     "options": {
+      "en": [
+       "Slept",
+       "Picked heads of grain",
+       "Built a house"
+      ],
+      "ru": [
+       "Спали",
+       "Срывали колосья",
+       "Строили дом"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "They were hungry; the dispute was about the day, not the grain.",
+      "ru": "Они были голодны; спор шёл о дне, а не о колосьях."
+     }
+    },
+    {
+     "q": {
+      "en": "Who is Lord of the Sabbath?",
+      "ru": "Кто Господин субботы?"
+     },
+     "options": {
+      "en": [
+       "The Pharisees",
+       "The Son of Man",
+       "King David"
+      ],
+      "ru": [
+       "Фарисеи",
+       "Сын Человеческий",
+       "Царь Давид"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Jesus calls Himself its Lord: the One who gave it (2:28).",
+      "ru": "Иисус называет Себя её Господином — Тем, Кто её дал (2:28)."
+     }
+    },
+    {
+     "q": {
+      "en": "Is it right to do good on God's day?",
+      "ru": "Можно ли делать добро в Божий день?"
+     },
+     "options": {
+      "en": [
+       "No, never",
+       "Yes, always",
+       "Only on Monday"
+      ],
+      "ru": [
+       "Нет, никогда",
+       "Да, всегда",
+       "Только в понедельник"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Refusing to do good when you can is itself a kind of evil (3:4).",
+      "ru": "Отказаться от добра, когда можешь, — уже зло (3:4)."
+     }
+    }
+   ]
+  },
+  "12": {
+   "place": [
+    "sea_galilee"
+   ],
+   "cast": [
+    "jesus",
+    "peter",
+    "andrew",
+    "james",
+    "john"
+   ],
+   "before": {
+    "where": {
+     "en": "A fishing boat on the Sea of Galilee, at night.",
+     "ru": "Рыбацкая лодка на Галилейском море, ночью."
+    },
+    "prev": {
+     "en": "Jesus has spent the whole day teaching crowds in parables from a boat.",
+     "ru": "Весь день Иисус учил толпы притчами, сидя в лодке."
+    },
+    "ask": {
+     "en": "Keep this question in mind: “Who is this?”",
+     "ru": "Держите в голове вопрос: «Кто же Это?»"
+    }
+   },
+   "quiz": [
+    {
+     "q": {
+      "en": "What was Jesus doing when the storm began?",
+      "ru": "Что делал Иисус, когда началась буря?"
+     },
+     "options": {
+      "en": [
+       "Rowing",
+       "Sleeping on a cushion",
+       "Fishing"
+      ],
+      "ru": [
+       "Грёб",
+       "Спал на подушке",
+       "Ловил рыбу"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "He was truly a man and truly tired.",
+      "ru": "Он был настоящим Человеком и по-настоящему устал."
+     }
+    },
+    {
+     "q": {
+      "en": "What did Jesus say to the sea?",
+      "ru": "Что Иисус сказал морю?"
+     },
+     "options": {
+      "en": [
+       "“Please stop”",
+       "“Silence! Be still!”",
+       "Nothing"
+      ],
+      "ru": [
+       "«Пожалуйста, перестань»",
+       "«Умолкни, перестань!»",
+       "Ничего"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "He commanded it, as only God can (Ps 106/107:29).",
+      "ru": "Он приказал, как может только Бог (Пс 106:29)."
+     }
+    },
+    {
+     "q": {
+      "en": "What did the disciples ask at the end?",
+      "ru": "Что спросили ученики в конце?"
+     },
+     "options": {
+      "en": [
+       "“Where are we?”",
+       "“Who is this?”",
+       "“Can we go home?”"
+      ],
+      "ru": [
+       "«Где мы?»",
+       "«Кто же Это?»",
+       "«Можно домой?»"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "The whole Gospel answers this question: the Son of God (1:1).",
+      "ru": "Всё Евангелие отвечает на этот вопрос: Сын Божий (1:1)."
+     }
+    }
+   ]
+  }
+ }
+}

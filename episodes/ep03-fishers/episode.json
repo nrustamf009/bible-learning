@@ -1,0 +1,526 @@
+{
+  "id": "ep03-fishers",
+  "number": 3,
+  "season": 1,
+  "ref": {
+    "book": "Mark",
+    "chapter": 1,
+    "from": 14,
+    "to": 20
+  },
+  "parallels": [
+    "Matthew 4:12-22",
+    "Luke 5:1-11"
+  ],
+  "title": {
+    "en": "Fishers of People",
+    "ru": "Ловцы людей"
+  },
+  "subtitle": {
+    "en": "Come, follow Me",
+    "ru": "Идите за Мною"
+  },
+  "place": [
+    "galilee_lake",
+    "galilee_boat"
+  ],
+  "panels": [
+    {
+      "id": "p1",
+      "verses": [
+        14,
+        15
+      ],
+      "characters": [
+        "jesus",
+        "villager1",
+        "villager2",
+        "villager6"
+      ],
+      "camera": "medium-wide",
+      "scene": {
+        "kids": "Jesus talking to a small crowd in a sunny Galilee village square, people listening",
+        "adults": "Jesus preaching in a Galilean village market, early light, people stopping their work to listen"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "speech",
+            "x": 30.0,
+            "y": 36.0,
+            "w": 40,
+            "text": {
+              "en": "The time has come! God's Kingdom is near. Turn back to God and believe the good news!",
+              "ru": "Время пришло! Царство Божие близко. Вернитесь к Богу и поверьте доброй вести!"
+            },
+            "who": "jesus",
+            "tx": 50.0,
+            "ty": 61.1
+          }
+        ],
+        "adults": [
+          {
+            "kind": "speech",
+            "x": 30.0,
+            "y": 18.5,
+            "w": 40,
+            "text": {
+              "en": "The time is fulfilled, and the kingdom of God is near. Repent and believe in the gospel!",
+              "ru": "Исполнилось время и приблизилось Царствие Божие: покайтесь и веруйте в Евангелие."
+            },
+            "who": "jesus",
+            "tx": 50.0,
+            "ty": 43.2
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "Jesus' first message: God's Kingdom is near! Turn back and trust the good news.",
+          "ru": "Первые слова Иисуса: Царство Божие близко! Вернись и поверь доброй вести."
+        },
+        "parents": {
+          "en": "Ask: what would be different if God were King of our home? Pick one thing to change.",
+          "ru": "Спросите: что изменилось бы, если бы Бог был Царём нашего дома? Выберите одно, что изменить."
+        },
+        "adults": {
+          "orthodox": {
+            "source": "theophylact",
+            "where": {
+              "en": "On Mark 1:14–15",
+              "ru": "Толкование на Мк 1:14–15"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "'The time is fulfilled': the prophecies are complete, the Law has done its work; now the Kingdom comes near in the person of Christ.",
+              "ru": "«Исполнилось время»: пророчества завершены, Закон исполнил своё дело; теперь Царство приближается в Лице Христа."
+            }
+          },
+          "protestant": {
+            "source": "ryle",
+            "where": {
+              "en": "Expository Thoughts on Mark 1:14–15",
+              "ru": "Размышления на Мк 1:14–15"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Repent and believe: these two words sum up the whole message of the gospel.",
+              "ru": "Покайтесь и веруйте: эти два слова вмещают всю весть Евангелия."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p2",
+      "verses": [
+        16
+      ],
+      "characters": [
+        "peter",
+        "andrew"
+      ],
+      "camera": "medium, from the shore",
+      "scene": {
+        "kids": "Simon and Andrew in a boat throwing a big round net into the shining lake",
+        "adults": "Simon and Andrew waist-deep in the shallows, casting a circular net that hangs in the air for a moment against the morning sun"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "Simon and Andrew were fishermen. They were throwing their net into the lake.",
+              "ru": "Симон и Андрей были рыбаками. Они закидывали сеть в озеро."
+            }
+          }
+        ],
+        "adults": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "He saw Simon and his brother Andrew casting a net into the sea, for they were fishermen.",
+              "ru": "Увидел Симона и Андрея, брата его, закидывающих сети в море, ибо они были рыболовы."
+            }
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "Simon and Andrew were working hard, catching fish to feed their families.",
+          "ru": "Симон и Андрей усердно трудились, ловили рыбу, чтобы кормить семьи."
+        },
+        "parents": {
+          "en": "Point out: Jesus called them while they were working. God can use whatever we're good at.",
+          "ru": "Обратите внимание: Иисус позвал их за работой. Бог может использовать то, что у нас хорошо получается."
+        },
+        "adults": {
+          "orthodox": {
+            "source": "theophylact",
+            "where": {
+              "en": "On Mark 1:16",
+              "ru": "Толкование на Мк 1:16"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "He calls them in the midst of their labour, to show that He chooses people in ordinary work, not in idleness.",
+              "ru": "Он призывает их за трудом, показывая, что выбирает людей в обычной работе, а не в праздности."
+            }
+          },
+          "protestant": {
+            "source": "barnes",
+            "where": {
+              "en": "Notes on Mark 1:16",
+              "ru": "Заметки на Мк 1:16"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Fishing was hard, humble work; such men learned patience, courage and perseverance — qualities needed in the apostles.",
+              "ru": "Рыбный промысел — тяжёлый, скромный труд; такие люди учились терпению, смелости и упорству — качествам, нужным апостолам."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p3",
+      "verses": [
+        17
+      ],
+      "characters": [
+        "jesus",
+        "peter",
+        "andrew"
+      ],
+      "camera": "over the shoulder of Jesus",
+      "scene": {
+        "kids": "Jesus on the shore calling to them with a big friendly wave",
+        "adults": "over Jesus' shoulder: the two brothers look up from the net, sunlight on the water between them"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "speech",
+            "x": 2,
+            "y": 43.5,
+            "w": 40,
+            "text": {
+              "en": "Come, follow Me! I will teach you to catch people for God!",
+              "ru": "Идите за Мной! Я научу вас ловить людей для Бога!"
+            },
+            "who": "jesus",
+            "tx": 19.2,
+            "ty": 63.4
+          }
+        ],
+        "adults": [
+          {
+            "kind": "speech",
+            "x": 2,
+            "y": 15.2,
+            "w": 40,
+            "text": {
+              "en": "Come, follow Me, and I will make you fishers of men.",
+              "ru": "Идите за Мною, и Я сделаю, что вы будете ловцами человеков."
+            },
+            "who": "jesus",
+            "tx": 19.2,
+            "ty": 35.5
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "Jesus said: 'Come with Me! I'll teach you to bring people to God.'",
+          "ru": "Иисус сказал: «Идите за Мной! Я научу вас приводить людей к Богу»."
+        },
+        "parents": {
+          "en": "Ask: who could you invite to church or tell about Jesus? Make a plan together.",
+          "ru": "Спросите: кого ты мог бы пригласить в храм или кому рассказать об Иисусе? Придумайте вместе."
+        },
+        "adults": {
+          "orthodox": {
+            "source": "chrysostom",
+            "where": {
+              "en": "Homily 14 on Matthew (Mt 4:19)",
+              "ru": "Беседа 14 на Мф (Mt 4:19)"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "He promises to make them fishers of men: what they knew of nets He would turn to the saving of souls.",
+              "ru": "Он обещает сделать их ловцами человеков: их знание сетей Он обратит на спасение душ."
+            }
+          },
+          "protestant": {
+            "source": "henry",
+            "where": {
+              "en": "Commentary on Mark 1:17",
+              "ru": "Комментарий на Мк 1:17"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Those whom Christ calls He also qualifies: 'I will make you.' The change is His work; ours is to follow.",
+              "ru": "Кого Христос призывает, того и делает способным: «Я сделаю вас». Перемена — Его дело; наше — идти за Ним."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p4",
+      "verses": [
+        18
+      ],
+      "characters": [
+        "peter",
+        "andrew"
+      ],
+      "camera": "medium",
+      "scene": {
+        "kids": "Simon and Andrew dropping the net on the sand and running to Jesus, smiling",
+        "adults": "the net falls onto the sand, fish flapping; the brothers are already walking away from it"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "Right away they left their nets and followed Him.",
+              "ru": "Они сразу оставили сети и пошли за Ним."
+            }
+          }
+        ],
+        "adults": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "And at once they left their nets and followed Him.",
+              "ru": "И они тотчас, оставив свои сети, последовали за Ним."
+            }
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "They left their nets right away! They wanted Jesus more than anything.",
+          "ru": "Они сразу оставили сети! Иисус был им дороже всего."
+        },
+        "parents": {
+          "en": "Talk about putting God first: what could we leave for a while to spend time with Him?",
+          "ru": "Поговорите о том, чтобы ставить Бога на первое место: что можно отложить, чтобы побыть с Ним?"
+        },
+        "adults": {
+          "orthodox": {
+            "source": "theophylact",
+            "where": {
+              "en": "On Mark 1:18",
+              "ru": "Толкование на Мк 1:18"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "See the readiness of their obedience: they did not delay or ask to settle their affairs first.",
+              "ru": "Смотри на готовность их послушания: они не медлили и не просили сначала устроить дела."
+            }
+          },
+          "protestant": {
+            "source": "ryle",
+            "where": {
+              "en": "Expository Thoughts on Mark 1:18",
+              "ru": "Размышления на Мк 1:18"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Following Christ always costs something; but no one has ever lost by giving things up for His sake.",
+              "ru": "Следование за Христом всегда чего-то стоит; но никто не проиграл, оставив что-то ради Него."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p5",
+      "verses": [
+        19,
+        20
+      ],
+      "characters": [
+        "james",
+        "john",
+        "zebedee"
+      ],
+      "camera": "wide",
+      "scene": {
+        "kids": "James and John fixing nets in a boat with their old father Zebedee and helpers",
+        "adults": "James and John mending nets in their father's boat; old Zebedee and hired men; Jesus approaching along the shore"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "A bit farther on, Jesus saw James and John fixing their nets with their dad.",
+              "ru": "Чуть дальше Иисус увидел Иакова и Иоанна. Они чинили сети вместе с отцом."
+            }
+          }
+        ],
+        "adults": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "He saw James son of Zebedee and his brother John, mending their nets.",
+              "ru": "Увидел Иакова Зеведеева и Иоанна, брата его, также в лодке починивающих сети."
+            }
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "James and John were fixing nets with their dad when Jesus called them too.",
+          "ru": "Иаков и Иоанн чинили сети с папой, когда Иисус позвал и их."
+        },
+        "parents": {
+          "en": "Note that following Jesus doesn't mean not loving family. Zebedee's wife later followed Jesus too (Mt 27:56).",
+          "ru": "Подчеркните: идти за Иисусом не значит не любить семью. Мать Иакова и Иоанна потом тоже пошла за Иисусом (Мф 27:56)."
+        },
+        "adults": {
+          "orthodox": {
+            "source": "chrysostom",
+            "where": {
+              "en": "Homily 14 on Matthew (Mt 4:21–22)",
+              "ru": "Беседа 14 на Мф (Mt 4:21–22)"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "They left their father not in contempt but because they preferred Christ to everything.",
+              "ru": "Они оставили отца не из презрения, а потому что предпочли Христа всему."
+            }
+          },
+          "protestant": {
+            "source": "barnes",
+            "where": {
+              "en": "Notes on Mark 1:20",
+              "ru": "Заметки на Мк 1:20"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Zebedee had hired servants: the family was not poor. The sacrifice was real.",
+              "ru": "У Зеведея были наёмные работники: семья была небедной. Жертва была настоящей."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p6",
+      "verses": [
+        20
+      ],
+      "characters": [
+        "jesus",
+        "peter",
+        "andrew",
+        "james",
+        "john",
+        "zebedee"
+      ],
+      "camera": "wide, walking away",
+      "scene": {
+        "kids": "the four fishermen walking happily behind Jesus along the shore, Zebedee waving goodbye from the boat",
+        "adults": "the four walking behind Jesus along the shoreline; Zebedee stands in the boat watching his sons go"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "They left their father in the boat and went with Jesus.",
+              "ru": "Они оставили отца в лодке и пошли за Иисусом."
+            }
+          }
+        ],
+        "adults": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "They left their father Zebedee in the boat with the hired men and followed Him.",
+              "ru": "И они, оставив отца своего Зеведея в лодке с работниками, последовали за Ним."
+            }
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "Now there are four friends following Jesus. The adventure begins!",
+          "ru": "Теперь за Иисусом идут четверо друзей. Приключение начинается!"
+        },
+        "parents": {
+          "en": "Ask: what does it mean to 'follow' someone? How can we follow Jesus at school or home?",
+          "ru": "Спросите: что значит «идти за» кем-то? Как можно идти за Иисусом в школе или дома?"
+        },
+        "adults": {
+          "orthodox": {
+            "source": "theophylact",
+            "where": {
+              "en": "On Mark 1:20",
+              "ru": "Толкование на Мк 1:20"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Christ begins His Church with a few simple men; from these small beginnings the apostolic preaching went out to all the world.",
+              "ru": "Христос начинает Церковь с нескольких простых людей; из этого малого начала апостольская проповедь вышла во весь мир."
+            }
+          },
+          "protestant": {
+            "source": "ryle",
+            "where": {
+              "en": "Expository Thoughts on Mark 1:16–20",
+              "ru": "Размышления на Мк 1:16–20"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Christ chose poor, unlearned men so that the success of the gospel might clearly be God's work.",
+              "ru": "Христос избрал бедных, неучёных людей, чтобы успех Евангелия был явно Божиим делом."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "cover": "ep03"
+}

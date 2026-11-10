@@ -1,0 +1,520 @@
+{
+  "id": "ep01-voice",
+  "number": 1,
+  "season": 1,
+  "ref": {
+    "book": "Mark",
+    "chapter": 1,
+    "from": 1,
+    "to": 8
+  },
+  "parallels": [
+    "Matthew 3:1-12",
+    "Luke 3:1-18",
+    "John 1:19-28"
+  ],
+  "title": {
+    "en": "A Voice in the Wilderness",
+    "ru": "Глас в пустыне"
+  },
+  "subtitle": {
+    "en": "Prepare the way for the Lord",
+    "ru": "Приготовьте путь Господу"
+  },
+  "place": [
+    "jordan"
+  ],
+  "panels": [
+    {
+      "id": "p1",
+      "verses": [
+        1,
+        2,
+        3
+      ],
+      "characters": [
+        "john_baptist"
+      ],
+      "camera": "wide establishing shot",
+      "scene": {
+        "kids": "a sunny desert with sandy hills, the blue Jordan river winding through it, a tiny figure of John the Baptist walking with a staff",
+        "adults": "vast Judean wilderness at dawn, layered ochre hills, the green ribbon of the Jordan, a lone figure with a staff on a ridge"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "Long ago God promised: \"I will send My messenger to get the way ready.\"",
+              "ru": "Давным-давно Бог обещал: «Я пошлю вестника, который приготовит путь»."
+            }
+          }
+        ],
+        "adults": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "The beginning of the gospel of Jesus Christ, the Son of God.",
+              "ru": "Начало Евангелия Иисуса Христа, Сына Божия."
+            }
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "Mark begins with good news: God is keeping His promise.",
+          "ru": "Марк начинает с доброй вести: Бог исполняет обещание."
+        },
+        "parents": {
+          "en": "Ask: what promise have you kept that someone was waiting for? God keeps His promises too.",
+          "ru": "Спросите: какое обещание ты сдержал, хотя его долго ждали? Бог тоже держит слово."
+        },
+        "adults": {
+          "orthodox": {
+            "source": "theophylact",
+            "where": {
+              "en": "On Mark 1:1–3",
+              "ru": "Толкование на Мк 1:1–3"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Mark calls Jesus the Son of God from the first line, so that we read everything that follows in that light; John is the 'voice' and Christ is the Word.",
+              "ru": "Марк с первой строки называет Иисуса Сыном Божиим, чтобы всё дальнейшее мы читали в этом свете; Иоанн — «глас», а Христос — Слово."
+            }
+          },
+          "protestant": {
+            "source": "ryle",
+            "where": {
+              "en": "Expository Thoughts on Mark 1:1–8",
+              "ru": "Размышления на Мк 1:1–8"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "The gospel begins with Christ. Whatever else we learn, the first thing to know is who He is.",
+              "ru": "Евангелие начинается со Христа. Что бы мы ни узнали ещё, сначала нужно узнать, Кто Он."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p2",
+      "verses": [
+        4,
+        6
+      ],
+      "characters": [
+        "john_baptist"
+      ],
+      "camera": "medium shot",
+      "scene": {
+        "kids": "John the Baptist with wild hair and a camel-hair coat, smiling, holding a honeycomb, a grasshopper hopping on a rock",
+        "adults": "John the Baptist close-up: sun-darkened skin, wild hair, rough camel-hair garment, leather belt, eating wild honey from a comb in the shade of a rock"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "His name was John. He wore camel hair and ate locusts and wild honey!",
+              "ru": "Его звали Иоанн. Он носил одежду из верблюжьего волоса и ел акриды и дикий мёд!"
+            }
+          }
+        ],
+        "adults": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "John wore camel's hair and a leather belt. His food was locusts and wild honey.",
+              "ru": "Иоанн носил одежду из верблюжьего волоса и пояс кожаный, и ел акриды и дикий мёд."
+            }
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "John lived simply in the desert. He didn't need fancy things to serve God.",
+          "ru": "Иоанн жил просто, в пустыне. Ему не нужны были дорогие вещи, чтобы служить Богу."
+        },
+        "parents": {
+          "en": "Talk about what 'enough' means. Could your family give up one extra thing this week?",
+          "ru": "Поговорите о том, что такое «достаточно». Может ли семья отказаться на этой неделе от чего-то лишнего?"
+        },
+        "adults": {
+          "orthodox": {
+            "source": "chrysostom",
+            "where": {
+              "en": "Homily 10 on Matthew (Mt 3:4)",
+              "ru": "Беседа 10 на Мф (Mt 3:4)"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "His clothing and food preached before his words did: a life free from comfort makes the call to repentance believable.",
+              "ru": "Его одежда и пища проповедовали раньше слов: жизнь, свободная от удобств, делает призыв к покаянию убедительным."
+            }
+          },
+          "protestant": {
+            "source": "barnes",
+            "where": {
+              "en": "Notes on Mark 1:6",
+              "ru": "Заметки на Мк 1:6"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Camel's hair and a leather belt were the dress of the poor and of the prophets, like Elijah (2 Kings 1:8).",
+              "ru": "Верблюжий волос и кожаный пояс — одежда бедняков и пророков, как у Илии (4 Цар 1:8)."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p3",
+      "verses": [
+        4,
+        5
+      ],
+      "characters": [
+        "john_baptist",
+        "villager1",
+        "villager2",
+        "villager5"
+      ],
+      "camera": "wide",
+      "scene": {
+        "kids": "crowds of people walking from a far-away city toward the river, families, an old man, children, all curious",
+        "adults": "long lines of people from Jerusalem and Judea streaming down the dusty road to the river, faces tired and hopeful"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "Lots of people came from Jerusalem to hear him.",
+              "ru": "Множество людей приходило к нему из Иерусалима."
+            }
+          }
+        ],
+        "adults": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "All Jerusalem and the countryside of Judea went out to him.",
+              "ru": "И выходили к нему вся страна Иудейская и Иерусалимляне."
+            }
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "Many people came because they wanted a fresh start with God.",
+          "ru": "Многие пришли, потому что хотели начать с Богом заново."
+        },
+        "parents": {
+          "en": "Ask: is there something you'd like to start over? God loves fresh starts.",
+          "ru": "Спросите: хотелось бы тебе что-то начать заново? Бог любит новые начала."
+        },
+        "adults": {
+          "orthodox": {
+            "source": "theophylact",
+            "where": {
+              "en": "On Mark 1:5",
+              "ru": "Толкование на Мк 1:5"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "They came confessing their sins: repentance begins with naming what we have done, not with excuses.",
+              "ru": "Они приходили, исповедуя грехи: покаяние начинается с того, чтобы назвать сделанное, а не оправдываться."
+            }
+          },
+          "protestant": {
+            "source": "henry",
+            "where": {
+              "en": "Commentary on Mark 1:5",
+              "ru": "Комментарий на Мк 1:5"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Those who are truly sorry for sin will be glad to hear of a Saviour; the crowds show how ready hearts were for the gospel.",
+              "ru": "Кто искренне скорбит о грехе, тот рад услышать о Спасителе; толпы показывают, как готовы были сердца к Евангелию."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p4",
+      "verses": [
+        4
+      ],
+      "characters": [
+        "john_baptist",
+        "villager1"
+      ],
+      "camera": "medium",
+      "scene": {
+        "kids": "John standing on a rock by the river, pointing and calling out to the people with a big friendly voice",
+        "adults": "John on a rock above the water, arm raised, calling the crowd; the wind catches his hair"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "shout",
+            "x": 44.3,
+            "y": 31.2,
+            "w": 38,
+            "text": {
+              "en": "Turn around! Come back to God!",
+              "ru": "Покайтесь! Вернитесь к Богу!"
+            },
+            "who": "john_baptist",
+            "tx": 63.3,
+            "ty": 51.1
+          }
+        ],
+        "adults": [
+          {
+            "kind": "shout",
+            "x": 44.3,
+            "y": 12.9,
+            "w": 38,
+            "text": {
+              "en": "Repent, and be baptized for the forgiveness of sins!",
+              "ru": "Покайтесь и креститесь для прощения грехов!"
+            },
+            "who": "john_baptist",
+            "tx": 63.3,
+            "ty": 33.2
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "'Repent' means: turn around and come back to God.",
+          "ru": "«Покайтесь» значит: развернись и вернись к Богу."
+        },
+        "parents": {
+          "en": "Use a simple picture: walking the wrong way, then turning around. What is one 'wrong way' we can turn from?",
+          "ru": "Используйте образ: идёшь не туда — и разворачиваешься. От какого «не того пути» мы можем повернуть?"
+        },
+        "adults": {
+          "orthodox": {
+            "source": "theophylact",
+            "where": {
+              "en": "On Mark 1:4",
+              "ru": "Толкование на Мк 1:4"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "John's baptism had no grace of the Spirit; it prepared hearts, so that, repenting, they would receive the One who forgives.",
+              "ru": "Крещение Иоанна не имело благодати Духа; оно готовило сердца, чтобы, покаявшись, люди приняли Того, Кто прощает."
+            }
+          },
+          "protestant": {
+            "source": "ryle",
+            "where": {
+              "en": "Expository Thoughts on Mark 1:4",
+              "ru": "Размышления на Мк 1:4"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Repentance is not merely regret but a change of heart and life; without it no one is ready for Christ.",
+              "ru": "Покаяние — не просто сожаление, а перемена сердца и жизни; без него никто не готов ко Христу."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p5",
+      "verses": [
+        5
+      ],
+      "characters": [
+        "john_baptist",
+        "villager5"
+      ],
+      "camera": "close",
+      "scene": {
+        "kids": "John gently baptizing an old man in the river, the man's eyes closed, sunlight sparkling on the water",
+        "adults": "John in the river baptizing a weathered old man; the man has just confessed, tears and water on his face"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "People told God what they had done wrong, and John baptized them in the Jordan River.",
+              "ru": "Люди признавались Богу в своих грехах, и Иоанн крестил их в реке Иордан."
+            }
+          }
+        ],
+        "adults": [
+          {
+            "kind": "caption",
+            "x": 3,
+            "y": 4,
+            "w": 42,
+            "text": {
+              "en": "Confessing their sins, they were baptized by him in the Jordan River.",
+              "ru": "И крестились от него все в реке Иордане, исповедуя грехи свои."
+            }
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "People told God what they had done wrong. Then they were washed in the river as a sign.",
+          "ru": "Люди признавались Богу в плохом, а потом их омывали в реке — как знак."
+        },
+        "parents": {
+          "en": "Explain that saying 'I'm sorry' to God is brave and good. Share how you say sorry to God.",
+          "ru": "Объясните, что сказать Богу «прости» — смело и хорошо. Расскажите, как вы сами просите у Бога прощения."
+        },
+        "adults": {
+          "orthodox": {
+            "source": "chrysostom",
+            "where": {
+              "en": "Homily 10 on Matthew (Mt 3:6)",
+              "ru": "Беседа 10 на Мф (Mt 3:6)"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Confession comes before cleansing; the Church still joins confession of sins to the washing of grace.",
+              "ru": "Исповедь предшествует очищению; Церковь и сейчас соединяет исповедание грехов с омовением благодати."
+            }
+          },
+          "protestant": {
+            "source": "henry",
+            "where": {
+              "en": "Commentary on Mark 1:5",
+              "ru": "Комментарий на Мк 1:5"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "Confession of sin is a sign of true repentance; those who cover their sins shall not prosper (Prov 28:13).",
+              "ru": "Исповедание греха — признак истинного покаяния; скрывающий свои преступления не будет иметь успеха (Притч 28:13)."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "p6",
+      "verses": [
+        7,
+        8
+      ],
+      "characters": [
+        "john_baptist"
+      ],
+      "camera": "close-up, looking into the distance",
+      "scene": {
+        "kids": "John looking toward the horizon where a soft light shines, smiling with hope",
+        "adults": "John's face in profile, looking toward the distant road where the light is rising; humble and expectant"
+      },
+      "bubbles": {
+        "kids": [
+          {
+            "kind": "speech",
+            "x": 10.0,
+            "y": 41.5,
+            "w": 40,
+            "text": {
+              "en": "Someone much greater than me is coming! He will baptize you with the Holy Spirit!",
+              "ru": "За мной идёт Тот, Кто гораздо сильнее меня! Он будет крестить вас Духом Святым!"
+            },
+            "who": "john_baptist",
+            "tx": 30.0,
+            "ty": 66.6
+          }
+        ],
+        "adults": [
+          {
+            "kind": "speech",
+            "x": 10.0,
+            "y": 13.4,
+            "w": 40,
+            "text": {
+              "en": "After me will come One more powerful than I. I baptize you with water, but He will baptize you with the Holy Spirit.",
+              "ru": "Идет за мною Сильнейший меня. Я крестил вас водою, а Он будет крестить вас Духом Святым."
+            },
+            "who": "john_baptist",
+            "tx": 30.0,
+            "ty": 42.5
+          }
+        ]
+      },
+      "gloss": {
+        "kids": {
+          "en": "John pointed to Jesus, not to himself. He was a signpost.",
+          "ru": "Иоанн указывал на Иисуса, а не на себя. Он был как дорожный знак."
+        },
+        "parents": {
+          "en": "Ask: who was a 'signpost to Jesus' for you? Tell your child about that person.",
+          "ru": "Спросите себя: кто был для вас «знаком, указывающим на Иисуса»? Расскажите ребёнку об этом человеке."
+        },
+        "adults": {
+          "orthodox": {
+            "source": "theophylact",
+            "where": {
+              "en": "On Mark 1:7–8",
+              "ru": "Толкование на Мк 1:7–8"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "The Forerunner confesses that he is unworthy even to untie His sandals; true greatness is to know the measure of oneself before Christ.",
+              "ru": "Предтеча исповедует, что недостоин даже развязать ремень Его обуви; истинное величие — знать свою меру перед Христом."
+            }
+          },
+          "protestant": {
+            "source": "ryle",
+            "where": {
+              "en": "Expository Thoughts on Mark 1:7–8",
+              "ru": "Размышления на Мк 1:7–8"
+            },
+            "kind": "paraphrase",
+            "verify": true,
+            "text": {
+              "en": "The faithful minister exalts Christ and makes little of himself; the best sermon points away from the preacher.",
+              "ru": "Верный служитель возвышает Христа и умаляет себя; лучшая проповедь указывает не на проповедника."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "cover": "ep01"
+}

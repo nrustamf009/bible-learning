@@ -1,0 +1,97 @@
+{
+  "_about": "Commentators used in the 'What the teachers say' block. Only authors whose work is in the PUBLIC DOMAIN (died long ago; old translations), so they can be quoted freely. Each was chosen because he wrote simply and practically for ordinary believers, not only for scholars. RULE: every quote in content files is marked kind=paraphrase until checked word-for-word against the source; then switch to kind=quote and fill 'page'.",
+  "orthodox": [
+    {
+      "id": "theophylact",
+      "name": { "en": "St. Theophylact of Ohrid (Bulgaria)", "ru": "Блаженный Феофилакт Болгарский" },
+      "dates": "c. 1055 – c. 1107",
+      "work": { "en": "Explanation of the Gospel of Mark", "ru": "Толкование на Евангелие от Марка" },
+      "why": { "en": "The standard verse-by-verse Orthodox commentary on Mark; short, clear, sums up St. John Chrysostom. Read in Russian parishes for centuries.", "ru": "Главное православное толкование на Марка стих за стихом; коротко и ясно, передаёт мысль свт. Иоанна Златоуста. Веками читается в русских приходах." },
+      "pd": { "en": "Greek original and the 19th-c. Russian translation (Kazan Theological Academy) are public domain. The 1990s English translation (Chrysostom Press) is NOT — for English we paraphrase from the Russian/Greek.", "ru": "Греческий оригинал и русский перевод XIX в. (Казанская духовная академия) — общественное достояние. Английский перевод 1990-х (Chrysostom Press) — нет, поэтому по-английски даём пересказ." },
+      "where": "azbyka.ru/otechnik/Feofilakt_Bolgarskij/tolkovanie-na-evangelie-ot-marka/"
+    },
+    {
+      "id": "chrysostom",
+      "name": { "en": "St. John Chrysostom", "ru": "Святитель Иоанн Златоуст" },
+      "dates": "c. 347 – 407",
+      "work": { "en": "Homilies on the Gospel of Matthew (for the parallel passages)", "ru": "Беседы на Евангелие от Матфея (для параллельных мест)" },
+      "why": { "en": "The greatest preacher of the early Church; very practical, always ends with how to live.", "ru": "Величайший проповедник древней Церкви; очень практичен, всегда заканчивает тем, как жить." },
+      "pd": { "en": "Public domain (NPNF English translation, 1888; Russian translation of the St. Petersburg Theological Academy, 19th c.).", "ru": "Общественное достояние (англ. NPNF 1888; русский перевод СПбДА, XIX в.)." },
+      "where": "ccel.org/ccel/schaff/npnf110 · azbyka.ru/otechnik/Ioann_Zlatoust/"
+    },
+    {
+      "id": "augustine",
+      "name": { "en": "Blessed Augustine of Hippo", "ru": "Блаженный Августин" },
+      "dates": "354 – 430",
+      "work": { "en": "Sermons on New Testament lessons (Sermon 63 on Matthew 8:23–27)", "ru": "Проповеди на Новый Завет (Проповедь 63 на Мф 8:23–27)" },
+      "why": { "en": "A Father of the undivided Church, honoured by Orthodox and Protestants alike; famous for turning the storm into a picture of the soul.", "ru": "Отец единой древней Церкви, почитаемый и православными, и протестантами; известен тем, что превратил бурю в образ души." },
+      "pd": { "en": "Public domain (NPNF English translation, 1888).", "ru": "Общественное достояние." },
+      "where": "ccel.org/ccel/schaff/npnf106"
+    },
+    {
+      "id": "theophan",
+      "name": { "en": "St. Theophan the Recluse", "ru": "Святитель Феофан Затворник" },
+      "dates": "1815 – 1894",
+      "work": { "en": "Thoughts for Each Day of the Year (by the Church readings)", "ru": "Мысли на каждый день года по церковным чтениям из Слова Божия" },
+      "why": { "en": "One page per Gospel reading, written for lay people, always practical — the model for our 'Apply it' block.", "ru": "Одна страница на каждое евангельское чтение, написано для мирян, всегда практично — образец для нашего блока «Применить в жизни»." },
+      "pd": { "en": "Russian original (1881) is public domain; English translations are recent — paraphrase in English.", "ru": "Русский оригинал (1881) — общественное достояние." },
+      "where": "azbyka.ru/otechnik/Feofan_Zatvornik/mysli-na-kazhdyj-den-goda/"
+    },
+    {
+      "id": "lopukhin",
+      "name": { "en": "A. P. Lopukhin (ed.), Explanatory Bible", "ru": "Толковая Библия Лопухина" },
+      "dates": "1904 – 1913",
+      "work": { "en": "Explanatory Bible, vol. 9 (Mark)", "ru": "Толковая Библия, т. 9 (Евангелие от Марка)" },
+      "why": { "en": "Historical and geographical background (customs, places, words) from the Russian Orthodox scholarly tradition.", "ru": "Исторический и географический фон (обычаи, места, слова) в русской православной научной традиции." },
+      "pd": { "en": "Public domain (published before 1917).", "ru": "Общественное достояние." },
+      "where": "azbyka.ru/otechnik/Lopuhin/tolkovaja_biblija_36/"
+    }
+  ],
+  "protestant": [
+    {
+      "id": "ryle",
+      "name": { "en": "Bishop J. C. Ryle", "ru": "Епископ Джон Чарльз Райл" },
+      "dates": "1816 – 1900",
+      "work": { "en": "Expository Thoughts on the Gospels: Mark (1857)", "ru": "«Толковые размышления на Евангелия: Марк» (1857)" },
+      "why": { "en": "Written for families to read aloud; every passage ends in 2–4 plain lessons for life. Best fit for this project.", "ru": "Написано для чтения вслух в семье; каждый отрывок заканчивается 2–4 простыми уроками для жизни. Лучше всего подходит проекту." },
+      "pd": { "en": "Public domain.", "ru": "Общественное достояние (русские цитаты — наш перевод)." },
+      "where": "ccel.org/ccel/ryle/mark · gutenberg.org"
+    },
+    {
+      "id": "henry",
+      "name": { "en": "Matthew Henry", "ru": "Мэтью Генри" },
+      "dates": "1662 – 1714",
+      "work": { "en": "Commentary on the Whole Bible (1706)", "ru": "Комментарий на всю Библию (1706)" },
+      "why": { "en": "The most-read devotional commentary in English; warm and practical.", "ru": "Самый читаемый практический комментарий на английском; тёплый и прикладной." },
+      "pd": { "en": "Public domain.", "ru": "Общественное достояние." },
+      "where": "ccel.org/ccel/henry/mhc5"
+    },
+    {
+      "id": "calvin",
+      "name": { "en": "John Calvin", "ru": "Жан Кальвин" },
+      "dates": "1509 – 1564",
+      "work": { "en": "Commentary on a Harmony of the Evangelists", "ru": "Комментарий на согласование Евангелий" },
+      "why": { "en": "Reformation-era exposition; short doctrinal clarity.", "ru": "Толкование эпохи Реформации; короткая доктринальная ясность." },
+      "pd": { "en": "Public domain (Calvin Translation Society, 1845).", "ru": "Общественное достояние." },
+      "where": "ccel.org/ccel/calvin/calcom31"
+    },
+    {
+      "id": "spurgeon",
+      "name": { "en": "C. H. Spurgeon", "ru": "Чарльз Сперджен" },
+      "dates": "1834 – 1892",
+      "work": { "en": "Sermons (Metropolitan Tabernacle Pulpit)", "ru": "Проповеди" },
+      "why": { "en": "The 'prince of preachers': vivid images, short memorable lines — great for captions. Used from later episodes.", "ru": "«Король проповедников»: яркие образы, короткие запоминающиеся фразы. Используем в следующих эпизодах." },
+      "pd": { "en": "Public domain.", "ru": "Общественное достояние." },
+      "where": "spurgeon.org · ccel.org"
+    },
+    {
+      "id": "barnes",
+      "name": { "en": "Albert Barnes", "ru": "Альберт Барнс" },
+      "dates": "1798 – 1870",
+      "work": { "en": "Notes on the New Testament (1832)", "ru": "Заметки на Новый Завет (1832)" },
+      "why": { "en": "Plain explanations of customs, places and words — used for the 'Background' notes.", "ru": "Простые пояснения обычаев, мест и слов — для блока «Фон»." },
+      "pd": { "en": "Public domain.", "ru": "Общественное достояние." },
+      "where": "ccel.org · studylight.org"
+    }
+  ]
+}

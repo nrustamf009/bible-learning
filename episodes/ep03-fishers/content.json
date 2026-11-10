@@ -1,0 +1,450 @@
+{
+  "shared": {
+    "kids": {
+      "en": {
+        "whatHappened": [
+          "Jesus begins to preach: \"God's Kingdom is near! Turn back to God and believe the good news.\"",
+          "Walking by the lake, He sees four fishermen: Simon (later called Peter), Andrew, James and John. He says: \"Follow Me, and I will make you fishers of people.\"",
+          "They leave their nets, their boats and even their dad, and go with Jesus right away!"
+        ],
+        "background": [
+          {
+            "term": "Nets",
+            "text": "Fishermen used a round throwing net or a long dragnet. Nets tore often and had to be mended."
+          },
+          {
+            "term": "Zebedee",
+            "text": "James and John's father. He had hired workers, so the family business was doing well."
+          }
+        ]
+      },
+      "ru": {
+        "whatHappened": [
+          "Иисус начинает проповедовать: «Царство Божие близко! Вернитесь к Богу и поверьте доброй вести».",
+          "Проходя у озера, Он видит четырёх рыбаков: Симона (позже его назовут Петром), Андрея, Иакова и Иоанна. Он говорит: «Идите за Мной, и Я сделаю вас ловцами людей».",
+          "Они сразу оставляют сети, лодки и даже папу и идут за Иисусом!"
+        ],
+        "background": [
+          {
+            "term": "Сети",
+            "text": "Рыбаки бросали круглую сеть или тянули длинный невод. Сети часто рвались, их приходилось чинить."
+          },
+          {
+            "term": "Зеведей",
+            "text": "Отец Иакова и Иоанна. У него были наёмные работники, значит, семейное дело шло хорошо."
+          }
+        ]
+      }
+    },
+    "adults": {
+      "en": {
+        "whatHappened": [
+          "Jesus' first words in Mark summarise His whole message: the appointed time has come, God's reign is breaking in, so turn around and trust this news.",
+          "Rabbis did not usually call disciples; students chose their teacher. Here Jesus chooses them, and He calls them not to a school but to Himself: \"Follow Me.\"",
+          "\"Fishers of men\" echoes Jeremiah 16:16, where God sends fishers to gather His scattered people. Their old skill will be taken up into a new mission.",
+          "The cost is real: nets (their livelihood), the boat, the family business, their father. Mark's favourite word, \"immediately\", shows that the call of Jesus does not wait for a convenient moment."
+        ],
+        "background": [
+          {
+            "term": "Galilee",
+            "text": "Northern region, mixed Jewish and Gentile, looked down on by Jerusalem elites; Jesus starts here, not in the capital."
+          },
+          {
+            "term": "Kingdom of God",
+            "text": "Not a territory but God's rule: God acting as King to set the world right."
+          }
+        ]
+      },
+      "ru": {
+        "whatHappened": [
+          "Первые слова Иисуса у Марка — вся Его весть в одной фразе: назначенное время пришло, Царство Божие наступает, поэтому развернитесь и поверьте этой вести.",
+          "Раввины обычно не призывали учеников: ученик сам выбирал учителя. Здесь Иисус выбирает Сам, и зовёт не в школу, а к Себе: «Идите за Мною».",
+          "«Ловцы человеков» — отзвук Иеремии 16:16, где Бог посылает ловцов собрать рассеянный народ. Прежнее ремесло вливается в новую миссию.",
+          "Цена настоящая: сети (заработок), лодка, семейное дело, отец. Любимое слово Марка «тотчас» показывает: зов Иисуса не ждёт удобного момента."
+        ],
+        "background": [
+          {
+            "term": "Галилея",
+            "text": "Северная область, смешанное население; иерусалимская элита на неё смотрела свысока. Иисус начинает здесь, а не в столице."
+          },
+          {
+            "term": "Царство Божие",
+            "text": "Не территория, а владычество Бога: Бог действует как Царь и всё исправляет."
+          }
+        ]
+      }
+    }
+  },
+  "orthodox": {
+    "kids": {
+      "en": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "On Mark 1:16–20",
+            "text": "St. Theophylact noticed: they did not say \"later\". They followed Jesus at once."
+          }
+        ],
+        "bigIdea": {
+          "title": "Jesus calls everyone to follow Him",
+          "text": "He called fishermen at work. He calls you too: at school, at home, wherever you are."
+        },
+        "apply": [
+          {
+            "title": "Follow Jesus today",
+            "text": "Choose one thing Jesus would want: help at home without being asked."
+          },
+          {
+            "title": "Invite a friend",
+            "text": "Andrew brought his brother to Jesus. Invite a friend to church or a church holiday."
+          }
+        ],
+        "questions": [
+          "What were the fishermen doing when Jesus called them?",
+          "What did they leave behind?",
+          "What could you 'leave' to follow Jesus better?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 1:17",
+          "text": "Come, follow Me, and I will make you fishers of men."
+        },
+        "prayer": "Lord Jesus, I want to follow You. Help me to listen to You. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Толкование на Мк 1:16–20",
+            "text": "Блаженный Феофилакт замечает: они не сказали «потом». Они пошли за Иисусом сразу."
+          }
+        ],
+        "bigIdea": {
+          "title": "Иисус зовёт каждого идти за Ним",
+          "text": "Он позвал рыбаков прямо на работе. Он зовёт и тебя: в школе, дома, где бы ты ни был."
+        },
+        "apply": [
+          {
+            "title": "Иди за Иисусом сегодня",
+            "text": "Выбери одно дело, которого хотел бы Иисус: помоги дома, не дожидаясь просьбы."
+          },
+          {
+            "title": "Пригласи друга",
+            "text": "Андрей привёл к Иисусу своего брата. Пригласи друга в храм или на церковный праздник."
+          }
+        ],
+        "questions": [
+          "Что делали рыбаки, когда Иисус позвал их?",
+          "Что они оставили?",
+          "Что ты мог(ла) бы «оставить», чтобы лучше идти за Иисусом?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 1:17",
+          "text": "Идите за Мною, и Я сделаю, что вы будете ловцами человеков."
+        },
+        "prayer": "Господи Иисусе, я хочу идти за Тобой. Помоги мне слушаться Тебя. Аминь."
+      }
+    },
+    "adults": {
+      "en": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "On Mark 1:16–20",
+            "text": "See the readiness of their obedience: they did not delay or ask to settle their affairs first. Christ calls them while they are working, showing that He chooses people in the midst of ordinary labour."
+          },
+          {
+            "source": "chrysostom",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Homily 14 on Matthew (Mt 4:18–22)",
+            "text": "They left their father not because they despised him, but because they preferred Christ to everything; such obedience Christ asks of us when His call and our attachments collide."
+          }
+        ],
+        "bigIdea": {
+          "title": "The call: the apostles first, then every one of us",
+          "text": "The Church calls St. Andrew \"the First-Called\" (Protokletos). The apostles left everything; monastics follow this call literally, while lay Christians follow it in family and work by putting Christ first. Every vocation is a way of following, and the Church's apostolic mission continues through those whom Christ still calls.",
+          "refs": [
+            {
+              "ref": "Jeremiah 16:16",
+              "text": "Behold, I will send for many fishermen, declares the LORD, and they will catch them."
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "What are your 'nets'?",
+            "text": "Name one attachment (time, money, a habit) that keeps you from following Christ more fully, and loosen it this week."
+          },
+          {
+            "title": "Pray at work",
+            "text": "Christ called them at work. Pray a short prayer before you start your work each day: \"Lord, bless.\""
+          },
+          {
+            "title": "Be an Andrew",
+            "text": "Invite one person to the Liturgy, or to a conversation about faith, this month."
+          }
+        ],
+        "questions": [
+          "Why did Jesus choose fishermen rather than scholars?",
+          "What would 'immediately' look like for you?",
+          "Which attachments compete with Christ in your life?",
+          "Whom can you bring to Christ, like Andrew?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 1:15",
+          "text": "The time is fulfilled, and the kingdom of God is near. Repent and believe in the gospel!"
+        },
+        "prayer": "Holy Apostle Andrew, the First-Called, pray to God for us. Lord, give me a heart ready to follow You. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Толкование на Мк 1:16–20",
+            "text": "Смотри на готовность их послушания: они не медлили и не просили сначала устроить дела. Христос призывает их за работой, показывая, что выбирает людей посреди обычного труда."
+          },
+          {
+            "source": "chrysostom",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Беседа 14 на Евангелие от Матфея (Мф 4:18–22)",
+            "text": "Они оставили отца не потому, что презирали его, а потому, что предпочли Христа всему; такого послушания Христос ждёт от нас, когда Его зов сталкивается с нашими привязанностями."
+          }
+        ],
+        "bigIdea": {
+          "title": "Призвание: сначала апостолы, потом каждый из нас",
+          "text": "Церковь называет апостола Андрея Первозванным. Апостолы оставили всё; монашество следует этому зову буквально, а миряне — в семье и работе, ставя Христа на первое место. Всякое призвание — путь следования, и апостольская миссия Церкви продолжается через тех, кого Христос зовёт и сейчас.",
+          "refs": [
+            {
+              "ref": "Иеремия 16:16",
+              "text": "Вот, Я пошлю множество рыболовов, говорит Господь, и будут ловить их."
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Что твои «сети»?",
+            "text": "Назови одну привязанность (время, деньги, привычку), которая мешает тебе полнее идти за Христом, и ослабь её на этой неделе."
+          },
+          {
+            "title": "Молись на работе",
+            "text": "Христос призвал их за работой. Каждый день перед началом работы говори короткую молитву: «Господи, благослови»."
+          },
+          {
+            "title": "Будь как Андрей",
+            "text": "В этом месяце пригласи одного человека на Литургию или на разговор о вере."
+          }
+        ],
+        "questions": [
+          "Почему Иисус выбрал рыбаков, а не книжников?",
+          "Как бы выглядело для тебя «тотчас»?",
+          "Какие привязанности соперничают с Христом в твоей жизни?",
+          "Кого ты можешь привести ко Христу, как Андрей?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 1:15",
+          "text": "Исполнилось время и приблизилось Царствие Божие: покайтесь и веруйте в Евангелие."
+        },
+        "prayer": "Святый апостоле Андрее Первозванный, моли Бога о нас. Господи, дай мне сердце, готовое идти за Тобой. Аминь."
+      }
+    }
+  },
+  "protestant": {
+    "kids": {
+      "en": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Expository Thoughts on Mark, 1:14–20",
+            "text": "Bishop Ryle pointed out that Jesus chose ordinary working men. God does not need famous people to do His work."
+          }
+        ],
+        "bigIdea": {
+          "title": "Following Jesus is the best adventure",
+          "text": "Jesus calls ordinary people to follow Him and to bring others to Him."
+        },
+        "apply": [
+          {
+            "title": "Be a fisher",
+            "text": "Pray for one friend by name every day this week, and invite them to church or kids club."
+          },
+          {
+            "title": "Put Jesus first",
+            "text": "Before screen time, read one Bible story."
+          }
+        ],
+        "questions": [
+          "What jobs did the four men have?",
+          "What did Jesus promise them?",
+          "Who could you tell about Jesus?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 1:17",
+          "text": "Come, follow Me, and I will make you fishers of men."
+        },
+        "prayer": "Jesus, I will follow You. Help my friends to know You too. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "«Толковые размышления на Евангелие от Марка», 1:14–20",
+            "text": "Епископ Райл заметил: Иисус выбрал простых рабочих людей. Богу не нужны знаменитости, чтобы делать Его дело."
+          }
+        ],
+        "bigIdea": {
+          "title": "Идти за Иисусом — лучшее приключение",
+          "text": "Иисус зовёт обычных людей идти за Ним и приводить к Нему других."
+        },
+        "apply": [
+          {
+            "title": "Будь ловцом",
+            "text": "Каждый день этой недели молись за одного друга по имени и пригласи его в церковь или в детский клуб."
+          },
+          {
+            "title": "Иисус на первом месте",
+            "text": "Перед мультиками или играми прочитай одну библейскую историю."
+          }
+        ],
+        "questions": [
+          "Кем работали эти четверо?",
+          "Что Иисус им пообещал?",
+          "Кому ты мог(ла) бы рассказать об Иисусе?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 1:17",
+          "text": "Идите за Мною, и Я сделаю, что вы будете ловцами человеков."
+        },
+        "prayer": "Иисус, я пойду за Тобой. Помоги моим друзьям тоже узнать Тебя. Аминь."
+      }
+    },
+    "adults": {
+      "en": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Expository Thoughts on Mark, 1:14–20",
+            "text": "Christ chose His first ministers from among poor, unlearned fishermen, so that the success of the gospel might clearly be God's work and not man's. And following Him always costs something; no one has ever lost by giving things up for His sake."
+          },
+          {
+            "source": "henry",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Commentary on Mark 1:14–20",
+            "text": "Those whom Christ calls He also qualifies: \"I will make you\" fishers. They brought diligence from their old trade; He would give the skill for the new one."
+          }
+        ],
+        "bigIdea": {
+          "title": "Discipleship and mission are one call",
+          "text": "\"Follow Me\" and \"I will make you fishers\" come in one sentence: every disciple is called both to be with Jesus and to bring others to Him. He provides the change (\"I will make you\"); we provide the obedience. The gospel spreads through ordinary believers in ordinary places.",
+          "refs": [
+            {
+              "ref": "Matthew 28:19",
+              "text": "Therefore go and make disciples of all nations."
+            },
+            {
+              "ref": "Luke 14:33",
+              "text": "Any one of you who does not give up everything he has cannot be My disciple."
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Your 'five'",
+            "text": "Write down five people in your daily life who don't know Christ. Pray for them by name daily."
+          },
+          {
+            "title": "Drop one net",
+            "text": "Identify one thing (a habit, an ambition) you are holding onto more tightly than Jesus. Talk to God about letting go."
+          },
+          {
+            "title": "Share your story",
+            "text": "Practise telling in two minutes how you came to follow Jesus. Share it with one person this month."
+          }
+        ],
+        "questions": [
+          "Why does Jesus call disciples rather than wait for them to choose Him?",
+          "What did following cost these men? What does it cost you?",
+          "What does 'fishing for people' look like in your context?",
+          "Where do you need Jesus to 'make' you into something new?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 1:17",
+          "text": "Come, follow Me, and I will make you fishers of men."
+        },
+        "prayer": "Lord Jesus, here are my nets. Make me what You called me to be, and use me to bring others to You. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "«Толковые размышления на Евангелие от Марка», 1:14–20",
+            "text": "Христос выбрал первых служителей из бедных, неучёных рыбаков, чтобы успех Евангелия был явно делом Божиим, а не человеческим. И следование за Ним всегда чего-то стоит; но никто не проиграл, оставив что-то ради Него."
+          },
+          {
+            "source": "henry",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Комментарий на Мк 1:14–20",
+            "text": "Кого Христос призывает, тех Он и делает способными: «Я сделаю вас» ловцами. Прилежание они принесли из старого ремесла; умение для нового даст Он."
+          }
+        ],
+        "bigIdea": {
+          "title": "Ученичество и миссия — один призыв",
+          "text": "«Идите за Мною» и «Я сделаю вас ловцами» звучат в одной фразе: каждый ученик призван и быть с Иисусом, и приводить к Нему других. Перемену даёт Он («Я сделаю»); от нас — послушание. Евангелие распространяется через обычных верующих в обычных местах.",
+          "refs": [
+            {
+              "ref": "Матфея 28:19",
+              "text": "Итак идите, научите все народы."
+            },
+            {
+              "ref": "Луки 14:33",
+              "text": "Так всякий из вас, кто не отрешится от всего, что имеет, не может быть Моим учеником."
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Твоя «пятёрка»",
+            "text": "Запиши пять человек из своей повседневной жизни, которые не знают Христа. Молись за них по имени каждый день."
+          },
+          {
+            "title": "Брось одну сеть",
+            "text": "Определи одну вещь (привычку, амбицию), за которую держишься крепче, чем за Иисуса. Поговори с Богом о том, чтобы отпустить её."
+          },
+          {
+            "title": "Расскажи свою историю",
+            "text": "Потренируйся за две минуты рассказать, как ты стал(а) идти за Иисусом. Поделись этим с одним человеком в этом месяце."
+          }
+        ],
+        "questions": [
+          "Почему Иисус Сам призывает учеников, а не ждёт, пока они выберут Его?",
+          "Чего стоило следование этим людям? Чего оно стоит тебе?",
+          "Как выглядит «ловля людей» в твоём окружении?",
+          "В чём тебе нужно, чтобы Иисус «сделал» тебя новым?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 1:17",
+          "text": "Идите за Мною, и Я сделаю, что вы будете ловцами человеков."
+        },
+        "prayer": "Господи Иисусе, вот мои сети. Сделай меня тем, кем Ты меня призвал, и используй, чтобы приводить к Тебе других. Аминь."
+      }
+    }
+  }
+}

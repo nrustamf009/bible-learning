@@ -1,0 +1,458 @@
+{
+  "shared": {
+    "kids": {
+      "en": {
+        "whatHappened": [
+          "On the Sabbath, the day of rest, the disciples pick some grain because they are hungry. Some Pharisees complain: that's work, and work is not allowed!",
+          "Jesus reminds them that King David once ate the holy bread when he was hungry. Then He says: \"The Sabbath was made for people, and I am Lord of the Sabbath.\"",
+          "Later, on another Sabbath, Jesus heals a man's hand. Doing good is always right!"
+        ],
+        "background": [
+          {
+            "term": "Sabbath",
+            "text": "Saturday, God's gift of a day of rest (Exodus 20:8–11)."
+          },
+          {
+            "term": "Holy bread",
+            "text": "Twelve loaves placed in God's house each week; normally only priests ate them."
+          }
+        ]
+      },
+      "ru": {
+        "whatHappened": [
+          "В субботу, день покоя, голодные ученики срывают колосья. Некоторые фарисеи возмущаются: это работа, а работать нельзя!",
+          "Иисус напоминает, что царь Давид однажды ел священный хлеб, когда был голоден. И говорит: «Суббота для человека, а Я — Господин субботы».",
+          "Потом, в другую субботу, Иисус исцеляет человеку руку. Делать добро — всегда правильно!"
+        ],
+        "background": [
+          {
+            "term": "Суббота",
+            "text": "Седьмой день, Божий дар покоя (Исход 20:8–11)."
+          },
+          {
+            "term": "Священный хлеб",
+            "text": "Двенадцать хлебов, которые каждую неделю клали в доме Божием; обычно их ели только священники."
+          }
+        ]
+      }
+    },
+    "adults": {
+      "en": {
+        "whatHappened": [
+          "Picking grain by hand from a neighbour's field was allowed (Deuteronomy 23:25); the issue was the day. Later rabbinic rules counted plucking as 'reaping', one of 39 forbidden kinds of work.",
+          "Jesus appeals to Scripture (1 Samuel 21): human need outweighed ritual rules for David. Then He makes two claims: the Sabbath is God's gift for human good, and He Himself is its Lord. Only the One who instituted the Sabbath could be its Lord.",
+          "The synagogue healing raises the stakes: refusing to do good on the Sabbath is itself a kind of evil. Jesus is angry and grieved at their hardness of heart, one of the rare places Mark names His emotions.",
+          "The controversy section ends with an alliance of enemies (Pharisees and Herodians) planning His death. From here on the cross casts its shadow over the story."
+        ],
+        "background": [
+          {
+            "term": "Abiathar",
+            "text": "Mark names the high priest of that era; 1 Samuel 21 mentions his father Ahimelech, who was officiating. 'In the time of Abiathar' refers to the period, and Abiathar was present."
+          },
+          {
+            "term": "Herodians",
+            "text": "Supporters of King Herod Antipas, normally opponents of the Pharisees."
+          }
+        ]
+      },
+      "ru": {
+        "whatHappened": [
+          "Срывать колосья рукой на чужом поле разрешалось (Втор 23:25); вопрос был в дне. Позднейшие раввинские правила считали срывание «жатвой», одним из 39 запрещённых видов работы.",
+          "Иисус ссылается на Писание (1 Цар 21): ради нужды человека Давид поставил её выше обрядовых правил. И делает два утверждения: суббота — Божий дар для блага человека, и Он Сам — её Господин. Господином субботы может быть только Тот, Кто её установил.",
+          "Исцеление в синагоге повышает ставки: отказаться делать добро в субботу — уже зло. Иисус смотрит на них «с гневом, скорбя об ожесточении сердец» — одно из редких мест, где Марк называет Его чувства.",
+          "Раздел споров заканчивается союзом врагов (фарисеев и иродиан), замышляющих Его смерть. Отсюда тень креста ложится на весь рассказ."
+        ],
+        "background": [
+          {
+            "term": "Авиафар",
+            "text": "Марк называет первосвященника той эпохи; в 1 Цар 21 действует его отец Ахимелех. «При Авиафаре» указывает на время, и Авиафар при этом присутствовал."
+          },
+          {
+            "term": "Иродиане",
+            "text": "Сторонники царя Ирода Антипы, обычно противники фарисеев."
+          }
+        ]
+      }
+    }
+  },
+  "orthodox": {
+    "kids": {
+      "en": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "On Mark 2:23–3:6",
+            "text": "St. Theophylact said: Jesus made the Sabbath, so He is its Lord. And doing good is always what God wants."
+          }
+        ],
+        "bigIdea": {
+          "title": "God's day is for rest, worship and doing good",
+          "text": "Christians celebrate Sunday, the day Jesus rose from the dead. We go to church and do kind things."
+        },
+        "apply": [
+          {
+            "title": "Sunday Liturgy",
+            "text": "Go to church on Sunday with your family. After church, do one kind thing for someone."
+          },
+          {
+            "title": "Rest with God",
+            "text": "On Sunday, play a quiet game with family instead of screens."
+          }
+        ],
+        "questions": [
+          "What did the disciples do in the field?",
+          "Who is the Lord of the Sabbath?",
+          "What good thing can you do on Sunday?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 2:27",
+          "text": "The Sabbath was made for man, not man for the Sabbath."
+        },
+        "prayer": "Lord, thank You for Sunday, the day of Your Resurrection. Help me rest and do good. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Толкование на Мк 2:23–3:6",
+            "text": "Блаженный Феофилакт говорит: Иисус установил субботу, поэтому Он её Господин. А делать добро — всегда то, чего хочет Бог."
+          }
+        ],
+        "bigIdea": {
+          "title": "Божий день — для покоя, молитвы и добрых дел",
+          "text": "Христиане празднуют воскресенье — день, когда Иисус воскрес. Мы идём в храм и делаем добрые дела."
+        },
+        "apply": [
+          {
+            "title": "Воскресная Литургия",
+            "text": "В воскресенье пойди с семьёй в храм. После службы сделай кому-нибудь одно доброе дело."
+          },
+          {
+            "title": "Отдых с Богом",
+            "text": "В воскресенье поиграй с семьёй в тихую игру вместо экранов."
+          }
+        ],
+        "questions": [
+          "Что делали ученики на поле?",
+          "Кто Господин субботы?",
+          "Какое доброе дело ты можешь сделать в воскресенье?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 2:27",
+          "text": "Суббота для человека, а не человек для субботы."
+        },
+        "prayer": "Господи, спасибо за воскресенье, день Твоего Воскресения. Помоги мне отдыхать и делать добро. Аминь."
+      }
+    },
+    "adults": {
+      "en": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "On Mark 2:23–3:6",
+            "text": "The Sabbath was given for man's rest and benefit; therefore when man's need requires it, the Sabbath must yield. The Son of Man is Lord of the Sabbath, for He is the Lawgiver Himself."
+          },
+          {
+            "source": "chrysostom",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Homily 40 on Matthew (Mt 12:9–13)",
+            "text": "He healed on the Sabbath in front of them all to teach that the works of mercy never break God's law; to refuse to do good when one can is to do evil."
+          }
+        ],
+        "bigIdea": {
+          "title": "The Lord of the Sabbath gives us the Lord's Day",
+          "text": "The Sabbath pointed to God's rest; Christ, its Lord, rested in the tomb on Great Saturday and rose on the first day. So the Church keeps the Lord's Day (in Russian simply \"Voskresenie\", Resurrection) as the weekly Pascha, centred on the Liturgy. Rules of fasting and rest serve love; they are for man, not man for them.",
+          "refs": [
+            {
+              "ref": "Exodus 20:8",
+              "text": "Remember the Sabbath day by keeping it holy."
+            },
+            {
+              "ref": "Revelation 1:10",
+              "text": "On the Lord's Day I was in the Spirit."
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Guard Sunday",
+            "text": "Plan this Sunday around the Liturgy: no errands that can wait, a family meal after church."
+          },
+          {
+            "title": "A work of mercy",
+            "text": "Do one deliberate act of mercy on Sunday afternoon: a visit, a call, a meal."
+          },
+          {
+            "title": "Rules that serve love",
+            "text": "Ask yourself where you keep a church rule but forget the person in front of you. Talk to your priest about it."
+          }
+        ],
+        "questions": [
+          "What was the Sabbath given for?",
+          "What does it mean that Jesus is 'Lord of the Sabbath'?",
+          "How do you keep the Lord's Day now?",
+          "When do rules become more important to us than people?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 2:27–28",
+          "text": "The Sabbath was made for man, not man for the Sabbath. Therefore, the Son of Man is Lord even of the Sabbath."
+        },
+        "prayer": "Having beheld the Resurrection of Christ, let us worship the holy Lord Jesus. Lord, teach me to rest in You and to do good. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "theophylact",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Толкование на Мк 2:23–3:6",
+            "text": "Суббота дана для отдыха и пользы человека; поэтому, когда этого требует нужда человека, суббота должна уступить. Сын Человеческий — господин субботы, ибо Он Сам Законодатель."
+          },
+          {
+            "source": "chrysostom",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Беседа 40 на Евангелие от Матфея (Мф 12:9–13)",
+            "text": "Он исцелил в субботу у всех на глазах, чтобы научить: дела милосердия никогда не нарушают Божий закон; отказаться делать добро, когда можешь, — значит делать зло."
+          }
+        ],
+        "bigIdea": {
+          "title": "Господин субботы дарит нам День Господень",
+          "text": "Суббота указывала на Божий покой; Христос, её Господин, почил во гробе в Великую Субботу и воскрес в первый день. Поэтому Церковь чтит День Господень — воскресенье, еженедельную Пасху, сердце которой — Литургия. Правила поста и покоя служат любви: они для человека, а не человек для них.",
+          "refs": [
+            {
+              "ref": "Исход 20:8",
+              "text": "Помни день субботний, чтобы святить его."
+            },
+            {
+              "ref": "Откровение 1:10",
+              "text": "Я был в духе в день воскресный."
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Береги воскресенье",
+            "text": "Спланируй это воскресенье вокруг Литургии: никаких дел, которые могут подождать, семейная трапеза после храма."
+          },
+          {
+            "title": "Дело милосердия",
+            "text": "Сделай одно сознательное дело милосердия в воскресенье днём: визит, звонок, еду."
+          },
+          {
+            "title": "Правила служат любви",
+            "text": "Спроси себя, где ты соблюдаешь церковное правило, но забываешь о человеке перед тобой. Поговори об этом со священником."
+          }
+        ],
+        "questions": [
+          "Для чего была дана суббота?",
+          "Что значит, что Иисус — «Господин субботы»?",
+          "Как ты сейчас проводишь День Господень?",
+          "Когда правила становятся для нас важнее людей?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 2:27–28",
+          "text": "Суббота для человека, а не человек для субботы; посему Сын Человеческий есть господин и субботы."
+        },
+        "prayer": "Воскресение Христово видевше, поклонимся Святому Господу Иисусу. Господи, научи меня покоиться в Тебе и делать добро. Аминь."
+      }
+    }
+  },
+  "protestant": {
+    "kids": {
+      "en": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Expository Thoughts on Mark, 2:23–3:6",
+            "text": "Bishop Ryle said: God's day of rest is a gift. We keep it holy, and we always do good on it."
+          }
+        ],
+        "bigIdea": {
+          "title": "God gives us a day to rest and to do good",
+          "text": "God made a special day for rest and worship. And doing good is always right!"
+        },
+        "apply": [
+          {
+            "title": "Family Sunday",
+            "text": "Go to church and then do something restful and fun together as a family."
+          },
+          {
+            "title": "Kindness day",
+            "text": "Make a card or call a grandparent on Sunday."
+          }
+        ],
+        "questions": [
+          "Why were the Pharisees upset?",
+          "What did Jesus say the Sabbath is for?",
+          "What good thing can you do on the Lord's Day?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 2:27",
+          "text": "The Sabbath was made for man, not man for the Sabbath."
+        },
+        "prayer": "Lord, thank You for a day to rest and worship You. Help me do good every day. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "«Толковые размышления на Евангелие от Марка», 2:23–3:6",
+            "text": "Епископ Райл говорил: Божий день отдыха — подарок. Мы храним его святым и всегда делаем в этот день добро."
+          }
+        ],
+        "bigIdea": {
+          "title": "Бог даёт день для отдыха и добрых дел",
+          "text": "Бог сделал особый день для отдыха и поклонения. А делать добро — всегда правильно!"
+        },
+        "apply": [
+          {
+            "title": "Семейное воскресенье",
+            "text": "Сходи в церковь, а потом сделайте всей семьёй что-нибудь спокойное и радостное."
+          },
+          {
+            "title": "День доброты",
+            "text": "В воскресенье сделай открытку или позвони бабушке или дедушке."
+          }
+        ],
+        "questions": [
+          "Почему фарисеи рассердились?",
+          "Для чего, по словам Иисуса, суббота?",
+          "Какое доброе дело ты можешь сделать в День Господень?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 2:27",
+          "text": "Суббота для человека, а не человек для субботы."
+        },
+        "prayer": "Господи, спасибо за день отдыха и поклонения Тебе. Помоги мне делать добро каждый день. Аминь."
+      }
+    },
+    "adults": {
+      "en": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Expository Thoughts on Mark, 2:23–3:6",
+            "text": "Our Lord does not abolish the Sabbath; He rescues it from human additions. The day of rest remains a blessing to be kept holy, while works of necessity and mercy are always lawful on it."
+          },
+          {
+            "source": "henry",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Commentary on Mark 2:23–28",
+            "text": "The Sabbath is a sacred and divine institution, but a privilege and benefit, not a task and drudgery. God never meant it to be an imposition on us, and therefore we must not make it so."
+          }
+        ],
+        "bigIdea": {
+          "title": "Rest is a gift, and Jesus is its Lord",
+          "text": "God's rest is grace, not a burden: a weekly reminder that we are not slaves and that our worth is not our productivity. Jesus, Lord of the Sabbath, offers the deeper rest of salvation (Hebrews 4). Christians gather on the Lord's Day to celebrate His resurrection and keep it for worship, rest and mercy, not for legalistic scorekeeping.",
+          "refs": [
+            {
+              "ref": "Matthew 11:28",
+              "text": "Come to Me, all you who are weary and burdened, and I will give you rest."
+            },
+            {
+              "ref": "Hebrews 4:9",
+              "text": "There remains, then, a Sabbath rest for the people of God."
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Plan a real rest",
+            "text": "Choose a 24-hour block this week for worship, rest and relationships. Turn off work email."
+          },
+          {
+            "title": "Mercy on the Lord's Day",
+            "text": "Use part of Sunday for a work of mercy: a visit, a meal, a call to someone lonely."
+          },
+          {
+            "title": "Spot the legalism",
+            "text": "Where do you judge others by rules God never gave? Confess it and choose grace."
+          }
+        ],
+        "questions": [
+          "What was the Pharisees' real problem?",
+          "What does it mean that the Sabbath was made 'for man'?",
+          "Is your week shaped by rest or by restlessness?",
+          "How does Jesus give the rest the Sabbath pointed to?"
+        ],
+        "memoryVerse": {
+          "ref": "Mark 2:27–28",
+          "text": "The Sabbath was made for man, not man for the Sabbath. Therefore, the Son of Man is Lord even of the Sabbath."
+        },
+        "prayer": "Lord of the Sabbath, I lay down my restlessness. Teach me to rest in You and to do good to others. Amen."
+      },
+      "ru": {
+        "teachers": [
+          {
+            "source": "ryle",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "«Толковые размышления на Евангелие от Марка», 2:23–3:6",
+            "text": "Наш Господь не отменяет день покоя; Он освобождает его от человеческих добавлений. День отдыха остаётся благословением, которое нужно хранить свято, а дела необходимости и милосердия в этот день всегда законны."
+          },
+          {
+            "source": "henry",
+            "kind": "paraphrase",
+            "verify": true,
+            "where": "Комментарий на Мк 2:23–28",
+            "text": "День покоя — священное Божие установление, но это привилегия и благо, а не повинность и тягость. Бог никогда не хотел, чтобы он был нам в бремя, поэтому и нам не следует делать его таким."
+          }
+        ],
+        "bigIdea": {
+          "title": "Покой — дар, и Иисус его Господин",
+          "text": "Божий покой — благодать, а не бремя: еженедельное напоминание, что мы не рабы и что наша ценность не в продуктивности. Иисус, Господин субботы, даёт более глубокий покой спасения (Евр 4). Христиане собираются в День Господень, празднуя Его воскресение, и хранят этот день для поклонения, отдыха и милосердия, а не для законнического подсчёта правил.",
+          "refs": [
+            {
+              "ref": "Матфея 11:28",
+              "text": "Придите ко Мне, все труждающиеся и обремененные, и Я успокою вас."
+            },
+            {
+              "ref": "Евреям 4:9",
+              "text": "Посему для народа Божия еще остается субботство."
+            }
+          ]
+        },
+        "apply": [
+          {
+            "title": "Спланируй настоящий отдых",
+            "text": "Выдели на этой неделе 24 часа для поклонения, отдыха и общения. Отключи рабочую почту."
+          },
+          {
+            "title": "Милосердие в День Господень",
+            "text": "Используй часть воскресенья для дела милосердия: визит, еда, звонок одинокому человеку."
+          },
+          {
+            "title": "Найди законничество",
+            "text": "Где ты судишь других по правилам, которых Бог не давал? Признай это и выбери благодать."
+          }
+        ],
+        "questions": [
+          "В чём была настоящая проблема фарисеев?",
+          "Что значит, что суббота «для человека»?",
+          "Твоя неделя строится вокруг покоя или вокруг суеты?",
+          "Как Иисус даёт тот покой, на который указывала суббота?"
+        ],
+        "memoryVerse": {
+          "ref": "Марка 2:27–28",
+          "text": "Суббота для человека, а не человек для субботы; посему Сын Человеческий есть господин и субботы."
+        },
+        "prayer": "Господин субботы, я слагаю свою суету. Научи меня покоиться в Тебе и делать добро другим. Аминь."
+      }
+    }
+  }
+}
